@@ -1,12 +1,11 @@
 package main
 
 import (
-	"fmt"
 	"github.com/Zmey56/arbitrage/getinfobinance"
 )
 
 func main() {
-	fmt.Println(getinfobinance.GetPeymontMethods("GEL"))
+	getinfobinance.GetAssets("GEL")
 
 	//payTypes := []string{}
 	//
