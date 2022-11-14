@@ -9,33 +9,115 @@ import (
 )
 
 type Trader struct {
-	nickName               string
-	monthOrderCount        float64
-	monthFinishRate        float64
-	price                  string
-	tradableQuantity       string
-	maxSingleTransAmount   string
-	minSingleTransAmount   string
-	minSingleTransQuantity string
-	tradeMethodName        string
-	tradeType              string
-	userNo                 string
-	fiatUnit               string
-	asset                  string
-	tradeMethods           TradeMethods
+	advNo                           string
+	classify                        string
+	tradeType                       string
+	asset                           string
+	fiatUnit                        string
+	advStatus                       string
+	priceType                       string
+	priceFloatingRatio              string
+	rateFloatingRatio               string
+	currencyRate                    string
+	price                           string
+	initAmount                      string
+	surplusAmount                   string
+	amountAfterEditing              string
+	maxSingleTransAmount            string
+	minSingleTransAmount            string
+	buyerKycLimit                   string
+	buyerRegDaysLimit               string
+	buyerBtcPositionLimit           string
+	remarks                         string
+	autoReplyMsg                    string
+	payTimeLimit                    string
+	tradeMethods                    TradeMethods
+	userTradeCountFilterTime        string
+	userBuyTradeCountMin            string
+	userBuyTradeCountMax            string
+	userSellTradeCountMin           string
+	userSellTradeCountMax           string
+	userAllTradeCountMin            string
+	userAllTradeCountMax            string
+	userTradeCompleteRateFilterTime string
+	userTradeCompleteCountMin       string
+	userTradeCompleteRateMin        string
+	userTradeVolumeFilterTime       string
+	userTradeType                   string
+	userTradeVolumeMin              string
+	userTradeVolumeMax              string
+	userTradeVolumeAsset            string
+	createTime                      string
+	advUpdateTime                   string
+	fiatVo                          string
+	assetVo                         string
+	advVisibleRet                   string
+	assetLogo                       string
+	assetScale                      string
+	fiatScale                       string
+	priceScale                      string
+	fiatSymbol                      string
+	isTradable                      string
+	dynamicMaxSingleTransAmount     string
+	minSingleTransQuantity          string
+	maxSingleTransQuantity          string
+	dynamicMaxSingleTransQuantity   string
+	tradableQuantity                string
+	commissionRate                  string
+	tradeMethodCommissionRates      string
+	launchCountry                   string
+	abnormalStatusList              string
+	closeReason                     string
 }
 
 type TradeMethods struct {
+	payId                string
+	payMethodId          string
+	payType              string
+	payAccount           string
+	payBank              string
+	paySubBank           string
 	identifier           string
+	iconUrlColor         string
 	tradeMethodName      string
 	tradeMethodShortName string
+	tradeMethodBgColor   string
 }
 
-// All orders
-type AllOrders []Trader
+type Advertiser struct {
+	userNo           string
+	realName         string
+	nickName         string
+	margin           string
+	marginUnit       string
+	orderCount       string
+	monthOrderCount  float64
+	monthFinishRate  float64
+	advConfirmTime   string
+	email            string
+	registrationTime string
+	mobile           string
+	userType         string
+	tagIconUrls      []string
+	userGrade        string
+	userIdentity     string
+	proMerchant      string
+	isBlocked        string
+}
 
-func ParsingJson(r io.Reader) (AllOrders, int) {
-	allorders := AllOrders{}
+// All orders and Advertiser
+type AllAdv []Trader
+type AllAdvertiser []Advertiser
+
+type AdvertiserAdv struct {
+	Advs        AllAdv
+	Advertisers AllAdvertiser
+}
+
+func ParsingJson(r io.Reader) (AdvertiserAdv, int) {
+	alladv := AllAdv{}
+	alladvertiser := AllAdvertiser{}
+	advertiseradv := AdvertiserAdv{}
 
 	var result map[string]any
 
@@ -45,62 +127,88 @@ func ParsingJson(r io.Reader) (AllOrders, int) {
 	//numbers of rows
 	numberRows := int(result["total"].(float64))
 
-	for key, value := range result["data"].([]interface{}) {
-		fmt.Println(key)
-		for _, v := range value.(map[string]any) {
-			for m, k := range v.(map[string]any) {
-				order := Trader{}
-				switch m {
-				case "nickName":
-					order.nickName = k.(string)
-				case "monthOrderCount":
-					order.monthOrderCount = k.(float64)
-				case "monthFinishRate":
-					order.monthFinishRate = k.(float64)
-				case "price":
-					order.price = k.(string)
-				case "tradableQuantity":
-					order.tradableQuantity = k.(string)
-				case "maxSingleTransAmount":
-					order.maxSingleTransAmount = k.(string)
-				case "maxSingleTransQuantity":
-					order.minSingleTransQuantity = k.(string)
-				case "minSingleTransQuantity":
-					order.minSingleTransQuantity = k.(string)
-				case "tradeMethodName":
-					order.tradeMethodName = k.(string)
-				case "userNo":
-					order.userNo = k.(string)
-				case "fiatUnit":
-					order.fiatUnit = k.(string)
-				case "asset":
-					order.asset = k.(string)
-				case "tradeMethods":
-					for _, d := range k.([]interface{}) {
-						for i, j := range d.(map[string]any) {
-							switch i {
-							case "identifier":
-								order.tradeMethods.identifier = j.(string)
-							case "tradeMethodName":
-								order.tradeMethods.tradeMethodName = j.(string)
-							case "tradeMethodShortName":
-								order.tradeMethods.tradeMethodShortName = j.(string)
-							default:
-								continue
+	for _, value := range result["data"].([]interface{}) {
+
+		for j, v := range value.(map[string]any) {
+			adv := Trader{}
+			advertiser := Advertiser{}
+			if j == "adv" {
+				fmt.Println("adv")
+				for q, s := range v.(map[string]any) {
+					switch q {
+					case "advNo":
+						adv.advNo = s.(string)
+						fmt.Println("advNo - ", s.(string))
+					case "classify":
+						adv.classify = s.(string)
+					case "price":
+						adv.price = s.(string)
+					case "tradableQuantity":
+						adv.tradableQuantity = s.(string)
+					case "maxSingleTransAmount":
+						adv.maxSingleTransAmount = s.(string)
+					case "maxSingleTransQuantity":
+						adv.minSingleTransQuantity = s.(string)
+					case "minSingleTransQuantity":
+						adv.minSingleTransQuantity = s.(string)
+					case "fiatUnit":
+						adv.fiatUnit = s.(string)
+					case "asset":
+						adv.asset = s.(string)
+					case "tradeMethods":
+						for _, d := range s.([]interface{}) {
+							for m, t := range d.(map[string]any) {
+								switch m {
+								case "identifier":
+									adv.tradeMethods.identifier = t.(string)
+								case "tradeMethodName":
+									adv.tradeMethods.tradeMethodName = t.(string)
+								//case "tradeMethodShortName":
+								//	adv.tradeMethods.tradeMethodShortName = t.(string)
+								default:
+									continue
+								}
 							}
 						}
+					default:
+						continue
 					}
-				default:
-					continue
-
 				}
-				allorders = append(allorders, order)
+				alladv = append(alladv, adv)
+			} else if j == "advertiser" {
+				fmt.Println("advertiser")
+
+				for m, k := range v.(map[string]any) {
+					switch m {
+					case "nickName": //+
+						advertiser.nickName = k.(string)
+						fmt.Println("nickName - ", k.(string))
+					case "monthOrderCount":
+						advertiser.monthOrderCount = k.(float64)
+					case "monthFinishRate":
+						advertiser.monthFinishRate = k.(float64)
+					case "userNo":
+						advertiser.userNo = k.(string)
+					default:
+						continue
+					}
+				}
+				alladvertiser = append(alladvertiser, advertiser)
+			} else {
+				continue
 			}
 		}
 	}
 	numberPages := numberRows / 10
 
-	return allorders, numberPages
+	advertiseradv.Advertisers = alladvertiser
+	advertiseradv.Advs = alladv
+
+	return advertiseradv, numberPages
+}
+
+func NextPages() {
+
 }
 
 //if namberPages > 1 {

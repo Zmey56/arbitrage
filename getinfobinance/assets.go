@@ -41,8 +41,6 @@ func GetAssets(fiat ...string) map[string]string {
 	}
 	defer response.Body.Close()
 
-	fmt.Println("response Status:", response.Status)
-	fmt.Println("response Headers:", response.Header)
 	body, _ := io.ReadAll(response.Body)
 
 	var result map[string]any

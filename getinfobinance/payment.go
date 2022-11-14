@@ -12,12 +12,12 @@ import (
 )
 
 type Payment struct {
-	identifier           string
-	payAccount           string
-	payMethodId          string
-	payType              string
-	tradeMethodName      string
-	tradeMethodShortName string
+	Identifier           string
+	PayAccount           string
+	PayMethodId          string
+	PayType              string
+	TradeMethodName      string
+	TradeMethodShortName string
 }
 
 var payments []Payment
@@ -52,8 +52,6 @@ func GetPeymontMethods(fiat ...string) []Payment {
 	}
 	defer response.Body.Close()
 
-	fmt.Println("response Status:", response.Status)
-	fmt.Println("response Headers:", response.Header)
 	body, _ := io.ReadAll(response.Body)
 
 	var result map[string]any
@@ -71,27 +69,27 @@ func GetPeymontMethods(fiat ...string) []Payment {
 							switch x {
 							case "identifier":
 								if y != nil {
-									p.identifier = y.(string)
+									p.Identifier = y.(string)
 								}
 							case "payAccount":
 								if y != nil {
-									p.payAccount = y.(string)
+									p.PayAccount = y.(string)
 								}
 							case "payMethodId":
 								if y != nil {
-									p.payMethodId = y.(string)
+									p.PayMethodId = y.(string)
 								}
 							case "payType":
 								if y != nil {
-									p.payType = y.(string)
+									p.PayType = y.(string)
 								}
 							case "tradeMethodName":
 								if y != nil {
-									p.tradeMethodName = y.(string)
+									p.TradeMethodName = y.(string)
 								}
 							case "tradeMethodShortName":
 								if y != nil {
-									p.tradeMethodShortName = y.(string)
+									p.TradeMethodShortName = y.(string)
 								}
 							default:
 								continue
