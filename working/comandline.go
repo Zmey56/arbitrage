@@ -1,17 +1,30 @@
-package inputvalue
+// choose available payment methods
+package working
 
 import (
 	"bufio"
 	"fmt"
-	"github.com/Zmey56/arbitrage/getinfobinance"
+	"github.com/Zmey56/arbitrage/data"
 	"log"
 	"os"
 	"strconv"
 	"strings"
 )
 
-func InputCommandLine(fiat string) []string {
-	gpm := getinfobinance.GetPeymontMethods(fiat)
+func InputCommandLine(fiat string) ([]string, float64) {
+
+	//selected user
+	var userpayment []string
+	n := bufio.NewReader(os.Stdout)
+	fmt.Println("Enter the balance of the money(asset):")
+	readbalance, _ := n.ReadString('\n')
+	readbalance = strings.TrimSpace(readbalance)
+	transAmount, err := strconv.ParseFloat(readbalance, 64)
+	if err != nil {
+		log.Println(err)
+	}
+
+	gpm := data.GetPaymentFromJSON(fiat)
 
 	var availablepayment []string
 
@@ -20,9 +33,6 @@ func InputCommandLine(fiat string) []string {
 		availablepayment = append(availablepayment, gpm[i].Identifier)
 	}
 
-	//selected user
-	var userpayment []string
-	n := bufio.NewReader(os.Stdout)
 	fmt.Println("Available means of payment, choose number(If you want to finished enter \"7777\"):")
 	for {
 		readnumber, _ := n.ReadString('\n')
@@ -43,7 +53,7 @@ func InputCommandLine(fiat string) []string {
 		}
 	}
 	userpayment = unique(userpayment)
-	return userpayment
+	return userpayment, transAmount
 }
 
 func unique(arr []string) []string {

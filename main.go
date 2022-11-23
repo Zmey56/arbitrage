@@ -2,32 +2,38 @@ package main
 
 import (
 	"fmt"
-	"github.com/Zmey56/arbitrage/inputvalue"
-	"github.com/Zmey56/arbitrage/p2pbinance"
+	"github.com/Zmey56/arbitrage/working"
 )
 
 const (
-	fiat       = "GEL"
-	asset      = "USDT"
+	fiat       = "RUB"  //chose user
+	asset      = "USDT" //chose from available
 	tradeTypeB = "Buy"
 	tradeTypeS = "Sell"
 )
 
+type TransAmountCollect int
+
 func main() {
 
-	payTypes := inputvalue.InputCommandLine(fiat)
+	payTypes, transAmoount := working.InputCommandLine(fiat)
 	fmt.Println("\n")
 	fmt.Println(payTypes)
 	fmt.Println("\n")
 
-	tmp := p2pbinance.AdvertiserAdv{}
+	working.P2P2steps(fiat, payTypes, transAmoount)
 
-	tmp = p2pbinance.GetDataP2P(asset, fiat, tradeTypeB, payTypes)
+	//
+	//firststep := getdata.GetDataP2P(asset, fiat, tradeTypeB, transAmount, payTypes)
+	//fmt.Println(firststep.Advertisers.NickName)
 
-	fmt.Println(len(tmp.Advertisers))
-	fmt.Println(len(tmp.Advs))
-	////
-	////fmt.Printf("%+v\n\n", tmp.Advertisers)
-	////fmt.Printf("%+v\n\n", tmp.Advs)
+	//tmp := getinfobinance.GetListSymbols(asset)
+	//
+	//for i, j := range tmp {
+	//	fmt.Println(i, " - ", j)
+	//}
+	//tmp := getinfobinance.GetPeymontMethods(fiat)
+	//getinfobinance.SavePaymentToJSON(tmp)
 
+	//data.GetPaymentFromJSON(fiat)
 }

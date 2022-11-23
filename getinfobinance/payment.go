@@ -9,6 +9,7 @@ import (
 	"io"
 	"log"
 	"net/http"
+	"os"
 )
 
 type Payment struct {
@@ -102,4 +103,22 @@ func GetPeymontMethods(fiat ...string) []Payment {
 		}
 	}
 	return allpayment
+}
+
+func SavePaymentToJSON(p []Payment) {
+	file, err := json.MarshalIndent(p, "", " ")
+	if err != nil {
+		panic(err)
+	}
+	os.WriteFile("data/rub_payment.json", file, 0644)
+}
+
+func UpdatePaymentToJSON(fiat ...string) {
+	payment := GetPeymontMethods(fiat...)
+	SavePaymentToJSON(payment)
+	fmt.Println("Payment methods updated")
+}
+
+func UnpackedJSONOayments(p string) {
+
 }
