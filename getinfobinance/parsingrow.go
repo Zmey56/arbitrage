@@ -1,6 +1,6 @@
 // Function for parsing data from Binance about orders and get number pages
 
-package getdata
+package getinfobinance
 
 import (
 	"encoding/json"
@@ -186,7 +186,10 @@ func ParsingJson(r io.Reader, transAmount float64, finish bool) (AdvertiserAdv, 
 					}
 				}
 				maxSingleTransAmount, _ := strconv.ParseFloat(adv.MaxSingleTransAmount, 64)
-				minSingleTransAmount, _ := strconv.ParseFloat(adv.MinSingleTransAmount, 64)
+				minSingleTransAmount := 0.0
+				if transAmount > 0 {
+					minSingleTransAmount, _ = strconv.ParseFloat(adv.MinSingleTransAmount, 64)
+				}
 				if transAmount >= minSingleTransAmount && transAmount <= maxSingleTransAmount && !finish {
 					finish = true
 					fmt.Println(minSingleTransAmount, " - ", maxSingleTransAmount)

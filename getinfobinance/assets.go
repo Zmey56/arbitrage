@@ -1,4 +1,4 @@
-//in this function get available crypto for fiat fot working
+//in this function get available crypto for fiat for working
 
 package getinfobinance
 

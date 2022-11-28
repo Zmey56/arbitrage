@@ -1,4 +1,4 @@
-package data
+package getdata
 
 import (
 	"encoding/json"

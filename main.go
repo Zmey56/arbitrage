@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/Zmey56/arbitrage/working"
+	"github.com/Zmey56/arbitrage/getinfobinance"
 )
 
 const (
@@ -16,12 +16,20 @@ type TransAmountCollect int
 
 func main() {
 
-	payTypes, transAmoount := working.InputCommandLine(fiat)
-	fmt.Println("\n")
-	fmt.Println(payTypes)
-	fmt.Println("\n")
+	test := []string{"BNBETH", "BNBRUB", "BNBUSDT", "BNBBTC", "BNBBUSD"}
 
-	working.P2P2steps(fiat, payTypes, transAmoount)
+	fmt.Println(getinfobinance.GetRatePair(test))
+
+	//assets := getinfobinance.GetAssets(fiat)
+	//
+	//getinfobinance.GetListSymbols(assets, fiat)
+
+	//payTypes, transAmoount := working.InputCommandLine(fiat)
+	//fmt.Println("\n")
+	//fmt.Println(payTypes)
+	//fmt.Println("\n")
+	//
+	//working.P2P2steps(fiat, payTypes, transAmoount)
 
 	//
 	//firststep := getdata.GetDataP2P(asset, fiat, tradeTypeB, transAmount, payTypes)

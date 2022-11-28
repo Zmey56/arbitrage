@@ -4,7 +4,7 @@ package working
 import (
 	"bufio"
 	"fmt"
-	"github.com/Zmey56/arbitrage/data"
+	"github.com/Zmey56/arbitrage/getdata"
 	"log"
 	"os"
 	"strconv"
@@ -24,7 +24,7 @@ func InputCommandLine(fiat string) ([]string, float64) {
 		log.Println(err)
 	}
 
-	gpm := data.GetPaymentFromJSON(fiat)
+	gpm := getdata.GetPaymentFromJSON(fiat)
 
 	var availablepayment []string
 

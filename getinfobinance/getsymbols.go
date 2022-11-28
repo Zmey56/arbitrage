@@ -6,6 +6,8 @@ import (
 	"fmt"
 	"io"
 	"net/http"
+	"os"
+	"time"
 )
 
 type exchangeInfo struct {
@@ -14,7 +16,17 @@ type exchangeInfo struct {
 	quoteAsset string
 }
 
-func GetListSymbols(asset string) []exchangeInfo {
+func GetListSymbols(mapassets map[string]string, fiat string) {
+	assets := make([]string, len(mapassets))
+
+	i := 0
+	for asset, _ := range mapassets {
+		assets[i] = asset
+		i++
+	}
+	//fmt.Println(assets, len(assets))
+	//
+
 	url := "https://api.binance.com/api/v3/exchangeInfo"
 
 	resp, err := http.Get(url)
@@ -35,6 +47,8 @@ func GetListSymbols(asset string) []exchangeInfo {
 
 	var arrayinfo []exchangeInfo
 
+	var allpair []string
+
 	for key, value := range dat {
 		if key == "symbols" {
 			for _, j := range value.([]interface{}) {
@@ -43,7 +57,7 @@ func GetListSymbols(asset string) []exchangeInfo {
 					switch i {
 					case "symbol":
 						exchangeInfo.symbol = m.(string)
-						fmt.Println("struct", exchangeInfo.symbol)
+						allpair = append(allpair, m.(string))
 					case "baseAsset":
 						exchangeInfo.baseAsset = m.(string)
 					case "quoteAsset":
@@ -56,5 +70,33 @@ func GetListSymbols(asset string) []exchangeInfo {
 			}
 		}
 	}
-	return arrayinfo
+
+	finalpair := make(map[string][]string)
+
+	for _, f := range assets {
+		tmp := f
+		for _, s := range assets {
+			if s != tmp {
+				tmp_b := tmp + s
+				tmp_q := s + tmp
+				for _, pair := range allpair {
+					if pair == tmp_b || pair == tmp_q {
+						finalpair[tmp] = append(finalpair[tmp], pair)
+					}
+				}
+			} else {
+				continue
+			}
+		}
+	}
+	t := time.Now()
+	t.String()
+	name_json := fmt.Sprintf("data/%s_pair_%s.json", fiat, t.Format("2006_01_02"))
+	jsonStr, err := json.MarshalIndent(finalpair, "", " ")
+	if err != nil {
+		fmt.Printf("Error: %s", err.Error())
+	}
+
+	_ = os.WriteFile(name_json, jsonStr, 0644)
+
 }

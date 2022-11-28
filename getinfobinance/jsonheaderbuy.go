@@ -1,6 +1,6 @@
 // Function for receiving data from the exchange Binance
 
-package getdata
+package getinfobinance
 
 import (
 	"bytes"
