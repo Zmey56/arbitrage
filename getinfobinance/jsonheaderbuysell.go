@@ -36,7 +36,7 @@ func GetDataP2P(asset, fiat, tradeType string, transAmount float64, payTypes []s
 		newJsonData := []byte(string(newData))
 
 		httpposturl := "https://p2p.binance.com/bapi/c2c/v2/friendly/c2c/adv/search"
-		fmt.Println("HTTP JSON POST URL:", httpposturl)
+		//fmt.Println("HTTP JSON POST URL:", httpposturl)
 
 		request, error := http.NewRequest("POST", httpposturl, bytes.NewBuffer(newJsonData))
 		request.Header.Set("Content-Type", "application/json; charset=UTF-8")
@@ -48,8 +48,9 @@ func GetDataP2P(asset, fiat, tradeType string, transAmount float64, payTypes []s
 		}
 		defer response.Body.Close()
 
-		resultadvertiseradv, numpages, end := ParsingJson(response.Body, transAmount, finish)
+		resultadvertiseradv, numpages, end := ParsingJson(response.Body, tradeType, transAmount, finish)
 		var emptystruct AdvertiserAdv //return if don't find
+
 		if end {
 			return resultadvertiseradv
 		} else if count >= numpages {

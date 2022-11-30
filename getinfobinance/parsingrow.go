@@ -4,7 +4,6 @@ package getinfobinance
 
 import (
 	"encoding/json"
-	"fmt"
 	"io"
 	"strconv"
 )
@@ -115,7 +114,7 @@ type AdvertiserAdv struct {
 	Advertisers Advertiser
 }
 
-func ParsingJson(r io.Reader, transAmount float64, finish bool) (AdvertiserAdv, int, bool) {
+func ParsingJson(r io.Reader, tradeType string, transAmount float64, finish bool) (AdvertiserAdv, int, bool) {
 	//alladv := Adv{}
 	alladvertiser := AllAdvertiser{}
 	advertiseradv := AdvertiserAdv{}
@@ -146,6 +145,9 @@ func ParsingJson(r io.Reader, transAmount float64, finish bool) (AdvertiserAdv, 
 						adv.Classify = s.(string)
 					case "price":
 						adv.Price = s.(string)
+					case "surplusAmount":
+						//finish and need sell
+						adv.SurplusAmount = s.(string)
 					case "tradableQuantity":
 						adv.TradableQuantity = s.(string)
 					case "maxSingleTransAmount":
@@ -185,18 +187,28 @@ func ParsingJson(r io.Reader, transAmount float64, finish bool) (AdvertiserAdv, 
 						continue
 					}
 				}
-				maxSingleTransAmount, _ := strconv.ParseFloat(adv.MaxSingleTransAmount, 64)
-				minSingleTransAmount := 0.0
-				if transAmount > 0 {
-					minSingleTransAmount, _ = strconv.ParseFloat(adv.MinSingleTransAmount, 64)
-				}
-				if transAmount >= minSingleTransAmount && transAmount <= maxSingleTransAmount && !finish {
-					finish = true
-					fmt.Println(minSingleTransAmount, " - ", maxSingleTransAmount)
-					indexresult = count
-					advertiseradv.Advs = adv
-				} else {
-					continue
+				if tradeType == "Buy" {
+					maxSingleTransAmount, _ := strconv.ParseFloat(adv.MaxSingleTransAmount, 64)
+					minSingleTransAmount := 0.0
+					if transAmount > 0 {
+						minSingleTransAmount, _ = strconv.ParseFloat(adv.MinSingleTransAmount, 64)
+					}
+					if transAmount >= minSingleTransAmount && transAmount <= maxSingleTransAmount && !finish {
+						finish = true
+						indexresult = count
+						advertiseradv.Advs = adv
+					} else {
+						continue
+					}
+				} else if tradeType == "Sell" {
+					if transAmount > 0 {
+						surplusAmount, _ := strconv.ParseFloat(adv.SurplusAmount, 64)
+						if transAmount <= surplusAmount && !finish {
+							finish = true
+							indexresult = count
+							advertiseradv.Advs = adv
+						}
+					}
 				}
 			} else if j == "advertiser" {
 

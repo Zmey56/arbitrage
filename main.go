@@ -2,12 +2,12 @@ package main
 
 import (
 	"fmt"
-	"github.com/Zmey56/arbitrage/getinfobinance"
+	"github.com/Zmey56/arbitrage/working"
+	"time"
 )
 
 const (
-	fiat       = "RUB"  //chose user
-	asset      = "USDT" //chose from available
+	fiat       = "RUB" //chose user
 	tradeTypeB = "Buy"
 	tradeTypeS = "Sell"
 )
@@ -15,10 +15,22 @@ const (
 type TransAmountCollect int
 
 func main() {
+	//tmp := "BNBUSDT"
+	//i := len(tmp) - 4
+	//fmt.Println(tmp[:i])
 
-	test := []string{"BNBETH", "BNBRUB", "BNBUSDT", "BNBBTC", "BNBBUSD"}
+	payTypes, transAmoount := working.InputCommandLine(fiat)
+	fmt.Println("\n")
+	fmt.Println(payTypes)
+	fmt.Println("\n")
 
-	fmt.Println(getinfobinance.GetRatePair(test))
+	start := time.Now()
+	working.P2P3steps(fiat, payTypes, transAmoount)
+	duration := time.Since(start)
+	fmt.Printf("Duration code on fiat - %s is %v", fiat, duration)
+	//test := []string{"BNBRUB", "ETHRUB", "SHIBRUB", "USDTRUB", "BTCRUB", "BUSDRUB"}
+	////
+	//fmt.Println(getinfobinance.GetRatePair(test))
 
 	//assets := getinfobinance.GetAssets(fiat)
 	//

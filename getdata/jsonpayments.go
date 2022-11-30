@@ -18,7 +18,6 @@ type Payments []struct {
 }
 
 func GetPaymentFromJSON(fiat string) Payments {
-	fmt.Println("OK")
 	payment := ""
 	switch fiat {
 	case "RUB":
@@ -30,7 +29,6 @@ func GetPaymentFromJSON(fiat string) Payments {
 	if err != nil {
 		panic(err)
 	}
-	fmt.Println(string(jsonfile))
 	allpayments := Payments{}
 	_ = json.Unmarshal(jsonfile, &allpayments)
 

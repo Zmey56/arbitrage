@@ -26,7 +26,7 @@ func GetRatePair(pair []string) map[string]float64 {
 		}
 		defer resp.Body.Close()
 		body, _ := io.ReadAll(resp.Body)
-		fmt.Println(p, " - ", string(body))
+		//log.Println(p, " - ", string(body))
 
 		rj := ratejson{}
 
@@ -34,10 +34,14 @@ func GetRatePair(pair []string) map[string]float64 {
 			panic(err)
 		}
 
-		bids, _ := strconv.ParseFloat(rj.Bids[0][0], 64)
-		asks, _ := strconv.ParseFloat(rj.Asks[0][0], 64)
+		//log.Println(len(rj.Bids), len(rj.Asks))
 
-		rate_pair[p] = (bids + asks) / 2.0
+		if len(rj.Bids) > 0 && len(rj.Asks) > 0 {
+			bids, _ := strconv.ParseFloat(rj.Bids[0][0], 64)
+			asks, _ := strconv.ParseFloat(rj.Asks[0][0], 64)
+
+			rate_pair[p] = (bids + asks) / 2.0
+		}
 	}
 	return rate_pair
 }

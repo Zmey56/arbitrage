@@ -26,7 +26,7 @@ var payments []Payment
 func GetPeymontMethods(fiat ...string) []Payment {
 	allpayment := payments
 	httpposturl := "https://p2p.binance.com/bapi/c2c/v2/public/c2c/adv/filter-conditions"
-	fmt.Println("HTTP JSON POST URL:", httpposturl)
+	//fmt.Println("HTTP JSON POST URL:", httpposturl)
 
 	var jsonData = []byte(`{
 		"fiat": "USD"
