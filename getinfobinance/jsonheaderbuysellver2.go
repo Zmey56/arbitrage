@@ -10,9 +10,8 @@ import (
 	"net/http"
 )
 
-func GetDataP2P(asset, fiat, tradeType string, transAmount float64, payTypes []string) AdvertiserAdv {
+func GetDataP2PVer2(asset, fiat, tradeType string, transAmount float64, payTypes []string) (AdvertiserAdv, float64) {
 	count := 1
-	finish := false //stopped looking for
 	for {
 		var jsonData = []byte(`{
 				"payTypes": [],
@@ -48,13 +47,13 @@ func GetDataP2P(asset, fiat, tradeType string, transAmount float64, payTypes []s
 		}
 		defer response.Body.Close()
 
-		resultadvertiseradv, numpages, end := ParsingJson(response.Body, tradeType, transAmount, finish)
+		resultadvertiseradv, numpages, price := ParsingJsonVer2(response.Body, tradeType, transAmount)
 		var emptystruct AdvertiserAdv //return if don't find
 
-		if end {
-			return resultadvertiseradv
+		if resultadvertiseradv.Adv.Price != "" {
+			return resultadvertiseradv, price
 		} else if count >= numpages {
-			return emptystruct
+			return emptystruct, price
 		} else {
 			count++
 		}

@@ -12,12 +12,7 @@ const (
 	tradeTypeS = "Sell"
 )
 
-type TransAmountCollect int
-
 func main() {
-	//tmp := "BNBUSDT"
-	//i := len(tmp) - 4
-	//fmt.Println(tmp[:i])
 
 	payTypes, transAmoount := working.InputCommandLine(fiat)
 	fmt.Println("\n")
@@ -25,9 +20,12 @@ func main() {
 	fmt.Println("\n")
 
 	start := time.Now()
+	defer func() {
+		fmt.Println(time.Since(start), "\n")
+	}()
+
 	working.P2P3steps(fiat, payTypes, transAmoount)
-	duration := time.Since(start)
-	fmt.Printf("Duration code on fiat - %s is %v", fiat, duration)
+
 	//test := []string{"BNBRUB", "ETHRUB", "SHIBRUB", "USDTRUB", "BTCRUB", "BUSDRUB"}
 	////
 	//fmt.Println(getinfobinance.GetRatePair(test))
