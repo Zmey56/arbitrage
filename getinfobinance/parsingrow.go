@@ -4,9 +4,8 @@ package getinfobinance
 
 import (
 	"encoding/json"
-	"fmt"
 	"io"
-	"strconv"
+	"log"
 )
 
 type AdvertiserAdv struct {
@@ -107,54 +106,28 @@ type AdvertiserAdv struct {
 
 type AdvertiserAdvArray []AdvertiserAdv
 
-func ParsingJsonVer2(r io.Reader, tradeType string, transAmount float64) (AdvertiserAdv, int, float64) {
+func ParsingJson(r io.Reader, tradeType string, transAmount float64) AdvertiserAdv {
 	var result map[string]any
-	var price float64
 
 	body, _ := io.ReadAll(r)
 	json.Unmarshal([]byte(body), &result)
 
-	//numbers of rows and pages
-	numberRows := int(result["total"].(float64))
-	numberPages := numberRows / 10
-
 	jsonStr, err := json.Marshal(result["data"])
 	if err != nil {
-		fmt.Println(err)
+		log.Println(err)
 	}
 
-	var aa AdvertiserAdvArray
-	if err := json.Unmarshal(jsonStr, &aa); err != nil {
-		fmt.Println(err)
+	var advertiserAdvArray AdvertiserAdvArray
+	if err := json.Unmarshal(jsonStr, &advertiserAdvArray); err != nil {
+		log.Println(err)
+	}
+	advertiserAdv := AdvertiserAdv{}
+
+	if len(advertiserAdvArray) > 0 {
+		advertiserAdv = advertiserAdvArray[0]
+		return advertiserAdv
+	} else {
+		return advertiserAdv
 	}
 
-	for _, j := range aa {
-		if tradeType == "Buy" {
-			if transAmount > 0 {
-				maxSingleTransAmount, _ := strconv.ParseFloat(j.Adv.MaxSingleTransAmount, 64)
-				surplusAmount, _ := strconv.ParseFloat(j.Adv.SurplusAmount, 64)
-				price, _ = strconv.ParseFloat(j.Adv.Price, 64)
-				maxAmount := surplusAmount * price
-				if maxAmount < maxSingleTransAmount {
-					maxSingleTransAmount = maxAmount
-				}
-				minSingleTransAmount := 0.0
-				minSingleTransAmount, _ = strconv.ParseFloat(j.Adv.MinSingleTransAmount, 64)
-				if transAmount >= minSingleTransAmount && transAmount <= maxSingleTransAmount {
-					return j, numberPages, price
-				} else {
-					continue
-				}
-			}
-		} else if tradeType == "Sell" {
-			if transAmount > 0 {
-				surplusAmount, _ := strconv.ParseFloat(j.Adv.SurplusAmount, 64)
-				price, _ = strconv.ParseFloat(j.Adv.Price, 64)
-				if transAmount <= surplusAmount {
-					return j, numberPages, price
-				}
-			}
-		}
-	}
-	return AdvertiserAdv{}, numberPages, price
 }

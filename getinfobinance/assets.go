@@ -37,7 +37,7 @@ func GetAssets(fiat ...string) map[string]string {
 	client := &http.Client{}
 	response, error := client.Do(request)
 	if error != nil {
-		panic(error)
+		log.Panic(error)
 	}
 	defer response.Body.Close()
 

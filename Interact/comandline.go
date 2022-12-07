@@ -1,5 +1,5 @@
 // choose available payment methods
-package working
+package Interact
 
 import (
 	"bufio"
@@ -7,21 +7,52 @@ import (
 	"github.com/Zmey56/arbitrage/getdata"
 	"log"
 	"os"
+	"regexp"
 	"strconv"
 	"strings"
 )
 
-func InputCommandLine(fiat string) ([]string, float64) {
+type Parameters struct {
+	PayTypes      []string `json:"payTypes"`
+	TransAmount   string   `json:"transAmount"`
+	PublisherType string   `json:"publisher_type"`
+}
+
+func InputCommandLine(fiat string) Parameters {
+	paramUser := Parameters{}
 
 	//selected user
 	var userpayment []string
 	n := bufio.NewReader(os.Stdout)
-	fmt.Println("Enter the balance of the money(asset):")
-	readbalance, _ := n.ReadString('\n')
-	readbalance = strings.TrimSpace(readbalance)
-	transAmount, err := strconv.ParseFloat(readbalance, 64)
+	for {
+		fmt.Println("Enter the balance (integer only) of the money(asset):")
+		readbalance, err := n.ReadString('\n')
+		if readbalance == "\n" {
+			log.Println("You don't enter value")
+			paramUser.TransAmount = ""
+			break
+		}
+		if err != nil {
+			log.Printf("Problem with enter the balance and error: %v", err)
+		}
+		readbalance = strings.TrimSpace(readbalance)
+		var digitCheck = regexp.MustCompile(`^[0-9]+$`)
+		if digitCheck.MatchString(readbalance) {
+			paramUser.TransAmount = readbalance
+			break
+		} else {
+			fmt.Println("You entered the wrong value", readbalance)
+		}
+	}
+
+	fmt.Println("Do you want to choose only the merchant? If you want - enter Yes")
+
+	readmerchant, err := n.ReadString('\n')
 	if err != nil {
-		log.Println(err)
+		log.Println("User try to enter wong value:", err)
+	}
+	if strings.ToLower(readmerchant) == "yes" {
+		paramUser.PublisherType = "merchant"
 	}
 
 	gpm := getdata.GetPaymentFromJSON(fiat)
@@ -52,8 +83,8 @@ func InputCommandLine(fiat string) ([]string, float64) {
 			userpayment = append(userpayment, availablepayment[number-1])
 		}
 	}
-	userpayment = unique(userpayment)
-	return userpayment, transAmount
+	paramUser.PayTypes = unique(userpayment)
+	return paramUser
 }
 
 func unique(arr []string) []string {

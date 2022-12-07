@@ -3,10 +3,13 @@ package working
 
 import (
 	"fmt"
+	"github.com/Zmey56/arbitrage/Interact"
 	"github.com/Zmey56/arbitrage/getinfobinance"
+	"log"
+	"strconv"
 )
 
-func P2P2steps(fiat string, payTypes []string, transAmount float64) {
+func P2P2steps(fiat string, paramUser Interact.Parameters) {
 	//get all assets from binance for this fiat
 	assets := getinfobinance.GetAssets(fiat)
 	assets_symbol := make([]string, 0, len(assets))
@@ -23,8 +26,16 @@ func P2P2steps(fiat string, payTypes []string, transAmount float64) {
 	for _, a := range assets_symbol {
 		fmt.Println("====================================")
 		fmt.Println("ASSETS", a)
-		order_buy, price_b := getinfobinance.GetDataP2PVer2(a, fiat, "Buy", transAmount, payTypes)
-		order_sell, price_s := getinfobinance.GetDataP2PVer2(a, fiat, "Sell", transAmount, payTypes)
+		order_buy := getinfobinance.GetDataP2P(a, fiat, "Buy", paramUser)
+		order_sell := getinfobinance.GetDataP2P(a, fiat, "Sell", paramUser)
+		price_b, err := strconv.ParseFloat(order_buy.Adv.Price, 64)
+		if err != nil {
+			log.Printf("Can't parse string to float for price buy, error: %s", err)
+		}
+		price_s, err := strconv.ParseFloat(order_sell.Adv.Price, 64)
+		if err != nil {
+			log.Printf("Can't parse string to float for price sell, error: %s", err)
+		}
 		fmt.Println("BUY ", price_b)
 		fmt.Println("Nick", order_buy.Advertiser.NickName)
 		fmt.Println("Orders", order_buy.Advertiser.MonthOrderCount)
