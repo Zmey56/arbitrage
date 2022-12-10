@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"os"
+	"time"
 )
 
 const rubpayment = "data/rub_payment.json"
@@ -33,4 +34,12 @@ func GetPaymentFromJSON(fiat string) Payments {
 	_ = json.Unmarshal(jsonfile, &allpayments)
 
 	return allpayments
+}
+
+func GetFilenameDate(name, ext string) string {
+	// Use layout string for time format.
+	const layout = "01-02-2006"
+	// Place now in the string.
+	t := time.Now()
+	return name + t.Format(layout) + "." + ext
 }

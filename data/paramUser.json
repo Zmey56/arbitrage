@@ -1,0 +1,8 @@
+{
+ "payTypes": [
+  "TinkoffNew",
+  "RosBankNew"
+ ],
+ "transAmount": "10000",
+ "publisher_type": ""
+}

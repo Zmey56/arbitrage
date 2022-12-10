@@ -5,13 +5,13 @@ package getinfobinance
 import (
 	"bytes"
 	"encoding/json"
-	"github.com/Zmey56/arbitrage/Interact"
+	"github.com/Zmey56/arbitrage/interact"
 	"log"
 	"net/http"
 	"strconv"
 )
 
-func GetDataP2P(asset, fiat, tradeType string, paramUser Interact.Parameters) AdvertiserAdv {
+func GetDataP2P(asset, fiat, tradeType string, paramUser interact.Parameters) AdvertiserAdv {
 	count := 1
 	transAmountFloat, err := strconv.ParseFloat(paramUser.TransAmount, 64)
 	if err != nil {

@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/Zmey56/arbitrage/Interact"
+	"github.com/Zmey56/arbitrage/interact"
 	"github.com/Zmey56/arbitrage/working"
 	"time"
 )
@@ -15,16 +15,17 @@ const (
 )
 
 func main() {
+	//telegramm.TestBot()
 
-	tmp := Interact.InputCommandLine(fiat)
-	fmt.Println("\n")
-	//fmt.Println(payTypes)
-	fmt.Println("\n")
-
-	//fmt.Println(tmp)
-	//
-	//fmt.Println(getinfobinance.GetDataP2P(asset, fiat, tradeTypeB, tmp.TransAmount, tmp.PayTypes))
-
+	tmp := interact.InputCommandLine(fiat)
+	////fmt.Println("\n")
+	////fmt.Println(tmp)
+	////fmt.Println("\n")
+	////
+	//////fmt.Println(tmp)
+	//////
+	//////fmt.Println(getinfobinance.GetDataP2P(asset, fiat, tradeTypeB, tmp.TransAmount, tmp.PayTypes))
+	////
 	start := time.Now()
 	defer func() {
 		fmt.Println(time.Since(start), "\n")
