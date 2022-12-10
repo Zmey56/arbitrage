@@ -62,7 +62,11 @@ func P2P3steps(fiat string, paramUser interact.Parameters) {
 
 	for _, j := range allOrders {
 		for _, i := range j {
-			saveJsonFile(i, "jsonresult/")
+			if i.Profit {
+				saveJsonFile(fiat, i, true)
+			} else {
+				saveJsonFile(fiat, i, false)
+			}
 		}
 	}
 }
@@ -188,10 +192,15 @@ func returnLinkMarket(a, p string) string {
 	return fmt.Sprintf("https://www.binance.com/en/trade/%v?_from=markets", pair)
 }
 
-func saveJsonFile(pr ResultP2P, path string) {
+func saveJsonFile(fiat string, pr ResultP2P, profit bool) {
 	current := time.Now()
-	time_str := fmt.Sprintln(current.Format("dd-mm-yyyy"))
-	path_save := path + time_str + ".json"
+	current.String()
+	var path_save string
+	if profit {
+		path_save = fmt.Sprintf("jsonresult/POSITIVE%s_%s.json", fiat, current.Format("2006_01_02"))
+	} else {
+		path_save = fmt.Sprintf("jsonresult/NEGATIVE%s_%s.json", fiat, current.Format("2006_01_02"))
+	}
 	tmp_result := []ResultP2P{}
 	if exists(path_save) {
 		jsonfile, err := os.ReadFile(path_save)

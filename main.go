@@ -15,50 +15,18 @@ const (
 )
 
 func main() {
-	//telegramm.TestBot()
 
 	tmp := interact.InputCommandLine(fiat)
-	////fmt.Println("\n")
-	////fmt.Println(tmp)
-	////fmt.Println("\n")
-	////
-	//////fmt.Println(tmp)
-	//////
-	//////fmt.Println(getinfobinance.GetDataP2P(asset, fiat, tradeTypeB, tmp.TransAmount, tmp.PayTypes))
-	////
-	start := time.Now()
-	defer func() {
-		fmt.Println(time.Since(start), "\n")
-	}()
 
-	working.P2P3steps(fiat, tmp)
+	for {
+		start := time.Now()
+		defer func() {
+			fmt.Println(time.Since(start), "\n")
+		}()
 
-	//test := []string{"BNBRUB", "ETHRUB", "SHIBRUB", "USDTRUB", "BTCRUB", "BUSDRUB"}
-	////
-	//fmt.Println(getinfobinance.GetRatePair(test))
+		working.P2P3steps(fiat, tmp)
 
-	//assets := getinfobinance.GetAssets(fiat)
-	//
-	//getinfobinance.GetListSymbols(assets, fiat)
+		time.Sleep(60 * time.Second)
+	}
 
-	//payTypes, transAmoount := working.InputCommandLine(fiat)
-	//fmt.Println("\n")
-	//fmt.Println(payTypes)
-	//fmt.Println("\n")
-	//
-	//working.P2P2steps(fiat, payTypes, transAmoount)
-
-	//
-	//firststep := getdata.GetDataP2P(asset, fiat, tradeTypeB, transAmount, payTypes)
-	//fmt.Println(firststep.Advertisers.NickName)
-
-	//tmp := getinfobinance.GetListSymbols(asset)
-	//
-	//for i, j := range tmp {
-	//	fmt.Println(i, " - ", j)
-	//}
-	//tmp := getinfobinance.GetPeymontMethods(fiat)
-	//getinfobinance.SavePaymentToJSON(tmp)
-
-	//data.GetPaymentFromJSON(fiat)
 }
