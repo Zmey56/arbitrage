@@ -6,6 +6,7 @@ import (
 	"github.com/Zmey56/arbitrage/getdata"
 	"github.com/Zmey56/arbitrage/getinfobinance"
 	"github.com/Zmey56/arbitrage/interact"
+	"github.com/Zmey56/arbitrage/telegramm"
 	"log"
 	"os"
 	"strconv"
@@ -20,16 +21,20 @@ type ResultP2P struct {
 	Fiat            string
 	AssetsBuy       string
 	PriceAssetsBuy  float64
+	PaymentBuy      []string
 	LinkAssetsBuy   string
 	Pair            string
 	PricePair       float64
 	LinkMarket      string
 	AssetsSell      string
 	PriceAssetsSell float64
+	PaymentSell     []string
 	LinkAssetsSell  string
 	ProfitValue     float64
 	ProfitPercet    string
 }
+
+const chatID = -1001592565485
 
 func P2P3steps(fiat string, paramUser interact.Parameters) {
 	allOrders := [][]ResultP2P{}
@@ -64,8 +69,13 @@ func P2P3steps(fiat string, paramUser interact.Parameters) {
 		for _, i := range j {
 			if i.Profit {
 				saveJsonFile(fiat, i, true)
+				formatMessageAndSend(i)
+				//str_p := fmt.Sprintf("%#v", i)
+				//telegramm.SendTextToTelegramChat(chatID, str_p)
 			} else {
 				saveJsonFile(fiat, i, false)
+				//str_n := fmt.Sprintf("%#v", i)
+				//telegramm.SendTextToTelegramChat(chatID, str_n)
 			}
 		}
 	}
@@ -169,13 +179,16 @@ func PrintResultP2P3(p, a, fiat string, transAmountFirst, price_b float64, pair_
 	profitResult.Fiat = fiat
 	profitResult.AssetsBuy = a
 	profitResult.PriceAssetsBuy = price_b
-	profitResult.LinkAssetsBuy = fmt.Sprintf("https://p2p.binance.com/en/advertiserDetail?advertiserNo=%v", order_buy.Adv.AdvNo)
+	profitResult.PaymentBuy = paymentMetods(order_buy)
+	profitResult.LinkAssetsBuy = fmt.Sprintf("https://p2p.binance.com/en/trade/all-payments/%v?fiat=%v", a, fiat)
 	profitResult.Pair = p
 	profitResult.PricePair = pair_rate[p]
 	profitResult.LinkMarket = returnLinkMarket(a, p)
 	profitResult.AssetsSell = assetSell
 	profitResult.PriceAssetsSell = price_s
-	profitResult.LinkAssetsSell = fmt.Sprintf("https://p2p.binance.com/en/advertiserDetail?advertiserNo=%v", order_sell.Adv.AdvNo)
+	profitResult.PaymentSell = paymentMetods(order_sell)
+	profitResult.LinkAssetsSell = fmt.Sprintf("https://p2p.binance.com/en/trade/sell/%v?fiat=%v&payment=ALL",
+		assetSell, fiat)
 	profitResult.ProfitValue = transAmountThird - transAmountFloat
 	profitResult.ProfitPercet = fmt.Sprintf("%.2f", ((transAmountThird-transAmountFloat)/transAmountFloat)*100)
 	return profitResult
@@ -230,4 +243,50 @@ func exists(path string) bool {
 		return false
 	}
 	return false
+}
+
+func paymentMetods(a getinfobinance.AdvertiserAdv) []string {
+	payMethods := []string{}
+	for _, tm := range a.Adv.TradeMethods {
+		payMethods = append(payMethods, tm.TradeMethodName)
+	}
+	return payMethods
+}
+
+// https://p2p.binance.com/en/trade/sell/BNB?fiat=RUB&payment=ALL
+func formatMessageAndSend(r ResultP2P) {
+	text := fmt.Sprintf(
+		"<b><u>%s</u></b> \n"+
+			"\n"+
+			"Data and Time  %s \n"+
+			"\n"+
+			"<i>FIRST STEP</i>\n"+
+			"Assets to buy  %s by price %v\n"+
+			"Payment(s): %s \n"+
+			"%s\n"+
+			"\n"+
+			"<i>SECOND STEP</i>\n"+
+			"Pair %s by price %f\n"+
+			"%s\n"+
+			"\n"+
+			"<i>THIRD STEP</i>\n"+
+			"Assets to sell  %s by price %v\n"+
+			"Payment(s): %s \n"+
+			"%s\n"+
+			"\n"+
+			"Your profit is %.2f (%v)",
+		r.Fiat,
+		r.DataTime.Format("2006/01/02 15:04:05"),
+		r.AssetsBuy, r.PriceAssetsBuy,
+		strings.Join(r.PaymentBuy, ", "),
+		r.LinkAssetsBuy,
+		r.Pair, r.PricePair,
+		r.LinkMarket,
+		r.AssetsSell, r.PriceAssetsSell,
+		strings.Join(r.PaymentSell, " "),
+		r.LinkAssetsSell,
+		r.ProfitValue, r.ProfitPercet)
+	fmt.Println(text)
+
+	telegramm.SendTextToTelegramChat(chatID, text)
 }

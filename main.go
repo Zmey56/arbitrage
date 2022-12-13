@@ -20,11 +20,10 @@ func main() {
 
 	for {
 		start := time.Now()
-		defer func() {
-			fmt.Println(time.Since(start), "\n")
-		}()
 
 		working.P2P3steps(fiat, tmp)
+
+		fmt.Println(time.Since(start), "\n")
 
 		time.Sleep(60 * time.Second)
 	}
