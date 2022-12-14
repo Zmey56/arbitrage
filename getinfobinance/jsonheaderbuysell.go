@@ -59,7 +59,7 @@ func GetDataP2P(asset, fiat, tradeType string, paramUser interact.Parameters) Ad
 
 	resultadvertiseradv := ParsingJson(response.Body, tradeType, transAmountFloat)
 
-	if resultadvertiseradv.Adv.Price != "" {
+	if resultadvertiseradv.Adv.Price != 0 {
 		return resultadvertiseradv
 	} else {
 		var emptystruct AdvertiserAdv //return if don't find

@@ -104,12 +104,10 @@ func GetResultP2P3(a, fiat string, pair map[string][]string, paramUser interact.
 		paramUser.TransAmount = strconv.Itoa(int(transAmountFloat))
 		log.Println("New transAmount because didn't enter amount in beginer", paramUser.TransAmount)
 	}
-	if order_buy.Adv.Price != "" {
+	if order_buy.Adv.Price != 0 {
 
-		price_b, err := strconv.ParseFloat(order_buy.Adv.Price, 64)
-		if err != nil {
-			log.Printf("Can't parse string to float for price buy, error: %s", err)
-		}
+		price_b := order_buy.Adv.Price
+
 		transAmountFirst := transAmountFloat / price_b
 		//log.Printf("transAmountFirst - %v", transAmountFirst)
 		//second step
@@ -159,13 +157,11 @@ func PrintResultP2P3(p, a, fiat string, transAmountFirst, price_b float64, pair_
 	order_sell := getinfobinance.GetDataP2P(assetSell, fiat,
 		"Sell", paramUser)
 	//log.Printf("First - %s, Second - %s", a, convertfiat)
-	if order_sell.Adv.Price == "" {
+	if order_sell.Adv.Price == 0 {
 		return profitResult
 	}
-	price_s, err := strconv.ParseFloat(order_sell.Adv.Price, 64)
-	if err != nil {
-		log.Printf("Can't parse string to float for price sell, error: %s", err)
-	}
+	price_s := order_sell.Adv.Price
+
 	transAmountThird := price_s * transAmountSecond
 	//log.Printf("transAmountFirst - %v, transAmountSecond - %v, transAmountThird - %v",
 	//	transAmountFirst, transAmountSecond, transAmountThird)
@@ -261,7 +257,7 @@ func formatMessageAndSend(r ResultP2P) {
 			"Data and Time  %s \n"+
 			"\n"+
 			"<i>FIRST STEP</i>\n"+
-			"Assets to buy  %s by price %v\n"+
+			"Assets to buy  %s by price %f\n"+
 			"Payment(s): %s \n"+
 			"%s\n"+
 			"\n"+
@@ -270,7 +266,7 @@ func formatMessageAndSend(r ResultP2P) {
 			"%s\n"+
 			"\n"+
 			"<i>THIRD STEP</i>\n"+
-			"Assets to sell  %s by price %v\n"+
+			"Assets to sell  %s by price %f\n"+
 			"Payment(s): %s \n"+
 			"%s\n"+
 			"\n"+

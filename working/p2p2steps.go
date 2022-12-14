@@ -5,8 +5,6 @@ import (
 	"fmt"
 	"github.com/Zmey56/arbitrage/getinfobinance"
 	"github.com/Zmey56/arbitrage/interact"
-	"log"
-	"strconv"
 )
 
 func P2P2steps(fiat string, paramUser interact.Parameters) {
@@ -28,14 +26,8 @@ func P2P2steps(fiat string, paramUser interact.Parameters) {
 		fmt.Println("ASSETS", a)
 		order_buy := getinfobinance.GetDataP2P(a, fiat, "Buy", paramUser)
 		order_sell := getinfobinance.GetDataP2P(a, fiat, "Sell", paramUser)
-		price_b, err := strconv.ParseFloat(order_buy.Adv.Price, 64)
-		if err != nil {
-			log.Printf("Can't parse string to float for price buy, error: %s", err)
-		}
-		price_s, err := strconv.ParseFloat(order_sell.Adv.Price, 64)
-		if err != nil {
-			log.Printf("Can't parse string to float for price sell, error: %s", err)
-		}
+		price_b := order_buy.Adv.Price
+		price_s := order_sell.Adv.Price
 		fmt.Println("BUY ", price_b)
 		fmt.Println("Nick", order_buy.Advertiser.NickName)
 		fmt.Println("Orders", order_buy.Advertiser.MonthOrderCount)

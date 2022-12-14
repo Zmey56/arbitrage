@@ -1,9 +1,9 @@
 package main
 
 import (
-	"fmt"
 	"github.com/Zmey56/arbitrage/interact"
 	"github.com/Zmey56/arbitrage/working"
+	"log"
 	"time"
 )
 
@@ -23,7 +23,7 @@ func main() {
 
 		working.P2P3steps(fiat, tmp)
 
-		fmt.Println(time.Since(start), "\n")
+		log.Println(time.Since(start), "\n")
 
 		time.Sleep(60 * time.Second)
 	}

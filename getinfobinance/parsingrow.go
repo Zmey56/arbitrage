@@ -10,28 +10,28 @@ import (
 
 type AdvertiserAdv struct {
 	Adv struct {
-		AdvNo                 string `json:"advNo"`
-		Classify              string `json:"classify"`
-		TradeType             string `json:"tradeType"`
-		Asset                 string `json:"asset"`
-		FiatUnit              string `json:"fiatUnit"`
-		AdvStatus             string `json:"advStatus"`
-		PriceType             string `json:"priceType"`
-		PriceFloatingRatio    string `json:"priceFloatingRatio"`
-		RateFloatingRatio     string `json:"rateFloatingRatio"`
-		CurrencyRate          string `json:"currencyRate"`
-		Price                 string `json:"price"`
-		InitAmount            string `json:"initAmount"`
-		SurplusAmount         string `json:"surplusAmount"`
-		AmountAfterEditing    string `json:"amountAfterEditing"`
-		MaxSingleTransAmount  string `json:"maxSingleTransAmount"`
-		MinSingleTransAmount  string `json:"minSingleTransAmount"`
-		BuyerKycLimit         string `json:"buyerKycLimit"`
-		BuyerRegDaysLimit     string `json:"buyerRegDaysLimit"`
-		BuyerBtcPositionLimit string `json:"buyerBtcPositionLimit"`
-		Remarks               string `json:"remarks"`
-		AutoReplyMsg          string `json:"autoReplyMsg"`
-		PayTimeLimit          string `json:"payTimeLimit"`
+		AdvNo                 string  `json:"advNo"`
+		Classify              string  `json:"classify"`
+		TradeType             string  `json:"tradeType"`
+		Asset                 string  `json:"asset"`
+		FiatUnit              string  `json:"fiatUnit"`
+		AdvStatus             string  `json:"advStatus"`
+		PriceType             string  `json:"priceType"`
+		PriceFloatingRatio    string  `json:"priceFloatingRatio"`
+		RateFloatingRatio     string  `json:"rateFloatingRatio"`
+		CurrencyRate          string  `json:"currencyRate"`
+		Price                 float64 `json:"price,string"`
+		InitAmount            string  `json:"initAmount"`
+		SurplusAmount         string  `json:"surplusAmount"`
+		AmountAfterEditing    string  `json:"amountAfterEditing"`
+		MaxSingleTransAmount  string  `json:"maxSingleTransAmount"`
+		MinSingleTransAmount  string  `json:"minSingleTransAmount"`
+		BuyerKycLimit         string  `json:"buyerKycLimit"`
+		BuyerRegDaysLimit     string  `json:"buyerRegDaysLimit"`
+		BuyerBtcPositionLimit string  `json:"buyerBtcPositionLimit"`
+		Remarks               string  `json:"remarks"`
+		AutoReplyMsg          string  `json:"autoReplyMsg"`
+		PayTimeLimit          string  `json:"payTimeLimit"`
 		TradeMethods          []struct {
 			PayID                string `json:"payId"`
 			PayMethodID          string `json:"payMethodId"`
@@ -119,6 +119,7 @@ func ParsingJson(r io.Reader, tradeType string, transAmount float64) AdvertiserA
 
 	var advertiserAdvArray AdvertiserAdvArray
 	if err := json.Unmarshal(jsonStr, &advertiserAdvArray); err != nil {
+		log.Println("ERROR")
 		log.Println(err)
 	}
 	advertiserAdv := AdvertiserAdv{}
