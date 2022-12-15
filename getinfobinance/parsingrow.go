@@ -10,62 +10,62 @@ import (
 
 type AdvertiserAdv struct {
 	Adv struct {
-		AdvNo                 string  `json:"advNo"`
-		Classify              string  `json:"classify"`
-		TradeType             string  `json:"tradeType"`
-		Asset                 string  `json:"asset"`
-		FiatUnit              string  `json:"fiatUnit"`
-		AdvStatus             string  `json:"advStatus"`
-		PriceType             string  `json:"priceType"`
-		PriceFloatingRatio    string  `json:"priceFloatingRatio"`
-		RateFloatingRatio     string  `json:"rateFloatingRatio"`
-		CurrencyRate          string  `json:"currencyRate"`
-		Price                 float64 `json:"price,string"`
-		InitAmount            string  `json:"initAmount"`
-		SurplusAmount         string  `json:"surplusAmount"`
-		AmountAfterEditing    string  `json:"amountAfterEditing"`
-		MaxSingleTransAmount  string  `json:"maxSingleTransAmount"`
-		MinSingleTransAmount  string  `json:"minSingleTransAmount"`
-		BuyerKycLimit         string  `json:"buyerKycLimit"`
-		BuyerRegDaysLimit     string  `json:"buyerRegDaysLimit"`
-		BuyerBtcPositionLimit string  `json:"buyerBtcPositionLimit"`
-		Remarks               string  `json:"remarks"`
-		AutoReplyMsg          string  `json:"autoReplyMsg"`
-		PayTimeLimit          string  `json:"payTimeLimit"`
+		AdvNo                 string      `json:"advNo"`
+		Classify              string      `json:"classify"`
+		TradeType             string      `json:"tradeType"`
+		Asset                 string      `json:"asset"`
+		FiatUnit              string      `json:"fiatUnit"`
+		AdvStatus             interface{} `json:"advStatus"`
+		PriceType             interface{} `json:"priceType"`
+		PriceFloatingRatio    interface{} `json:"priceFloatingRatio"`
+		RateFloatingRatio     interface{} `json:"rateFloatingRatio"`
+		CurrencyRate          interface{} `json:"currencyRate"`
+		Price                 float64     `json:"price,string"`
+		InitAmount            interface{} `json:"initAmount"`
+		SurplusAmount         string      `json:"surplusAmount"`
+		AmountAfterEditing    interface{} `json:"amountAfterEditing"`
+		MaxSingleTransAmount  string      `json:"maxSingleTransAmount"`
+		MinSingleTransAmount  string      `json:"minSingleTransAmount"`
+		BuyerKycLimit         interface{} `json:"buyerKycLimit"`
+		BuyerRegDaysLimit     interface{} `json:"buyerRegDaysLimit"`
+		BuyerBtcPositionLimit interface{} `json:"buyerBtcPositionLimit"`
+		Remarks               interface{} `json:"remarks"`
+		AutoReplyMsg          string      `json:"autoReplyMsg"`
+		PayTimeLimit          interface{} `json:"payTimeLimit"`
 		TradeMethods          []struct {
-			PayID                string `json:"payId"`
-			PayMethodID          string `json:"payMethodId"`
-			PayType              string `json:"payType"`
-			PayAccount           string `json:"payAccount"`
-			PayBank              string `json:"payBank"`
-			PaySubBank           string `json:"paySubBank"`
-			Identifier           string `json:"identifier"`
-			IconURLColor         string `json:"iconUrlColor"`
-			TradeMethodName      string `json:"tradeMethodName"`
-			TradeMethodShortName string `json:"tradeMethodShortName"`
-			TradeMethodBgColor   string `json:"tradeMethodBgColor"`
+			PayID                interface{} `json:"payId"`
+			PayMethodID          string      `json:"payMethodId"`
+			PayType              interface{} `json:"payType"`
+			PayAccount           interface{} `json:"payAccount"`
+			PayBank              interface{} `json:"payBank"`
+			PaySubBank           interface{} `json:"paySubBank"`
+			Identifier           string      `json:"identifier"`
+			IconURLColor         interface{} `json:"iconUrlColor"`
+			TradeMethodName      string      `json:"tradeMethodName"`
+			TradeMethodShortName string      `json:"tradeMethodShortName"`
+			TradeMethodBgColor   string      `json:"tradeMethodBgColor"`
 		} `json:"tradeMethods"`
-		UserTradeCountFilterTime        string        `json:"userTradeCountFilterTime"`
-		UserBuyTradeCountMin            string        `json:"userBuyTradeCountMin"`
-		UserBuyTradeCountMax            string        `json:"userBuyTradeCountMax"`
-		UserSellTradeCountMin           string        `json:"userSellTradeCountMin"`
-		UserSellTradeCountMax           string        `json:"userSellTradeCountMax"`
-		UserAllTradeCountMin            string        `json:"userAllTradeCountMin"`
-		UserAllTradeCountMax            string        `json:"userAllTradeCountMax"`
-		UserTradeCompleteRateFilterTime string        `json:"userTradeCompleteRateFilterTime"`
-		UserTradeCompleteCountMin       string        `json:"userTradeCompleteCountMin"`
-		UserTradeCompleteRateMin        string        `json:"userTradeCompleteRateMin"`
-		UserTradeVolumeFilterTime       string        `json:"userTradeVolumeFilterTime"`
-		UserTradeType                   string        `json:"userTradeType"`
-		UserTradeVolumeMin              string        `json:"userTradeVolumeMin"`
-		UserTradeVolumeMax              string        `json:"userTradeVolumeMax"`
-		UserTradeVolumeAsset            string        `json:"userTradeVolumeAsset"`
-		CreateTime                      string        `json:"createTime"`
-		AdvUpdateTime                   string        `json:"advUpdateTime"`
-		FiatVo                          string        `json:"fiatVo"`
-		AssetVo                         string        `json:"assetVo"`
-		AdvVisibleRet                   string        `json:"advVisibleRet"`
-		AssetLogo                       string        `json:"assetLogo"`
+		UserTradeCountFilterTime        interface{}   `json:"userTradeCountFilterTime"`
+		UserBuyTradeCountMin            interface{}   `json:"userBuyTradeCountMin"`
+		UserBuyTradeCountMax            interface{}   `json:"userBuyTradeCountMax"`
+		UserSellTradeCountMin           interface{}   `json:"userSellTradeCountMin"`
+		UserSellTradeCountMax           interface{}   `json:"userSellTradeCountMax"`
+		UserAllTradeCountMin            interface{}   `json:"userAllTradeCountMin"`
+		UserAllTradeCountMax            interface{}   `json:"userAllTradeCountMax"`
+		UserTradeCompleteRateFilterTime interface{}   `json:"userTradeCompleteRateFilterTime"`
+		UserTradeCompleteCountMin       interface{}   `json:"userTradeCompleteCountMin"`
+		UserTradeCompleteRateMin        interface{}   `json:"userTradeCompleteRateMin"`
+		UserTradeVolumeFilterTime       interface{}   `json:"userTradeVolumeFilterTime"`
+		UserTradeType                   interface{}   `json:"userTradeType"`
+		UserTradeVolumeMin              interface{}   `json:"userTradeVolumeMin"`
+		UserTradeVolumeMax              interface{}   `json:"userTradeVolumeMax"`
+		UserTradeVolumeAsset            interface{}   `json:"userTradeVolumeAsset"`
+		CreateTime                      interface{}   `json:"createTime"`
+		AdvUpdateTime                   interface{}   `json:"advUpdateTime"`
+		FiatVo                          interface{}   `json:"fiatVo"`
+		AssetVo                         interface{}   `json:"assetVo"`
+		AdvVisibleRet                   interface{}   `json:"advVisibleRet"`
+		AssetLogo                       interface{}   `json:"assetLogo"`
 		AssetScale                      int           `json:"assetScale"`
 		FiatScale                       int           `json:"fiatScale"`
 		PriceScale                      int           `json:"priceScale"`
@@ -78,29 +78,32 @@ type AdvertiserAdv struct {
 		TradableQuantity                string        `json:"tradableQuantity"`
 		CommissionRate                  string        `json:"commissionRate"`
 		TradeMethodCommissionRates      []interface{} `json:"tradeMethodCommissionRates"`
-		LaunchCountry                   string        `json:"launchCountry"`
-		AbnormalStatusList              string        `json:"abnormalStatusList"`
-		CloseReason                     string        `json:"closeReason"`
+		LaunchCountry                   interface{}   `json:"launchCountry"`
+		AbnormalStatusList              interface{}   `json:"abnormalStatusList"`
+		CloseReason                     interface{}   `json:"closeReason"`
 	} `json:"adv"`
 	Advertiser struct {
 		UserNo           string        `json:"userNo"`
-		RealName         string        `json:"realName"`
+		RealName         interface{}   `json:"realName"`
 		NickName         string        `json:"nickName"`
-		Margin           string        `json:"margin"`
-		MarginUnit       string        `json:"marginUnit"`
-		OrderCount       string        `json:"orderCount"`
+		Margin           interface{}   `json:"margin"`
+		MarginUnit       interface{}   `json:"marginUnit"`
+		OrderCount       interface{}   `json:"orderCount"`
 		MonthOrderCount  int           `json:"monthOrderCount"`
 		MonthFinishRate  float64       `json:"monthFinishRate"`
-		AdvConfirmTime   string        `json:"advConfirmTime"`
-		Email            string        `json:"email"`
-		RegistrationTime string        `json:"registrationTime"`
-		Mobile           string        `json:"mobile"`
+		AdvConfirmTime   interface{}   `json:"advConfirmTime"`
+		Email            interface{}   `json:"email"`
+		RegistrationTime interface{}   `json:"registrationTime"`
+		Mobile           interface{}   `json:"mobile"`
 		UserType         string        `json:"userType"`
 		TagIconUrls      []interface{} `json:"tagIconUrls"`
 		UserGrade        int           `json:"userGrade"`
 		UserIdentity     string        `json:"userIdentity"`
-		ProMerchant      string        `json:"proMerchant"`
-		IsBlocked        string        `json:"isBlocked"`
+		ProMerchant      struct {
+			MerchantLogo        interface{} `json:"merchantLogo"`
+			MerchantDescription interface{} `json:"merchantDescription"`
+		} `json:"proMerchant"`
+		IsBlocked interface{} `json:"isBlocked"`
 	} `json:"advertiser"`
 }
 

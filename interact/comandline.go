@@ -5,7 +5,6 @@ import (
 	"bufio"
 	"encoding/json"
 	"fmt"
-	"github.com/Zmey56/arbitrage/getdata"
 	"log"
 	"os"
 	"regexp"
@@ -17,6 +16,15 @@ type Parameters struct {
 	PayTypes      []string `json:"payTypes"`
 	TransAmount   string   `json:"transAmount"`
 	PublisherType string   `json:"publisher_type"`
+}
+
+type Payments []struct {
+	Identifier           string `json:"Identifier"`
+	PayAccount           string `json:"PayAccount"`
+	PayMethodID          string `json:"PayMethodId"`
+	PayType              string `json:"PayType"`
+	TradeMethodName      string `json:"TradeMethodName"`
+	TradeMethodShortName string `json:"TradeMethodShortName"`
 }
 
 func InputCommandLine(fiat string) Parameters {
@@ -63,7 +71,7 @@ func InputCommandLine(fiat string) Parameters {
 			paramUser.PublisherType = "merchant"
 		}
 
-		gpm := getdata.GetPaymentFromJSON(fiat)
+		gpm := GetPaymentFromJSON(fiat)
 
 		var availablepayment []string
 
@@ -96,7 +104,7 @@ func InputCommandLine(fiat string) Parameters {
 		if err != nil {
 			log.Println("Can't marshalIndent paramUser", err)
 		}
-		_ = os.WriteFile("data/paramUser.json", file, 0644)
+		_ = os.WriteFile("data/paramUser"+fiat+".json", file, 0644)
 	} else {
 		file, err := os.ReadFile(file_path)
 		if err != nil {
@@ -136,4 +144,45 @@ func Exists(path string) bool {
 		return false
 	}
 	return false
+}
+
+// "AED", "AMD", "AZN", "EUR", "GEL", "KZT", "RUB", "TRY", "UAH", "UZS"
+func GetPaymentFromJSON(fiat string) Payments {
+	payment := ""
+	switch fiat {
+	case "AED":
+		payment = fmt.Sprintf("data/%s/%s_payment.json", fiat, fiat)
+	case "AMD":
+		payment = fmt.Sprintf("data/%s/%s_payment.json", fiat, fiat)
+	case "AZN":
+		payment = fmt.Sprintf("data/%s/%s_payment.json", fiat, fiat)
+	case "EUR":
+		payment = fmt.Sprintf("data/%s/%s_payment.json", fiat, fiat)
+	case "GEL":
+		payment = fmt.Sprintf("data/%s/%s_payment.json", fiat, fiat)
+	case "KZT":
+		payment = fmt.Sprintf("data/%s/%s_payment.json", fiat, fiat)
+	case "RUB":
+		payment = fmt.Sprintf("data/%s/%s_payment.json", fiat, fiat)
+	case "TRY":
+		payment = fmt.Sprintf("data/%s/%s_payment.json", fiat, fiat)
+	case "UAH":
+		payment = fmt.Sprintf("data/%s/%s_payment.json", fiat, fiat)
+	case "UZS":
+		payment = fmt.Sprintf("data/%s/%s_payment.json", fiat, fiat)
+	default:
+		fmt.Printf("For %v don't have payments methods\n", fiat)
+	}
+	jsonfile, err := os.ReadFile(payment)
+	if err != nil {
+		panic(err)
+	}
+	allpayments := Payments{}
+	_ = json.Unmarshal(jsonfile, &allpayments)
+
+	return allpayments
+}
+
+func GetFilenameDate(name, ext string) string {
+	return name + "." + ext
 }

@@ -1,0 +1,3007 @@
+[
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:09:14.770701+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "SHIB",
+  "PriceAssetsBuy": 0.0000092,
+  "PaymentBuy": [
+   "SEPA (EU) bank transfer",
+   "ZEN"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/SHIB?fiat=EUR",
+  "Pair": "SHIBUSDT",
+  "PricePair": 0.000008874999999999999,
+  "LinkMarket": "https://www.binance.com/en/trade/SHIB_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 0.938,
+  "PaymentSell": [
+   "Bizum",
+   "SEPA (EU) bank transfer"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -95.13586956521756,
+  "ProfitPercet": "-9.51"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:09:15.445135+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "SHIB",
+  "PriceAssetsBuy": 0.0000092,
+  "PaymentBuy": [
+   "SEPA (EU) bank transfer",
+   "ZEN"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/SHIB?fiat=EUR",
+  "Pair": "SHIBBUSD",
+  "PricePair": 0.000008874999999999999,
+  "LinkMarket": "https://www.binance.com/en/trade/SHIB_BUSD?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 0.936,
+  "PaymentSell": [
+   "SEPA (EU) bank transfer",
+   "Wise",
+   "SEPA Instant",
+   "Revolut"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -97.06521739130442,
+  "ProfitPercet": "-9.71"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:09:15.859612+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 1310.204,
+  "PaymentBuy": [
+   "SEPA (EU) bank transfer",
+   "ZEN"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=EUR",
+  "Pair": "BNBETH",
+  "PricePair": 0.20485,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_ETH?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 242.663,
+  "PaymentSell": [
+   "Wise",
+   "Paysera",
+   "N26",
+   "SEPA Instant"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -95.87459398980039,
+  "ProfitPercet": "-9.59"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:09:15.862957+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 1310.204,
+  "PaymentBuy": [
+   "SEPA (EU) bank transfer",
+   "ZEN"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=EUR",
+  "Pair": "ETHBUSD",
+  "PricePair": 1270.315,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BUSD?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 0.936,
+  "PaymentSell": [
+   "SEPA (EU) bank transfer",
+   "Wise",
+   "SEPA Instant",
+   "Revolut"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -92.49640513996277,
+  "ProfitPercet": "-9.25"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:09:16.523975+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 1310.204,
+  "PaymentBuy": [
+   "SEPA (EU) bank transfer",
+   "ZEN"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=EUR",
+  "Pair": "ETHDAI",
+  "PricePair": 1271.06,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_DAI?_from=markets",
+  "AssetsSell": "DAI",
+  "PriceAssetsSell": 0.93,
+  "PaymentSell": [
+   "Wise",
+   "Revolut",
+   "SEPA Instant",
+   "ING",
+   "N26"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/DAI?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -97.78492509563388,
+  "ProfitPercet": "-9.78"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:09:16.529032+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 1310.204,
+  "PaymentBuy": [
+   "SEPA (EU) bank transfer",
+   "ZEN"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=EUR",
+  "Pair": "ETHBTC",
+  "PricePair": 0.0729665,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BTC?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 16284.95,
+  "PaymentSell": [
+   "Revolut",
+   "SEPA Instant",
+   "N26",
+   "Wise",
+   "Paysera"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -93.075731584547,
+  "ProfitPercet": "-9.31"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:09:16.544174+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 1310.204,
+  "PaymentBuy": [
+   "SEPA (EU) bank transfer",
+   "ZEN"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=EUR",
+  "Pair": "ETHUSDT",
+  "PricePair": 1270.3449999999998,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 0.938,
+  "PaymentSell": [
+   "Bizum",
+   "SEPA (EU) bank transfer"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -90.53581732310396,
+  "ProfitPercet": "-9.05"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:09:16.651615+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 0.954,
+  "PaymentBuy": [
+   "Paysera",
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=EUR",
+  "Pair": "BNBBUSD",
+  "PricePair": 260.35,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BUSD?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 242.663,
+  "PaymentSell": [
+   "Wise",
+   "Paysera",
+   "N26",
+   "SEPA Instant"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -22.993156688363758,
+  "ProfitPercet": "-2.30"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:09:16.656633+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 0.954,
+  "PaymentBuy": [
+   "Paysera",
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=EUR",
+  "Pair": "BUSDUSDT",
+  "PricePair": 0.99995,
+  "LinkMarket": "https://www.binance.com/en/trade/BUSD_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 0.938,
+  "PaymentSell": [
+   "Bizum",
+   "SEPA (EU) bank transfer"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -16.820649895178214,
+  "ProfitPercet": "-1.68"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:09:16.829218+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 0.954,
+  "PaymentBuy": [
+   "Paysera",
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=EUR",
+  "Pair": "BUSDDAI",
+  "PricePair": 1.0000499999999999,
+  "LinkMarket": "https://www.binance.com/en/trade/BUSD_DAI?_from=markets",
+  "AssetsSell": "DAI",
+  "PriceAssetsSell": 0.93,
+  "PaymentSell": [
+   "Wise",
+   "Revolut",
+   "SEPA Instant",
+   "ING",
+   "N26"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/DAI?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -25.108490566037844,
+  "ProfitPercet": "-2.51"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:09:17.495893+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 0.954,
+  "PaymentBuy": [
+   "Paysera",
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=EUR",
+  "Pair": "ETHBUSD",
+  "PricePair": 1270.315,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BUSD?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 1188.724,
+  "PaymentSell": [
+   "Paysera",
+   "Wise",
+   "N26",
+   "SEPA Instant",
+   "Revolut"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -19.10791518546658,
+  "ProfitPercet": "-1.91"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:09:17.50088+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 0.954,
+  "PaymentBuy": [
+   "Paysera",
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=EUR",
+  "Pair": "SHIBBUSD",
+  "PricePair": 0.000008874999999999999,
+  "LinkMarket": "https://www.binance.com/en/trade/SHIB_BUSD?_from=markets",
+  "AssetsSell": "SHIB",
+  "PriceAssetsSell": 0.00000821,
+  "PaymentSell": [
+   "Wise"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/SHIB?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -30.32450468007194,
+  "ProfitPercet": "-3.03"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:09:17.504557+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 0.954,
+  "PaymentBuy": [
+   "Paysera",
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=EUR",
+  "Pair": "BTCBUSD",
+  "PricePair": 17412.88,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_BUSD?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 16284.95,
+  "PaymentSell": [
+   "Revolut",
+   "SEPA Instant",
+   "N26",
+   "Wise",
+   "Paysera"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -19.680937497703365,
+  "ProfitPercet": "-1.97"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:09:17.11501+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 0.946,
+  "PaymentBuy": [
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=EUR",
+  "Pair": "SHIBUSDT",
+  "PricePair": 0.000008874999999999999,
+  "LinkMarket": "https://www.binance.com/en/trade/SHIB_USDT?_from=markets",
+  "AssetsSell": "SHIB",
+  "PriceAssetsSell": 0.00000821,
+  "PaymentSell": [
+   "Wise"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/SHIB?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -22.12428907482934,
+  "ProfitPercet": "-2.21"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:09:17.486314+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 0.946,
+  "PaymentBuy": [
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=EUR",
+  "Pair": "ETHUSDT",
+  "PricePair": 1270.3449999999998,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_USDT?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 1188.724,
+  "PaymentSell": [
+   "Paysera",
+   "Wise",
+   "N26",
+   "SEPA Instant",
+   "Revolut"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -10.836204980589786,
+  "ProfitPercet": "-1.08"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:09:17.509087+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 0.946,
+  "PaymentBuy": [
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=EUR",
+  "Pair": "BTCUSDT",
+  "PricePair": 17412.405,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_USDT?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 16284.95,
+  "PaymentSell": [
+   "Revolut",
+   "SEPA Instant",
+   "N26",
+   "Wise",
+   "Paysera"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -11.363744197258564,
+  "ProfitPercet": "-1.14"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:09:17.51755+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 0.946,
+  "PaymentBuy": [
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=EUR",
+  "Pair": "BUSDUSDT",
+  "PricePair": 0.99995,
+  "LinkMarket": "https://www.binance.com/en/trade/BUSD_USDT?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 0.936,
+  "PaymentSell": [
+   "SEPA (EU) bank transfer",
+   "Wise",
+   "SEPA Instant",
+   "Revolut"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -10.521350591842287,
+  "ProfitPercet": "-1.05"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:09:17.521154+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 0.946,
+  "PaymentBuy": [
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=EUR",
+  "Pair": "BNBUSDT",
+  "PricePair": 260.25,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_USDT?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 242.663,
+  "PaymentSell": [
+   "Wise",
+   "Paysera",
+   "N26",
+   "SEPA Instant"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -14.35235675568086,
+  "ProfitPercet": "-1.44"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:09:17.83446+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 0.946,
+  "PaymentBuy": [
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=EUR",
+  "Pair": "USDTDAI",
+  "PricePair": 1.00035,
+  "LinkMarket": "https://www.binance.com/en/trade/USDT_DAI?_from=markets",
+  "AssetsSell": "DAI",
+  "PriceAssetsSell": 0.93,
+  "PaymentSell": [
+   "Wise",
+   "Revolut",
+   "SEPA Instant",
+   "ING",
+   "N26"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/DAI?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -16.569238900634005,
+  "ProfitPercet": "-1.66"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:09:17.841995+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 17217.739,
+  "PaymentBuy": [
+   "SEPA Instant",
+   "ZEN",
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=EUR",
+  "Pair": "BNBBTC",
+  "PricePair": 0.0149465,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BTC?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 242.663,
+  "PaymentSell": [
+   "Wise",
+   "Paysera",
+   "N26",
+   "SEPA Instant"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -57.05158296016519,
+  "ProfitPercet": "-5.71"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:09:17.842007+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 17217.739,
+  "PaymentBuy": [
+   "SEPA Instant",
+   "ZEN",
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=EUR",
+  "Pair": "ETHBTC",
+  "PricePair": 0.0729665,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BTC?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 1188.724,
+  "PaymentSell": [
+   "Paysera",
+   "Wise",
+   "N26",
+   "SEPA Instant",
+   "Revolut"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -53.80337185759087,
+  "ProfitPercet": "-5.38"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:09:17.842565+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 17217.739,
+  "PaymentBuy": [
+   "SEPA Instant",
+   "ZEN",
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=EUR",
+  "Pair": "BTCBUSD",
+  "PricePair": 17412.875,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_BUSD?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 0.936,
+  "PaymentSell": [
+   "SEPA (EU) bank transfer",
+   "Wise",
+   "SEPA Instant",
+   "Revolut"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -53.391911678995704,
+  "ProfitPercet": "-5.34"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:09:17.847329+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 17217.739,
+  "PaymentBuy": [
+   "SEPA Instant",
+   "ZEN",
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=EUR",
+  "Pair": "BTCDAI",
+  "PricePair": 17418.315,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_DAI?_from=markets",
+  "AssetsSell": "DAI",
+  "PriceAssetsSell": 0.93,
+  "PaymentSell": [
+   "Wise",
+   "Revolut",
+   "SEPA Instant",
+   "ING",
+   "N26"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/DAI?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -59.16607575477839,
+  "ProfitPercet": "-5.92"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:09:17.848394+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 17217.739,
+  "PaymentBuy": [
+   "SEPA Instant",
+   "ZEN",
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=EUR",
+  "Pair": "BTCUSDT",
+  "PricePair": 17412.190000000002,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 0.938,
+  "PaymentSell": [
+   "Bizum",
+   "SEPA (EU) bank transfer"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -51.40656273161071,
+  "ProfitPercet": "-5.14"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:09:17.114994+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 257.486,
+  "PaymentBuy": [
+   "Wise",
+   "ZEN",
+   "SEPA Instant"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=EUR",
+  "Pair": "BNBDAI",
+  "PricePair": 260.4,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_DAI?_from=markets",
+  "AssetsSell": "DAI",
+  "PriceAssetsSell": 0.93,
+  "PaymentSell": [
+   "Wise",
+   "Revolut",
+   "SEPA Instant",
+   "ING",
+   "N26"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/DAI?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -59.47507825668193,
+  "ProfitPercet": "-5.95"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:09:17.84319+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 257.486,
+  "PaymentBuy": [
+   "Wise",
+   "ZEN",
+   "SEPA Instant"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=EUR",
+  "Pair": "BNBBTC",
+  "PricePair": 0.0149465,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BTC?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 16284.95,
+  "PaymentSell": [
+   "Revolut",
+   "SEPA Instant",
+   "N26",
+   "Wise",
+   "Paysera"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -54.694215704931494,
+  "ProfitPercet": "-5.47"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:09:17.847716+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 257.486,
+  "PaymentBuy": [
+   "Wise",
+   "ZEN",
+   "SEPA Instant"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=EUR",
+  "Pair": "BNBBUSD",
+  "PricePair": 260.35,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BUSD?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 0.936,
+  "PaymentSell": [
+   "SEPA (EU) bank transfer",
+   "Wise",
+   "SEPA Instant",
+   "Revolut"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -53.58893299053135,
+  "ProfitPercet": "-5.36"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:09:17.847725+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 257.486,
+  "PaymentBuy": [
+   "Wise",
+   "ZEN",
+   "SEPA Instant"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=EUR",
+  "Pair": "BNBETH",
+  "PricePair": 0.20485,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_ETH?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 1188.724,
+  "PaymentSell": [
+   "Paysera",
+   "Wise",
+   "N26",
+   "SEPA Instant",
+   "Revolut"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -54.27824658428034,
+  "ProfitPercet": "-5.43"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:09:18.026834+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 257.486,
+  "PaymentBuy": [
+   "Wise",
+   "ZEN",
+   "SEPA Instant"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=EUR",
+  "Pair": "BNBUSDT",
+  "PricePair": 260.25,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 0.938,
+  "PaymentSell": [
+   "Bizum",
+   "SEPA (EU) bank transfer"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -51.93097877166146,
+  "ProfitPercet": "-5.19"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:16:27.862372+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "SHIB",
+  "PriceAssetsBuy": 0.00000919,
+  "PaymentBuy": [
+   "SEPA (EU) bank transfer",
+   "ZEN"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/SHIB?fiat=EUR",
+  "Pair": "SHIBUSDT",
+  "PricePair": 0.000008874999999999999,
+  "LinkMarket": "https://www.binance.com/en/trade/SHIB_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 0.938,
+  "PaymentSell": [
+   "Bizum",
+   "SEPA (EU) bank transfer"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -94.15125136017427,
+  "ProfitPercet": "-9.42"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:16:27.862678+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "SHIB",
+  "PriceAssetsBuy": 0.00000919,
+  "PaymentBuy": [
+   "SEPA (EU) bank transfer",
+   "ZEN"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/SHIB?fiat=EUR",
+  "Pair": "SHIBBUSD",
+  "PricePair": 0.000008874999999999999,
+  "LinkMarket": "https://www.binance.com/en/trade/SHIB_BUSD?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 0.936,
+  "PaymentSell": [
+   "SEPA (EU) bank transfer",
+   "Wise",
+   "SEPA Instant",
+   "Revolut"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -96.082698585419,
+  "ProfitPercet": "-9.61"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:16:28.418985+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 257.263,
+  "PaymentBuy": [
+   "Wise",
+   "ZEN",
+   "SEPA Instant"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=EUR",
+  "Pair": "BNBBUSD",
+  "PricePair": 260.15,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BUSD?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 0.936,
+  "PaymentSell": [
+   "SEPA (EU) bank transfer",
+   "Wise",
+   "SEPA Instant",
+   "Revolut"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -53.49622759588426,
+  "ProfitPercet": "-5.35"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:16:28.421509+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 257.263,
+  "PaymentBuy": [
+   "Wise",
+   "ZEN",
+   "SEPA Instant"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=EUR",
+  "Pair": "BNBETH",
+  "PricePair": 0.20485,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_ETH?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 1187.067,
+  "PaymentSell": [
+   "Paysera",
+   "Wise",
+   "N26",
+   "SEPA Instant",
+   "Revolut"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -54.77789285672618,
+  "ProfitPercet": "-5.48"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:16:28.431339+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 257.263,
+  "PaymentBuy": [
+   "Wise",
+   "ZEN",
+   "SEPA Instant"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=EUR",
+  "Pair": "BNBUSDT",
+  "PricePair": 260.15,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 0.938,
+  "PaymentSell": [
+   "Bizum",
+   "SEPA (EU) bank transfer"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -51.473783637755915,
+  "ProfitPercet": "-5.15"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:16:29.097457+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 257.263,
+  "PaymentBuy": [
+   "Wise",
+   "ZEN",
+   "SEPA Instant"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=EUR",
+  "Pair": "BNBDAI",
+  "PricePair": 260.3,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_DAI?_from=markets",
+  "AssetsSell": "DAI",
+  "PriceAssetsSell": 0.93,
+  "PaymentSell": [
+   "Wise",
+   "Revolut",
+   "SEPA Instant",
+   "ING",
+   "N26"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/DAI?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -59.02131281995449,
+  "ProfitPercet": "-5.90"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:16:29.100754+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 257.263,
+  "PaymentBuy": [
+   "Wise",
+   "ZEN",
+   "SEPA Instant"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=EUR",
+  "Pair": "BNBBTC",
+  "PricePair": 0.0149435,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BTC?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 16276.228,
+  "PaymentSell": [
+   "Revolut",
+   "SEPA Instant",
+   "N26",
+   "Wise",
+   "Paysera"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -54.571340931264764,
+  "ProfitPercet": "-5.46"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:16:29.255877+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 1309.071,
+  "PaymentBuy": [
+   "SEPA (EU) bank transfer",
+   "ZEN"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=EUR",
+  "Pair": "BNBETH",
+  "PricePair": 0.20485,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_ETH?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 242.256,
+  "PaymentSell": [
+   "Wise",
+   "Paysera",
+   "N26",
+   "SEPA Instant"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -96.60980662464273,
+  "ProfitPercet": "-9.66"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:16:29.271517+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 1309.071,
+  "PaymentBuy": [
+   "SEPA (EU) bank transfer",
+   "ZEN"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=EUR",
+  "Pair": "ETHUSDT",
+  "PricePair": 1269.815,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 0.938,
+  "PaymentSell": [
+   "Bizum",
+   "SEPA (EU) bank transfer"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -90.12844223117,
+  "ProfitPercet": "-9.01"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:16:29.271884+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 1309.071,
+  "PaymentBuy": [
+   "SEPA (EU) bank transfer",
+   "ZEN"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=EUR",
+  "Pair": "ETHDAI",
+  "PricePair": 1270.23,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_DAI?_from=markets",
+  "AssetsSell": "DAI",
+  "PriceAssetsSell": 0.93,
+  "PaymentSell": [
+   "Wise",
+   "Revolut",
+   "SEPA Instant",
+   "ING",
+   "N26"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/DAI?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -97.59371340439127,
+  "ProfitPercet": "-9.76"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:16:29.277823+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 1309.071,
+  "PaymentBuy": [
+   "SEPA (EU) bank transfer",
+   "ZEN"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=EUR",
+  "Pair": "ETHBUSD",
+  "PricePair": 1269.8249999999998,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BUSD?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 0.936,
+  "PaymentSell": [
+   "SEPA (EU) bank transfer",
+   "Wise",
+   "SEPA Instant",
+   "Revolut"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -92.06131676585917,
+  "ProfitPercet": "-9.21"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:16:29.283177+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 1309.071,
+  "PaymentBuy": [
+   "SEPA (EU) bank transfer",
+   "ZEN"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=EUR",
+  "Pair": "ETHBTC",
+  "PricePair": 0.0729565,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BTC?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 16276.228,
+  "PaymentSell": [
+   "Revolut",
+   "SEPA Instant",
+   "N26",
+   "Wise",
+   "Paysera"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -92.90128031099927,
+  "ProfitPercet": "-9.29"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:16:28.799307+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 0.954,
+  "PaymentBuy": [
+   "Paysera",
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=EUR",
+  "Pair": "BUSDUSDT",
+  "PricePair": 0.99995,
+  "LinkMarket": "https://www.binance.com/en/trade/BUSD_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 0.938,
+  "PaymentSell": [
+   "Bizum",
+   "SEPA (EU) bank transfer"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -16.820649895178214,
+  "ProfitPercet": "-1.68"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:16:28.803351+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 0.954,
+  "PaymentBuy": [
+   "Paysera",
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=EUR",
+  "Pair": "BNBBUSD",
+  "PricePair": 260.15,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BUSD?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 242.256,
+  "PaymentSell": [
+   "Wise",
+   "Paysera",
+   "N26",
+   "SEPA Instant"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -23.88196456567735,
+  "ProfitPercet": "-2.39"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:16:29.457193+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 0.954,
+  "PaymentBuy": [
+   "Paysera",
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=EUR",
+  "Pair": "SHIBBUSD",
+  "PricePair": 0.000008874999999999999,
+  "LinkMarket": "https://www.binance.com/en/trade/SHIB_BUSD?_from=markets",
+  "AssetsSell": "SHIB",
+  "PriceAssetsSell": 0.00000821,
+  "PaymentSell": [
+   "Wise"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/SHIB?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -30.32450468007194,
+  "ProfitPercet": "-3.03"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:16:29.467955+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 0.954,
+  "PaymentBuy": [
+   "Paysera",
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=EUR",
+  "Pair": "ETHBUSD",
+  "PricePair": 1269.8249999999998,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BUSD?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 1187.067,
+  "PaymentSell": [
+   "Paysera",
+   "Wise",
+   "N26",
+   "SEPA Instant",
+   "Revolut"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -20.097232731643178,
+  "ProfitPercet": "-2.01"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:16:29.712795+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 0.954,
+  "PaymentBuy": [
+   "Paysera",
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=EUR",
+  "Pair": "BTCBUSD",
+  "PricePair": 17405.805,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_BUSD?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 16276.228,
+  "PaymentSell": [
+   "Revolut",
+   "SEPA Instant",
+   "N26",
+   "Wise",
+   "Paysera"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -19.807722802076764,
+  "ProfitPercet": "-1.98"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:16:30.42662+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 0.954,
+  "PaymentBuy": [
+   "Paysera",
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=EUR",
+  "Pair": "BUSDDAI",
+  "PricePair": 1.0000499999999999,
+  "LinkMarket": "https://www.binance.com/en/trade/BUSD_DAI?_from=markets",
+  "AssetsSell": "DAI",
+  "PriceAssetsSell": 0.93,
+  "PaymentSell": [
+   "Wise",
+   "Revolut",
+   "SEPA Instant",
+   "ING",
+   "N26"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/DAI?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -25.108490566037844,
+  "ProfitPercet": "-2.51"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:16:29.399438+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 17208.816,
+  "PaymentBuy": [
+   "SEPA Instant",
+   "ZEN",
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=EUR",
+  "Pair": "BTCBUSD",
+  "PricePair": 17405.85,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_BUSD?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 0.936,
+  "PaymentSell": [
+   "SEPA (EU) bank transfer",
+   "Wise",
+   "SEPA Instant",
+   "Revolut"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -53.28317764569031,
+  "ProfitPercet": "-5.33"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:16:29.401051+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 17208.816,
+  "PaymentBuy": [
+   "SEPA Instant",
+   "ZEN",
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=EUR",
+  "Pair": "BNBBTC",
+  "PricePair": 0.0149435,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BTC?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 242.256,
+  "PaymentSell": [
+   "Wise",
+   "Paysera",
+   "N26",
+   "SEPA Instant"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -57.95592340749318,
+  "ProfitPercet": "-5.80"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:16:29.404786+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 17208.816,
+  "PaymentBuy": [
+   "SEPA Instant",
+   "ZEN",
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=EUR",
+  "Pair": "BTCUSDT",
+  "PricePair": 17405.64,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 0.938,
+  "PaymentSell": [
+   "Bizum",
+   "SEPA (EU) bank transfer"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -51.27172491123148,
+  "ProfitPercet": "-5.13"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:16:30.661498+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 17208.816,
+  "PaymentBuy": [
+   "SEPA Instant",
+   "ZEN",
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=EUR",
+  "Pair": "ETHBTC",
+  "PricePair": 0.0729565,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BTC?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 1187.067,
+  "PaymentSell": [
+   "Paysera",
+   "Wise",
+   "N26",
+   "SEPA Instant",
+   "Revolut"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -54.502793996451686,
+  "ProfitPercet": "-5.45"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:16:30.661493+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 17208.816,
+  "PaymentBuy": [
+   "SEPA Instant",
+   "ZEN",
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=EUR",
+  "Pair": "BTCDAI",
+  "PricePair": 17409.02,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_DAI?_from=markets",
+  "AssetsSell": "DAI",
+  "PriceAssetsSell": 0.93,
+  "PaymentSell": [
+   "Wise",
+   "Revolut",
+   "SEPA Instant",
+   "ING",
+   "N26"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/DAI?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -59.18056187014829,
+  "ProfitPercet": "-5.92"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:16:31.29473+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 0.946,
+  "PaymentBuy": [
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=EUR",
+  "Pair": "USDTDAI",
+  "PricePair": 1.0004499999999998,
+  "LinkMarket": "https://www.binance.com/en/trade/USDT_DAI?_from=markets",
+  "AssetsSell": "DAI",
+  "PriceAssetsSell": 0.93,
+  "PaymentSell": [
+   "Wise",
+   "Revolut",
+   "SEPA Instant",
+   "ING",
+   "N26"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/DAI?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -16.470930232558207,
+  "ProfitPercet": "-1.65"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:16:31.29639+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 0.946,
+  "PaymentBuy": [
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=EUR",
+  "Pair": "SHIBUSDT",
+  "PricePair": 0.000008874999999999999,
+  "LinkMarket": "https://www.binance.com/en/trade/SHIB_USDT?_from=markets",
+  "AssetsSell": "SHIB",
+  "PriceAssetsSell": 0.00000821,
+  "PaymentSell": [
+   "Wise"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/SHIB?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -22.12428907482934,
+  "ProfitPercet": "-2.21"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:16:31.299633+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 0.946,
+  "PaymentBuy": [
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=EUR",
+  "Pair": "BNBUSDT",
+  "PricePair": 260.15,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_USDT?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 242.256,
+  "PaymentSell": [
+   "Wise",
+   "Paysera",
+   "N26",
+   "SEPA Instant"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -15.627266591602806,
+  "ProfitPercet": "-1.56"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:16:31.304045+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 0.946,
+  "PaymentBuy": [
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=EUR",
+  "Pair": "ETHUSDT",
+  "PricePair": 1269.9050000000002,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_USDT?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 1187.067,
+  "PaymentSell": [
+   "Paysera",
+   "Wise",
+   "N26",
+   "SEPA Instant",
+   "Revolut"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -11.872781381084666,
+  "ProfitPercet": "-1.19"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:16:31.311245+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 0.946,
+  "PaymentBuy": [
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=EUR",
+  "Pair": "BTCUSDT",
+  "PricePair": 17405.940000000002,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_USDT?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 16276.228,
+  "PaymentSell": [
+   "Revolut",
+   "SEPA Instant",
+   "N26",
+   "Wise",
+   "Paysera"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -11.526236987440868,
+  "ProfitPercet": "-1.15"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:16:31.316659+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 0.946,
+  "PaymentBuy": [
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=EUR",
+  "Pair": "BUSDUSDT",
+  "PricePair": 0.99995,
+  "LinkMarket": "https://www.binance.com/en/trade/BUSD_USDT?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 0.936,
+  "PaymentSell": [
+   "SEPA (EU) bank transfer",
+   "Wise",
+   "SEPA Instant",
+   "Revolut"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -10.521350591842287,
+  "ProfitPercet": "-1.05"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:27:33.351959+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "SHIB",
+  "PriceAssetsBuy": 0.00000919,
+  "PaymentBuy": [
+   "SEPA (EU) bank transfer",
+   "ZEN"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/SHIB?fiat=EUR",
+  "Pair": "SHIBBUSD",
+  "PricePair": 0.000008865,
+  "LinkMarket": "https://www.binance.com/en/trade/SHIB_BUSD?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 0.936,
+  "PaymentSell": [
+   "SEPA (EU) bank transfer",
+   "Wise",
+   "SEPA Instant",
+   "Revolut"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -97.10119695320982,
+  "ProfitPercet": "-9.71"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:27:33.357441+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "SHIB",
+  "PriceAssetsBuy": 0.00000919,
+  "PaymentBuy": [
+   "SEPA (EU) bank transfer",
+   "ZEN"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/SHIB?fiat=EUR",
+  "Pair": "SHIBUSDT",
+  "PricePair": 0.000008865,
+  "LinkMarket": "https://www.binance.com/en/trade/SHIB_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 0.941,
+  "PaymentSell": [
+   "Wise"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -92.27801958650699,
+  "ProfitPercet": "-9.23"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:27:34.529953+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 1308.798,
+  "PaymentBuy": [
+   "SEPA (EU) bank transfer",
+   "ZEN"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=EUR",
+  "Pair": "ETHDAI",
+  "PricePair": 1269.9,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_DAI?_from=markets",
+  "AssetsSell": "DAI",
+  "PriceAssetsSell": 0.93,
+  "PaymentSell": [
+   "Wise",
+   "Revolut",
+   "SEPA Instant",
+   "ING",
+   "N26"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/DAI?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -97.63997194372226,
+  "ProfitPercet": "-9.76"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:27:34.532118+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 1308.798,
+  "PaymentBuy": [
+   "SEPA (EU) bank transfer",
+   "ZEN"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=EUR",
+  "Pair": "ETHUSDT",
+  "PricePair": 1269.005,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 0.941,
+  "PaymentSell": [
+   "Wise"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -87.61038372613648,
+  "ProfitPercet": "-8.76"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:27:35.192533+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 1308.798,
+  "PaymentBuy": [
+   "SEPA (EU) bank transfer",
+   "ZEN"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=EUR",
+  "Pair": "ETHBTC",
+  "PricePair": 0.0729435,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BTC?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 16273.86,
+  "PaymentSell": [
+   "Revolut",
+   "SEPA Instant",
+   "N26",
+   "Wise",
+   "Paysera"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -93.0057144723632,
+  "ProfitPercet": "-9.30"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:27:35.200788+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 1308.798,
+  "PaymentBuy": [
+   "SEPA (EU) bank transfer",
+   "ZEN"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=EUR",
+  "Pair": "BNBETH",
+  "PricePair": 0.2047,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_ETH?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 242.1,
+  "PaymentSell": [
+   "Wise",
+   "Paysera",
+   "N26",
+   "SEPA Instant"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -96.34152893786184,
+  "ProfitPercet": "-9.63"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:27:35.237676+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 1308.798,
+  "PaymentBuy": [
+   "SEPA (EU) bank transfer",
+   "ZEN"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=EUR",
+  "Pair": "ETHBUSD",
+  "PricePair": 1268.745,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BUSD?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 0.936,
+  "PaymentSell": [
+   "SEPA (EU) bank transfer",
+   "Wise",
+   "SEPA Instant",
+   "Revolut"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -92.6443041630565,
+  "ProfitPercet": "-9.26"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:27:34.929076+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 257.037,
+  "PaymentBuy": [
+   "Wise",
+   "ZEN",
+   "SEPA Instant"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=EUR",
+  "Pair": "BNBDAI",
+  "PricePair": 259.8,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_DAI?_from=markets",
+  "AssetsSell": "DAI",
+  "PriceAssetsSell": 0.93,
+  "PaymentSell": [
+   "Wise",
+   "Revolut",
+   "SEPA Instant",
+   "ING",
+   "N26"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/DAI?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -60.003034582569605,
+  "ProfitPercet": "-6.00"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:27:35.588352+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 257.037,
+  "PaymentBuy": [
+   "Wise",
+   "ZEN",
+   "SEPA Instant"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=EUR",
+  "Pair": "BNBETH",
+  "PricePair": 0.2047,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_ETH?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 1186.495,
+  "PaymentSell": [
+   "Paysera",
+   "Wise",
+   "N26",
+   "SEPA Instant",
+   "Revolut"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -55.09507775145218,
+  "ProfitPercet": "-5.51"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:27:35.602055+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 257.037,
+  "PaymentBuy": [
+   "Wise",
+   "ZEN",
+   "SEPA Instant"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=EUR",
+  "Pair": "BNBBUSD",
+  "PricePair": 259.85,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BUSD?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 0.936,
+  "PaymentSell": [
+   "SEPA (EU) bank transfer",
+   "Wise",
+   "SEPA Instant",
+   "Revolut"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -53.75646307729991,
+  "ProfitPercet": "-5.38"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:27:35.615645+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 257.037,
+  "PaymentBuy": [
+   "Wise",
+   "ZEN",
+   "SEPA Instant"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=EUR",
+  "Pair": "BNBUSDT",
+  "PricePair": 259.75,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 0.941,
+  "PaymentSell": [
+   "Wise"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -49.06783848239748,
+  "ProfitPercet": "-4.91"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:27:35.626507+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 257.037,
+  "PaymentBuy": [
+   "Wise",
+   "ZEN",
+   "SEPA Instant"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=EUR",
+  "Pair": "BNBBTC",
+  "PricePair": 0.0149285,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BTC?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 16273.86,
+  "PaymentSell": [
+   "Revolut",
+   "SEPA Instant",
+   "N26",
+   "Wise",
+   "Paysera"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -54.82744114660518,
+  "ProfitPercet": "-5.48"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:27:35.339077+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 0.954,
+  "PaymentBuy": [
+   "Paysera",
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=EUR",
+  "Pair": "ETHBUSD",
+  "PricePair": 1268.745,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BUSD?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 1186.495,
+  "PaymentSell": [
+   "Paysera",
+   "Wise",
+   "N26",
+   "SEPA Instant",
+   "Revolut"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -19.73568310909389,
+  "ProfitPercet": "-1.97"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:27:35.351597+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 0.954,
+  "PaymentBuy": [
+   "Paysera",
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=EUR",
+  "Pair": "BNBBUSD",
+  "PricePair": 259.75,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BUSD?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 242.1,
+  "PaymentSell": [
+   "Wise",
+   "Paysera",
+   "N26",
+   "SEPA Instant"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -23.008335300633718,
+  "ProfitPercet": "-2.30"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:27:35.990123+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 0.954,
+  "PaymentBuy": [
+   "Paysera",
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=EUR",
+  "Pair": "BUSDDAI",
+  "PricePair": 1.0000499999999999,
+  "LinkMarket": "https://www.binance.com/en/trade/BUSD_DAI?_from=markets",
+  "AssetsSell": "DAI",
+  "PriceAssetsSell": 0.93,
+  "PaymentSell": [
+   "Wise",
+   "Revolut",
+   "SEPA Instant",
+   "ING",
+   "N26"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/DAI?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -25.108490566037844,
+  "ProfitPercet": "-2.51"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:27:35.999335+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 0.954,
+  "PaymentBuy": [
+   "Paysera",
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=EUR",
+  "Pair": "BUSDUSDT",
+  "PricePair": 0.99995,
+  "LinkMarket": "https://www.binance.com/en/trade/BUSD_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 0.941,
+  "PaymentSell": [
+   "Wise"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -13.676153039832299,
+  "ProfitPercet": "-1.37"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:27:36.001559+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 0.954,
+  "PaymentBuy": [
+   "Paysera",
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=EUR",
+  "Pair": "SHIBBUSD",
+  "PricePair": 0.000008865,
+  "LinkMarket": "https://www.binance.com/en/trade/SHIB_BUSD?_from=markets",
+  "AssetsSell": "SHIB",
+  "PriceAssetsSell": 0.0000082,
+  "PaymentSell": [
+   "Wise"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/SHIB?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -30.413103139215085,
+  "ProfitPercet": "-3.04"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:27:36.023766+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 0.954,
+  "PaymentBuy": [
+   "Paysera",
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=EUR",
+  "Pair": "BTCBUSD",
+  "PricePair": 17400.705,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_BUSD?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 16273.86,
+  "PaymentSell": [
+   "Revolut",
+   "SEPA Instant",
+   "N26",
+   "Wise",
+   "Paysera"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -19.663084965839204,
+  "ProfitPercet": "-1.97"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:27:35.365366+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 0.946,
+  "PaymentBuy": [
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=EUR",
+  "Pair": "SHIBUSDT",
+  "PricePair": 0.000008865,
+  "LinkMarket": "https://www.binance.com/en/trade/SHIB_USDT?_from=markets",
+  "AssetsSell": "SHIB",
+  "PriceAssetsSell": 0.0000082,
+  "PaymentSell": [
+   "Wise"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/SHIB?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -22.21363678098427,
+  "ProfitPercet": "-2.22"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:27:35.372602+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 0.946,
+  "PaymentBuy": [
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=EUR",
+  "Pair": "ETHUSDT",
+  "PricePair": 1269.005,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_USDT?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 1186.495,
+  "PaymentSell": [
+   "Paysera",
+   "Wise",
+   "N26",
+   "SEPA Instant",
+   "Revolut"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -11.648461276777502,
+  "ProfitPercet": "-1.16"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:27:35.374968+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 0.946,
+  "PaymentBuy": [
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=EUR",
+  "Pair": "BUSDUSDT",
+  "PricePair": 0.99995,
+  "LinkMarket": "https://www.binance.com/en/trade/BUSD_USDT?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 0.936,
+  "PaymentSell": [
+   "SEPA (EU) bank transfer",
+   "Wise",
+   "SEPA Instant",
+   "Revolut"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -10.521350591842287,
+  "ProfitPercet": "-1.05"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:27:36.044103+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 0.946,
+  "PaymentBuy": [
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=EUR",
+  "Pair": "BTCUSDT",
+  "PricePair": 17399.455,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_USDT?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 16273.86,
+  "PaymentSell": [
+   "Revolut",
+   "SEPA Instant",
+   "N26",
+   "Wise",
+   "Paysera"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -11.301685062924753,
+  "ProfitPercet": "-1.13"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:27:36.295916+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 0.946,
+  "PaymentBuy": [
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=EUR",
+  "Pair": "BNBUSDT",
+  "PricePair": 259.65,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_USDT?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 242.1,
+  "PaymentSell": [
+   "Wise",
+   "Paysera",
+   "N26",
+   "SEPA Instant"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -14.366794786769525,
+  "ProfitPercet": "-1.44"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:27:36.295933+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 0.946,
+  "PaymentBuy": [
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=EUR",
+  "Pair": "USDTDAI",
+  "PricePair": 1.0004499999999998,
+  "LinkMarket": "https://www.binance.com/en/trade/USDT_DAI?_from=markets",
+  "AssetsSell": "DAI",
+  "PriceAssetsSell": 0.93,
+  "PaymentSell": [
+   "Wise",
+   "Revolut",
+   "SEPA Instant",
+   "ING",
+   "N26"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/DAI?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -16.470930232558207,
+  "ProfitPercet": "-1.65"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:27:36.519924+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 17207.704,
+  "PaymentBuy": [
+   "SEPA Instant",
+   "ZEN",
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=EUR",
+  "Pair": "BNBBTC",
+  "PricePair": 0.0149235,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BTC?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 242.1,
+  "PaymentSell": [
+   "Wise",
+   "Paysera",
+   "N26",
+   "SEPA Instant"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -57.23994593571888,
+  "ProfitPercet": "-5.72"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:27:36.530954+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 17207.704,
+  "PaymentBuy": [
+   "SEPA Instant",
+   "ZEN",
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=EUR",
+  "Pair": "BTCDAI",
+  "PricePair": 17411.89,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_DAI?_from=markets",
+  "AssetsSell": "DAI",
+  "PriceAssetsSell": 0.93,
+  "PaymentSell": [
+   "Wise",
+   "Revolut",
+   "SEPA Instant",
+   "ING",
+   "N26"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/DAI?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -58.96465327390577,
+  "ProfitPercet": "-5.90"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:27:36.534972+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 17207.704,
+  "PaymentBuy": [
+   "SEPA Instant",
+   "ZEN",
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=EUR",
+  "Pair": "BTCUSDT",
+  "PricePair": 17399.440000000002,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 0.941,
+  "PaymentSell": [
+   "Wise"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -48.51495353476556,
+  "ProfitPercet": "-4.85"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:27:36.53845+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 17207.704,
+  "PaymentBuy": [
+   "SEPA Instant",
+   "ZEN",
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=EUR",
+  "Pair": "ETHBTC",
+  "PricePair": 0.0729375,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BTC?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 1186.495,
+  "PaymentSell": [
+   "Paysera",
+   "Wise",
+   "N26",
+   "SEPA Instant",
+   "Revolut"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -54.65112409838987,
+  "ProfitPercet": "-5.47"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:27:36.540511+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 17207.704,
+  "PaymentBuy": [
+   "SEPA Instant",
+   "ZEN",
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=EUR",
+  "Pair": "BTCBUSD",
+  "PricePair": 17400.77,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_BUSD?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 0.936,
+  "PaymentSell": [
+   "SEPA (EU) bank transfer",
+   "Wise",
+   "SEPA Instant",
+   "Revolut"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -53.4983214495089,
+  "ProfitPercet": "-5.35"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:38:55.251175+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "SHIB",
+  "PriceAssetsBuy": 0.00000917,
+  "PaymentBuy": [
+   "SEPA (EU) bank transfer",
+   "ZEN"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/SHIB?fiat=EUR",
+  "Pair": "SHIBBUSD",
+  "PricePair": 0.000008854999999999999,
+  "LinkMarket": "https://www.binance.com/en/trade/SHIB_BUSD?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 0.936,
+  "PaymentSell": [
+   "SEPA (EU) bank transfer",
+   "Wise",
+   "SEPA Instant",
+   "Revolut"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -96.15267175572525,
+  "ProfitPercet": "-9.62"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:38:56.177835+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "SHIB",
+  "PriceAssetsBuy": 0.00000917,
+  "PaymentBuy": [
+   "SEPA (EU) bank transfer",
+   "ZEN"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/SHIB?fiat=EUR",
+  "Pair": "SHIBUSDT",
+  "PricePair": 0.000008854999999999999,
+  "LinkMarket": "https://www.binance.com/en/trade/SHIB_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 0.941,
+  "PaymentSell": [
+   "Wise"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -91.32442748091619,
+  "ProfitPercet": "-9.13"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:38:56.697276+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 267.2,
+  "PaymentBuy": [
+   "SEPA (EU) bank transfer",
+   "ZEN"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=EUR",
+  "Pair": "BNBDAI",
+  "PricePair": 259.25,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_DAI?_from=markets",
+  "AssetsSell": "DAI",
+  "PriceAssetsSell": 0.93,
+  "PaymentSell": [
+   "Wise",
+   "Revolut",
+   "SEPA Instant",
+   "ING",
+   "N26"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/DAI?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -97.67028443113769,
+  "ProfitPercet": "-9.77"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:38:57.35091+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 267.2,
+  "PaymentBuy": [
+   "SEPA (EU) bank transfer",
+   "ZEN"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=EUR",
+  "Pair": "BNBBUSD",
+  "PricePair": 259.25,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BUSD?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 0.936,
+  "PaymentSell": [
+   "SEPA (EU) bank transfer",
+   "Wise",
+   "SEPA Instant",
+   "Revolut"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -91.84880239520953,
+  "ProfitPercet": "-9.18"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:38:57.363481+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 267.2,
+  "PaymentBuy": [
+   "SEPA (EU) bank transfer",
+   "ZEN"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=EUR",
+  "Pair": "BNBUSDT",
+  "PricePair": 259.15,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 0.941,
+  "PaymentSell": [
+   "Wise"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -87.34973802395223,
+  "ProfitPercet": "-8.73"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:38:57.368445+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 267.2,
+  "PaymentBuy": [
+   "SEPA (EU) bank transfer",
+   "ZEN"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=EUR",
+  "Pair": "BNBETH",
+  "PricePair": 0.20435,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_ETH?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 1186.064,
+  "PaymentSell": [
+   "Paysera",
+   "Wise",
+   "N26",
+   "SEPA Instant",
+   "Revolut"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -92.91849401197591,
+  "ProfitPercet": "-9.29"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:38:57.379363+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 267.2,
+  "PaymentBuy": [
+   "SEPA (EU) bank transfer",
+   "ZEN"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=EUR",
+  "Pair": "BNBBTC",
+  "PricePair": 0.014888499999999999,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BTC?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 16272.02,
+  "PaymentSell": [
+   "Revolut",
+   "SEPA Instant",
+   "N26",
+   "Wise",
+   "Paysera"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -93.31598139970063,
+  "ProfitPercet": "-9.33"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:38:56.962884+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 1308.107,
+  "PaymentBuy": [
+   "SEPA (EU) bank transfer",
+   "ZEN"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=EUR",
+  "Pair": "BNBETH",
+  "PricePair": 0.20435,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_ETH?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 241.329,
+  "PaymentSell": [
+   "Wise",
+   "Paysera",
+   "N26",
+   "SEPA Instant"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -97.19989363823704,
+  "ProfitPercet": "-9.72"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:38:57.612033+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 1308.107,
+  "PaymentBuy": [
+   "SEPA (EU) bank transfer",
+   "ZEN"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=EUR",
+  "Pair": "ETHDAI",
+  "PricePair": 1268.8400000000001,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_DAI?_from=markets",
+  "AssetsSell": "DAI",
+  "PriceAssetsSell": 0.93,
+  "PaymentSell": [
+   "Wise",
+   "Revolut",
+   "SEPA Instant",
+   "ING",
+   "N26"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/DAI?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -97.91691352465797,
+  "ProfitPercet": "-9.79"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:38:57.619017+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 1308.107,
+  "PaymentBuy": [
+   "SEPA (EU) bank transfer",
+   "ZEN"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=EUR",
+  "Pair": "ETHUSDT",
+  "PricePair": 1268.295,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 0.941,
+  "PaymentSell": [
+   "Wise"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -87.639164838962,
+  "ProfitPercet": "-8.76"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:38:57.62077+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 1308.107,
+  "PaymentBuy": [
+   "SEPA (EU) bank transfer",
+   "ZEN"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=EUR",
+  "Pair": "ETHBUSD",
+  "PricePair": 1268.4050000000002,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BUSD?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 0.936,
+  "PaymentSell": [
+   "SEPA (EU) bank transfer",
+   "Wise",
+   "SEPA Instant",
+   "Revolut"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -92.40828158552756,
+  "ProfitPercet": "-9.24"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:38:57.639463+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 1308.107,
+  "PaymentBuy": [
+   "SEPA (EU) bank transfer",
+   "ZEN"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=EUR",
+  "Pair": "ETHBTC",
+  "PricePair": 0.0728635,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BTC?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 16272.02,
+  "PaymentSell": [
+   "Revolut",
+   "SEPA Instant",
+   "N26",
+   "Wise",
+   "Paysera"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -93.62435238860435,
+  "ProfitPercet": "-9.36"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:38:57.763565+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 0.954,
+  "PaymentBuy": [
+   "Paysera",
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=EUR",
+  "Pair": "BTCBUSD",
+  "PricePair": 17409.52,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_BUSD?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 16272.02,
+  "PaymentSell": [
+   "Revolut",
+   "SEPA Instant",
+   "N26",
+   "Wise",
+   "Paysera"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -20.270246511937472,
+  "ProfitPercet": "-2.03"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:38:57.772744+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 0.954,
+  "PaymentBuy": [
+   "Paysera",
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=EUR",
+  "Pair": "BUSDUSDT",
+  "PricePair": 0.99995,
+  "LinkMarket": "https://www.binance.com/en/trade/BUSD_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 0.941,
+  "PaymentSell": [
+   "Wise"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -13.676153039832299,
+  "ProfitPercet": "-1.37"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:38:57.774823+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 0.954,
+  "PaymentBuy": [
+   "Paysera",
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=EUR",
+  "Pair": "BNBBUSD",
+  "PricePair": 259.25,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BUSD?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 241.329,
+  "PaymentSell": [
+   "Wise",
+   "Paysera",
+   "N26",
+   "SEPA Instant"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -24.241431803157376,
+  "ProfitPercet": "-2.42"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:38:57.781458+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 0.954,
+  "PaymentBuy": [
+   "Paysera",
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=EUR",
+  "Pair": "ETHBUSD",
+  "PricePair": 1268.4050000000002,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BUSD?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 1186.064,
+  "PaymentSell": [
+   "Paysera",
+   "Wise",
+   "N26",
+   "SEPA Instant",
+   "Revolut"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -19.829101301947983,
+  "ProfitPercet": "-1.98"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:38:57.785596+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 0.954,
+  "PaymentBuy": [
+   "Paysera",
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=EUR",
+  "Pair": "BUSDDAI",
+  "PricePair": 1.0000499999999999,
+  "LinkMarket": "https://www.binance.com/en/trade/BUSD_DAI?_from=markets",
+  "AssetsSell": "DAI",
+  "PriceAssetsSell": 0.93,
+  "PaymentSell": [
+   "Wise",
+   "Revolut",
+   "SEPA Instant",
+   "ING",
+   "N26"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/DAI?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -25.108490566037844,
+  "ProfitPercet": "-2.51"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:38:57.791018+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 0.954,
+  "PaymentBuy": [
+   "Paysera",
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=EUR",
+  "Pair": "SHIBBUSD",
+  "PricePair": 0.000008854999999999999,
+  "LinkMarket": "https://www.binance.com/en/trade/SHIB_BUSD?_from=markets",
+  "AssetsSell": "SHIB",
+  "PriceAssetsSell": 0.00000819,
+  "PaymentSell": [
+   "Wise"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/SHIB?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -30.501901707808052,
+  "ProfitPercet": "-3.05"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:38:58.05158+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 17208.098,
+  "PaymentBuy": [
+   "SEPA Instant",
+   "ZEN",
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=EUR",
+  "Pair": "ETHBTC",
+  "PricePair": 0.0728635,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BTC?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 1186.064,
+  "PaymentSell": [
+   "Paysera",
+   "Wise",
+   "N26",
+   "SEPA Instant",
+   "Revolut"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -54.056440271840906,
+  "ProfitPercet": "-5.41"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:38:58.053739+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 17208.098,
+  "PaymentBuy": [
+   "SEPA Instant",
+   "ZEN",
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=EUR",
+  "Pair": "BTCDAI",
+  "PricePair": 17415.620000000003,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_DAI?_from=markets",
+  "AssetsSell": "DAI",
+  "PriceAssetsSell": 0.93,
+  "PaymentSell": [
+   "Wise",
+   "Revolut",
+   "SEPA Instant",
+   "ING",
+   "N26"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/DAI?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -58.78461408111452,
+  "ProfitPercet": "-5.88"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:38:58.055689+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 17208.098,
+  "PaymentBuy": [
+   "SEPA Instant",
+   "ZEN",
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=EUR",
+  "Pair": "BTCBUSD",
+  "PricePair": 17409.52,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_BUSD?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 0.936,
+  "PaymentSell": [
+   "SEPA (EU) bank transfer",
+   "Wise",
+   "SEPA Instant",
+   "Revolut"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -53.04405402619162,
+  "ProfitPercet": "-5.30"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:38:58.070979+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 17208.098,
+  "PaymentBuy": [
+   "SEPA Instant",
+   "ZEN",
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=EUR",
+  "Pair": "BNBBTC",
+  "PricePair": 0.014888499999999999,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BTC?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 241.329,
+  "PaymentSell": [
+   "Wise",
+   "Paysera",
+   "N26",
+   "SEPA Instant"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -58.0546699121403,
+  "ProfitPercet": "-5.81"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:38:58.088805+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 17208.098,
+  "PaymentBuy": [
+   "SEPA Instant",
+   "ZEN",
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=EUR",
+  "Pair": "BTCUSDT",
+  "PricePair": 17408.83,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 0.941,
+  "PaymentSell": [
+   "Wise"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -48.023260327782914,
+  "ProfitPercet": "-4.80"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:38:57.801835+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 0.946,
+  "PaymentBuy": [
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=EUR",
+  "Pair": "BNBUSDT",
+  "PricePair": 259.15,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_USDT?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 241.329,
+  "PaymentSell": [
+   "Wise",
+   "Paysera",
+   "N26",
+   "SEPA Instant"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -15.610066900286457,
+  "ProfitPercet": "-1.56"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:38:57.803508+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 0.946,
+  "PaymentBuy": [
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=EUR",
+  "Pair": "BUSDUSDT",
+  "PricePair": 0.99995,
+  "LinkMarket": "https://www.binance.com/en/trade/BUSD_USDT?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 0.936,
+  "PaymentSell": [
+   "SEPA (EU) bank transfer",
+   "Wise",
+   "SEPA Instant",
+   "Revolut"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -10.521350591842287,
+  "ProfitPercet": "-1.05"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:38:58.457466+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 0.946,
+  "PaymentBuy": [
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=EUR",
+  "Pair": "BTCUSDT",
+  "PricePair": 17408.894999999997,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_USDT?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 16272.02,
+  "PaymentSell": [
+   "Revolut",
+   "SEPA Instant",
+   "N26",
+   "Wise",
+   "Paysera"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -11.949534556271406,
+  "ProfitPercet": "-1.19"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:38:58.464942+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 0.946,
+  "PaymentBuy": [
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=EUR",
+  "Pair": "ETHUSDT",
+  "PricePair": 1268.295,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_USDT?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 1186.064,
+  "PaymentSell": [
+   "Paysera",
+   "Wise",
+   "N26",
+   "SEPA Instant",
+   "Revolut"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -11.454399914479419,
+  "ProfitPercet": "-1.15"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:38:58.483992+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 0.946,
+  "PaymentBuy": [
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=EUR",
+  "Pair": "SHIBUSDT",
+  "PricePair": 0.000008854999999999999,
+  "LinkMarket": "https://www.binance.com/en/trade/SHIB_USDT?_from=markets",
+  "AssetsSell": "SHIB",
+  "PriceAssetsSell": 0.00000819,
+  "PaymentSell": [
+   "Wise"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/SHIB?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -22.30318628884657,
+  "ProfitPercet": "-2.23"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:38:58.503616+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 0.946,
+  "PaymentBuy": [
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=EUR",
+  "Pair": "USDTDAI",
+  "PricePair": 1.0004499999999998,
+  "LinkMarket": "https://www.binance.com/en/trade/USDT_DAI?_from=markets",
+  "AssetsSell": "DAI",
+  "PriceAssetsSell": 0.93,
+  "PaymentSell": [
+   "Wise",
+   "Revolut",
+   "SEPA Instant",
+   "ING",
+   "N26"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/DAI?fiat=EUR\u0026payment=ALL",
+  "ProfitValue": -16.470930232558207,
+  "ProfitPercet": "-1.65"
+ }
+]

@@ -3,13 +3,14 @@ package working
 
 import (
 	"fmt"
+	"github.com/Zmey56/arbitrage/getdata"
 	"github.com/Zmey56/arbitrage/getinfobinance"
 	"github.com/Zmey56/arbitrage/interact"
 )
 
 func P2P2steps(fiat string, paramUser interact.Parameters) {
 	//get all assets from binance for this fiat
-	assets := getinfobinance.GetAssets(fiat)
+	assets := getdata.GetAssets(fiat)
 	assets_symbol := make([]string, 0, len(assets))
 	assets_name := make([]string, 0, len(assets))
 

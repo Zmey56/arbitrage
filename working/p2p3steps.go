@@ -40,7 +40,7 @@ func P2P3steps(fiat string, paramUser interact.Parameters) {
 	allOrders := [][]ResultP2P{}
 	//get all assets from binance for this fiat
 
-	assets := getinfobinance.GetAssets(fiat)
+	assets := getdata.GetAssets(fiat)
 	assets_symbol := make([]string, 0, len(assets))
 	assets_name := make([]string, 0, len(assets))
 
@@ -51,7 +51,7 @@ func P2P3steps(fiat string, paramUser interact.Parameters) {
 
 	//get pair for rate
 
-	pair := getdata.GetPairFromJSON(fiat)
+	pair := getinfobinance.GetPairFromJSON(fiat)
 
 	//get information about orders with binance
 	var wg sync.WaitGroup
@@ -252,7 +252,7 @@ func paymentMetods(a getinfobinance.AdvertiserAdv) []string {
 // https://p2p.binance.com/en/trade/sell/BNB?fiat=RUB&payment=ALL
 func formatMessageAndSend(r ResultP2P) {
 	text := fmt.Sprintf(
-		"<b><u>%s</u></b> \n"+
+		chooseFlag(r.Fiat)+"<b><u>%s</u></b> \n"+
 			"\n"+
 			"Data and Time  %s \n"+
 			"\n"+
@@ -270,7 +270,7 @@ func formatMessageAndSend(r ResultP2P) {
 			"Payment(s): %s \n"+
 			"%s\n"+
 			"\n"+
-			"Your profit is %.2f (%v)",
+			"Your profit is <b>%.2f</b> (%v %%)",
 		r.Fiat,
 		r.DataTime.Format("2006/01/02 15:04:05"),
 		r.AssetsBuy, r.PriceAssetsBuy,
@@ -285,4 +285,31 @@ func formatMessageAndSend(r ResultP2P) {
 	fmt.Println(text)
 
 	telegramm.SendTextToTelegramChat(chatID, text)
+}
+
+func chooseFlag(fiat string) string {
+	switch fiat {
+	case "AED":
+		return "🇦🇪"
+	case "AMD":
+		return "🇦🇲"
+	case "AZN":
+		return "🇦🇿"
+	case "EUR":
+		return "🇪🇺"
+	case "GEL":
+		return "🇬🇪"
+	case "KZT":
+		return "🇰🇿"
+	case "RUB":
+		return "🇷🇺"
+	case "TRY":
+		return "🇹🇷"
+	case "UAH":
+		return "🇺🇦"
+	case "UZS":
+		return "🇺🇿"
+	default:
+		return ""
+	}
 }

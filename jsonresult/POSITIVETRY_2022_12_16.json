@@ -1,0 +1,92 @@
+[
+ {
+  "Profit": true,
+  "DataTime": "2022-12-16T01:20:59.204668+04:00",
+  "Fiat": "TRY",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 18.93,
+  "PaymentBuy": [
+   "DenizBank",
+   "Ziraat",
+   "VakifBank",
+   "Bank Transfer",
+   "İŞBANK"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=TRY",
+  "Pair": "ADAUSDT",
+  "PricePair": 0.30105,
+  "LinkMarket": "https://www.binance.com/en/trade/ADA_USDT?_from=markets",
+  "AssetsSell": "ADA",
+  "PriceAssetsSell": 5.72,
+  "PaymentSell": [
+   "DenizBank",
+   "Ziraat",
+   "VakifBank",
+   "Kuveyt Turk",
+   "Bank Transfer"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ADA?fiat=TRY\u0026payment=ALL",
+  "ProfitValue": 74.13215569770476,
+  "ProfitPercet": "0.37"
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-16T01:32:05.942196+04:00",
+  "Fiat": "TRY",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 18.93,
+  "PaymentBuy": [
+   "DenizBank",
+   "Ziraat",
+   "VakifBank",
+   "Bank Transfer",
+   "İŞBANK"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=TRY",
+  "Pair": "ADAUSDT",
+  "PricePair": 0.30015000000000003,
+  "LinkMarket": "https://www.binance.com/en/trade/ADA_USDT?_from=markets",
+  "AssetsSell": "ADA",
+  "PriceAssetsSell": 5.72,
+  "PaymentSell": [
+   "DenizBank",
+   "Ziraat",
+   "VakifBank",
+   "Kuveyt Turk",
+   "Bank Transfer"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ADA?fiat=TRY\u0026payment=ALL",
+  "ProfitValue": 134.32445601463658,
+  "ProfitPercet": "0.67"
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-16T01:43:26.548427+04:00",
+  "Fiat": "TRY",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 18.94,
+  "PaymentBuy": [
+   "Akbank",
+   "İŞBANK",
+   "VakifBank",
+   "DenizBank",
+   "Ziraat"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=TRY",
+  "Pair": "ADAUSDT",
+  "PricePair": 0.29985,
+  "LinkMarket": "https://www.binance.com/en/trade/ADA_USDT?_from=markets",
+  "AssetsSell": "ADA",
+  "PriceAssetsSell": 5.72,
+  "PaymentSell": [
+   "DenizBank",
+   "Ziraat",
+   "VakifBank",
+   "Kuveyt Turk",
+   "Bank Transfer"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ADA?fiat=TRY\u0026payment=ALL",
+  "ProfitValue": 143.8276336337772,
+  "ProfitPercet": "0.72"
+ }
+]

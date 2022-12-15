@@ -1,0 +1,11 @@
+{
+ "payTypes": [
+  "Monobank",
+  "PrivatBank",
+  "PUMBBank",
+  "ABank",
+  "izibank"
+ ],
+ "transAmount": "40000",
+ "publisher_type": "merchant"
+}

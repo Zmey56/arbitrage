@@ -1,0 +1,11 @@
+{
+ "payTypes": [
+  "BankofGeorgia",
+  "TBCbank",
+  "CREDOBANK",
+  "LIBERTYBANK",
+  "KoronaPay"
+ ],
+ "transAmount": "3000",
+ "publisher_type": "merchant"
+}

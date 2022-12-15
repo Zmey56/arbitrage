@@ -1,0 +1,11 @@
+{
+ "payTypes": [
+  "KaspiBank",
+  "HalykBank",
+  "ForteBank",
+  "CenterCreditBank",
+  "JysanBank"
+ ],
+ "transAmount": "500000",
+ "publisher_type": "merchant"
+}

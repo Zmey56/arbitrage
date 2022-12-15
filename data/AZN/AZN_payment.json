@@ -1,0 +1,114 @@
+[
+ {
+  "Identifier": "Kapitalbank",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "Kapitalbank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "m10",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "m10",
+  "TradeMethodShortName": "m10"
+ },
+ {
+  "Identifier": "LeoBank",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "Leobank",
+  "TradeMethodShortName": "Leobank"
+ },
+ {
+  "Identifier": "UNIBANK",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "Unibank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "ABBBANK",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "ABB Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "AzerTurkBank",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "Azer Turk Bank",
+  "TradeMethodShortName": "Azer Turk Bank"
+ },
+ {
+  "Identifier": "BANK",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "Bank Transfer",
+  "TradeMethodShortName": "Bank Transfer"
+ },
+ {
+  "Identifier": "PASHABANK",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "Pasha Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "Rabitabank",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "Rabitabank",
+  "TradeMethodShortName": "Rabitabank"
+ },
+ {
+  "Identifier": "TinkoffNew",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "Tinkoff",
+  "TradeMethodShortName": "Tinkoff"
+ },
+ {
+  "Identifier": "HomeCreditBank",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "Home Credit Bank (Russia)",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "MICB",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "MICB",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "Monobank",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "Monobank",
+  "TradeMethodShortName": "Monobank"
+ },
+ {
+  "Identifier": "RosBankNew",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "RosBank",
+  "TradeMethodShortName": "RosBank"
+ }
+]

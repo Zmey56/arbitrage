@@ -1,0 +1,58 @@
+{
+ "BNB": [
+  "DAIBNB",
+  "BNBDAI",
+  "BNBUSDT",
+  "BNBBTC",
+  "BNBBUSD",
+  "BNBETH"
+ ],
+ "BTC": [
+  "DAIBTC",
+  "BTCDAI",
+  "BTCUSDT",
+  "BTCBUSD",
+  "BNBBTC",
+  "ETHBTC"
+ ],
+ "BUSD": [
+  "DAIBUSD",
+  "BUSDDAI",
+  "SHIBBUSD",
+  "BUSDUSDT",
+  "BTCBUSD",
+  "BNBBUSD",
+  "ETHBUSD"
+ ],
+ "DAI": [
+  "DAIUSDT",
+  "USDTDAI",
+  "DAIBTC",
+  "BTCDAI",
+  "DAIBUSD",
+  "BUSDDAI",
+  "DAIBNB",
+  "BNBDAI",
+  "ETHDAI"
+ ],
+ "ETH": [
+  "ETHDAI",
+  "ETHUSDT",
+  "ETHBTC",
+  "ETHBUSD",
+  "BNBETH"
+ ],
+ "SHIB": [
+  "SHIBUSDT",
+  "SHIBBUSD"
+ ],
+ "USDT": [
+  "DAIUSDT",
+  "USDTDAI",
+  "SHIBUSDT",
+  "BTCUSDT",
+  "BUSDUSDT",
+  "BNBUSDT",
+  "ETHUSDT"
+ ]
+}

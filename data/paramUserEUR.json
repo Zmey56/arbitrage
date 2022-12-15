@@ -1,0 +1,11 @@
+{
+ "payTypes": [
+  "Wise",
+  "Revolut",
+  "SEPAinstant",
+  "SEPA",
+  "Paysera"
+ ],
+ "transAmount": "1000",
+ "publisher_type": "merchant"
+}

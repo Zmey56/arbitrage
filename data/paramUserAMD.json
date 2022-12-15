@@ -1,0 +1,11 @@
+{
+ "payTypes": [
+  "Inecobank",
+  "IDBank",
+  "ArCA",
+  "BANK",
+  "Idram"
+ ],
+ "transAmount": "400000",
+ "publisher_type": "merchant"
+}

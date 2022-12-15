@@ -1,0 +1,442 @@
+[
+ {
+  "Identifier": "BANK",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "Bank Transfer",
+  "TradeMethodShortName": "Bank Transfer"
+ },
+ {
+  "Identifier": "CashDeposit",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "Cash Deposit to Bank",
+  "TradeMethodShortName": "Cash Deposit to Bank"
+ },
+ {
+  "Identifier": "EmiratesNBD",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "Emirates NBD",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "ADCB",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "Abu Dhabi Commercial Bank ADCB",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "ADIB",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "ADIB: Abu Dhabi Islamic Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "ALMASHREQBank",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "AL MASHREQ Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "NationalBankAbuDhabi",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "National Bank of Abu Dhabi FAB",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "BankTransferMena",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "Bank Transfer (Middle East)",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "AlHilalBank",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "Al Hilal Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "EmiratesIslamicBank",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "EIB: Emirates Islamic Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "mBank",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "mBank",
+  "TradeMethodShortName": "mBank"
+ },
+ {
+  "Identifier": "CashInPerson",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "Cash in Person",
+  "TradeMethodShortName": "Cash in Person"
+ },
+ {
+  "Identifier": "SpecificBank",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "Transfers with specific bank",
+  "TradeMethodShortName": "Transfers with specific bank"
+ },
+ {
+  "Identifier": "Mobiletopup",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "Mobile top-up",
+  "TradeMethodShortName": "Mobile top-up"
+ },
+ {
+  "Identifier": "CashPack",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "Cashpack",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "WesternUnion",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "Western Union",
+  "TradeMethodShortName": "Western Union"
+ },
+ {
+  "Identifier": "Wise",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "Wise",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "EIB",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "EIB: Emirates Islamic Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "Cashapp",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "Cash app",
+  "TradeMethodShortName": "Cash app"
+ },
+ {
+  "Identifier": "HSBCMiddleEast",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "HSBC Bank Middle East Limited - Bahrain",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "StandardChartered",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "Standard Chartered Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "CashU",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "CashU",
+  "TradeMethodShortName": "CashU"
+ },
+ {
+  "Identifier": "SkrillMoneybookers",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "Skrill (Moneybookers)",
+  "TradeMethodShortName": "Skrill"
+ },
+ {
+  "Identifier": "MeezanBank",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "Meezan Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "PerfectMoney",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "Perfect Money",
+  "TradeMethodShortName": "Perfect Money"
+ },
+ {
+  "Identifier": "Advcash",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "Advcash",
+  "TradeMethodShortName": "Advcash"
+ },
+ {
+  "Identifier": "AlliedBankLimited",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "Allied Bank Limited, Wholesale Branch",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "EasypaisaPK",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "Easypaisa-PK Only",
+  "TradeMethodShortName": "Easypaisa-PK Only"
+ },
+ {
+  "Identifier": "MoneyGram",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "Moneygram",
+  "TradeMethodShortName": "Moneygram"
+ },
+ {
+  "Identifier": "Raast",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "Raast",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "UnitedBankLimited",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "United Bank Limited",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "ALIPAY",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "Alipay",
+  "TradeMethodShortName": "Alipay"
+ },
+ {
+  "Identifier": "AirTM",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "AirTM",
+  "TradeMethodShortName": "AirTM"
+ },
+ {
+  "Identifier": "BankIndia",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "Bank Transfer (India)",
+  "TradeMethodShortName": "Bank Transfer (India)"
+ },
+ {
+  "Identifier": "BankTransferVietnam",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "Bank Transfer (Vietnam)",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "Chippercash",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "Chipper Cash",
+  "TradeMethodShortName": "Chipper Cash"
+ },
+ {
+  "Identifier": "Esewa",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "Esewa",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "HSBCOman",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "HSBC Oman",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "HSBCuruguay",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "HSBC Uruguay",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "Khalti",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "Khalti",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "KuveytTurk",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "Kuveyt Turk",
+  "TradeMethodShortName": "Kuveyt Turk"
+ },
+ {
+  "Identifier": "LivKSA",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "Liv. KSA",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "MPesaKenya",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "M-PESA Kenya (Safaricom)",
+  "TradeMethodShortName": "M-PESA Kenya (Safaricom)"
+ },
+ {
+  "Identifier": "NETELLER",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "NETELLER",
+  "TradeMethodShortName": "NETELLER"
+ },
+ {
+  "Identifier": "NayaPay",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "NayaPay",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "Payeer",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "Payeer",
+  "TradeMethodShortName": "Payeer"
+ },
+ {
+  "Identifier": "Paysend",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "Paysend.com",
+  "TradeMethodShortName": "Paysend"
+ },
+ {
+  "Identifier": "Paytm",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "Paytm",
+  "TradeMethodShortName": "Paytm"
+ },
+ {
+  "Identifier": "Pyypl",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "Pyypl",
+  "TradeMethodShortName": "Pyypl"
+ },
+ {
+  "Identifier": "Revolut",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "Revolut",
+  "TradeMethodShortName": "Revolut"
+ },
+ {
+  "Identifier": "SWIFT",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "International Wire (SWIFT)",
+  "TradeMethodShortName": "International Wire (SWIFT)"
+ },
+ {
+  "Identifier": "UPI",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "UPI",
+  "TradeMethodShortName": "UPI"
+ },
+ {
+  "Identifier": "Upaisa",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "Upaisa",
+  "TradeMethodShortName": "Upaisa"
+ },
+ {
+  "Identifier": "YapBNI",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "Yap! (BNI)",
+  "TradeMethodShortName": "Yap! (BNI)"
+ },
+ {
+  "Identifier": "airtelmoney",
+  "PayAccount": "",
+  "PayMethodId": "",
+  "PayType": "",
+  "TradeMethodName": "Airtel Money",
+  "TradeMethodShortName": ""
+ }
+]

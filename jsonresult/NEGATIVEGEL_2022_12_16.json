@@ -1,0 +1,266 @@
+[
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:17:35.523999+04:00",
+  "Fiat": "GEL",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 2.69,
+  "PaymentBuy": [
+   "Liberty Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=GEL",
+  "Pair": "BNBUSDT",
+  "PricePair": 260.15,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_USDT?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 691.22,
+  "PaymentSell": [
+   "Bank of Georgia"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=GEL\u0026payment=ALL",
+  "ProfitValue": -36.796757947051695,
+  "ProfitPercet": "-1.23"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:17:36.181801+04:00",
+  "Fiat": "GEL",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 2.69,
+  "PaymentBuy": [
+   "Liberty Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=GEL",
+  "Pair": "ETHUSDT",
+  "PricePair": 1269.9050000000002,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_USDT?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 3380.2,
+  "PaymentSell": [
+   "Bank of Georgia"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=GEL\u0026payment=ALL",
+  "ProfitValue": -31.478908302847547,
+  "ProfitPercet": "-1.05"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:17:36.193121+04:00",
+  "Fiat": "GEL",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 2.69,
+  "PaymentBuy": [
+   "Liberty Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=GEL",
+  "Pair": "BTCUSDT",
+  "PricePair": 17407.760000000002,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_USDT?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 46296.12,
+  "PaymentSell": [
+   "Bank of Georgia"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=GEL\u0026payment=ALL",
+  "ProfitValue": -34.003191979005734,
+  "ProfitPercet": "-1.13"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:17:36.20352+04:00",
+  "Fiat": "GEL",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 2.69,
+  "PaymentBuy": [
+   "Liberty Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=GEL",
+  "Pair": "BUSDUSDT",
+  "PricePair": 0.99995,
+  "LinkMarket": "https://www.binance.com/en/trade/BUSD_USDT?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 2.67,
+  "PaymentSell": [
+   "Bank of Georgia"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=GEL\u0026payment=ALL",
+  "ProfitValue": -22.15594051078012,
+  "ProfitPercet": "-0.74"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:28:40.781189+04:00",
+  "Fiat": "GEL",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 2.69,
+  "PaymentBuy": [
+   "Liberty Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=GEL",
+  "Pair": "BNBUSDT",
+  "PricePair": 259.45,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_USDT?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 690.39,
+  "PaymentSell": [
+   "Bank of Georgia"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=GEL\u0026payment=ALL",
+  "ProfitValue": -32.36973265579628,
+  "ProfitPercet": "-1.08"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:28:40.786687+04:00",
+  "Fiat": "GEL",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 2.69,
+  "PaymentBuy": [
+   "Liberty Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=GEL",
+  "Pair": "BUSDUSDT",
+  "PricePair": 0.99995,
+  "LinkMarket": "https://www.binance.com/en/trade/BUSD_USDT?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 2.67,
+  "PaymentSell": [
+   "Bank of Georgia"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=GEL\u0026payment=ALL",
+  "ProfitValue": -22.15594051078012,
+  "ProfitPercet": "-0.74"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:28:41.041371+04:00",
+  "Fiat": "GEL",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 2.69,
+  "PaymentBuy": [
+   "Liberty Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=GEL",
+  "Pair": "ETHUSDT",
+  "PricePair": 1269.025,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_USDT?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 3379.25,
+  "PaymentSell": [
+   "Bank of Georgia"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=GEL\u0026payment=ALL",
+  "ProfitValue": -30.255276769354516,
+  "ProfitPercet": "-1.01"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:28:41.041428+04:00",
+  "Fiat": "GEL",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 2.69,
+  "PaymentBuy": [
+   "Liberty Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=GEL",
+  "Pair": "BTCUSDT",
+  "PricePair": 17400.58,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_USDT?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 46306.54,
+  "PaymentSell": [
+   "Bank of Georgia"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=GEL\u0026payment=ALL",
+  "ProfitValue": -32.11149210891803,
+  "ProfitPercet": "-1.07"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:40:04.082396+04:00",
+  "Fiat": "GEL",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 2.69,
+  "PaymentBuy": [
+   "Liberty Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=GEL",
+  "Pair": "BTCUSDT",
+  "PricePair": 17399.955,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_USDT?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 46307.87,
+  "PaymentSell": [
+   "Bank of Georgia"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=GEL\u0026payment=ALL",
+  "ProfitValue": -31.919640940745037,
+  "ProfitPercet": "-1.06"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:40:04.092104+04:00",
+  "Fiat": "GEL",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 2.69,
+  "PaymentBuy": [
+   "Liberty Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=GEL",
+  "Pair": "BNBUSDT",
+  "PricePair": 259.05,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_USDT?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 688.68,
+  "PaymentSell": [
+   "Bank of Georgia"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=GEL\u0026payment=ALL",
+  "ProfitValue": -35.149161685282664,
+  "ProfitPercet": "-1.17"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:40:04.094799+04:00",
+  "Fiat": "GEL",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 2.69,
+  "PaymentBuy": [
+   "Liberty Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=GEL",
+  "Pair": "BUSDUSDT",
+  "PricePair": 0.99995,
+  "LinkMarket": "https://www.binance.com/en/trade/BUSD_USDT?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 2.67,
+  "PaymentSell": [
+   "Bank of Georgia"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=GEL\u0026payment=ALL",
+  "ProfitValue": -22.15594051078012,
+  "ProfitPercet": "-0.74"
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-16T01:40:04.104639+04:00",
+  "Fiat": "GEL",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 2.69,
+  "PaymentBuy": [
+   "Liberty Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=GEL",
+  "Pair": "ETHUSDT",
+  "PricePair": 1267.435,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_USDT?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 3377.51,
+  "PaymentSell": [
+   "Bank of Georgia"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=GEL\u0026payment=ALL",
+  "ProfitValue": -28.060786587340942,
+  "ProfitPercet": "-0.94"
+ }
+]

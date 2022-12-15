@@ -1,0 +1,11 @@
+{
+ "payTypes": [
+  "Ziraat",
+  "BANK",
+  "Garanti",
+  "DenizBank",
+  "KuveytTurk"
+ ],
+ "transAmount": "20000",
+ "publisher_type": "merchant"
+}

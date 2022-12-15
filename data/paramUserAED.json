@@ -1,0 +1,11 @@
+{
+ "payTypes": [
+  "BANK",
+  "CashDeposit",
+  "EmiratesNBD",
+  "ADCB",
+  "ADIB"
+ ],
+ "transAmount": "4000",
+ "publisher_type": "merchant"
+}
