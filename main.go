@@ -30,7 +30,8 @@ func main() {
 	//getNewFiat("UZS")
 	//getNewFiat("TRY")
 
-	fiats := []string{"AED", "AMD", "AZN", "EUR", "GEL", "KZT", "RUB", "TRY", "UAH", "UZS"}
+	//fiats := []string{"AED", "AMD", "AZN", "EUR", "GEL", "KZT", "RUB", "TRY", "UAH", "UZS"}
+	//fiats := []string{"RUB"}
 	//
 	//for _, f := range fiats {
 	//	fmt.Println("FIAT:", f)
@@ -38,22 +39,22 @@ func main() {
 	//}
 
 	//fmt.Println(tmp)
-	//paramUser := interact.InputCommandLine(fiat)
+	paramUser := interact.InputCommandLine(fiat)
 	//
 	for {
-		paramUser := interact.Parameters{}
-		for _, fiat := range fiats {
-			paramUser = getParam(fiat)
+		//paramUser := interact.Parameters{}
+		//for _, fiat := range fiats {
+		//paramUser = getParam(fiat)
 
-			start := time.Now()
+		start := time.Now()
 
-			working.P2P3steps(fiat, paramUser)
+		working.P2P3stepsTakerTaker(fiat, paramUser)
 
-			log.Println(fiat, time.Since(start), "\n")
+		log.Println(fiat, time.Since(start), "\n")
 
-			time.Sleep(60 * time.Second)
+		time.Sleep(60 * time.Second)
 
-		}
+		//}
 	}
 
 }

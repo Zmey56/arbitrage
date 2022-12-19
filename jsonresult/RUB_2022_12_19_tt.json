@@ -1,0 +1,3876 @@
+[
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:26:26.101399+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "SHIB",
+  "PriceAssetsBuy": 0.000803,
+  "PaymentBuy": [
+   "Tinkoff",
+   "QIWI",
+   "MTS-Bank",
+   "Raiffeisenbank",
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/SHIB?fiat=RUB",
+  "Pair": "SHIBBUSD",
+  "PricePair": 0.000008695,
+  "LinkMarket": "https://www.binance.com/en/trade/SHIB_BUSD?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 70.49,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -23672.409713574103,
+  "ProfitPercet": -23.6724097135741
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:26:26.779801+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "SHIB",
+  "PriceAssetsBuy": 0.000803,
+  "PaymentBuy": [
+   "Tinkoff",
+   "QIWI",
+   "MTS-Bank",
+   "Raiffeisenbank",
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/SHIB?fiat=RUB",
+  "Pair": "SHIBUSDT",
+  "PricePair": 0.000008695,
+  "LinkMarket": "https://www.binance.com/en/trade/SHIB_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 70,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -24202.988792029886,
+  "ProfitPercet": -24.202988792029885
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:26:26.866524+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 84030.87,
+  "PaymentBuy": [
+   "Tinkoff"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=RUB",
+  "Pair": "ETHRUB",
+  "PricePair": 79682.4,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_RUB?_from=markets",
+  "AssetsSell": "RUB",
+  "PriceAssetsSell": 1.05,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/RUB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -433.59065543413396,
+  "ProfitPercet": -0.433590655434134
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:26:26.873173+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 84030.87,
+  "PaymentBuy": [
+   "Tinkoff"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=RUB",
+  "Pair": "ETHBTC",
+  "PricePair": 0.0707785,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BTC?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 1194670,
+  "PaymentSell": [
+   "RosBank",
+   "Tinkoff"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 626.0563469115439,
+  "ProfitPercet": 0.6260563469115439
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:26:26.894804+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 84030.87,
+  "PaymentBuy": [
+   "Tinkoff"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=RUB",
+  "Pair": "ETHBUSD",
+  "PricePair": 1184.3049999999998,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BUSD?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 70.49,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -653.5818919880438,
+  "ProfitPercet": -0.6535818919880438
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:26:26.895404+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 84030.87,
+  "PaymentBuy": [
+   "Tinkoff"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=RUB",
+  "Pair": "BNBETH",
+  "PricePair": 0.21015,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_ETH?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 17935.33,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 1564.3088701582453,
+  "ProfitPercet": 1.5643088701582455
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:26:26.900436+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 84030.87,
+  "PaymentBuy": [
+   "Tinkoff"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=RUB",
+  "Pair": "ETHUSDT",
+  "PricePair": 1184.1750000000002,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 70,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -1355.002036751473,
+  "ProfitPercet": -1.355002036751473
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:26:26.600336+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 70.22,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=RUB",
+  "Pair": "BNBUSDT",
+  "PricePair": 248.85000000000002,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_USDT?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 17948.46,
+  "PaymentSell": [
+   "Tinkoff"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 2713.782173274752,
+  "ProfitPercet": 2.713782173274752
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:26:27.271755+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 70.22,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=RUB",
+  "Pair": "SHIBUSDT",
+  "PricePair": 0.000008695,
+  "LinkMarket": "https://www.binance.com/en/trade/SHIB_USDT?_from=markets",
+  "AssetsSell": "SHIB",
+  "PriceAssetsSell": 0.000803,
+  "PaymentSell": [
+   "Tinkoff",
+   "QIWI",
+   "MTS-Bank",
+   "Raiffeisenbank",
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/SHIB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 31517.981194075186,
+  "ProfitPercet": 31.517981194075183
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:26:27.27244+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 70.22,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=RUB",
+  "Pair": "BTCUSDT",
+  "PricePair": 16734.11,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_USDT?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 1194670,
+  "PaymentSell": [
+   "RosBank",
+   "Tinkoff"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 1668.05459031194,
+  "ProfitPercet": 1.66805459031194
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:26:27.27299+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 70.22,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=RUB",
+  "Pair": "USDTRUB",
+  "PricePair": 67.28,
+  "LinkMarket": "https://www.binance.com/en/trade/USDT_RUB?_from=markets",
+  "AssetsSell": "RUB",
+  "PriceAssetsSell": 1.05,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/RUB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 603.8165764739459,
+  "ProfitPercet": 0.6038165764739459
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:26:27.273753+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 70.22,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=RUB",
+  "Pair": "BUSDUSDT",
+  "PricePair": 0.99995,
+  "LinkMarket": "https://www.binance.com/en/trade/BUSD_USDT?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 70.49,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 389.5253150581232,
+  "ProfitPercet": 0.3895253150581232
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:26:27.275848+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 70.22,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=RUB",
+  "Pair": "ETHUSDT",
+  "PricePair": 1184.1750000000002,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_USDT?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 84030.87,
+  "PaymentSell": [
+   "Tinkoff"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 1056.0099391038152,
+  "ProfitPercet": 1.0560099391038151
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:26:27.431947+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "RUB",
+  "PriceAssetsBuy": 1.05,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/RUB?fiat=RUB",
+  "Pair": "USDTRUB",
+  "PricePair": 67.28,
+  "LinkMarket": "https://www.binance.com/en/trade/USDT_RUB?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 70,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -911.6131589377687,
+  "ProfitPercet": -0.9116131589377687
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:26:27.43624+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "RUB",
+  "PriceAssetsBuy": 1.05,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/RUB?fiat=RUB",
+  "Pair": "BUSDRUB",
+  "PricePair": 67.22,
+  "LinkMarket": "https://www.binance.com/en/trade/BUSD_RUB?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 70.49,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -128.92988197957322,
+  "ProfitPercet": -0.12892988197957322
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:26:27.477494+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "RUB",
+  "PriceAssetsBuy": 1.05,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/RUB?fiat=RUB",
+  "Pair": "BNBRUB",
+  "PricePair": 16751.97,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_RUB?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 17914.46,
+  "PaymentSell": [
+   "Tinkoff"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 1847.0691876267324,
+  "ProfitPercet": 1.8470691876267324
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:26:27.47945+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "RUB",
+  "PriceAssetsBuy": 1.05,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/RUB?fiat=RUB",
+  "Pair": "BTCRUB",
+  "PricePair": 1125704,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_RUB?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 1194670,
+  "PaymentSell": [
+   "RosBank",
+   "Tinkoff"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 1072.8355216781997,
+  "ProfitPercet": 1.0728355216781997
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:26:27.480312+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "RUB",
+  "PriceAssetsBuy": 1.05,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/RUB?fiat=RUB",
+  "Pair": "ETHRUB",
+  "PricePair": 79682.4,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_RUB?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 84030.87,
+  "PaymentSell": [
+   "Tinkoff"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 435.47885103862325,
+  "ProfitPercet": 0.43547885103862327
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:26:27.477454+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 70.49,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=RUB",
+  "Pair": "ETHBUSD",
+  "PricePair": 1184.315,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BUSD?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 84030.87,
+  "PaymentSell": [
+   "Tinkoff"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 657.0317626611333,
+  "ProfitPercet": 0.6570317626611333
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:26:27.477865+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 70.49,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=RUB",
+  "Pair": "BUSDUSDT",
+  "PricePair": 0.99995,
+  "LinkMarket": "https://www.binance.com/en/trade/BUSD_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 70,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -700.0993048659416,
+  "ProfitPercet": -0.7000993048659415
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:26:27.478227+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 70.49,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=RUB",
+  "Pair": "BNBBUSD",
+  "PricePair": 248.95,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BUSD?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 17914.46,
+  "PaymentSell": [
+   "Tinkoff"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 2085.5047576612897,
+  "ProfitPercet": 2.08550475766129
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:26:27.480481+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 70.49,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=RUB",
+  "Pair": "SHIBBUSD",
+  "PricePair": 0.000008695,
+  "LinkMarket": "https://www.binance.com/en/trade/SHIB_BUSD?_from=markets",
+  "AssetsSell": "SHIB",
+  "PriceAssetsSell": 0.000803,
+  "PaymentSell": [
+   "Tinkoff",
+   "QIWI",
+   "MTS-Bank",
+   "Raiffeisenbank",
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/SHIB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 31014.22385370915,
+  "ProfitPercet": 31.01422385370915
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:26:27.481095+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 70.49,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=RUB",
+  "Pair": "BTCBUSD",
+  "PricePair": 16735.195,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_BUSD?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 1194670,
+  "PaymentSell": [
+   "RosBank",
+   "Tinkoff"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 1272.0660949790067,
+  "ProfitPercet": 1.2720660949790068
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:26:27.483153+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 70.49,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=RUB",
+  "Pair": "BUSDRUB",
+  "PricePair": 67.22,
+  "LinkMarket": "https://www.binance.com/en/trade/BUSD_RUB?_from=markets",
+  "AssetsSell": "RUB",
+  "PriceAssetsSell": 1.05,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/RUB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 129.09632571996758,
+  "ProfitPercet": 0.1290963257199676
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:26:26.885055+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 17948.46,
+  "PaymentBuy": [
+   "Tinkoff"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=RUB",
+  "Pair": "BNBUSDT",
+  "PricePair": 248.85000000000002,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 70,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -2947.1052112548773,
+  "ProfitPercet": -2.9471052112548772
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:26:27.552684+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 17948.46,
+  "PaymentBuy": [
+   "Tinkoff"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=RUB",
+  "Pair": "BNBRUB",
+  "PricePair": 16751.97,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_RUB?_from=markets",
+  "AssetsSell": "RUB",
+  "PriceAssetsSell": 1.05,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/RUB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -1999.5670937784964,
+  "ProfitPercet": -1.9995670937784964
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:26:27.558022+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 17948.46,
+  "PaymentBuy": [
+   "Tinkoff"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=RUB",
+  "Pair": "BNBBTC",
+  "PricePair": 0.014874499999999999,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BTC?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 1194670,
+  "PaymentSell": [
+   "RosBank",
+   "Tinkoff"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -993.6288962952734,
+  "ProfitPercet": -0.9936288962952735
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:26:27.559358+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 17948.46,
+  "PaymentBuy": [
+   "Tinkoff"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=RUB",
+  "Pair": "BNBETH",
+  "PricePair": 0.21015,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_ETH?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 84030.87,
+  "PaymentSell": [
+   "Tinkoff"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -1612.242328868321,
+  "ProfitPercet": -1.612242328868321
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:26:27.565098+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 17948.46,
+  "PaymentBuy": [
+   "Tinkoff"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=RUB",
+  "Pair": "BNBBUSD",
+  "PricePair": 248.95,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BUSD?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 70.49,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -2228.461383316457,
+  "ProfitPercet": -2.228461383316457
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:26:27.569669+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 1194670,
+  "PaymentBuy": [
+   "RosBank",
+   "Tinkoff"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=RUB",
+  "Pair": "BTCUSDT",
+  "PricePair": 16734.085,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 70,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -1948.9942829400616,
+  "ProfitPercet": -1.9489942829400617
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:26:27.574954+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 1194670,
+  "PaymentBuy": [
+   "RosBank",
+   "Tinkoff"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=RUB",
+  "Pair": "BTCBUSD",
+  "PricePair": 16735.195,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_BUSD?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 70.49,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -1256.087827600935,
+  "ProfitPercet": -1.256087827600935
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:26:27.581566+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 1194670,
+  "PaymentBuy": [
+   "RosBank",
+   "Tinkoff"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=RUB",
+  "Pair": "BNBBTC",
+  "PricePair": 0.014874499999999999,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BTC?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 17914.46,
+  "PaymentSell": [
+   "Tinkoff"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 812.2685373712453,
+  "ProfitPercet": 0.8122685373712453
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:26:27.599179+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 1194670,
+  "PaymentBuy": [
+   "RosBank",
+   "Tinkoff"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=RUB",
+  "Pair": "BTCRUB",
+  "PricePair": 1125704,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_RUB?_from=markets",
+  "AssetsSell": "RUB",
+  "PriceAssetsSell": 1.05,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/RUB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -1061.4479312278731,
+  "ProfitPercet": -1.0614479312278733
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:26:27.600297+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 1194670,
+  "PaymentBuy": [
+   "RosBank",
+   "Tinkoff"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=RUB",
+  "Pair": "ETHBTC",
+  "PricePair": 0.0707785,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BTC?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 84030.87,
+  "PaymentSell": [
+   "Tinkoff"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -622.1612668126589,
+  "ProfitPercet": -0.6221612668126589
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:31:28.506361+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 1189964.13,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=RUB",
+  "Pair": "ETHBTC",
+  "PricePair": 0.0707685,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BTC?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 83278.87,
+  "PaymentSell": [
+   "RosBank",
+   "Tinkoff"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -1108.0449269936128,
+  "ProfitPercet": -1.1080449269936128
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:31:28.506796+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 1189964.13,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=RUB",
+  "Pair": "BTCUSDT",
+  "PricePair": 16730.195,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 69.65,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -2076.2010910362274,
+  "ProfitPercet": -2.076201091036227
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:31:29.171715+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 1189964.13,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=RUB",
+  "Pair": "BTCRUB",
+  "PricePair": 1123776.5,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_RUB?_from=markets",
+  "AssetsSell": "RUB",
+  "PriceAssetsSell": 1.05,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/RUB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -840.2610421542589,
+  "ProfitPercet": -0.8402610421542589
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:31:29.175335+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 1189964.13,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=RUB",
+  "Pair": "BTCBUSD",
+  "PricePair": 16731.02,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_BUSD?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 71,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -173.25816367252673,
+  "ProfitPercet": -0.17325816367252672
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:31:29.180117+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 1189964.13,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=RUB",
+  "Pair": "BNBBTC",
+  "PricePair": 0.0148715,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BTC?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 17755.23,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 331.581215178521,
+  "ProfitPercet": 0.33158121517852096
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:31:29.18913+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 17755.23,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=RUB",
+  "Pair": "BNBRUB",
+  "PricePair": 16711.61,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_RUB?_from=markets",
+  "AssetsSell": "RUB",
+  "PriceAssetsSell": 1.05,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/RUB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -1171.7082797575679,
+  "ProfitPercet": -1.171708279757568
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:31:29.193079+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 17755.23,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=RUB",
+  "Pair": "BNBETH",
+  "PricePair": 0.21015,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_ETH?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 83278.87,
+  "PaymentSell": [
+   "RosBank",
+   "Tinkoff"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -1431.5526720859257,
+  "ProfitPercet": -1.4315526720859255
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:31:29.198551+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 17755.23,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=RUB",
+  "Pair": "BNBBTC",
+  "PricePair": 0.0148715,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BTC?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 1189964.13,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -330.4853877139542,
+  "ProfitPercet": -0.3304853877139542
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:31:29.202722+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 17755.23,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=RUB",
+  "Pair": "BNBUSDT",
+  "PricePair": 248.85000000000002,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 69.64,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -2395.440667341387,
+  "ProfitPercet": -2.395440667341387
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:31:29.250295+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 17755.23,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=RUB",
+  "Pair": "BNBBUSD",
+  "PricePair": 248.85000000000002,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BUSD?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 71,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -489.3206114479974,
+  "ProfitPercet": -0.4893206114479974
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:31:29.250617+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "SHIB",
+  "PriceAssetsBuy": 0.000796,
+  "PaymentBuy": [
+   "RosBank",
+   "Post Bank",
+   "Raiffeisenbank",
+   "Tinkoff",
+   "BinancePay (RUB)"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/SHIB?fiat=RUB",
+  "Pair": "SHIBBUSD",
+  "PricePair": 0.000008684999999999999,
+  "LinkMarket": "https://www.binance.com/en/trade/SHIB_BUSD?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 71,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -22533.291457286436,
+  "ProfitPercet": -22.533291457286435
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:31:29.260236+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "SHIB",
+  "PriceAssetsBuy": 0.000796,
+  "PaymentBuy": [
+   "RosBank",
+   "Post Bank",
+   "Raiffeisenbank",
+   "Tinkoff",
+   "BinancePay (RUB)"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/SHIB?fiat=RUB",
+  "Pair": "SHIBUSDT",
+  "PricePair": 0.000008684999999999999,
+  "LinkMarket": "https://www.binance.com/en/trade/SHIB_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 69.64,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -24017.160804020103,
+  "ProfitPercet": -24.0171608040201
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:31:29.556919+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "RUB",
+  "PriceAssetsBuy": 1.05,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/RUB?fiat=RUB",
+  "Pair": "BUSDRUB",
+  "PricePair": 67.175,
+  "LinkMarket": "https://www.binance.com/en/trade/BUSD_RUB?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 71,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 661.0310666879393,
+  "ProfitPercet": 0.6610310666879393
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:31:29.567925+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "RUB",
+  "PriceAssetsBuy": 1.05,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/RUB?fiat=RUB",
+  "Pair": "BNBRUB",
+  "PricePair": 16711.61,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_RUB?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 17755.23,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 1185.600053752183,
+  "ProfitPercet": 1.185600053752183
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:31:29.57115+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "RUB",
+  "PriceAssetsBuy": 1.05,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/RUB?fiat=RUB",
+  "Pair": "ETHRUB",
+  "PricePair": 79521.6,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_RUB?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 83278.87,
+  "PaymentSell": [
+   "RosBank",
+   "Tinkoff"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -262.0551852458823,
+  "ProfitPercet": -0.2620551852458823
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:31:29.612205+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "RUB",
+  "PriceAssetsBuy": 1.05,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/RUB?fiat=RUB",
+  "Pair": "USDTRUB",
+  "PricePair": 67.16499999999999,
+  "LinkMarket": "https://www.binance.com/en/trade/USDT_RUB?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 69.64,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -1252.4238460365807,
+  "ProfitPercet": -1.2524238460365806
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:31:29.620849+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "RUB",
+  "PriceAssetsBuy": 1.05,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/RUB?fiat=RUB",
+  "Pair": "BTCRUB",
+  "PricePair": 1123776.5,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_RUB?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 1189964.13,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 847.3812567331065,
+  "ProfitPercet": 0.8473812567331065
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:31:28.9408+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 69.65,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=RUB",
+  "Pair": "BUSDUSDT",
+  "PricePair": 0.99995,
+  "LinkMarket": "https://www.binance.com/en/trade/BUSD_USDT?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 71,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 1943.3599102783494,
+  "ProfitPercet": 1.9433599102783492
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:31:29.618218+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 69.65,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=RUB",
+  "Pair": "BTCUSDT",
+  "PricePair": 16730.095,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_USDT?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 1189964.13,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 2120.831543927348,
+  "ProfitPercet": 2.1208315439273475
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:31:29.62442+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 69.65,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=RUB",
+  "Pair": "SHIBUSDT",
+  "PricePair": 0.000008684999999999999,
+  "LinkMarket": "https://www.binance.com/en/trade/SHIB_USDT?_from=markets",
+  "AssetsSell": "SHIB",
+  "PriceAssetsSell": 0.000796,
+  "PaymentSell": [
+   "RosBank",
+   "Post Bank",
+   "Raiffeisenbank",
+   "Tinkoff",
+   "BinancePay (RUB)"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/SHIB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 31589.768895468384,
+  "ProfitPercet": 31.589768895468385
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:31:29.629177+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 69.65,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=RUB",
+  "Pair": "USDTRUB",
+  "PricePair": 67.16499999999999,
+  "LinkMarket": "https://www.binance.com/en/trade/USDT_RUB?_from=markets",
+  "AssetsSell": "RUB",
+  "PriceAssetsSell": 1.05,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/RUB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 1253.7688442210892,
+  "ProfitPercet": 1.2537688442210893
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:31:29.632961+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 69.65,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=RUB",
+  "Pair": "ETHUSDT",
+  "PricePair": 1183.8249999999998,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_USDT?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 83278.87,
+  "PaymentSell": [
+   "RosBank",
+   "Tinkoff"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 1001.1214059988389,
+  "ProfitPercet": 1.001121405998839
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:31:29.641079+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 69.65,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=RUB",
+  "Pair": "BNBUSDT",
+  "PricePair": 248.85000000000002,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_USDT?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 17755.23,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 2439.5204300153855,
+  "ProfitPercet": 2.4395204300153854
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:31:29.756993+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 71,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=RUB",
+  "Pair": "SHIBBUSD",
+  "PricePair": 0.000008684999999999999,
+  "LinkMarket": "https://www.binance.com/en/trade/SHIB_BUSD?_from=markets",
+  "AssetsSell": "SHIB",
+  "PriceAssetsSell": 0.000796,
+  "PaymentSell": [
+   "RosBank",
+   "Post Bank",
+   "Raiffeisenbank",
+   "Tinkoff",
+   "BinancePay (RUB)"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/SHIB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 29087.709909427824,
+  "ProfitPercet": 29.087709909427822
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:31:29.758513+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 71,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=RUB",
+  "Pair": "BUSDRUB",
+  "PricePair": 67.175,
+  "LinkMarket": "https://www.binance.com/en/trade/BUSD_RUB?_from=markets",
+  "AssetsSell": "RUB",
+  "PriceAssetsSell": 1.05,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/RUB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -656.6901408450716,
+  "ProfitPercet": -0.6566901408450716
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:31:29.761429+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 71,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=RUB",
+  "Pair": "BUSDUSDT",
+  "PricePair": 0.99995,
+  "LinkMarket": "https://www.binance.com/en/trade/BUSD_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 69.64,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -1920.3971830985856,
+  "ProfitPercet": -1.9203971830985858
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:31:29.761604+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 71,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=RUB",
+  "Pair": "BTCBUSD",
+  "PricePair": 16730.475,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_BUSD?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 1189964.13,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 176.82205086278557,
+  "ProfitPercet": 0.17682205086278557
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:31:29.761653+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 71,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=RUB",
+  "Pair": "ETHBUSD",
+  "PricePair": 1183.9650000000001,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BUSD?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 83278.87,
+  "PaymentSell": [
+   "RosBank",
+   "Tinkoff"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -931.0384187104085,
+  "ProfitPercet": -0.9310384187104084
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:31:29.761699+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 71,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=RUB",
+  "Pair": "BNBBUSD",
+  "PricePair": 248.85000000000002,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BUSD?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 17755.23,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 491.7267316982014,
+  "ProfitPercet": 0.4917267316982014
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:31:29.351308+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 83323.87,
+  "PaymentBuy": [
+   "Tinkoff",
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=RUB",
+  "Pair": "BNBETH",
+  "PricePair": 0.21015,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_ETH?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 17755.23,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 1397.5532500443,
+  "ProfitPercet": 1.3975532500443
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:31:30.011905+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 83323.87,
+  "PaymentBuy": [
+   "Tinkoff",
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=RUB",
+  "Pair": "ETHUSDT",
+  "PricePair": 1183.8249999999998,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 69.64,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -1058.876646031929,
+  "ProfitPercet": -1.058876646031929
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:31:30.017774+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 83323.87,
+  "PaymentBuy": [
+   "Tinkoff",
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=RUB",
+  "Pair": "ETHRUB",
+  "PricePair": 79521.6,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_RUB?_from=markets",
+  "AssetsSell": "RUB",
+  "PriceAssetsSell": 1.05,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/RUB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 208.5956881263612,
+  "ProfitPercet": 0.2085956881263612
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:31:30.020977+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 83323.87,
+  "PaymentBuy": [
+   "Tinkoff",
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=RUB",
+  "Pair": "ETHBUSD",
+  "PricePair": 1183.9650000000001,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BUSD?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 71,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 885.274531775852,
+  "ProfitPercet": 0.8852745317758519
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:31:30.025917+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 83323.87,
+  "PaymentBuy": [
+   "Tinkoff",
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=RUB",
+  "Pair": "ETHBTC",
+  "PricePair": 0.0707685,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BTC?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 1189964.13,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 1065.8488784846475,
+  "ProfitPercet": 1.0658488784846476
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:32:52.266488+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "SHIB",
+  "PriceAssetsBuy": 0.000794,
+  "PaymentBuy": [
+   "RosBank",
+   "Post Bank",
+   "Raiffeisenbank",
+   "Tinkoff",
+   "BinancePay (RUB)"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/SHIB?fiat=RUB",
+  "Pair": "SHIBUSDT",
+  "PricePair": 0.000008684999999999999,
+  "LinkMarket": "https://www.binance.com/en/trade/SHIB_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 69.6,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -23869.521410579368,
+  "ProfitPercet": -23.869521410579367
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:32:52.277192+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "SHIB",
+  "PriceAssetsBuy": 0.000794,
+  "PaymentBuy": [
+   "RosBank",
+   "Post Bank",
+   "Raiffeisenbank",
+   "Tinkoff",
+   "BinancePay (RUB)"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/SHIB?fiat=RUB",
+  "Pair": "SHIBBUSD",
+  "PricePair": 0.000008684999999999999,
+  "LinkMarket": "https://www.binance.com/en/trade/SHIB_BUSD?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 71,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -22338.161209068025,
+  "ProfitPercet": -22.338161209068026
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:32:53.327569+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 1189520.6,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=RUB",
+  "Pair": "BNBBTC",
+  "PricePair": 0.0148725,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BTC?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 17755.23,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 362.2426702886074,
+  "ProfitPercet": 0.3622426702886074
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:32:53.332849+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 1189520.6,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=RUB",
+  "Pair": "BTCBUSD",
+  "PricePair": 16737.28,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_BUSD?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 71,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -98.67168336556506,
+  "ProfitPercet": -0.09867168336556505
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:32:53.338376+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 1189520.6,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=RUB",
+  "Pair": "ETHBTC",
+  "PricePair": 0.0708155,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BTC?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 85355.71,
+  "PaymentSell": [
+   "Tinkoff",
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 1328.6568212013178,
+  "ProfitPercet": 1.328656821201318
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:32:53.343751+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 1189520.6,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=RUB",
+  "Pair": "BTCUSDT",
+  "PricePair": 16735.800000000003,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 69.6,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -2077.216653498883,
+  "ProfitPercet": -2.077216653498883
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:32:53.34989+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 1189520.6,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=RUB",
+  "Pair": "BTCRUB",
+  "PricePair": 1125021,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_RUB?_from=markets",
+  "AssetsSell": "RUB",
+  "PriceAssetsSell": 1.05,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/RUB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -693.4348173541484,
+  "ProfitPercet": -0.6934348173541484
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:32:53.556589+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 69.6,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=RUB",
+  "Pair": "USDTRUB",
+  "PricePair": 67.245,
+  "LinkMarket": "https://www.binance.com/en/trade/USDT_RUB?_from=markets",
+  "AssetsSell": "RUB",
+  "PriceAssetsSell": 1.05,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/RUB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 1447.198275862087,
+  "ProfitPercet": 1.4471982758620872
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:32:53.563209+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 69.6,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=RUB",
+  "Pair": "ETHUSDT",
+  "PricePair": 1185.0549999999998,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_USDT?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 85355.71,
+  "PaymentSell": [
+   "Tinkoff",
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 3486.7701227505304,
+  "ProfitPercet": 3.4867701227505306
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:32:53.569517+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 69.6,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=RUB",
+  "Pair": "BNBUSDT",
+  "PricePair": 248.95,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_USDT?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 17755.23,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 2471.93384629236,
+  "ProfitPercet": 2.47193384629236
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:32:53.575467+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 69.6,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=RUB",
+  "Pair": "BUSDUSDT",
+  "PricePair": 0.99995,
+  "LinkMarket": "https://www.binance.com/en/trade/BUSD_USDT?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 71,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 2016.5950826276999,
+  "ProfitPercet": 2.0165950826277
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:32:53.576721+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 69.6,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=RUB",
+  "Pair": "SHIBUSDT",
+  "PricePair": 0.000008684999999999999,
+  "LinkMarket": "https://www.binance.com/en/trade/SHIB_USDT?_from=markets",
+  "AssetsSell": "SHIB",
+  "PriceAssetsSell": 0.000794,
+  "PaymentSell": [
+   "RosBank",
+   "Post Bank",
+   "Raiffeisenbank",
+   "Tinkoff",
+   "BinancePay (RUB)"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/SHIB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 31353.436695584296,
+  "ProfitPercet": 31.353436695584296
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:32:53.591575+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 69.6,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=RUB",
+  "Pair": "BTCUSDT",
+  "PricePair": 16735.985,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_USDT?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 1189489.72,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 2117.5003456915365,
+  "ProfitPercet": 2.1175003456915364
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:32:53.05618+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 17755.23,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=RUB",
+  "Pair": "BNBBTC",
+  "PricePair": 0.0148725,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BTC?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 1189489.72,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -363.52184285982986,
+  "ProfitPercet": -0.36352184285982986
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:32:53.578628+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 17755.23,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=RUB",
+  "Pair": "BNBRUB",
+  "PricePair": 16724.885000000002,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_RUB?_from=markets",
+  "AssetsSell": "RUB",
+  "PriceAssetsSell": 1.05,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/RUB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -1093.2032420869614,
+  "ProfitPercet": -1.0932032420869613
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:32:53.582182+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 17755.23,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=RUB",
+  "Pair": "BNBUSDT",
+  "PricePair": 248.95,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 69.6,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -2412.303304434826,
+  "ProfitPercet": -2.412303304434826
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:32:53.594504+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 17755.23,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=RUB",
+  "Pair": "BNBETH",
+  "PricePair": 0.2101,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_ETH?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 85355.71,
+  "PaymentSell": [
+   "Tinkoff",
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 1002.5478183048191,
+  "ProfitPercet": 1.002547818304819
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:32:53.717827+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 17755.23,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=RUB",
+  "Pair": "BNBBUSD",
+  "PricePair": 249.05,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BUSD?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 71,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -409.3441763356507,
+  "ProfitPercet": -0.40934417633565073
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:32:53.721305+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 85355.71,
+  "PaymentBuy": [
+   "Tinkoff",
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=RUB",
+  "Pair": "BNBETH",
+  "PricePair": 0.2101,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_ETH?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 17755.23,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -992.5965631167229,
+  "ProfitPercet": -0.992596563116723
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:32:53.726469+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 85355.71,
+  "PaymentBuy": [
+   "Tinkoff",
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=RUB",
+  "Pair": "ETHBUSD",
+  "PricePair": 1185.0349999999999,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BUSD?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 71,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -1427.2331634286902,
+  "ProfitPercet": -1.42723316342869
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:32:53.729005+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 85355.71,
+  "PaymentBuy": [
+   "Tinkoff",
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=RUB",
+  "Pair": "ETHBTC",
+  "PricePair": 0.0708155,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BTC?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 1189489.72,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -1313.7969719190382,
+  "ProfitPercet": -1.313796971919038
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:32:53.734391+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 85355.71,
+  "PaymentBuy": [
+   "Tinkoff",
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=RUB",
+  "Pair": "ETHRUB",
+  "PricePair": 79685.95,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_RUB?_from=markets",
+  "AssetsSell": "RUB",
+  "PriceAssetsSell": 1.05,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/RUB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -1974.6335658153441,
+  "ProfitPercet": -1.9746335658153442
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:32:53.749914+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 85355.71,
+  "PaymentBuy": [
+   "Tinkoff",
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=RUB",
+  "Pair": "ETHUSDT",
+  "PricePair": 1185.0549999999998,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 69.6,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -3369.2907012313813,
+  "ProfitPercet": -3.369290701231381
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:32:53.971251+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "RUB",
+  "PriceAssetsBuy": 1.05,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/RUB?fiat=RUB",
+  "Pair": "BUSDRUB",
+  "PricePair": 67.21000000000001,
+  "LinkMarket": "https://www.binance.com/en/trade/BUSD_RUB?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 71,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 608.6112469091049,
+  "ProfitPercet": 0.608611246909105
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:32:53.986054+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "RUB",
+  "PriceAssetsBuy": 1.05,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/RUB?fiat=RUB",
+  "Pair": "BTCRUB",
+  "PricePair": 1125021,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_RUB?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 1189489.72,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 695.662781490511,
+  "ProfitPercet": 0.695662781490511
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:32:53.992188+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "RUB",
+  "PriceAssetsBuy": 1.05,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/RUB?fiat=RUB",
+  "Pair": "ETHRUB",
+  "PricePair": 79685.95,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_RUB?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 85352.58,
+  "PaymentSell": [
+   "Tinkoff",
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 2010.6699218261558,
+  "ProfitPercet": 2.010669921826156
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:32:53.993459+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "RUB",
+  "PriceAssetsBuy": 1.05,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/RUB?fiat=RUB",
+  "Pair": "USDTRUB",
+  "PricePair": 67.245,
+  "LinkMarket": "https://www.binance.com/en/trade/USDT_RUB?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 69.6,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -1426.5532222257805,
+  "ProfitPercet": -1.4265532222257804
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:32:54.000116+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "RUB",
+  "PriceAssetsBuy": 1.05,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/RUB?fiat=RUB",
+  "Pair": "BNBRUB",
+  "PricePair": 16724.885000000002,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_RUB?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 17755.23,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 1105.286267396478,
+  "ProfitPercet": 1.105286267396478
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:32:54.350333+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 71,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=RUB",
+  "Pair": "BNBBUSD",
+  "PricePair": 249.05,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BUSD?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 17755.23,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 411.0266901549876,
+  "ProfitPercet": 0.4110266901549876
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:32:54.355022+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 71,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=RUB",
+  "Pair": "BUSDRUB",
+  "PricePair": 67.21000000000001,
+  "LinkMarket": "https://www.binance.com/en/trade/BUSD_RUB?_from=markets",
+  "AssetsSell": "RUB",
+  "PriceAssetsSell": 1.05,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/RUB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -604.9295774647684,
+  "ProfitPercet": -0.6049295774647684
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:32:54.359163+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 71,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=RUB",
+  "Pair": "BTCBUSD",
+  "PricePair": 16737.22,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_BUSD?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 1189489.72,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 96.52939991329376,
+  "ProfitPercet": 0.09652939991329376
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:32:54.359808+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 71,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=RUB",
+  "Pair": "SHIBBUSD",
+  "PricePair": 0.000008684999999999999,
+  "LinkMarket": "https://www.binance.com/en/trade/SHIB_BUSD?_from=markets",
+  "AssetsSell": "SHIB",
+  "PriceAssetsSell": 0.000794,
+  "PaymentSell": [
+   "RosBank",
+   "Post Bank",
+   "Raiffeisenbank",
+   "Tinkoff",
+   "BinancePay (RUB)"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/SHIB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 28763.368929755885,
+  "ProfitPercet": 28.763368929755885
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:32:54.36715+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 71,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=RUB",
+  "Pair": "ETHBUSD",
+  "PricePair": 1185.105,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BUSD?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 85352.58,
+  "PaymentSell": [
+   "Tinkoff",
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 1438.185990651226,
+  "ProfitPercet": 1.438185990651226
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:32:54.370575+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 71,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=RUB",
+  "Pair": "BUSDUSDT",
+  "PricePair": 0.99995,
+  "LinkMarket": "https://www.binance.com/en/trade/BUSD_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 69.6,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -1976.7323943662,
+  "ProfitPercet": -1.9767323943661999
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:34:19.442177+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "SHIB",
+  "PriceAssetsBuy": 0.000791,
+  "PaymentBuy": [
+   "Tinkoff",
+   "QIWI",
+   "MTS-Bank",
+   "Raiffeisenbank",
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/SHIB?fiat=RUB",
+  "Pair": "SHIBBUSD",
+  "PricePair": 0.000008684999999999999,
+  "LinkMarket": "https://www.binance.com/en/trade/SHIB_BUSD?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 71,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -22043.615676359055,
+  "ProfitPercet": -22.043615676359053
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:34:20.114762+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "SHIB",
+  "PriceAssetsBuy": 0.000791,
+  "PaymentBuy": [
+   "Tinkoff",
+   "QIWI",
+   "MTS-Bank",
+   "Raiffeisenbank",
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/SHIB?fiat=RUB",
+  "Pair": "SHIBUSDT",
+  "PricePair": 0.000008684999999999999,
+  "LinkMarket": "https://www.binance.com/en/trade/SHIB_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 69.57,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -23613.72313527183,
+  "ProfitPercet": -23.61372313527183
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:34:20.229828+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 85103.72,
+  "PaymentBuy": [
+   "Tinkoff",
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=RUB",
+  "Pair": "ETHUSDT",
+  "PricePair": 1185.3649999999998,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 69.57,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -3099.602402809225,
+  "ProfitPercet": -3.099602402809225
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:34:20.237114+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 85103.72,
+  "PaymentBuy": [
+   "Tinkoff",
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=RUB",
+  "Pair": "ETHRUB",
+  "PricePair": 79672.9,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_RUB?_from=markets",
+  "AssetsSell": "RUB",
+  "PriceAssetsSell": 1.05,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/RUB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -1700.4838331391454,
+  "ProfitPercet": -1.7004838331391454
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:34:20.238792+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 85103.72,
+  "PaymentBuy": [
+   "Tinkoff",
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=RUB",
+  "Pair": "BNBETH",
+  "PricePair": 0.2103,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_ETH?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 17755.23,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -793.8751556175276,
+  "ProfitPercet": -0.7938751556175276
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:34:20.242847+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 85103.72,
+  "PaymentBuy": [
+   "Tinkoff",
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=RUB",
+  "Pair": "ETHBUSD",
+  "PricePair": 1185.4250000000002,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BUSD?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 71,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -1102.8248823905558,
+  "ProfitPercet": -1.1028248823905558
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:34:20.247955+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 85103.72,
+  "PaymentBuy": [
+   "Tinkoff",
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=RUB",
+  "Pair": "ETHBTC",
+  "PricePair": 0.0708135,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BTC?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 1184956.94,
+  "PaymentSell": [
+   "Tinkoff",
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -1401.5506364586772,
+  "ProfitPercet": -1.4015506364586772
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:34:19.96121+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 69.57,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=RUB",
+  "Pair": "ETHUSDT",
+  "PricePair": 1185.3649999999998,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_USDT?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 85100.58,
+  "PaymentSell": [
+   "Tinkoff",
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 3194.94332750901,
+  "ProfitPercet": 3.1949433275090104
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:34:20.611568+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 69.57,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=RUB",
+  "Pair": "BUSDUSDT",
+  "PricePair": 0.99995,
+  "LinkMarket": "https://www.binance.com/en/trade/BUSD_USDT?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 71,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 2060.5867148323646,
+  "ProfitPercet": 2.0605867148323647
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:34:20.61923+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 69.57,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=RUB",
+  "Pair": "BNBUSDT",
+  "PricePair": 249.35000000000002,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_USDT?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 17755.23,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 2351.6684561403436,
+  "ProfitPercet": 2.351668456140344
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:34:20.62187+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 69.57,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=RUB",
+  "Pair": "USDTRUB",
+  "PricePair": 67.225,
+  "LinkMarket": "https://www.binance.com/en/trade/USDT_RUB?_from=markets",
+  "AssetsSell": "RUB",
+  "PriceAssetsSell": 1.05,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/RUB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 1460.7589478223445,
+  "ProfitPercet": 1.4607589478223444
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:34:20.634863+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 69.57,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=RUB",
+  "Pair": "SHIBUSDT",
+  "PricePair": 0.000008684999999999999,
+  "LinkMarket": "https://www.binance.com/en/trade/SHIB_USDT?_from=markets",
+  "AssetsSell": "SHIB",
+  "PriceAssetsSell": 0.000791,
+  "PaymentSell": [
+   "Tinkoff",
+   "QIWI",
+   "MTS-Bank",
+   "Raiffeisenbank",
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/SHIB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 30913.567337611134,
+  "ProfitPercet": 30.91356733761113
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:34:20.645463+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 69.57,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=RUB",
+  "Pair": "BTCUSDT",
+  "PricePair": 16738.645,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_USDT?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 1184956.94,
+  "PaymentSell": [
+   "Tinkoff",
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 1756.0562535361616,
+  "ProfitPercet": 1.756056253536162
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:34:20.878288+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 1185100.96,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=RUB",
+  "Pair": "ETHBTC",
+  "PricePair": 0.0708135,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BTC?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 85100.58,
+  "PaymentSell": [
+   "Tinkoff",
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 1405.406400624745,
+  "ProfitPercet": 1.405406400624745
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:34:20.882956+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 1185100.96,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=RUB",
+  "Pair": "BTCRUB",
+  "PricePair": 1125127,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_RUB?_from=markets",
+  "AssetsSell": "RUB",
+  "PriceAssetsSell": 1.05,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/RUB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -313.69563653040984,
+  "ProfitPercet": -0.3136956365304098
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:34:20.917276+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 1185100.96,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=RUB",
+  "Pair": "BTCBUSD",
+  "PricePair": 16740.27,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_BUSD?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 71,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 291.8072060291024,
+  "ProfitPercet": 0.29180720602910243
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:34:20.920929+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 1185100.96,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=RUB",
+  "Pair": "BNBBTC",
+  "PricePair": 0.0148925,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BTC?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 17755.23,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 601.2423110518247,
+  "ProfitPercet": 0.6012423110518247
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:34:20.924123+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 1185100.96,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=RUB",
+  "Pair": "BTCUSDT",
+  "PricePair": 16738.435,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 69.57,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -1738.926702919892,
+  "ProfitPercet": -1.738926702919892
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:34:20.606923+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "RUB",
+  "PriceAssetsBuy": 1.05,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/RUB?fiat=RUB",
+  "Pair": "USDTRUB",
+  "PricePair": 67.225,
+  "LinkMarket": "https://www.binance.com/en/trade/USDT_RUB?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 69.57,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -1439.7279923497954,
+  "ProfitPercet": -1.4397279923497954
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:34:20.607314+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "RUB",
+  "PriceAssetsBuy": 1.05,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/RUB?fiat=RUB",
+  "Pair": "BNBRUB",
+  "PricePair": 16761.2,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_RUB?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 17755.23,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 886.230443780017,
+  "ProfitPercet": 0.886230443780017
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:34:21.277446+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "RUB",
+  "PriceAssetsBuy": 1.05,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/RUB?fiat=RUB",
+  "Pair": "BTCRUB",
+  "PricePair": 1125127,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_RUB?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 1184926.07,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 299.87895123119796,
+  "ProfitPercet": 0.29987895123119795
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:34:21.277459+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "RUB",
+  "PriceAssetsBuy": 1.05,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/RUB?fiat=RUB",
+  "Pair": "BUSDRUB",
+  "PricePair": 67.195,
+  "LinkMarket": "https://www.binance.com/en/trade/BUSD_RUB?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 71,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 631.070197258171,
+  "ProfitPercet": 0.6310701972581709
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:34:21.27761+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "RUB",
+  "PriceAssetsBuy": 1.05,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/RUB?fiat=RUB",
+  "Pair": "ETHRUB",
+  "PricePair": 79672.9,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_RUB?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 85100.58,
+  "PaymentSell": [
+   "Tinkoff",
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 1726.1470695448918,
+  "ProfitPercet": 1.7261470695448917
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:34:20.618053+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 71,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=RUB",
+  "Pair": "SHIBBUSD",
+  "PricePair": 0.000008684999999999999,
+  "LinkMarket": "https://www.binance.com/en/trade/SHIB_BUSD?_from=markets",
+  "AssetsSell": "SHIB",
+  "PriceAssetsSell": 0.000791,
+  "PaymentSell": [
+   "Tinkoff",
+   "QIWI",
+   "MTS-Bank",
+   "Raiffeisenbank",
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/SHIB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 28276.857460247997,
+  "ProfitPercet": 28.276857460247996
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:34:20.62716+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 71,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=RUB",
+  "Pair": "BTCBUSD",
+  "PricePair": 16740.43,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_BUSD?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 1184956.94,
+  "PaymentSell": [
+   "Tinkoff",
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -304.02823465596447,
+  "ProfitPercet": -0.30402823465596446
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:34:21.280271+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 71,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=RUB",
+  "Pair": "BUSDRUB",
+  "PricePair": 67.195,
+  "LinkMarket": "https://www.binance.com/en/trade/BUSD_RUB?_from=markets",
+  "AssetsSell": "RUB",
+  "PriceAssetsSell": 1.05,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/RUB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -627.1126760563444,
+  "ProfitPercet": -0.6271126760563444
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:34:21.295703+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 71,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=RUB",
+  "Pair": "ETHBUSD",
+  "PricePair": 1185.525,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BUSD?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 85100.58,
+  "PaymentSell": [
+   "Tinkoff",
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 1102.8631458517634,
+  "ProfitPercet": 1.1028631458517635
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:34:21.299835+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 71,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=RUB",
+  "Pair": "BNBBUSD",
+  "PricePair": 249.45,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BUSD?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 17755.23,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 250.01482133935576,
+  "ProfitPercet": 0.25001482133935576
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:34:21.308342+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 71,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=RUB",
+  "Pair": "BUSDUSDT",
+  "PricePair": 0.99995,
+  "LinkMarket": "https://www.binance.com/en/trade/BUSD_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 69.57,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -2018.9838028169058,
+  "ProfitPercet": -2.018983802816906
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:34:20.852292+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 17755.23,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=RUB",
+  "Pair": "BNBRUB",
+  "PricePair": 16761.2,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_RUB?_from=markets",
+  "AssetsSell": "RUB",
+  "PriceAssetsSell": 1.05,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/RUB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -878.4453932728504,
+  "ProfitPercet": -0.8784453932728505
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:34:20.856213+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 17755.23,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=RUB",
+  "Pair": "BNBETH",
+  "PricePair": 0.2103,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_ETH?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 85100.58,
+  "PaymentSell": [
+   "Tinkoff",
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 796.508825850181,
+  "ProfitPercet": 0.796508825850181
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:34:20.860417+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 17755.23,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=RUB",
+  "Pair": "BNBBTC",
+  "PricePair": 0.0148925,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BTC?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 1184956.94,
+  "PaymentSell": [
+   "Tinkoff",
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -609.7289139594538,
+  "ProfitPercet": -0.6097289139594538
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:34:21.527112+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 17755.23,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=RUB",
+  "Pair": "BNBUSDT",
+  "PricePair": 249.35000000000002,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 69.57,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -2297.6356825566454,
+  "ProfitPercet": -2.2976356825566455
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:34:21.530067+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 17755.23,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=RUB",
+  "Pair": "BNBBUSD",
+  "PricePair": 249.45,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BUSD?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 71,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -249.39130611094106,
+  "ProfitPercet": -0.24939130611094104
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:35:45.134364+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 1183510.84,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=RUB",
+  "Pair": "BNBBTC",
+  "PricePair": 0.0148795,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BTC?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 17755.23,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 824.4182156277681,
+  "ProfitPercet": 0.8244182156277681
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:35:45.134714+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 1183510.84,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=RUB",
+  "Pair": "ETHBTC",
+  "PricePair": 0.0708135,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BTC?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 84773.88,
+  "PaymentSell": [
+   "Tinkoff",
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 1151.8337815988782,
+  "ProfitPercet": 1.1518337815988782
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:35:45.137697+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 1183510.84,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=RUB",
+  "Pair": "BTCRUB",
+  "PricePair": 1124453.5,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_RUB?_from=markets",
+  "AssetsSell": "RUB",
+  "PriceAssetsSell": 1.05,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/RUB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -239.5132265962269,
+  "ProfitPercet": -0.2395132265962269
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:35:45.141616+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 1183510.84,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=RUB",
+  "Pair": "BTCUSDT",
+  "PricePair": 16734.63,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 69.3,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -2011.048838386656,
+  "ProfitPercet": -2.011048838386656
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:35:45.149706+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 1183510.84,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=RUB",
+  "Pair": "BTCBUSD",
+  "PricePair": 16735.735,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_BUSD?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 70.6,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -166.28060626805976,
+  "ProfitPercet": -0.16628060626805977
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:35:45.146299+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "SHIB",
+  "PriceAssetsBuy": 0.000788,
+  "PaymentBuy": [
+   "RosBank",
+   "Post Bank",
+   "Raiffeisenbank",
+   "Tinkoff",
+   "BinancePay (RUB)"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/SHIB?fiat=RUB",
+  "Pair": "SHIBBUSD",
+  "PricePair": 0.000008684999999999999,
+  "LinkMarket": "https://www.binance.com/en/trade/SHIB_BUSD?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 70.6,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -22187.690355329956,
+  "ProfitPercet": -22.187690355329956
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:35:45.15297+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "SHIB",
+  "PriceAssetsBuy": 0.000788,
+  "PaymentBuy": [
+   "RosBank",
+   "Post Bank",
+   "Raiffeisenbank",
+   "Tinkoff",
+   "BinancePay (RUB)"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/SHIB?fiat=RUB",
+  "Pair": "SHIBUSDT",
+  "PricePair": 0.000008684999999999999,
+  "LinkMarket": "https://www.binance.com/en/trade/SHIB_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 69.3,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -23620.494923857874,
+  "ProfitPercet": -23.620494923857873
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:35:45.510437+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 84777.02,
+  "PaymentBuy": [
+   "Tinkoff",
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=RUB",
+  "Pair": "ETHRUB",
+  "PricePair": 79603.95,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_RUB?_from=markets",
+  "AssetsSell": "RUB",
+  "PriceAssetsSell": 1.05,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/RUB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -1407.0705717186233,
+  "ProfitPercet": -1.4070705717186234
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:35:45.514328+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 84777.02,
+  "PaymentBuy": [
+   "Tinkoff",
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=RUB",
+  "Pair": "ETHBUSD",
+  "PricePair": 1185.045,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BUSD?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 70.6,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -1312.6705798340276,
+  "ProfitPercet": -1.3126705798340277
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:35:45.520121+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 84777.02,
+  "PaymentBuy": [
+   "Tinkoff",
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=RUB",
+  "Pair": "BNBETH",
+  "PricePair": 0.21015,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_ETH?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 17755.23,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -340.4867813852611,
+  "ProfitPercet": -0.3404867813852611
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:35:45.528168+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 84777.02,
+  "PaymentBuy": [
+   "Tinkoff",
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=RUB",
+  "Pair": "ETHBTC",
+  "PricePair": 0.0708135,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BTC?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 1183140.13,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -1173.3443853594044,
+  "ProfitPercet": -1.1733443853594043
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:35:45.541164+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 84777.02,
+  "PaymentBuy": [
+   "Tinkoff",
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=RUB",
+  "Pair": "ETHUSDT",
+  "PricePair": 1184.9450000000002,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 69.3,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -3138.0337501837143,
+  "ProfitPercet": -3.1380337501837143
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:35:45.527312+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 69.3,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=RUB",
+  "Pair": "SHIBUSDT",
+  "PricePair": 0.000008684999999999999,
+  "LinkMarket": "https://www.binance.com/en/trade/SHIB_USDT?_from=markets",
+  "AssetsSell": "SHIB",
+  "PriceAssetsSell": 0.000788,
+  "PaymentSell": [
+   "RosBank",
+   "Post Bank",
+   "Raiffeisenbank",
+   "Tinkoff",
+   "BinancePay (RUB)"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/SHIB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 30925.174103067027,
+  "ProfitPercet": 30.925174103067025
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:35:45.532022+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 69.3,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=RUB",
+  "Pair": "BTCUSDT",
+  "PricePair": 16734.63,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_USDT?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 1183140.13,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 2020.3562829243624,
+  "ProfitPercet": 2.020356282924362
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:35:45.535599+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 69.3,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=RUB",
+  "Pair": "BNBUSDT",
+  "PricePair": 249.05,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_USDT?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 17755.23,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 2874.2120490765265,
+  "ProfitPercet": 2.8742120490765264
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:35:45.547221+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 69.3,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=RUB",
+  "Pair": "USDTRUB",
+  "PricePair": 67.195,
+  "LinkMarket": "https://www.binance.com/en/trade/USDT_RUB?_from=markets",
+  "AssetsSell": "RUB",
+  "PriceAssetsSell": 1.05,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/RUB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 1810.606060606052,
+  "ProfitPercet": 1.8106060606060521
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:35:45.550223+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 69.3,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=RUB",
+  "Pair": "BUSDUSDT",
+  "PricePair": 0.99995,
+  "LinkMarket": "https://www.binance.com/en/trade/BUSD_USDT?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 70.6,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 1880.9959256981458,
+  "ProfitPercet": 1.8809959256981459
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:35:45.559966+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 69.3,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=RUB",
+  "Pair": "ETHUSDT",
+  "PricePair": 1184.9450000000002,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_USDT?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 84773.88,
+  "PaymentSell": [
+   "Tinkoff",
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 3235.8726935268396,
+  "ProfitPercet": 3.2358726935268396
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:35:45.250277+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 17755.23,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=RUB",
+  "Pair": "BNBETH",
+  "PricePair": 0.21015,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_ETH?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 84773.88,
+  "PaymentSell": [
+   "Tinkoff",
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 337.9335666167097,
+  "ProfitPercet": 0.3379335666167097
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:35:45.919492+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 17755.23,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=RUB",
+  "Pair": "BNBBUSD",
+  "PricePair": 249.14999999999998,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BUSD?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 70.6,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -930.655361828615,
+  "ProfitPercet": -0.930655361828615
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:35:45.929621+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 17755.23,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=RUB",
+  "Pair": "BNBRUB",
+  "PricePair": 16729.12,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_RUB?_from=markets",
+  "AssetsSell": "RUB",
+  "PriceAssetsSell": 1.05,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/RUB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -1068.158508788692,
+  "ProfitPercet": -1.068158508788692
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:35:45.935459+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 17755.23,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=RUB",
+  "Pair": "BNBBTC",
+  "PricePair": 0.0148785,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BTC?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 1183140.13,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -855.4075379198365,
+  "ProfitPercet": -0.8554075379198365
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:35:46.17926+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 17755.23,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=RUB",
+  "Pair": "BNBUSDT",
+  "PricePair": 249.05,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 69.3,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -2793.909174930435,
+  "ProfitPercet": -2.793909174930435
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:35:45.631065+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "RUB",
+  "PriceAssetsBuy": 1.05,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/RUB?fiat=RUB",
+  "Pair": "ETHRUB",
+  "PricePair": 79603.95,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_RUB?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 84773.88,
+  "PaymentSell": [
+   "Tinkoff",
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 1423.394908705627,
+  "ProfitPercet": 1.423394908705627
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:35:45.634081+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "RUB",
+  "PriceAssetsBuy": 1.05,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/RUB?fiat=RUB",
+  "Pair": "USDTRUB",
+  "PricePair": 67.195,
+  "LinkMarket": "https://www.binance.com/en/trade/USDT_RUB?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 69.3,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -1778.406131408578,
+  "ProfitPercet": -1.778406131408578
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:35:46.302103+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "RUB",
+  "PriceAssetsBuy": 1.05,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/RUB?fiat=RUB",
+  "Pair": "BNBRUB",
+  "PricePair": 16729.12,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_RUB?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 17755.23,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 1079.6913235296108,
+  "ProfitPercet": 1.0796913235296108
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:35:46.318213+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "RUB",
+  "PriceAssetsBuy": 1.05,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/RUB?fiat=RUB",
+  "Pair": "BTCRUB",
+  "PricePair": 1124453.5,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_RUB?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 1183140.13,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 208.69016011099094,
+  "ProfitPercet": 0.20869016011099095
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:35:46.319846+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "RUB",
+  "PriceAssetsBuy": 1.05,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/RUB?fiat=RUB",
+  "Pair": "BUSDRUB",
+  "PricePair": 67.215,
+  "LinkMarket": "https://www.binance.com/en/trade/BUSD_RUB?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 70.6,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 34.3602441348376,
+  "ProfitPercet": 0.034360244134837604
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:35:45.63967+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 70.6,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=RUB",
+  "Pair": "ETHBUSD",
+  "PricePair": 1185.045,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BUSD?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 84773.88,
+  "PaymentSell": [
+   "Tinkoff",
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 1326.377715996665,
+  "ProfitPercet": 1.326377715996665
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:35:45.640924+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 70.6,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=RUB",
+  "Pair": "BTCBUSD",
+  "PricePair": 16735.39,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_BUSD?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 1183140.13,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 137.2467678953787,
+  "ProfitPercet": 0.13724676789537868
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:35:46.304633+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 70.6,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=RUB",
+  "Pair": "BNBBUSD",
+  "PricePair": 249.14999999999998,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BUSD?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 17755.23,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 939.3979189300339,
+  "ProfitPercet": 0.939397918930034
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-19T17:35:46.308096+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 70.6,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=RUB",
+  "Pair": "SHIBBUSD",
+  "PricePair": 0.000008684999999999999,
+  "LinkMarket": "https://www.binance.com/en/trade/SHIB_BUSD?_from=markets",
+  "AssetsSell": "SHIB",
+  "PriceAssetsSell": 0.000788,
+  "PaymentSell": [
+   "RosBank",
+   "Post Bank",
+   "Raiffeisenbank",
+   "Tinkoff",
+   "BinancePay (RUB)"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/SHIB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": 28514.37061391707,
+  "ProfitPercet": 28.514370613917073
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:35:46.309979+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 70.6,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=RUB",
+  "Pair": "BUSDRUB",
+  "PricePair": 67.215,
+  "LinkMarket": "https://www.binance.com/en/trade/BUSD_RUB?_from=markets",
+  "AssetsSell": "RUB",
+  "PriceAssetsSell": 1.05,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/RUB?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -34.348441926339866,
+  "ProfitPercet": -0.034348441926339866
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-19T17:35:46.324995+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 70.6,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=RUB",
+  "Pair": "BUSDUSDT",
+  "PricePair": 0.99995,
+  "LinkMarket": "https://www.binance.com/en/trade/BUSD_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 69.3,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=RUB\u0026payment=ALL",
+  "ProfitValue": -1846.267705382435,
+  "ProfitPercet": -1.8462677053824352
+ }
+]

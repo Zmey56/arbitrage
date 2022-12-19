@@ -16,6 +16,7 @@ type Parameters struct {
 	PayTypes      []string `json:"payTypes"`
 	TransAmount   string   `json:"transAmount"`
 	PublisherType string   `json:"publisher_type"`
+	PercentUser   float64  `json:"percentUser"`
 }
 
 type Payments []struct {
@@ -61,11 +62,37 @@ func InputCommandLine(fiat string) Parameters {
 			}
 		}
 
+		//MERCHANT
 		fmt.Println("Do you want to choose only the merchant? If you want - enter Yes")
 
 		readmerchant, err := n.ReadString('\n')
 		if err != nil {
-			log.Println("User try to enter wong value:", err)
+			log.Println("User try to enter wrong value:", err)
+		}
+		if strings.ToLower(strings.TrimRight(readmerchant, "\n")) == "yes" {
+			paramUser.PublisherType = "merchant"
+		}
+
+		//PERCENT
+		fmt.Println("What percentage will you track?(0.01 - 100)")
+
+		readpercent, _ := n.ReadString('\n')
+		readpercent = strings.TrimSpace(readpercent)
+		for {
+			if readpercent != "" {
+				var f float64
+				f, err = strconv.ParseFloat(readpercent, 64)
+				if err != nil {
+					log.Println("User try to enter wrong value of percent to track:", err)
+				} else {
+					log.Println(f)
+					paramUser.PercentUser = f
+					break
+				}
+			} else {
+				paramUser.PercentUser = 0
+				break
+			}
 		}
 		if strings.ToLower(strings.TrimRight(readmerchant, "\n")) == "yes" {
 			paramUser.PublisherType = "merchant"
