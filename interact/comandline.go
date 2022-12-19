@@ -29,7 +29,7 @@ type Payments []struct {
 }
 
 func InputCommandLine(fiat string) Parameters {
-	file_path := "data/paramUser.json"
+	file_path := "data/paramUser" + fiat + ".json"
 	paramUser := Parameters{}
 	n := bufio.NewReader(os.Stdout)
 	fmt.Println("Do you want to enter new params? If you want - enter Yes")
@@ -131,7 +131,7 @@ func InputCommandLine(fiat string) Parameters {
 		if err != nil {
 			log.Println("Can't marshalIndent paramUser", err)
 		}
-		_ = os.WriteFile("data/paramUser"+fiat+".json", file, 0644)
+		_ = os.WriteFile(file_path, file, 0644)
 	} else {
 		file, err := os.ReadFile(file_path)
 		if err != nil {

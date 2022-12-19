@@ -14,6 +14,7 @@ import (
 )
 
 func P2P3stepsTakerTaker(fiat string, paramUser interact.Parameters) {
+	log.Println(paramUser)
 	allOrders := [][]result.ResultP2P{}
 	//get all assets from binance for this fiat
 
@@ -44,7 +45,7 @@ func P2P3stepsTakerTaker(fiat string, paramUser interact.Parameters) {
 
 	for _, j := range allOrders {
 		for _, i := range j {
-			if i.Profit && i.ProfitPercet >= paramUser.PercentUser {
+			if (i.Profit) && (i.ProfitPercet >= paramUser.PercentUser) {
 				log.Println("Precent", i.ProfitPercet, paramUser.PercentUser)
 				result.FormatMessageAndSend(i, "Taker-Taker")
 			}
