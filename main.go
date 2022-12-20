@@ -19,32 +19,9 @@ const (
 )
 
 func main() {
-	//getNewFiat("UAH")
-	//getNewFiat("RUB")
-	//getNewFiat("GEL")
-	//getNewFiat("KZT")
-	//getNewFiat("AED")
-	//getNewFiat("AMD")
-	//getNewFiat("AZN")
-	//getNewFiat("EUR")
-	//getNewFiat("UZS")
-	//getNewFiat("TRY")
-
-	//fiats := []string{"AED", "AMD", "AZN", "EUR", "GEL", "KZT", "RUB", "TRY", "UAH", "UZS"}
-	//fiats := []string{"RUB"}
-	//
-	//for _, f := range fiats {
-	//	fmt.Println("FIAT:", f)
-	//	interact.InputCommandLine(f)
-	//}
-
-	//fmt.Println(tmp)
-	paramUser := interact.InputCommandLine(fiat)
-	//
+	paramUser := getParam("RUB")
+	paramUser_2 := getParam("RUB_2")
 	for {
-		//paramUser := interact.Parameters{}
-		//for _, fiat := range fiats {
-		//paramUser = getParam(fiat)
 
 		start := time.Now()
 
@@ -52,9 +29,16 @@ func main() {
 
 		log.Println(fiat, time.Since(start), "\n")
 
-		time.Sleep(60 * time.Second)
+		time.Sleep(20 * time.Second)
 
-		//}
+		start_2 := time.Now()
+
+		working.P2P3stepsTakerMaker(fiat, paramUser_2)
+
+		log.Println(fiat, time.Since(start_2), "\n")
+
+		time.Sleep(20 * time.Second)
+
 	}
 
 }
@@ -84,6 +68,8 @@ func getParam(fiat string) interact.Parameters {
 	case "KZT":
 		file_path = fmt.Sprintf("data/paramUser%s.json", fiat)
 	case "RUB":
+		file_path = fmt.Sprintf("data/paramUser%s.json", fiat)
+	case "RUB_2":
 		file_path = fmt.Sprintf("data/paramUser%s.json", fiat)
 	case "TRY":
 		file_path = fmt.Sprintf("data/paramUser%s.json", fiat)

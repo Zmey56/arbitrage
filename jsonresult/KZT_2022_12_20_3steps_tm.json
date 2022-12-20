@@ -1,0 +1,574 @@
+[
+ {
+  "Profit": true,
+  "DataTime": "2022-12-20T12:47:28.252656+04:00",
+  "Fiat": "KZT",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 8524508.32,
+  "PaymentBuy": [
+   "Halyk Bank",
+   "ForteBank",
+   "Kaspi Bank",
+   "CenterCredit Bank",
+   "Jysan Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=KZT",
+  "Pair": "ETHBTC",
+  "PricePair": 0.0719255,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BTC?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 681267.13,
+  "PaymentSell": [
+   "Altyn Bank",
+   "ForteBank",
+   "Kaspi Bank",
+   "Halyk Bank",
+   "CenterCredit Bank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=KZT\u0026payment=ALL",
+  "ProfitValue": 55565.42643513345,
+  "ProfitPercet": 11.11308528702669
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-20T12:47:28.261851+04:00",
+  "Fiat": "KZT",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 8524508.32,
+  "PaymentBuy": [
+   "Halyk Bank",
+   "ForteBank",
+   "Kaspi Bank",
+   "CenterCredit Bank",
+   "Jysan Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=KZT",
+  "Pair": "BNBBTC",
+  "PricePair": 0.014734500000000001,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BTC?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 139517.04,
+  "PaymentSell": [
+   "Kaspi Bank",
+   "Jysan Bank",
+   "Halyk Bank",
+   "Bank Transfer",
+   "ForteBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=KZT\u0026payment=ALL",
+  "ProfitValue": 55382.91541169703,
+  "ProfitPercet": 11.076583082339406
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-20T12:47:28.27157+04:00",
+  "Fiat": "KZT",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 8524508.32,
+  "PaymentBuy": [
+   "Halyk Bank",
+   "ForteBank",
+   "Kaspi Bank",
+   "CenterCredit Bank",
+   "Jysan Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=KZT",
+  "Pair": "BTCUSDT",
+  "PricePair": 16824.085,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 479.3,
+  "PaymentSell": [
+   "Jysan Bank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=KZT\u0026payment=ALL",
+  "ProfitValue": -27023.516325220764,
+  "ProfitPercet": -5.404703265044153
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-20T12:47:28.272267+04:00",
+  "Fiat": "KZT",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 8524508.32,
+  "PaymentBuy": [
+   "Halyk Bank",
+   "ForteBank",
+   "Kaspi Bank",
+   "CenterCredit Bank",
+   "Jysan Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=KZT",
+  "Pair": "BTCBUSD",
+  "PricePair": 16823.885,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_BUSD?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 501,
+  "PaymentSell": [
+   "Kaspi Bank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=KZT\u0026payment=ALL",
+  "ProfitValue": -5615.686641737047,
+  "ProfitPercet": -1.1231373283474093
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-20T12:47:28.695046+04:00",
+  "Fiat": "KZT",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 479.3,
+  "PaymentBuy": [
+   "Jysan Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=KZT",
+  "Pair": "BUSDUSDT",
+  "PricePair": 0.99985,
+  "LinkMarket": "https://www.binance.com/en/trade/BUSD_USDT?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 501,
+  "PaymentSell": [
+   "Kaspi Bank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=KZT\u0026payment=ALL",
+  "ProfitValue": 22715.586557679013,
+  "ProfitPercet": 4.543117311535803
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-20T12:47:28.69912+04:00",
+  "Fiat": "KZT",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 479.3,
+  "PaymentBuy": [
+   "Jysan Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=KZT",
+  "Pair": "BNBUSDT",
+  "PricePair": 247.85000000000002,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_USDT?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 139517.04,
+  "PaymentSell": [
+   "Kaspi Bank",
+   "Jysan Bank",
+   "Halyk Bank",
+   "Bank Transfer",
+   "ForteBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=KZT\u0026payment=ALL",
+  "ProfitValue": 87220.09069358889,
+  "ProfitPercet": 17.44401813871778
+ },
+ {
+  "Profit": false,
+  "DataTime": "0001-01-01T00:00:00Z",
+  "Fiat": "",
+  "AssetsBuy": "",
+  "PriceAssetsBuy": 0,
+  "PaymentBuy": null,
+  "LinkAssetsBuy": "",
+  "Pair": "",
+  "PricePair": 0,
+  "LinkMarket": "",
+  "AssetsSell": "",
+  "PriceAssetsSell": 0,
+  "PaymentSell": null,
+  "LinkAssetsSell": "",
+  "ProfitValue": 0,
+  "ProfitPercet": 0
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-20T12:47:29.359974+04:00",
+  "Fiat": "KZT",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 479.3,
+  "PaymentBuy": [
+   "Jysan Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=KZT",
+  "Pair": "ETHUSDT",
+  "PricePair": 1209.9850000000001,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_USDT?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 681267.13,
+  "PaymentSell": [
+   "Altyn Bank",
+   "ForteBank",
+   "Kaspi Bank",
+   "Halyk Bank",
+   "CenterCredit Bank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=KZT\u0026payment=ALL",
+  "ProfitValue": 87354.12659731587,
+  "ProfitPercet": 17.470825319463174
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-20T12:47:29.360699+04:00",
+  "Fiat": "KZT",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 479.3,
+  "PaymentBuy": [
+   "Jysan Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=KZT",
+  "Pair": "BTCUSDT",
+  "PricePair": 16821.370000000003,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_USDT?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 8524508.32,
+  "PaymentSell": [
+   "Halyk Bank",
+   "ForteBank",
+   "Kaspi Bank",
+   "CenterCredit Bank",
+   "Jysan Bank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=KZT\u0026payment=ALL",
+  "ProfitValue": 28652.816977891438,
+  "ProfitPercet": 5.7305633955782875
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-20T12:47:28.989052+04:00",
+  "Fiat": "KZT",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 139517.04,
+  "PaymentBuy": [
+   "Kaspi Bank",
+   "Jysan Bank",
+   "Halyk Bank",
+   "Bank Transfer",
+   "ForteBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=KZT",
+  "Pair": "BNBBUSD",
+  "PricePair": 247.95,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BUSD?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 501,
+  "PaymentSell": [
+   "Kaspi Bank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=KZT\u0026payment=ALL",
+  "ProfitValue": -54810.83170915904,
+  "ProfitPercet": -10.962166341831809
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-20T12:47:29.657957+04:00",
+  "Fiat": "KZT",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 139517.04,
+  "PaymentBuy": [
+   "Kaspi Bank",
+   "Jysan Bank",
+   "Halyk Bank",
+   "Bank Transfer",
+   "ForteBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=KZT",
+  "Pair": "BNBUSDT",
+  "PricePair": 247.85000000000002,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 479.3,
+  "PaymentSell": [
+   "Jysan Bank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=KZT\u0026payment=ALL",
+  "ProfitValue": -74265.24745651138,
+  "ProfitPercet": -14.853049491302276
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-20T12:47:29.663091+04:00",
+  "Fiat": "KZT",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 139517.04,
+  "PaymentBuy": [
+   "Kaspi Bank",
+   "Jysan Bank",
+   "Halyk Bank",
+   "Bank Transfer",
+   "ForteBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=KZT",
+  "Pair": "BNBBTC",
+  "PricePair": 0.014734500000000001,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BTC?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 8524508.32,
+  "PaymentSell": [
+   "Halyk Bank",
+   "ForteBank",
+   "Kaspi Bank",
+   "CenterCredit Bank",
+   "Jysan Bank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=KZT\u0026payment=ALL",
+  "ProfitValue": -49860.11801483175,
+  "ProfitPercet": -9.972023602966349
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-20T12:47:29.667313+04:00",
+  "Fiat": "KZT",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 139517.04,
+  "PaymentBuy": [
+   "Kaspi Bank",
+   "Jysan Bank",
+   "Halyk Bank",
+   "Bank Transfer",
+   "ForteBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=KZT",
+  "Pair": "BNBETH",
+  "PricePair": 0.20485,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_ETH?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 681267.13,
+  "PaymentSell": [
+   "Altyn Bank",
+   "ForteBank",
+   "Kaspi Bank",
+   "Halyk Bank",
+   "CenterCredit Bank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=KZT\u0026payment=ALL",
+  "ProfitValue": 145.25673889003448,
+  "ProfitPercet": 0.029051347778006897
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-20T12:47:29.218686+04:00",
+  "Fiat": "KZT",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 681267.13,
+  "PaymentBuy": [
+   "Altyn Bank",
+   "ForteBank",
+   "Kaspi Bank",
+   "Halyk Bank",
+   "CenterCredit Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=KZT",
+  "Pair": "BNBETH",
+  "PricePair": 0.20485,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_ETH?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 139517.04,
+  "PaymentSell": [
+   "Kaspi Bank",
+   "Jysan Bank",
+   "Halyk Bank",
+   "Bank Transfer",
+   "ForteBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=KZT\u0026payment=ALL",
+  "ProfitValue": -145.2145521055179,
+  "ProfitPercet": -0.029042910421103577
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-20T12:47:29.228677+04:00",
+  "Fiat": "KZT",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 681267.13,
+  "PaymentBuy": [
+   "Altyn Bank",
+   "ForteBank",
+   "Kaspi Bank",
+   "Halyk Bank",
+   "CenterCredit Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=KZT",
+  "Pair": "ETHBTC",
+  "PricePair": 0.0719255,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BTC?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 8524508.32,
+  "PaymentSell": [
+   "Halyk Bank",
+   "ForteBank",
+   "Kaspi Bank",
+   "CenterCredit Bank",
+   "Jysan Bank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=KZT\u0026payment=ALL",
+  "ProfitValue": -50007.99527040148,
+  "ProfitPercet": -10.001599054080296
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-20T12:47:29.874501+04:00",
+  "Fiat": "KZT",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 681267.13,
+  "PaymentBuy": [
+   "Altyn Bank",
+   "ForteBank",
+   "Kaspi Bank",
+   "Halyk Bank",
+   "CenterCredit Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=KZT",
+  "Pair": "ETHUSDT",
+  "PricePair": 1209.9850000000001,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 479.3,
+  "PaymentSell": [
+   "Jysan Bank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=KZT\u0026payment=ALL",
+  "ProfitValue": -74362.4013534896,
+  "ProfitPercet": -14.872480270697919
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-20T12:47:29.896693+04:00",
+  "Fiat": "KZT",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 681267.13,
+  "PaymentBuy": [
+   "Altyn Bank",
+   "ForteBank",
+   "Kaspi Bank",
+   "Halyk Bank",
+   "CenterCredit Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=KZT",
+  "Pair": "ETHBUSD",
+  "PricePair": 1209.9450000000002,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BUSD?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 501,
+  "PaymentSell": [
+   "Kaspi Bank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=KZT\u0026payment=ALL",
+  "ProfitValue": -55106.64003413748,
+  "ProfitPercet": -11.021328006827497
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-20T12:47:29.624704+04:00",
+  "Fiat": "KZT",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 501,
+  "PaymentBuy": [
+   "Kaspi Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=KZT",
+  "Pair": "ETHBUSD",
+  "PricePair": 1210.0149999999999,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BUSD?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 681267.13,
+  "PaymentSell": [
+   "Altyn Bank",
+   "ForteBank",
+   "Kaspi Bank",
+   "Halyk Bank",
+   "CenterCredit Bank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=KZT\u0026payment=ALL",
+  "ProfitValue": 61899.906504680934,
+  "ProfitPercet": 12.379981300936187
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-20T12:47:29.628227+04:00",
+  "Fiat": "KZT",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 501,
+  "PaymentBuy": [
+   "Kaspi Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=KZT",
+  "Pair": "BNBBUSD",
+  "PricePair": 247.95,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BUSD?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 139517.04,
+  "PaymentSell": [
+   "Kaspi Bank",
+   "Jysan Bank",
+   "Halyk Bank",
+   "Bank Transfer",
+   "ForteBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=KZT\u0026payment=ALL",
+  "ProfitValue": 61559.035588834486,
+  "ProfitPercet": 12.311807117766897
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-20T12:47:29.637672+04:00",
+  "Fiat": "KZT",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 501,
+  "PaymentBuy": [
+   "Kaspi Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=KZT",
+  "Pair": "BUSDUSDT",
+  "PricePair": 0.99985,
+  "LinkMarket": "https://www.binance.com/en/trade/BUSD_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 479.3,
+  "PaymentSell": [
+   "Jysan Bank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=KZT\u0026payment=ALL",
+  "ProfitValue": -21728.43812375249,
+  "ProfitPercet": -4.345687624750498
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-20T12:47:29.642612+04:00",
+  "Fiat": "KZT",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 501,
+  "PaymentBuy": [
+   "Kaspi Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=KZT",
+  "Pair": "BTCBUSD",
+  "PricePair": 16823.595,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_BUSD?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 8524508.32,
+  "PaymentSell": [
+   "Halyk Bank",
+   "ForteBank",
+   "Kaspi Bank",
+   "CenterCredit Bank",
+   "Jysan Bank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=KZT\u0026payment=ALL",
+  "ProfitValue": 5688.191693471731,
+  "ProfitPercet": 1.1376383386943463
+ },
+ {
+  "Profit": false,
+  "DataTime": "0001-01-01T00:00:00Z",
+  "Fiat": "",
+  "AssetsBuy": "",
+  "PriceAssetsBuy": 0,
+  "PaymentBuy": null,
+  "LinkAssetsBuy": "",
+  "Pair": "",
+  "PricePair": 0,
+  "LinkMarket": "",
+  "AssetsSell": "",
+  "PriceAssetsSell": 0,
+  "PaymentSell": null,
+  "LinkAssetsSell": "",
+  "ProfitValue": 0,
+  "ProfitPercet": 0
+ }
+]

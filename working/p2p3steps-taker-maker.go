@@ -46,15 +46,14 @@ func P2P3stepsTakerMaker(fiat string, paramUser interact.Parameters) {
 		for _, i := range j {
 			result.SaveResultJsonFile(fiat, i, "3steps_tm")
 			if i.Profit && (i.ProfitPercet >= paramUser.PercentUser) {
-				result.FormatMessageAndSend(i, "3 steps_Taker-Maker")
+				result.FormatMessageAndSend(i, "3 steps Taker -> Maker")
 			}
 		}
 	}
 }
 
 func GetResultP2P3TM(a, fiat string, pair map[string][]string, paramUser interact.Parameters) []result.ResultP2P {
-	//fmt.Println("====================================")
-	//log.Println("ASSETS", a)
+
 	var resultP2PArr []result.ResultP2P
 	pair_assets := pair[a]
 	//first step
@@ -80,13 +79,10 @@ func GetResultP2P3TM(a, fiat string, pair map[string][]string, paramUser interac
 		price_b := order_buy.Adv.Price
 
 		transAmountFirst := transAmountFloat / price_b
-		//log.Printf("transAmountFirst - %v", transAmountFirst)
 		//second step
 
-		//log.Printf("Pair Assets - %s", pair_assets)
 		pair_rate := getinfobinance.GetRatePair(pair_assets)
 
-		//log.Printf("Pair Rate - %s", pair_rate)
 		var wg sync.WaitGroup
 		for p := range pair_rate {
 			wg.Add(1)
@@ -113,30 +109,24 @@ func PrintResultP2P3TM(p, a, fiat string, transAmountFirst, price_b float64, pai
 	profitResult := result.ResultP2P{}
 
 	var transAmountSecond float64
-	//log.Printf("Pair rate %s - %v", p, pair_rate[p])
 	var assetSell string
 	if strings.HasPrefix(p, a) {
 		transAmountSecond = (transAmountFirst * pair_rate[p])
 		assetSell = p[len(a):]
-		//log.Println(convertfiat, transAmountSecond)
 	} else {
 		transAmountSecond = (transAmountFirst / pair_rate[p])
 		assetSell = p[:(len(p) - len(a))]
-		//log.Println(convertfiat, transAmountSecond)
 	}
 	//third steps
 	order_sell := getinfobinance.GetDataP2P(assetSell, fiat,
 		"Buy", paramUser)
-	//log.Printf("First - %s, Second - %s", a, convertfiat)
 	if order_sell.Adv.Price == 0 {
 		return profitResult
 	}
 	price_s := order_sell.Adv.Price
 
 	transAmountThird := price_s * transAmountSecond
-	//log.Printf("transAmountFirst - %v, transAmountSecond - %v, transAmountThird - %v",
-	//	transAmountFirst, transAmountSecond, transAmountThird)
-	//
+
 	transAmountFloat, err := strconv.ParseFloat(paramUser.TransAmount, 64)
 	if err != nil {
 		log.Printf("Problem with convert transAmount to float, err - %v", err)

@@ -6,18 +6,17 @@ import (
 	"log"
 	"net/http"
 	"net/url"
+	"os"
 	"strconv"
 	"strings"
 )
 
 const chatID = -1001592565485
-const TELEGRAM_BOT_TOKEN = "5763797414:AAHJ8exgiqxHuW44SyEr15fKsWKPixNofVg"
 
 func SendTextToTelegramChat(chatId int, text string) (string, error) {
 
 	log.Printf("Sending %s to chat_id: %d", text, chatId)
-	//var telegramApi string = "https://api.telegram.org/bot" + os.Getenv("TELEGRAM_BOT_TOKEN") + "/sendMessage"
-	var telegramApi string = "https://api.telegram.org/bot" + TELEGRAM_BOT_TOKEN + "/sendMessage"
+	var telegramApi string = "https://api.telegram.org/bot" + os.Getenv("TELEGRAM_BOT_TOKEN") + "/sendMessage"
 	log.Println(telegramApi)
 
 	response, err := http.PostForm(

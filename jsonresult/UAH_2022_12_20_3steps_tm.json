@@ -1,0 +1,898 @@
+[
+ {
+  "Profit": false,
+  "DataTime": "2022-12-20T12:49:17.43269+04:00",
+  "Fiat": "UAH",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 40.4,
+  "PaymentBuy": [
+   "Privat Bank (Universal Card)",
+   "Izibank",
+   "A-Bank",
+   "BinancePay (UAH)",
+   "Monobank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=UAH",
+  "Pair": "BUSDUAH",
+  "PricePair": 39.96,
+  "LinkMarket": "https://www.binance.com/en/trade/BUSD_UAH?_from=markets",
+  "AssetsSell": "UAH",
+  "PriceAssetsSell": 1.01,
+  "PaymentSell": [
+   "Monobank",
+   "A-Bank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/UAH?fiat=UAH\u0026payment=ALL",
+  "ProfitValue": -39.99999999999674,
+  "ProfitPercet": -0.09999999999999185
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-20T12:49:17.435706+04:00",
+  "Fiat": "UAH",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 40.4,
+  "PaymentBuy": [
+   "Privat Bank (Universal Card)",
+   "Izibank",
+   "A-Bank",
+   "BinancePay (UAH)",
+   "Monobank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=UAH",
+  "Pair": "BNBBUSD",
+  "PricePair": 247.75,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BUSD?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 10449.2,
+  "PaymentSell": [
+   "Privat Bank (Universal Card)",
+   "Oschadbank",
+   "Monobank",
+   "Raiffeisen Bank Aval",
+   "A-Bank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=UAH\u0026payment=ALL",
+  "ProfitValue": 1758.7994924618652,
+  "ProfitPercet": 4.396998731154663
+ },
+ {
+  "Profit": false,
+  "DataTime": "0001-01-01T00:00:00Z",
+  "Fiat": "",
+  "AssetsBuy": "",
+  "PriceAssetsBuy": 0,
+  "PaymentBuy": null,
+  "LinkAssetsBuy": "",
+  "Pair": "",
+  "PricePair": 0,
+  "LinkMarket": "",
+  "AssetsSell": "",
+  "PriceAssetsSell": 0,
+  "PaymentSell": null,
+  "LinkAssetsSell": "",
+  "ProfitValue": 0,
+  "ProfitPercet": 0
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-20T12:49:18.098142+04:00",
+  "Fiat": "UAH",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 40.4,
+  "PaymentBuy": [
+   "Privat Bank (Universal Card)",
+   "Izibank",
+   "A-Bank",
+   "BinancePay (UAH)",
+   "Monobank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=UAH",
+  "Pair": "ETHBUSD",
+  "PricePair": 1209.8850000000002,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BUSD?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 49725.29,
+  "PaymentSell": [
+   "Privat Bank (Universal Card)",
+   "Oschadbank",
+   "Monobank",
+   "Raiffeisen Bank Aval",
+   "A-Bank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=UAH\u0026payment=ALL",
+  "ProfitValue": 692.2644681433375,
+  "ProfitPercet": 1.7306611703583437
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-20T12:49:18.128691+04:00",
+  "Fiat": "UAH",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 40.4,
+  "PaymentBuy": [
+   "Privat Bank (Universal Card)",
+   "Izibank",
+   "A-Bank",
+   "BinancePay (UAH)",
+   "Monobank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=UAH",
+  "Pair": "BTCBUSD",
+  "PricePair": 16818.375,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_BUSD?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 689541.35,
+  "PaymentSell": [
+   "Privat Bank (Universal Card)",
+   "Oschadbank",
+   "Monobank",
+   "Raiffeisen Bank Aval",
+   "A-Bank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=UAH\u0026payment=ALL",
+  "ProfitValue": 593.3514932799467,
+  "ProfitPercet": 1.4833787331998667
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-20T12:49:18.129604+04:00",
+  "Fiat": "UAH",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 40.4,
+  "PaymentBuy": [
+   "Privat Bank (Universal Card)",
+   "Izibank",
+   "A-Bank",
+   "BinancePay (UAH)",
+   "Monobank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=UAH",
+  "Pair": "BUSDUSDT",
+  "PricePair": 0.99985,
+  "LinkMarket": "https://www.binance.com/en/trade/BUSD_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 40.27,
+  "PaymentSell": [
+   "Monobank",
+   "PUMB",
+   "OTP Bank",
+   "OTP"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=UAH\u0026payment=ALL",
+  "ProfitValue": -134.69356435643138,
+  "ProfitPercet": -0.33673391089107846
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-20T12:49:17.712235+04:00",
+  "Fiat": "UAH",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 49725.29,
+  "PaymentBuy": [
+   "Privat Bank (Universal Card)",
+   "Oschadbank",
+   "Monobank",
+   "Raiffeisen Bank Aval",
+   "A-Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=UAH",
+  "Pair": "ETHBTC",
+  "PricePair": 0.0719375,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BTC?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 689541.35,
+  "PaymentSell": [
+   "Privat Bank (Universal Card)",
+   "Oschadbank",
+   "Monobank",
+   "Raiffeisen Bank Aval",
+   "A-Bank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=UAH\u0026payment=ALL",
+  "ProfitValue": -97.66389245794129,
+  "ProfitPercet": -0.2441597311448532
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-20T12:49:17.713832+04:00",
+  "Fiat": "UAH",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 49725.29,
+  "PaymentBuy": [
+   "Privat Bank (Universal Card)",
+   "Oschadbank",
+   "Monobank",
+   "Raiffeisen Bank Aval",
+   "A-Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=UAH",
+  "Pair": "ETHBUSD",
+  "PricePair": 1209.8850000000002,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BUSD?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 40.4,
+  "PaymentSell": [
+   "Privat Bank (Universal Card)",
+   "Izibank",
+   "A-Bank",
+   "BinancePay (UAH)",
+   "Monobank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=UAH\u0026payment=ALL",
+  "ProfitValue": -680.4875346126593,
+  "ProfitPercet": -1.7012188365316483
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-20T12:49:18.349804+04:00",
+  "Fiat": "UAH",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 49725.29,
+  "PaymentBuy": [
+   "Privat Bank (Universal Card)",
+   "Oschadbank",
+   "Monobank",
+   "Raiffeisen Bank Aval",
+   "A-Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=UAH",
+  "Pair": "ETHUAH",
+  "PricePair": 48334,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_UAH?_from=markets",
+  "AssetsSell": "UAH",
+  "PriceAssetsSell": 1.01,
+  "PaymentSell": [
+   "Monobank",
+   "A-Bank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/UAH?fiat=UAH\u0026payment=ALL",
+  "ProfitValue": -730.3728143164125,
+  "ProfitPercet": -1.8259320357910311
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-20T12:49:18.363928+04:00",
+  "Fiat": "UAH",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 49725.29,
+  "PaymentBuy": [
+   "Privat Bank (Universal Card)",
+   "Oschadbank",
+   "Monobank",
+   "Raiffeisen Bank Aval",
+   "A-Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=UAH",
+  "Pair": "BNBETH",
+  "PricePair": 0.20485,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_ETH?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 10449.2,
+  "PaymentSell": [
+   "Privat Bank (Universal Card)",
+   "Oschadbank",
+   "Monobank",
+   "Raiffeisen Bank Aval",
+   "A-Bank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=UAH\u0026payment=ALL",
+  "ProfitValue": 1032.6664747788807,
+  "ProfitPercet": 2.5816661869472015
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-20T12:49:18.538993+04:00",
+  "Fiat": "UAH",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 49725.29,
+  "PaymentBuy": [
+   "Privat Bank (Universal Card)",
+   "Oschadbank",
+   "Monobank",
+   "Raiffeisen Bank Aval",
+   "A-Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=UAH",
+  "Pair": "ETHUSDT",
+  "PricePair": 1209.875,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 40.27,
+  "PaymentSell": [
+   "Monobank",
+   "PUMB",
+   "OTP Bank",
+   "OTP"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=UAH\u0026payment=ALL",
+  "ProfitValue": -807.3346580784079,
+  "ProfitPercet": -2.0183366451960194
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-20T12:49:18.529895+04:00",
+  "Fiat": "UAH",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 689541.35,
+  "PaymentBuy": [
+   "Privat Bank (Universal Card)",
+   "Oschadbank",
+   "Monobank",
+   "Raiffeisen Bank Aval",
+   "A-Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=UAH",
+  "Pair": "BTCUAH",
+  "PricePair": 671852,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_UAH?_from=markets",
+  "AssetsSell": "UAH",
+  "PriceAssetsSell": 1.01,
+  "PaymentSell": [
+   "Monobank",
+   "A-Bank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/UAH?fiat=UAH\u0026payment=ALL",
+  "ProfitValue": -636.4131752214716,
+  "ProfitPercet": -1.591032938053679
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-20T12:49:18.535356+04:00",
+  "Fiat": "UAH",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 689541.35,
+  "PaymentBuy": [
+   "Privat Bank (Universal Card)",
+   "Oschadbank",
+   "Monobank",
+   "Raiffeisen Bank Aval",
+   "A-Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=UAH",
+  "Pair": "BTCUSDT",
+  "PricePair": 16816.92,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 40.27,
+  "PaymentSell": [
+   "Monobank",
+   "PUMB",
+   "OTP Bank",
+   "OTP"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=UAH\u0026payment=ALL",
+  "ProfitValue": -714.9089231559524,
+  "ProfitPercet": -1.7872723078898811
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-20T12:49:18.545167+04:00",
+  "Fiat": "UAH",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 689541.35,
+  "PaymentBuy": [
+   "Privat Bank (Universal Card)",
+   "Oschadbank",
+   "Monobank",
+   "Raiffeisen Bank Aval",
+   "A-Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=UAH",
+  "Pair": "ETHBTC",
+  "PricePair": 0.0719375,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BTC?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 49725.29,
+  "PaymentSell": [
+   "Privat Bank (Universal Card)",
+   "Oschadbank",
+   "Monobank",
+   "Raiffeisen Bank Aval",
+   "A-Bank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=UAH\u0026payment=ALL",
+  "ProfitValue": 97.90293199348119,
+  "ProfitPercet": 0.24475732998370295
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-20T12:49:18.547949+04:00",
+  "Fiat": "UAH",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 689541.35,
+  "PaymentBuy": [
+   "Privat Bank (Universal Card)",
+   "Oschadbank",
+   "Monobank",
+   "Raiffeisen Bank Aval",
+   "A-Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=UAH",
+  "Pair": "BTCBUSD",
+  "PricePair": 16818.165,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_BUSD?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 40.4,
+  "PaymentSell": [
+   "Privat Bank (Universal Card)",
+   "Izibank",
+   "A-Bank",
+   "BinancePay (UAH)",
+   "Monobank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=UAH\u0026payment=ALL",
+  "ProfitValue": -585.1706500270051,
+  "ProfitPercet": -1.4629266250675126
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-20T12:49:18.550841+04:00",
+  "Fiat": "UAH",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 689541.35,
+  "PaymentBuy": [
+   "Privat Bank (Universal Card)",
+   "Oschadbank",
+   "Monobank",
+   "Raiffeisen Bank Aval",
+   "A-Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=UAH",
+  "Pair": "BNBBTC",
+  "PricePair": 0.0147335,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BTC?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 10449.2,
+  "PaymentSell": [
+   "Privat Bank (Universal Card)",
+   "Oschadbank",
+   "Monobank",
+   "Raiffeisen Bank Aval",
+   "A-Bank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=UAH\u0026payment=ALL",
+  "ProfitValue": 1141.1844512378823,
+  "ProfitPercet": 2.8529611280947056
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-20T12:49:17.715697+04:00",
+  "Fiat": "UAH",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 10449.2,
+  "PaymentBuy": [
+   "Privat Bank (Universal Card)",
+   "Oschadbank",
+   "Monobank",
+   "Raiffeisen Bank Aval",
+   "A-Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=UAH",
+  "Pair": "BNBBUSD",
+  "PricePair": 247.75,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BUSD?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 40.4,
+  "PaymentSell": [
+   "Privat Bank (Universal Card)",
+   "Izibank",
+   "A-Bank",
+   "BinancePay (UAH)",
+   "Monobank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=UAH\u0026payment=ALL",
+  "ProfitValue": -1684.7222753895085,
+  "ProfitPercet": -4.211805688473771
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-20T12:49:18.540393+04:00",
+  "Fiat": "UAH",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 10449.2,
+  "PaymentBuy": [
+   "Privat Bank (Universal Card)",
+   "Oschadbank",
+   "Monobank",
+   "Raiffeisen Bank Aval",
+   "A-Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=UAH",
+  "Pair": "BNBUAH",
+  "PricePair": 9897,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_UAH?_from=markets",
+  "AssetsSell": "UAH",
+  "PriceAssetsSell": 1.01,
+  "PaymentSell": [
+   "Monobank",
+   "A-Bank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/UAH?fiat=UAH\u0026payment=ALL",
+  "ProfitValue": -1734.9844964207837,
+  "ProfitPercet": -4.337461241051959
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-20T12:49:18.548052+04:00",
+  "Fiat": "UAH",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 10449.2,
+  "PaymentBuy": [
+   "Privat Bank (Universal Card)",
+   "Oschadbank",
+   "Monobank",
+   "Raiffeisen Bank Aval",
+   "A-Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=UAH",
+  "Pair": "BNBETH",
+  "PricePair": 0.20485,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_ETH?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 49725.29,
+  "PaymentSell": [
+   "Privat Bank (Universal Card)",
+   "Oschadbank",
+   "Monobank",
+   "Raiffeisen Bank Aval",
+   "A-Bank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=UAH\u0026payment=ALL",
+  "ProfitValue": -1006.6774241090238,
+  "ProfitPercet": -2.5166935602725595
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-20T12:49:18.557556+04:00",
+  "Fiat": "UAH",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 10449.2,
+  "PaymentBuy": [
+   "Privat Bank (Universal Card)",
+   "Oschadbank",
+   "Monobank",
+   "Raiffeisen Bank Aval",
+   "A-Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=UAH",
+  "Pair": "BNBBTC",
+  "PricePair": 0.014732499999999999,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BTC?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 689541.35,
+  "PaymentSell": [
+   "Privat Bank (Universal Card)",
+   "Oschadbank",
+   "Monobank",
+   "Raiffeisen Bank Aval",
+   "A-Bank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=UAH\u0026payment=ALL",
+  "ProfitValue": -1112.1695866669274,
+  "ProfitPercet": -2.7804239666673185
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-20T12:49:18.560992+04:00",
+  "Fiat": "UAH",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 10449.2,
+  "PaymentBuy": [
+   "Privat Bank (Universal Card)",
+   "Oschadbank",
+   "Monobank",
+   "Raiffeisen Bank Aval",
+   "A-Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=UAH",
+  "Pair": "BNBUSDT",
+  "PricePair": 247.75,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 40.27,
+  "PaymentSell": [
+   "Monobank",
+   "PUMB",
+   "OTP Bank",
+   "OTP"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=UAH\u0026payment=ALL",
+  "ProfitValue": -1808.0140106419635,
+  "ProfitPercet": -4.5200350266049085
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-20T12:49:18.098385+04:00",
+  "Fiat": "UAH",
+  "AssetsBuy": "UAH",
+  "PriceAssetsBuy": 1.01,
+  "PaymentBuy": [
+   "Monobank",
+   "A-Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/UAH?fiat=UAH",
+  "Pair": "BTCUAH",
+  "PricePair": 671852,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_UAH?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 689541.35,
+  "PaymentSell": [
+   "Privat Bank (Universal Card)",
+   "Oschadbank",
+   "Monobank",
+   "Raiffeisen Bank Aval",
+   "A-Bank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=UAH\u0026payment=ALL",
+  "ProfitValue": 646.7024237952448,
+  "ProfitPercet": 1.616756059488112
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-20T12:49:18.099925+04:00",
+  "Fiat": "UAH",
+  "AssetsBuy": "UAH",
+  "PriceAssetsBuy": 1.01,
+  "PaymentBuy": [
+   "Monobank",
+   "A-Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/UAH?fiat=UAH",
+  "Pair": "ETHUAH",
+  "PricePair": 48334,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_UAH?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 49725.29,
+  "PaymentSell": [
+   "Privat Bank (Universal Card)",
+   "Oschadbank",
+   "Monobank",
+   "Raiffeisen Bank Aval",
+   "A-Bank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=UAH\u0026payment=ALL",
+  "ProfitValue": 743.9569628332887,
+  "ProfitPercet": 1.8598924070832217
+ },
+ {
+  "Profit": false,
+  "DataTime": "2022-12-20T12:49:18.129416+04:00",
+  "Fiat": "UAH",
+  "AssetsBuy": "UAH",
+  "PriceAssetsBuy": 1.01,
+  "PaymentBuy": [
+   "Monobank",
+   "A-Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/UAH?fiat=UAH",
+  "Pair": "USDTUAH",
+  "PricePair": 39.96,
+  "LinkMarket": "https://www.binance.com/en/trade/USDT_UAH?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 40.27,
+  "PaymentSell": [
+   "Monobank",
+   "PUMB",
+   "OTP Bank",
+   "OTP"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=UAH\u0026payment=ALL",
+  "ProfitValue": -88.80167296008415,
+  "ProfitPercet": -0.2220041824002104
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-20T12:49:18.751281+04:00",
+  "Fiat": "UAH",
+  "AssetsBuy": "UAH",
+  "PriceAssetsBuy": 1.01,
+  "PaymentBuy": [
+   "Monobank",
+   "A-Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/UAH?fiat=UAH",
+  "Pair": "BUSDUAH",
+  "PricePair": 39.96,
+  "LinkMarket": "https://www.binance.com/en/trade/BUSD_UAH?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 40.4,
+  "PaymentSell": [
+   "Privat Bank (Universal Card)",
+   "Izibank",
+   "A-Bank",
+   "BinancePay (UAH)",
+   "Monobank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=UAH\u0026payment=ALL",
+  "ProfitValue": 40.04004004004019,
+  "ProfitPercet": 0.10010010010010047
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-20T12:49:18.783575+04:00",
+  "Fiat": "UAH",
+  "AssetsBuy": "UAH",
+  "PriceAssetsBuy": 1.01,
+  "PaymentBuy": [
+   "Monobank",
+   "A-Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/UAH?fiat=UAH",
+  "Pair": "BNBUAH",
+  "PricePair": 9896.5,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_UAH?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 10449.2,
+  "PaymentSell": [
+   "Privat Bank (Universal Card)",
+   "Oschadbank",
+   "Monobank",
+   "Raiffeisen Bank Aval",
+   "A-Bank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=UAH\u0026payment=ALL",
+  "ProfitValue": 1815.7634487240036,
+  "ProfitPercet": 4.53940862181001
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-20T12:49:18.098348+04:00",
+  "Fiat": "UAH",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 40.27,
+  "PaymentBuy": [
+   "Monobank",
+   "PUMB",
+   "OTP Bank",
+   "OTP"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=UAH",
+  "Pair": "USDTUAH",
+  "PricePair": 39.96,
+  "LinkMarket": "https://www.binance.com/en/trade/USDT_UAH?_from=markets",
+  "AssetsSell": "UAH",
+  "PriceAssetsSell": 1.01,
+  "PaymentSell": [
+   "Monobank",
+   "A-Bank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/UAH?fiat=UAH\u0026payment=ALL",
+  "ProfitValue": 88.99925502855453,
+  "ProfitPercet": 0.2224981375713863
+ },
+ {
+  "Profit": false,
+  "DataTime": "0001-01-01T00:00:00Z",
+  "Fiat": "",
+  "AssetsBuy": "",
+  "PriceAssetsBuy": 0,
+  "PaymentBuy": null,
+  "LinkAssetsBuy": "",
+  "Pair": "",
+  "PricePair": 0,
+  "LinkMarket": "",
+  "AssetsSell": "",
+  "PriceAssetsSell": 0,
+  "PaymentSell": null,
+  "LinkAssetsSell": "",
+  "ProfitValue": 0,
+  "ProfitPercet": 0
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-20T12:49:18.784421+04:00",
+  "Fiat": "UAH",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 40.27,
+  "PaymentBuy": [
+   "Monobank",
+   "PUMB",
+   "OTP Bank",
+   "OTP"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=UAH",
+  "Pair": "BNBUSDT",
+  "PricePair": 247.75,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_USDT?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 10449.2,
+  "PaymentSell": [
+   "Privat Bank (Universal Card)",
+   "Oschadbank",
+   "Monobank",
+   "Raiffeisen Bank Aval",
+   "A-Bank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=UAH\u0026payment=ALL",
+  "ProfitValue": 1893.6056492540072,
+  "ProfitPercet": 4.734014123135018
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-20T12:49:18.78508+04:00",
+  "Fiat": "UAH",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 40.27,
+  "PaymentBuy": [
+   "Monobank",
+   "PUMB",
+   "OTP Bank",
+   "OTP"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=UAH",
+  "Pair": "BTCUSDT",
+  "PricePair": 16816.915,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_USDT?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 689541.35,
+  "PaymentSell": [
+   "Privat Bank (Universal Card)",
+   "Oschadbank",
+   "Monobank",
+   "Raiffeisen Bank Aval",
+   "A-Bank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=UAH\u0026payment=ALL",
+  "ProfitValue": 727.9309237646605,
+  "ProfitPercet": 1.8198273094116515
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-20T12:49:18.939391+04:00",
+  "Fiat": "UAH",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 40.27,
+  "PaymentBuy": [
+   "Monobank",
+   "PUMB",
+   "OTP Bank",
+   "OTP"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=UAH",
+  "Pair": "ETHUSDT",
+  "PricePair": 1209.875,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_USDT?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 49725.29,
+  "PaymentSell": [
+   "Privat Bank (Universal Card)",
+   "Oschadbank",
+   "Monobank",
+   "Raiffeisen Bank Aval",
+   "A-Bank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=UAH\u0026payment=ALL",
+  "ProfitValue": 823.9650465566674,
+  "ProfitPercet": 2.0599126163916686
+ },
+ {
+  "Profit": true,
+  "DataTime": "2022-12-20T12:49:18.958042+04:00",
+  "Fiat": "UAH",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 40.27,
+  "PaymentBuy": [
+   "Monobank",
+   "PUMB",
+   "OTP Bank",
+   "OTP"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=UAH",
+  "Pair": "BUSDUSDT",
+  "PricePair": 0.99985,
+  "LinkMarket": "https://www.binance.com/en/trade/BUSD_USDT?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 40.4,
+  "PaymentSell": [
+   "Privat Bank (Universal Card)",
+   "Izibank",
+   "A-Bank",
+   "BinancePay (UAH)",
+   "Monobank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=UAH\u0026payment=ALL",
+  "ProfitValue": 135.14865571031942,
+  "ProfitPercet": 0.33787163927579855
+ }
+]
