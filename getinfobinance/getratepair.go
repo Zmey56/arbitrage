@@ -8,6 +8,7 @@ import (
 	"io"
 	"net/http"
 	"strconv"
+	"time"
 )
 
 type ratejson struct {
@@ -42,6 +43,7 @@ func GetRatePair(pair []string) map[string]float64 {
 
 			rate_pair[p] = (bids + asks) / 2.0
 		}
+		time.Sleep(1 * time.Nanosecond)
 	}
 	return rate_pair
 }

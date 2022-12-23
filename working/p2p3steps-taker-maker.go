@@ -44,7 +44,8 @@ func P2P3stepsTakerMaker(fiat string, paramUser interact.Parameters) {
 
 	for _, j := range allOrders {
 		for _, i := range j {
-			result.SaveResultJsonFile(fiat, i, "3steps_tm")
+			//result.SaveResultJsonFile(fiat, i, "3steps_tm")
+			log.Printf("3 steps taker maker. Fiat - %s, Result - %v", fiat, i)
 			if i.Profit && (i.ProfitPercet >= paramUser.PercentUser) {
 				result.FormatMessageAndSend(i, "3 steps Taker -> Maker")
 			}

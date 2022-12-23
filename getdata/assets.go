@@ -9,9 +9,25 @@ import (
 	"io"
 	"log"
 	"net/http"
+	"os"
 )
 
+// recover function to handle panic
+func handlePanic() {
+
+	// detect if panic occurs or not
+	a := recover()
+
+	if a != nil {
+		log.Println("RECOVER", a)
+	}
+
+}
+
 func GetAssets(fiat ...string) map[string]string {
+	// execute the handlePanic even after panic occurs
+	defer handlePanic()
+
 	assets := make(map[string]string)
 	httpposturl := "https://p2p.binance.com/bapi/c2c/v2/friendly/c2c/portal/config"
 	fmt.Println("HTTP JSON POST URL:", httpposturl)
@@ -38,6 +54,7 @@ func GetAssets(fiat ...string) map[string]string {
 	response, error := client.Do(request)
 	if error != nil {
 		log.Panic(error)
+		os.Exit(1)
 	}
 	defer response.Body.Close()
 
