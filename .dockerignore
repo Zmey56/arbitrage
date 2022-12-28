@@ -1,2 +1,6 @@
 *.ipynb
 jsonresult?
+.dockerignore
+.vscode
+.idea
+.readmes

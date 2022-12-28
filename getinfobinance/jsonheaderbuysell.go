@@ -51,9 +51,14 @@ func GetDataP2P(asset, fiat, tradeType string, paramUser interact.Parameters) Ad
 	request.Header.Set("Content-Type", "application/json; charset=UTF-8")
 
 	client := &http.Client{}
-	response, error := client.Do(request)
-	if error != nil {
-		panic(error)
+	response, err := client.Do(request)
+	if err != nil {
+		if err.Error() == "connection reset by peer" {
+			panic(error)
+		} else {
+			log.Println("Error:", error)
+		}
+
 	}
 	defer response.Body.Close()
 

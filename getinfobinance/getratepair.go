@@ -6,6 +6,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"io"
+	"log"
 	"net/http"
 	"strconv"
 	"time"
@@ -18,12 +19,44 @@ type ratejson struct {
 }
 
 func GetRatePair(pair []string) map[string]float64 {
+	for {
+		defer func() {
+			if r := recover(); r != nil {
+				if r == "connection reset by peer" {
+					log.Println("An error occured 'connection reset by peer', reconecting...")
+					time.Sleep(time.Second * 1)
+				} else {
+					// Handling other errors
+					log.Println("An error occured:", r)
+					return
+				}
+			}
+		}()
+
+		res, err := SendRequesrRatePair(pair)
+
+		if err != nil {
+			if err.Error() == "connection reset by peer" {
+				// reconecting
+				panic("connection reset by peer")
+			} else {
+				log.Println("Error:", err)
+			}
+		} else {
+			return res
+		}
+
+	}
+}
+
+func SendRequesrRatePair(pair []string) (map[string]float64, error) {
 	rate_pair := make(map[string]float64)
 	for _, p := range pair {
 		url := fmt.Sprintf("https://www.binance.com/api/v3/depth?symbol=%s&limit=1", p)
+
 		resp, err := http.Get(url)
 		if err != nil {
-			panic(err)
+			return rate_pair, err
 		}
 		defer resp.Body.Close()
 		body, _ := io.ReadAll(resp.Body)
@@ -32,7 +65,7 @@ func GetRatePair(pair []string) map[string]float64 {
 		rj := ratejson{}
 
 		if err := json.Unmarshal(body, &rj); err != nil {
-			panic(err)
+			return rate_pair, err
 		}
 
 		//log.Println(len(rj.Bids), len(rj.Asks))
@@ -43,7 +76,6 @@ func GetRatePair(pair []string) map[string]float64 {
 
 			rate_pair[p] = (bids + asks) / 2.0
 		}
-		time.Sleep(1 * time.Nanosecond)
 	}
-	return rate_pair
+	return rate_pair, nil
 }

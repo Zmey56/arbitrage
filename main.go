@@ -7,6 +7,7 @@ import (
 	"github.com/Zmey56/arbitrage/interact"
 	"github.com/Zmey56/arbitrage/working"
 	"log"
+	"net/http"
 	"os"
 	"time"
 )
@@ -19,6 +20,7 @@ const (
 )
 
 func main() {
+	http.DefaultTransport.(*http.Transport).MaxIdleConnsPerHost = 100
 	paramUser := getParam("RUB")
 	paramUser_2 := getParam("RUB_2")
 	for {
