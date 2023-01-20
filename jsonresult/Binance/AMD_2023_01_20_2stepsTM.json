@@ -1,0 +1,212 @@
+[
+ {
+  "Market": {
+   "First": "binance",
+   "Second": "huobi",
+   "Third": ""
+  },
+  "Profit": false,
+  "DataTime": "2023-01-20T23:01:59.364186+04:00",
+  "Fiat": "AMD",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 713249.4,
+  "PaymentBuy": [
+   "Inecobank",
+   "ArCA",
+   "Bank Transfer"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=AMD",
+  "Pair": "",
+  "PricePair": 0,
+  "LinkMarket": "",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 14336.54,
+  "PaymentSell": [
+   "Bank Transfer",
+   "FPS",
+   "WeChat"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trader/153409114",
+  "ProfitValue": -97989.96816541311,
+  "ProfitPercet": -97.98996816541312,
+  "TotalAdvBuy": 1,
+  "TotalAdvSell": 5,
+  "AdvNoBuy": "11407525630851264512",
+  "AdvNoSell": "153409114"
+ },
+ {
+  "Market": {
+   "First": "binance",
+   "Second": "huobi",
+   "Third": ""
+  },
+  "Profit": false,
+  "DataTime": "2023-01-20T23:02:00.101417+04:00",
+  "Fiat": "AMD",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 9676663.41,
+  "PaymentBuy": [
+   "Bank Transfer",
+   "ArCA",
+   "Inecobank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=AMD",
+  "Pair": "",
+  "PricePair": 0,
+  "LinkMarket": "",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 182523.43,
+  "PaymentSell": [
+   "Bank Transfer",
+   "FPS",
+   "WeChat"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trader/153409114",
+  "ProfitValue": -98113.77721569422,
+  "ProfitPercet": -98.11377721569421,
+  "TotalAdvBuy": 1,
+  "TotalAdvSell": 13,
+  "AdvNoBuy": "11407526180632162304",
+  "AdvNoSell": "153409114"
+ },
+ {
+  "Market": {
+   "First": "binance",
+   "Second": "huobi",
+   "Third": ""
+  },
+  "Profit": false,
+  "DataTime": "2023-01-20T23:02:00.240068+04:00",
+  "Fiat": "AMD",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 402.26,
+  "PaymentBuy": [
+   "Inecobank",
+   "ArCA",
+   "Bank Transfer"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=AMD",
+  "Pair": "",
+  "PricePair": 0,
+  "LinkMarket": "",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 1.43,
+  "PaymentSell": [
+   "Bank Transfer",
+   "Interac e-transfer"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trader/353285065",
+  "ProfitValue": -99644.50852682345,
+  "ProfitPercet": -99.64450852682344,
+  "TotalAdvBuy": 7,
+  "TotalAdvSell": 17,
+  "AdvNoBuy": "11407536135905972224",
+  "AdvNoSell": "353285065"
+ },
+ {
+  "Market": {
+   "First": "binance",
+   "Second": "huobi",
+   "Third": ""
+  },
+  "Profit": false,
+  "DataTime": "2023-01-20T23:11:22.562103+04:00",
+  "Fiat": "AMD",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 714277.09,
+  "PaymentBuy": [
+   "Inecobank",
+   "ArCA",
+   "Bank Transfer"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=AMD",
+  "Pair": "",
+  "PricePair": 0,
+  "LinkMarket": "",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 14339.55,
+  "PaymentSell": [
+   "Bank Transfer",
+   "FPS",
+   "WeChat"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trader/153409114",
+  "ProfitValue": -97992.4387607056,
+  "ProfitPercet": -97.9924387607056,
+  "TotalAdvBuy": 1,
+  "TotalAdvSell": 5,
+  "AdvNoBuy": "11407525630851264512",
+  "AdvNoSell": "153409114"
+ },
+ {
+  "Market": {
+   "First": "binance",
+   "Second": "huobi",
+   "Third": ""
+  },
+  "Profit": false,
+  "DataTime": "2023-01-20T23:11:22.562278+04:00",
+  "Fiat": "AMD",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 9684890.53,
+  "PaymentBuy": [
+   "Bank Transfer",
+   "ArCA",
+   "Inecobank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=AMD",
+  "Pair": "",
+  "PricePair": 0,
+  "LinkMarket": "",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 182554.98,
+  "PaymentSell": [
+   "Bank Transfer",
+   "FPS",
+   "WeChat"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trader/153409114",
+  "ProfitValue": -98115.05375889881,
+  "ProfitPercet": -98.11505375889881,
+  "TotalAdvBuy": 1,
+  "TotalAdvSell": 13,
+  "AdvNoBuy": "11407526180632162304",
+  "AdvNoSell": "153409114"
+ },
+ {
+  "Market": {
+   "First": "binance",
+   "Second": "huobi",
+   "Third": ""
+  },
+  "Profit": false,
+  "DataTime": "2023-01-20T23:11:22.583526+04:00",
+  "Fiat": "AMD",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 402.35,
+  "PaymentBuy": [
+   "ArCA",
+   "Unibank",
+   "IDBank",
+   "Inecobank",
+   "Ameriabank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=AMD",
+  "Pair": "",
+  "PricePair": 0,
+  "LinkMarket": "",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 1.43,
+  "PaymentSell": [
+   "Bank Transfer",
+   "Interac e-transfer"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trader/353285065",
+  "ProfitValue": -99644.58804523425,
+  "ProfitPercet": -99.64458804523424,
+  "TotalAdvBuy": 7,
+  "TotalAdvSell": 17,
+  "AdvNoBuy": "11409251860800454656",
+  "AdvNoSell": "353285065"
+ }
+]

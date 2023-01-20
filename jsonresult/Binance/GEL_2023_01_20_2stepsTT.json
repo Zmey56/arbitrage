@@ -1,0 +1,226 @@
+[
+ {
+  "Market": {
+   "First": "binance",
+   "Second": "huobi",
+   "Third": ""
+  },
+  "Profit": false,
+  "DataTime": "2023-01-20T22:39:35.624158+04:00",
+  "Fiat": "GEL",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 59458.69,
+  "PaymentBuy": [
+   "TBC Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=GEL",
+  "Pair": "",
+  "PricePair": 0,
+  "LinkMarket": "",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 53424.27,
+  "PaymentSell": [
+   "Bank of Georgia",
+   "TBC Bank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trader/266601818",
+  "ProfitValue": -101.4892860908978,
+  "ProfitPercet": -10.14892860908978,
+  "TotalAdvBuy": 1,
+  "TotalAdvSell": 1,
+  "AdvNoBuy": "11426606615346880512",
+  "AdvNoSell": "266601818"
+ },
+ {
+  "Market": {
+   "First": "binance",
+   "Second": "huobi",
+   "Third": ""
+  },
+  "Profit": false,
+  "DataTime": "2023-01-20T22:39:35.629206+04:00",
+  "Fiat": "GEL",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 4807.38,
+  "PaymentBuy": [
+   "TBC Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=GEL",
+  "Pair": "",
+  "PricePair": 0,
+  "LinkMarket": "",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 4021.32,
+  "PaymentSell": [
+   "Bank of Georgia",
+   "TBC Bank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trader/266601818",
+  "ProfitValue": -163.51110168116517,
+  "ProfitPercet": -16.351110168116517,
+  "TotalAdvBuy": 1,
+  "TotalAdvSell": 1,
+  "AdvNoBuy": "11426607790110892032",
+  "AdvNoSell": "266601818"
+ },
+ {
+  "Market": {
+   "First": "binance",
+   "Second": "huobi",
+   "Third": ""
+  },
+  "Profit": false,
+  "DataTime": "2023-01-20T22:39:35.655945+04:00",
+  "Fiat": "GEL",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 2.67,
+  "PaymentBuy": [
+   "TBC Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=GEL",
+  "Pair": "",
+  "PricePair": 0,
+  "LinkMarket": "",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 2.6,
+  "PaymentSell": [
+   "Bank of Georgia",
+   "TBC Bank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trader/266601818",
+  "ProfitValue": -26.217228464419374,
+  "ProfitPercet": -2.621722846441937,
+  "TotalAdvBuy": 13,
+  "TotalAdvSell": 1,
+  "AdvNoBuy": "11436317836803141632",
+  "AdvNoSell": "266601818"
+ },
+ {
+  "Market": {
+   "First": "binance",
+   "Second": "huobi",
+   "Third": ""
+  },
+  "Profit": false,
+  "DataTime": "2023-01-20T22:45:39.08706+04:00",
+  "Fiat": "GEL",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 4809.09,
+  "PaymentBuy": [
+   "TBC Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=GEL",
+  "Pair": "",
+  "PricePair": 0,
+  "LinkMarket": "",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 4023.97,
+  "PaymentSell": [
+   "Bank of Georgia",
+   "TBC Bank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trader/266601818",
+  "ProfitValue": -163.2574977802454,
+  "ProfitPercet": -16.32574977802454,
+  "TotalAdvBuy": 1,
+  "TotalAdvSell": 1,
+  "AdvNoBuy": "11426607790110892032",
+  "AdvNoSell": "266601818"
+ },
+ {
+  "Market": {
+   "First": "binance",
+   "Second": "huobi",
+   "Third": ""
+  },
+  "Profit": false,
+  "DataTime": "2023-01-20T22:45:39.10355+04:00",
+  "Fiat": "GEL",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 2.67,
+  "PaymentBuy": [
+   "TBC Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=GEL",
+  "Pair": "",
+  "PricePair": 0,
+  "LinkMarket": "",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 2.6,
+  "PaymentSell": [
+   "Bank of Georgia",
+   "TBC Bank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trader/266601818",
+  "ProfitValue": -26.217228464419374,
+  "ProfitPercet": -2.621722846441937,
+  "TotalAdvBuy": 12,
+  "TotalAdvSell": 1,
+  "AdvNoBuy": "11436317836803141632",
+  "AdvNoSell": "266601818"
+ },
+ {
+  "Market": {
+   "First": "binance",
+   "Second": "huobi",
+   "Third": ""
+  },
+  "Profit": false,
+  "DataTime": "2023-01-20T22:45:39.167083+04:00",
+  "Fiat": "GEL",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 59488.06,
+  "PaymentBuy": [
+   "TBC Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=GEL",
+  "Pair": "",
+  "PricePair": 0,
+  "LinkMarket": "",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 53443.51,
+  "PaymentSell": [
+   "Bank of Georgia",
+   "TBC Bank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trader/266601818",
+  "ProfitValue": -101.60946583230317,
+  "ProfitPercet": -10.160946583230317,
+  "TotalAdvBuy": 1,
+  "TotalAdvSell": 1,
+  "AdvNoBuy": "11426606615346880512",
+  "AdvNoSell": "266601818"
+ },
+ {
+  "Market": {
+   "First": "binance",
+   "Second": "huobi",
+   "Third": ""
+  },
+  "Profit": false,
+  "DataTime": "2023-01-20T23:20:02.976392+04:00",
+  "Fiat": "GEL",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 2.67,
+  "PaymentBuy": [
+   "TBC Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=GEL",
+  "Pair": "",
+  "PricePair": 0,
+  "LinkMarket": "",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 2.6,
+  "PaymentSell": [
+   "Bank of Georgia",
+   "TBC Bank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trader/266601818",
+  "ProfitValue": -26.217228464419374,
+  "ProfitPercet": -2.621722846441937,
+  "TotalAdvBuy": 11,
+  "TotalAdvSell": 1,
+  "AdvNoBuy": "11436317836803141632",
+  "AdvNoSell": "266601818"
+ }
+]

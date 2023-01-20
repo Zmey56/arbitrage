@@ -1,0 +1,311 @@
+[
+ {
+  "Market": {
+   "First": "binance",
+   "Second": "huobi",
+   "Third": ""
+  },
+  "Profit": true,
+  "DataTime": "2023-01-20T22:39:34.030017+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 1539.528,
+  "PaymentBuy": [
+   "SEPA (EU) bank transfer",
+   "Wise",
+   "ZEN",
+   "SEPA Instant"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=EUR",
+  "Pair": "",
+  "PricePair": 0,
+  "LinkMarket": "",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 1696.97,
+  "PaymentSell": [
+   "Bank Transfer",
+   "SEPA (EU) Bank Transfer",
+   "SEPA Instant"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trader/353285065",
+  "ProfitValue": 102.26640892533294,
+  "ProfitPercet": 10.226640892533293,
+  "TotalAdvBuy": 5,
+  "TotalAdvSell": 1,
+  "AdvNoBuy": "11355115117436100608",
+  "AdvNoSell": "353285065"
+ },
+ {
+  "Market": {
+   "First": "binance",
+   "Second": "huobi",
+   "Third": ""
+  },
+  "Profit": true,
+  "DataTime": "2023-01-20T22:39:34.350846+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 20650.594,
+  "PaymentBuy": [
+   "Wise",
+   "SEPA Instant"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=EUR",
+  "Pair": "",
+  "PricePair": 0,
+  "LinkMarket": "",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 22784.51,
+  "PaymentSell": [
+   "Bank Transfer",
+   "SEPA (EU) Bank Transfer",
+   "SEPA Instant"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trader/353285065",
+  "ProfitValue": 103.33436413499763,
+  "ProfitPercet": 10.333436413499761,
+  "TotalAdvBuy": 10,
+  "TotalAdvSell": 2,
+  "AdvNoBuy": "11449781350925918208",
+  "AdvNoSell": "353285065"
+ },
+ {
+  "Market": {
+   "First": "binance",
+   "Second": "huobi",
+   "Third": ""
+  },
+  "Profit": true,
+  "DataTime": "2023-01-20T22:39:34.412455+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 0.929,
+  "PaymentBuy": [
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=EUR",
+  "Pair": "",
+  "PricePair": 0,
+  "LinkMarket": "",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 0.94,
+  "PaymentSell": [
+   "Bank Transfer",
+   "SEPA (EU) Bank Transfer",
+   "SEPA Instant"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trader/353285065",
+  "ProfitValue": 11.840688912809462,
+  "ProfitPercet": 1.1840688912809463,
+  "TotalAdvBuy": 48,
+  "TotalAdvSell": 13,
+  "AdvNoBuy": "11424122982943117312",
+  "AdvNoSell": "353285065"
+ },
+ {
+  "Market": {
+   "First": "binance",
+   "Second": "huobi",
+   "Third": ""
+  },
+  "Profit": true,
+  "DataTime": "2023-01-20T22:45:37.257492+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 20644.792,
+  "PaymentBuy": [
+   "Wise",
+   "SEPA Instant"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=EUR",
+  "Pair": "",
+  "PricePair": 0,
+  "LinkMarket": "",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 22792.71,
+  "PaymentSell": [
+   "Bank Transfer",
+   "SEPA (EU) Bank Transfer",
+   "SEPA Instant"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trader/353285065",
+  "ProfitValue": 104.0416391698206,
+  "ProfitPercet": 10.404163916982059,
+  "TotalAdvBuy": 10,
+  "TotalAdvSell": 2,
+  "AdvNoBuy": "11449781350925918208",
+  "AdvNoSell": "353285065"
+ },
+ {
+  "Market": {
+   "First": "binance",
+   "Second": "huobi",
+   "Third": ""
+  },
+  "Profit": true,
+  "DataTime": "2023-01-20T22:45:37.257938+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 0.929,
+  "PaymentBuy": [
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=EUR",
+  "Pair": "",
+  "PricePair": 0,
+  "LinkMarket": "",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 0.94,
+  "PaymentSell": [
+   "Bank Transfer",
+   "SEPA (EU) Bank Transfer",
+   "SEPA Instant"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trader/353285065",
+  "ProfitValue": 11.840688912809462,
+  "ProfitPercet": 1.1840688912809463,
+  "TotalAdvBuy": 46,
+  "TotalAdvSell": 13,
+  "AdvNoBuy": "11424122982943117312",
+  "AdvNoSell": "353285065"
+ },
+ {
+  "Market": {
+   "First": "binance",
+   "Second": "huobi",
+   "Third": ""
+  },
+  "Profit": true,
+  "DataTime": "2023-01-20T22:45:37.960447+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 1542,
+  "PaymentBuy": [
+   "SEPA (EU) bank transfer",
+   "Wise",
+   "ZEN",
+   "SEPA Instant"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=EUR",
+  "Pair": "",
+  "PricePair": 0,
+  "LinkMarket": "",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 1698.09,
+  "PaymentSell": [
+   "Bank Transfer",
+   "SEPA (EU) Bank Transfer",
+   "SEPA Instant"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trader/353285065",
+  "ProfitValue": 101.22568093385213,
+  "ProfitPercet": 10.122568093385214,
+  "TotalAdvBuy": 5,
+  "TotalAdvSell": 1,
+  "AdvNoBuy": "11355115117436100608",
+  "AdvNoSell": "353285065"
+ },
+ {
+  "Market": {
+   "First": "binance",
+   "Second": "huobi",
+   "Third": ""
+  },
+  "Profit": true,
+  "DataTime": "2023-01-20T23:18:11.400697+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 0.929,
+  "PaymentBuy": [
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=EUR",
+  "Pair": "",
+  "PricePair": 0,
+  "LinkMarket": "",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 0.94,
+  "PaymentSell": [
+   "Bank Transfer",
+   "SEPA (EU) Bank Transfer",
+   "SEPA Instant"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trader/353285065",
+  "ProfitValue": 11.840688912809462,
+  "ProfitPercet": 1.1840688912809463,
+  "TotalAdvBuy": 44,
+  "TotalAdvSell": 13,
+  "AdvNoBuy": "11424122982943117312",
+  "AdvNoSell": "353285065"
+ },
+ {
+  "Market": {
+   "First": "binance",
+   "Second": "huobi",
+   "Third": ""
+  },
+  "Profit": true,
+  "DataTime": "2023-01-20T23:18:11.40149+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 1540.948,
+  "PaymentBuy": [
+   "SEPA (EU) bank transfer",
+   "Wise",
+   "ZEN",
+   "SEPA Instant"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=EUR",
+  "Pair": "",
+  "PricePair": 0,
+  "LinkMarket": "",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 1697.6,
+  "PaymentSell": [
+   "Bank Transfer",
+   "SEPA (EU) Bank Transfer",
+   "SEPA Instant"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trader/353285065",
+  "ProfitValue": 101.65949791946248,
+  "ProfitPercet": 10.165949791946248,
+  "TotalAdvBuy": 5,
+  "TotalAdvSell": 1,
+  "AdvNoBuy": "11355115117436100608",
+  "AdvNoSell": "353285065"
+ },
+ {
+  "Market": {
+   "First": "binance",
+   "Second": "huobi",
+   "Third": ""
+  },
+  "Profit": true,
+  "DataTime": "2023-01-20T23:18:12.124024+04:00",
+  "Fiat": "EUR",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 20644.233,
+  "PaymentBuy": [
+   "Wise",
+   "SEPA Instant"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=EUR",
+  "Pair": "",
+  "PricePair": 0,
+  "LinkMarket": "",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 22802.77,
+  "PaymentSell": [
+   "Bank Transfer",
+   "SEPA (EU) Bank Transfer",
+   "SEPA Instant"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trader/353285065",
+  "ProfitValue": 104.55883732759654,
+  "ProfitPercet": 10.455883732759654,
+  "TotalAdvBuy": 10,
+  "TotalAdvSell": 2,
+  "AdvNoBuy": "11449781350925918208",
+  "AdvNoSell": "353285065"
+ }
+]

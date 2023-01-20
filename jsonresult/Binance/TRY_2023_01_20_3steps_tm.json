@@ -1,0 +1,1292 @@
+[
+ {
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Profit": false,
+  "DataTime": "2023-01-20T23:25:53.407367+04:00",
+  "Fiat": "TRY",
+  "AssetsBuy": "SOL",
+  "PriceAssetsBuy": 567.61,
+  "PaymentBuy": [
+   "Garanti",
+   "Bank Transfer",
+   "Ziraat",
+   "Kuveyt Turk",
+   "Bank Transfer (Turkey)"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/SOL?fiat=TRY",
+  "Pair": "SOLBUSD",
+  "PricePair": 22.875,
+  "LinkMarket": "https://www.binance.com/en/trade/SOL_BUSD?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 19.92,
+  "PaymentSell": [
+   "DenizBank",
+   "Bank Transfer (Turkey)",
+   "Kuveyt Turk",
+   "Ziraat",
+   "Bank Transfer"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=TRY",
+  "ProfitValue": -1972.1287503743752,
+  "ProfitPercet": -19.72128750374375,
+  "TotalAdvBuy": 1,
+  "TotalAdvSell": 2,
+  "AdvNoBuy": "11403614477012566016",
+  "AdvNoSell": "11371904151834488832"
+ },
+ {
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Profit": false,
+  "DataTime": "2023-01-20T23:25:53.417383+04:00",
+  "Fiat": "TRY",
+  "AssetsBuy": "SOL",
+  "PriceAssetsBuy": 567.61,
+  "PaymentBuy": [
+   "Garanti",
+   "Bank Transfer",
+   "Ziraat",
+   "Kuveyt Turk",
+   "Bank Transfer (Turkey)"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/SOL?fiat=TRY",
+  "Pair": "SOLUSDT",
+  "PricePair": 22.875,
+  "LinkMarket": "https://www.binance.com/en/trade/SOL_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 19.26,
+  "PaymentSell": [
+   "Kuveyt Turk",
+   "alBaraka"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=TRY",
+  "ProfitValue": -2238.112436355947,
+  "ProfitPercet": -22.381124363559472,
+  "TotalAdvBuy": 1,
+  "TotalAdvSell": 16,
+  "AdvNoBuy": "11403614477012566016",
+  "AdvNoSell": "11444654366699421696"
+ },
+ {
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Profit": false,
+  "DataTime": "2023-01-20T23:25:54.11462+04:00",
+  "Fiat": "TRY",
+  "AssetsBuy": "SOL",
+  "PriceAssetsBuy": 567.61,
+  "PaymentBuy": [
+   "Garanti",
+   "Bank Transfer",
+   "Ziraat",
+   "Kuveyt Turk",
+   "Bank Transfer (Turkey)"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/SOL?fiat=TRY",
+  "Pair": "SOLETH",
+  "PricePair": 0.014360000000000001,
+  "LinkMarket": "https://www.binance.com/en/trade/SOL_ETH?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 32992.04,
+  "PaymentSell": [
+   "DenizBank",
+   "Garanti",
+   "Ziraat",
+   "Kuveyt Turk",
+   "Bank Transfer"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=TRY",
+  "ProfitValue": -1653.3236835150879,
+  "ProfitPercet": -16.533236835150877,
+  "TotalAdvBuy": 1,
+  "TotalAdvSell": 2,
+  "AdvNoBuy": "11403614477012566016",
+  "AdvNoSell": "11317065728976265216"
+ },
+ {
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Profit": false,
+  "DataTime": "2023-01-20T23:25:54.118401+04:00",
+  "Fiat": "TRY",
+  "AssetsBuy": "SOL",
+  "PriceAssetsBuy": 567.61,
+  "PaymentBuy": [
+   "Garanti",
+   "Bank Transfer",
+   "Ziraat",
+   "Kuveyt Turk",
+   "Bank Transfer (Turkey)"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/SOL?fiat=TRY",
+  "Pair": "SOLBTC",
+  "PricePair": 0.0010687499999999998,
+  "LinkMarket": "https://www.binance.com/en/trade/SOL_BTC?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 431083.1,
+  "PaymentSell": [
+   "DenizBank",
+   "Garanti",
+   "Ziraat",
+   "Kuveyt Turk",
+   "Bank Transfer"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=TRY",
+  "ProfitValue": -1883.158099311148,
+  "ProfitPercet": -18.83158099311148,
+  "TotalAdvBuy": 1,
+  "TotalAdvSell": 2,
+  "AdvNoBuy": "11403614477012566016",
+  "AdvNoSell": "11317069144698912768"
+ },
+ {
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Profit": false,
+  "DataTime": "2023-01-20T23:25:54.121771+04:00",
+  "Fiat": "TRY",
+  "AssetsBuy": "SOL",
+  "PriceAssetsBuy": 567.61,
+  "PaymentBuy": [
+   "Garanti",
+   "Bank Transfer",
+   "Ziraat",
+   "Kuveyt Turk",
+   "Bank Transfer (Turkey)"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/SOL?fiat=TRY",
+  "Pair": "SOLBNB",
+  "PricePair": 0.0781,
+  "LinkMarket": "https://www.binance.com/en/trade/SOL_BNB?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 6073.24,
+  "PaymentSell": [
+   "Bank Transfer",
+   "Kuveyt Turk",
+   "Ziraat",
+   "Garanti",
+   "DenizBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=TRY",
+  "ProfitValue": -1643.5573016683984,
+  "ProfitPercet": -16.435573016683986,
+  "TotalAdvBuy": 1,
+  "TotalAdvSell": 2,
+  "AdvNoBuy": "11403614477012566016",
+  "AdvNoSell": "11317066886904102912"
+ },
+ {
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Profit": false,
+  "DataTime": "2023-01-20T23:25:53.502628+04:00",
+  "Fiat": "TRY",
+  "AssetsBuy": "SHIB",
+  "PriceAssetsBuy": 0.0002313,
+  "PaymentBuy": [
+   "İŞBANK",
+   "Bank Transfer (Turkey)",
+   "Kuveyt Turk",
+   "Ziraat",
+   "Bank Transfer"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/SHIB?fiat=TRY",
+  "Pair": "SHIBUSDT",
+  "PricePair": 0.000011675,
+  "LinkMarket": "https://www.binance.com/en/trade/SHIB_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 19.26,
+  "PaymentSell": [
+   "Kuveyt Turk",
+   "alBaraka"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=TRY",
+  "ProfitValue": -278.40466926070155,
+  "ProfitPercet": -2.7840466926070158,
+  "TotalAdvBuy": 2,
+  "TotalAdvSell": 16,
+  "AdvNoBuy": "11306678758932836352",
+  "AdvNoSell": "11444654366699421696"
+ },
+ {
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Profit": true,
+  "DataTime": "2023-01-20T23:25:54.199839+04:00",
+  "Fiat": "TRY",
+  "AssetsBuy": "SHIB",
+  "PriceAssetsBuy": 0.0002313,
+  "PaymentBuy": [
+   "İŞBANK",
+   "Bank Transfer (Turkey)",
+   "Kuveyt Turk",
+   "Ziraat",
+   "Bank Transfer"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/SHIB?fiat=TRY",
+  "Pair": "SHIBBUSD",
+  "PricePair": 0.000011675,
+  "LinkMarket": "https://www.binance.com/en/trade/SHIB_BUSD?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 19.92,
+  "PaymentSell": [
+   "DenizBank",
+   "Bank Transfer (Turkey)",
+   "Kuveyt Turk",
+   "Ziraat",
+   "Bank Transfer"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=TRY",
+  "ProfitValue": 54.73411154344889,
+  "ProfitPercet": 0.5473411154344889,
+  "TotalAdvBuy": 2,
+  "TotalAdvSell": 2,
+  "AdvNoBuy": "11306678758932836352",
+  "AdvNoSell": "11371904151834488832"
+ },
+ {
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Profit": false,
+  "DataTime": "2023-01-20T23:25:55.607215+04:00",
+  "Fiat": "TRY",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 32992.04,
+  "PaymentBuy": [
+   "DenizBank",
+   "Garanti",
+   "Ziraat",
+   "Kuveyt Turk",
+   "Bank Transfer"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=TRY",
+  "Pair": "ETHBUSD",
+  "PricePair": 1592.8249999999998,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BUSD?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 19.92,
+  "PaymentSell": [
+   "DenizBank",
+   "Bank Transfer (Turkey)",
+   "Kuveyt Turk",
+   "Ziraat",
+   "Bank Transfer"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=TRY",
+  "ProfitValue": -382.8093079421585,
+  "ProfitPercet": -3.828093079421585,
+  "TotalAdvBuy": 2,
+  "TotalAdvSell": 2,
+  "AdvNoBuy": "11317065728976265216",
+  "AdvNoSell": "11371904151834488832"
+ },
+ {
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Profit": false,
+  "DataTime": "2023-01-20T23:25:55.611445+04:00",
+  "Fiat": "TRY",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 32992.04,
+  "PaymentBuy": [
+   "DenizBank",
+   "Garanti",
+   "Ziraat",
+   "Kuveyt Turk",
+   "Bank Transfer"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=TRY",
+  "Pair": "ETHUSDT",
+  "PricePair": 1592.745,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 19.26,
+  "PaymentSell": [
+   "Kuveyt Turk",
+   "alBaraka"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=TRY",
+  "ProfitValue": -701.9181899633973,
+  "ProfitPercet": -7.019181899633972,
+  "TotalAdvBuy": 2,
+  "TotalAdvSell": 16,
+  "AdvNoBuy": "11317065728976265216",
+  "AdvNoSell": "11444654366699421696"
+ },
+ {
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Profit": true,
+  "DataTime": "2023-01-20T23:25:55.61154+04:00",
+  "Fiat": "TRY",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 32992.04,
+  "PaymentBuy": [
+   "DenizBank",
+   "Garanti",
+   "Ziraat",
+   "Kuveyt Turk",
+   "Bank Transfer"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=TRY",
+  "Pair": "SOLETH",
+  "PricePair": 0.014360000000000001,
+  "LinkMarket": "https://www.binance.com/en/trade/SOL_ETH?_from=markets",
+  "AssetsSell": "SOL",
+  "PriceAssetsSell": 567.61,
+  "PaymentSell": [
+   "Garanti",
+   "Bank Transfer",
+   "Ziraat",
+   "Kuveyt Turk",
+   "Bank Transfer (Turkey)"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/SOL?fiat=TRY",
+  "ProfitValue": 1980.81681956413,
+  "ProfitPercet": 19.808168195641297,
+  "TotalAdvBuy": 2,
+  "TotalAdvSell": 1,
+  "AdvNoBuy": "11317065728976265216",
+  "AdvNoSell": "11403614477012566016"
+ },
+ {
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Profit": true,
+  "DataTime": "2023-01-20T23:25:55.61173+04:00",
+  "Fiat": "TRY",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 32992.04,
+  "PaymentBuy": [
+   "DenizBank",
+   "Garanti",
+   "Ziraat",
+   "Kuveyt Turk",
+   "Bank Transfer"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=TRY",
+  "Pair": "BNBETH",
+  "PricePair": 0.18385,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_ETH?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 6073.24,
+  "PaymentSell": [
+   "Bank Transfer",
+   "Kuveyt Turk",
+   "Ziraat",
+   "Garanti",
+   "DenizBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=TRY",
+  "ProfitValue": 12.617816812707073,
+  "ProfitPercet": 0.12617816812707072,
+  "TotalAdvBuy": 2,
+  "TotalAdvSell": 2,
+  "AdvNoBuy": "11317065728976265216",
+  "AdvNoSell": "11317066886904102912"
+ },
+ {
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Profit": false,
+  "DataTime": "2023-01-20T23:25:56.327755+04:00",
+  "Fiat": "TRY",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 32992.04,
+  "PaymentBuy": [
+   "DenizBank",
+   "Garanti",
+   "Ziraat",
+   "Kuveyt Turk",
+   "Bank Transfer"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=TRY",
+  "Pair": "ETHBTC",
+  "PricePair": 0.0744185,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BTC?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 431083.1,
+  "PaymentSell": [
+   "DenizBank",
+   "Garanti",
+   "Ziraat",
+   "Kuveyt Turk",
+   "Bank Transfer"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=TRY",
+  "ProfitValue": -276.27340493343445,
+  "ProfitPercet": -2.7627340493343446,
+  "TotalAdvBuy": 2,
+  "TotalAdvSell": 2,
+  "AdvNoBuy": "11317065728976265216",
+  "AdvNoSell": "11317069144698912768"
+ },
+ {
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Profit": true,
+  "DataTime": "2023-01-20T23:25:55.840003+04:00",
+  "Fiat": "TRY",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 19.26,
+  "PaymentBuy": [
+   "Kuveyt Turk",
+   "alBaraka"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=TRY",
+  "Pair": "ETHUSDT",
+  "PricePair": 1592.745,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_USDT?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 32992.04,
+  "PaymentSell": [
+   "DenizBank",
+   "Garanti",
+   "Ziraat",
+   "Kuveyt Turk",
+   "Bank Transfer"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=TRY",
+  "ProfitValue": 754.9064466239988,
+  "ProfitPercet": 7.549064466239988,
+  "TotalAdvBuy": 16,
+  "TotalAdvSell": 2,
+  "AdvNoBuy": "11444654366699421696",
+  "AdvNoSell": "11317065728976265216"
+ },
+ {
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Profit": true,
+  "DataTime": "2023-01-20T23:25:55.84694+04:00",
+  "Fiat": "TRY",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 19.26,
+  "PaymentBuy": [
+   "Kuveyt Turk",
+   "alBaraka"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=TRY",
+  "Pair": "SOLUSDT",
+  "PricePair": 22.875,
+  "LinkMarket": "https://www.binance.com/en/trade/SOL_USDT?_from=markets",
+  "AssetsSell": "SOL",
+  "PriceAssetsSell": 567.61,
+  "PaymentSell": [
+   "Garanti",
+   "Bank Transfer",
+   "Ziraat",
+   "Kuveyt Turk",
+   "Bank Transfer (Turkey)"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/SOL?fiat=TRY",
+  "ProfitValue": 2883.4641290593495,
+  "ProfitPercet": 28.834641290593492,
+  "TotalAdvBuy": 16,
+  "TotalAdvSell": 1,
+  "AdvNoBuy": "11444654366699421696",
+  "AdvNoSell": "11403614477012566016"
+ },
+ {
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Profit": true,
+  "DataTime": "2023-01-20T23:25:56.529868+04:00",
+  "Fiat": "TRY",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 19.26,
+  "PaymentBuy": [
+   "Kuveyt Turk",
+   "alBaraka"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=TRY",
+  "Pair": "BNBUSDT",
+  "PricePair": 292.85,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_USDT?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 6073.24,
+  "PaymentSell": [
+   "Bank Transfer",
+   "Kuveyt Turk",
+   "Ziraat",
+   "Garanti",
+   "DenizBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=TRY",
+  "ProfitValue": 767.6004660043225,
+  "ProfitPercet": 7.676004660043224,
+  "TotalAdvBuy": 16,
+  "TotalAdvSell": 2,
+  "AdvNoBuy": "11444654366699421696",
+  "AdvNoSell": "11317066886904102912"
+ },
+ {
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Profit": true,
+  "DataTime": "2023-01-20T23:25:56.532916+04:00",
+  "Fiat": "TRY",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 19.26,
+  "PaymentBuy": [
+   "Kuveyt Turk",
+   "alBaraka"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=TRY",
+  "Pair": "SHIBUSDT",
+  "PricePair": 0.000011675,
+  "LinkMarket": "https://www.binance.com/en/trade/SHIB_USDT?_from=markets",
+  "AssetsSell": "SHIB",
+  "PriceAssetsSell": 0.0002313,
+  "PaymentSell": [
+   "İŞBANK",
+   "Bank Transfer (Turkey)",
+   "Kuveyt Turk",
+   "Ziraat",
+   "Bank Transfer"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/SHIB?fiat=TRY",
+  "ProfitValue": 286.37755408353166,
+  "ProfitPercet": 2.8637755408353165,
+  "TotalAdvBuy": 16,
+  "TotalAdvSell": 2,
+  "AdvNoBuy": "11444654366699421696",
+  "AdvNoSell": "11306678758932836352"
+ },
+ {
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Profit": true,
+  "DataTime": "2023-01-20T23:25:56.536712+04:00",
+  "Fiat": "TRY",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 19.26,
+  "PaymentBuy": [
+   "Kuveyt Turk",
+   "alBaraka"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=TRY",
+  "Pair": "BTCUSDT",
+  "PricePair": 21398.260000000002,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_USDT?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 431083.1,
+  "PaymentSell": [
+   "DenizBank",
+   "Garanti",
+   "Ziraat",
+   "Kuveyt Turk",
+   "Bank Transfer"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=TRY",
+  "ProfitValue": 459.86921546058215,
+  "ProfitPercet": 4.598692154605821,
+  "TotalAdvBuy": 16,
+  "TotalAdvSell": 2,
+  "AdvNoBuy": "11444654366699421696",
+  "AdvNoSell": "11317069144698912768"
+ },
+ {
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Profit": true,
+  "DataTime": "2023-01-20T23:25:56.557294+04:00",
+  "Fiat": "TRY",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 19.26,
+  "PaymentBuy": [
+   "Kuveyt Turk",
+   "alBaraka"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=TRY",
+  "Pair": "BUSDUSDT",
+  "PricePair": 0.99995,
+  "LinkMarket": "https://www.binance.com/en/trade/BUSD_USDT?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 19.92,
+  "PaymentSell": [
+   "DenizBank",
+   "Bank Transfer (Turkey)",
+   "Kuveyt Turk",
+   "Ziraat",
+   "Bank Transfer"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=TRY",
+  "ProfitValue": 343.1962875402335,
+  "ProfitPercet": 3.4319628754023355,
+  "TotalAdvBuy": 16,
+  "TotalAdvSell": 2,
+  "AdvNoBuy": "11444654366699421696",
+  "AdvNoSell": "11371904151834488832"
+ },
+ {
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Profit": false,
+  "DataTime": "2023-01-20T23:25:56.179531+04:00",
+  "Fiat": "TRY",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 6073.24,
+  "PaymentBuy": [
+   "Bank Transfer",
+   "Kuveyt Turk",
+   "Ziraat",
+   "Garanti",
+   "DenizBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=TRY",
+  "Pair": "BNBUSDT",
+  "PricePair": 292.85,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 19.26,
+  "PaymentSell": [
+   "Kuveyt Turk",
+   "alBaraka"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=TRY",
+  "ProfitValue": -712.8797808089244,
+  "ProfitPercet": -7.128797808089243,
+  "TotalAdvBuy": 2,
+  "TotalAdvSell": 16,
+  "AdvNoBuy": "11317066886904102912",
+  "AdvNoSell": "11444654366699421696"
+ },
+ {
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Profit": false,
+  "DataTime": "2023-01-20T23:25:56.180833+04:00",
+  "Fiat": "TRY",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 6073.24,
+  "PaymentBuy": [
+   "Bank Transfer",
+   "Kuveyt Turk",
+   "Ziraat",
+   "Garanti",
+   "DenizBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=TRY",
+  "Pair": "BNBETH",
+  "PricePair": 0.18385,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_ETH?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 32992.04,
+  "PaymentSell": [
+   "DenizBank",
+   "Garanti",
+   "Ziraat",
+   "Kuveyt Turk",
+   "Bank Transfer"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=TRY",
+  "ProfitValue": -12.601915946018982,
+  "ProfitPercet": -0.12601915946018982,
+  "TotalAdvBuy": 2,
+  "TotalAdvSell": 2,
+  "AdvNoBuy": "11317066886904102912",
+  "AdvNoSell": "11317065728976265216"
+ },
+ {
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Profit": true,
+  "DataTime": "2023-01-20T23:25:56.880786+04:00",
+  "Fiat": "TRY",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 6073.24,
+  "PaymentBuy": [
+   "Bank Transfer",
+   "Kuveyt Turk",
+   "Ziraat",
+   "Garanti",
+   "DenizBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=TRY",
+  "Pair": "SOLBNB",
+  "PricePair": 0.0781,
+  "LinkMarket": "https://www.binance.com/en/trade/SOL_BNB?_from=markets",
+  "AssetsSell": "SOL",
+  "PriceAssetsSell": 567.61,
+  "PaymentSell": [
+   "Garanti",
+   "Bank Transfer",
+   "Ziraat",
+   "Kuveyt Turk",
+   "Bank Transfer (Turkey)"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/SOL?fiat=TRY",
+  "ProfitValue": 1966.8145417864732,
+  "ProfitPercet": 19.668145417864732,
+  "TotalAdvBuy": 2,
+  "TotalAdvSell": 1,
+  "AdvNoBuy": "11317066886904102912",
+  "AdvNoSell": "11403614477012566016"
+ },
+ {
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Profit": false,
+  "DataTime": "2023-01-20T23:25:56.886346+04:00",
+  "Fiat": "TRY",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 6073.24,
+  "PaymentBuy": [
+   "Bank Transfer",
+   "Kuveyt Turk",
+   "Ziraat",
+   "Garanti",
+   "DenizBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=TRY",
+  "Pair": "BNBBUSD",
+  "PricePair": 292.85,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BUSD?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 19.92,
+  "PaymentSell": [
+   "DenizBank",
+   "Bank Transfer (Turkey)",
+   "Kuveyt Turk",
+   "Ziraat",
+   "Bank Transfer"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=TRY",
+  "ProfitValue": -394.62955522916786,
+  "ProfitPercet": -3.9462955522916787,
+  "TotalAdvBuy": 2,
+  "TotalAdvSell": 2,
+  "AdvNoBuy": "11317066886904102912",
+  "AdvNoSell": "11371904151834488832"
+ },
+ {
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Profit": false,
+  "DataTime": "2023-01-20T23:25:56.886522+04:00",
+  "Fiat": "TRY",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 6073.24,
+  "PaymentBuy": [
+   "Bank Transfer",
+   "Kuveyt Turk",
+   "Ziraat",
+   "Garanti",
+   "DenizBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=TRY",
+  "Pair": "BNBBTC",
+  "PricePair": 0.013683500000000001,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BTC?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 431083.1,
+  "PaymentSell": [
+   "DenizBank",
+   "Garanti",
+   "Ziraat",
+   "Kuveyt Turk",
+   "Bank Transfer"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=TRY",
+  "ProfitValue": -287.34975260322324,
+  "ProfitPercet": -2.8734975260322324,
+  "TotalAdvBuy": 2,
+  "TotalAdvSell": 2,
+  "AdvNoBuy": "11317066886904102912",
+  "AdvNoSell": "11317069144698912768"
+ },
+ {
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Profit": false,
+  "DataTime": "2023-01-20T23:25:56.498096+04:00",
+  "Fiat": "TRY",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 19.92,
+  "PaymentBuy": [
+   "DenizBank",
+   "Bank Transfer (Turkey)",
+   "Kuveyt Turk",
+   "Ziraat",
+   "Bank Transfer"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=TRY",
+  "Pair": "SHIBBUSD",
+  "PricePair": 0.000011675,
+  "LinkMarket": "https://www.binance.com/en/trade/SHIB_BUSD?_from=markets",
+  "AssetsSell": "SHIB",
+  "PriceAssetsSell": 0.0002313,
+  "PaymentSell": [
+   "İŞBANK",
+   "Bank Transfer (Turkey)",
+   "Kuveyt Turk",
+   "Ziraat",
+   "Bank Transfer"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/SHIB?fiat=TRY",
+  "ProfitValue": -54.43616005778973,
+  "ProfitPercet": -0.5443616005778973,
+  "TotalAdvBuy": 2,
+  "TotalAdvSell": 2,
+  "AdvNoBuy": "11371904151834488832",
+  "AdvNoSell": "11306678758932836352"
+ },
+ {
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Profit": true,
+  "DataTime": "2023-01-20T23:25:56.498109+04:00",
+  "Fiat": "TRY",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 19.92,
+  "PaymentBuy": [
+   "DenizBank",
+   "Bank Transfer (Turkey)",
+   "Kuveyt Turk",
+   "Ziraat",
+   "Bank Transfer"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=TRY",
+  "Pair": "ETHBUSD",
+  "PricePair": 1592.8249999999998,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BUSD?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 32992.04,
+  "PaymentSell": [
+   "DenizBank",
+   "Garanti",
+   "Ziraat",
+   "Kuveyt Turk",
+   "Bank Transfer"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=TRY",
+  "ProfitValue": 398.04691432217714,
+  "ProfitPercet": 3.9804691432217716,
+  "TotalAdvBuy": 2,
+  "TotalAdvSell": 2,
+  "AdvNoBuy": "11371904151834488832",
+  "AdvNoSell": "11317065728976265216"
+ },
+ {
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Profit": true,
+  "DataTime": "2023-01-20T23:25:56.500055+04:00",
+  "Fiat": "TRY",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 19.92,
+  "PaymentBuy": [
+   "DenizBank",
+   "Bank Transfer (Turkey)",
+   "Kuveyt Turk",
+   "Ziraat",
+   "Bank Transfer"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=TRY",
+  "Pair": "SOLBUSD",
+  "PricePair": 22.875,
+  "LinkMarket": "https://www.binance.com/en/trade/SOL_BUSD?_from=markets",
+  "AssetsSell": "SOL",
+  "PriceAssetsSell": 567.61,
+  "PaymentSell": [
+   "Garanti",
+   "Bank Transfer",
+   "Ziraat",
+   "Kuveyt Turk",
+   "Bank Transfer (Turkey)"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/SOL?fiat=TRY",
+  "ProfitValue": 2456.60236574714,
+  "ProfitPercet": 24.5660236574714,
+  "TotalAdvBuy": 2,
+  "TotalAdvSell": 1,
+  "AdvNoBuy": "11371904151834488832",
+  "AdvNoSell": "11403614477012566016"
+ },
+ {
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Profit": false,
+  "DataTime": "2023-01-20T23:25:56.506244+04:00",
+  "Fiat": "TRY",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 19.92,
+  "PaymentBuy": [
+   "DenizBank",
+   "Bank Transfer (Turkey)",
+   "Kuveyt Turk",
+   "Ziraat",
+   "Bank Transfer"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=TRY",
+  "Pair": "BUSDUSDT",
+  "PricePair": 0.99995,
+  "LinkMarket": "https://www.binance.com/en/trade/BUSD_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 19.26,
+  "PaymentSell": [
+   "Kuveyt Turk",
+   "alBaraka"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=TRY",
+  "ProfitValue": -331.8087349397595,
+  "ProfitPercet": -3.318087349397595,
+  "TotalAdvBuy": 2,
+  "TotalAdvSell": 16,
+  "AdvNoBuy": "11371904151834488832",
+  "AdvNoSell": "11444654366699421696"
+ },
+ {
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Profit": true,
+  "DataTime": "2023-01-20T23:25:57.196891+04:00",
+  "Fiat": "TRY",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 19.92,
+  "PaymentBuy": [
+   "DenizBank",
+   "Bank Transfer (Turkey)",
+   "Kuveyt Turk",
+   "Ziraat",
+   "Bank Transfer"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=TRY",
+  "Pair": "BTCBUSD",
+  "PricePair": 21400.885000000002,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_BUSD?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 431083.1,
+  "PaymentSell": [
+   "DenizBank",
+   "Garanti",
+   "Ziraat",
+   "Kuveyt Turk",
+   "Bank Transfer"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=TRY",
+  "ProfitValue": 112.06680073554833,
+  "ProfitPercet": 1.1206680073554833,
+  "TotalAdvBuy": 2,
+  "TotalAdvSell": 2,
+  "AdvNoBuy": "11371904151834488832",
+  "AdvNoSell": "11317069144698912768"
+ },
+ {
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Profit": true,
+  "DataTime": "2023-01-20T23:25:57.217556+04:00",
+  "Fiat": "TRY",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 19.92,
+  "PaymentBuy": [
+   "DenizBank",
+   "Bank Transfer (Turkey)",
+   "Kuveyt Turk",
+   "Ziraat",
+   "Bank Transfer"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=TRY",
+  "Pair": "BNBBUSD",
+  "PricePair": 292.85,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BUSD?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 6073.24,
+  "PaymentSell": [
+   "Bank Transfer",
+   "Kuveyt Turk",
+   "Ziraat",
+   "Garanti",
+   "DenizBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=TRY",
+  "ProfitValue": 410.84261923911964,
+  "ProfitPercet": 4.108426192391197,
+  "TotalAdvBuy": 2,
+  "TotalAdvSell": 2,
+  "AdvNoBuy": "11371904151834488832",
+  "AdvNoSell": "11317066886904102912"
+ },
+ {
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Profit": true,
+  "DataTime": "2023-01-20T23:25:57.567775+04:00",
+  "Fiat": "TRY",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 431083.1,
+  "PaymentBuy": [
+   "DenizBank",
+   "Garanti",
+   "Ziraat",
+   "Kuveyt Turk",
+   "Bank Transfer"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=TRY",
+  "Pair": "ETHBTC",
+  "PricePair": 0.0744185,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BTC?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 32992.04,
+  "PaymentSell": [
+   "DenizBank",
+   "Garanti",
+   "Ziraat",
+   "Kuveyt Turk",
+   "Bank Transfer"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=TRY",
+  "ProfitValue": 284.1229668814468,
+  "ProfitPercet": 2.841229668814468,
+  "TotalAdvBuy": 2,
+  "TotalAdvSell": 2,
+  "AdvNoBuy": "11317069144698912768",
+  "AdvNoSell": "11317065728976265216"
+ },
+ {
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Profit": true,
+  "DataTime": "2023-01-20T23:25:57.567777+04:00",
+  "Fiat": "TRY",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 431083.1,
+  "PaymentBuy": [
+   "DenizBank",
+   "Garanti",
+   "Ziraat",
+   "Kuveyt Turk",
+   "Bank Transfer"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=TRY",
+  "Pair": "BNBBTC",
+  "PricePair": 0.013683500000000001,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BTC?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 6073.24,
+  "PaymentSell": [
+   "Bank Transfer",
+   "Kuveyt Turk",
+   "Ziraat",
+   "Garanti",
+   "DenizBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=TRY",
+  "ProfitValue": 295.851024472172,
+  "ProfitPercet": 2.95851024472172,
+  "TotalAdvBuy": 2,
+  "TotalAdvSell": 2,
+  "AdvNoBuy": "11317069144698912768",
+  "AdvNoSell": "11317066886904102912"
+ },
+ {
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Profit": true,
+  "DataTime": "2023-01-20T23:25:57.567804+04:00",
+  "Fiat": "TRY",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 431083.1,
+  "PaymentBuy": [
+   "DenizBank",
+   "Garanti",
+   "Ziraat",
+   "Kuveyt Turk",
+   "Bank Transfer"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=TRY",
+  "Pair": "SOLBTC",
+  "PricePair": 0.0010687499999999998,
+  "LinkMarket": "https://www.binance.com/en/trade/SOL_BTC?_from=markets",
+  "AssetsSell": "SOL",
+  "PriceAssetsSell": 567.61,
+  "PaymentSell": [
+   "Garanti",
+   "Bank Transfer",
+   "Ziraat",
+   "Kuveyt Turk",
+   "Bank Transfer (Turkey)"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/SOL?fiat=TRY",
+  "ProfitValue": 2320.0625592465117,
+  "ProfitPercet": 23.200625592465116,
+  "TotalAdvBuy": 2,
+  "TotalAdvSell": 1,
+  "AdvNoBuy": "11317069144698912768",
+  "AdvNoSell": "11403614477012566016"
+ },
+ {
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Profit": false,
+  "DataTime": "2023-01-20T23:25:57.567866+04:00",
+  "Fiat": "TRY",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 431083.1,
+  "PaymentBuy": [
+   "DenizBank",
+   "Garanti",
+   "Ziraat",
+   "Kuveyt Turk",
+   "Bank Transfer"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=TRY",
+  "Pair": "BTCBUSD",
+  "PricePair": 21400.33,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_BUSD?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 19.92,
+  "PaymentSell": [
+   "DenizBank",
+   "Bank Transfer (Turkey)",
+   "Kuveyt Turk",
+   "Ziraat",
+   "Bank Transfer"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=TRY",
+  "ProfitValue": -111.08128339988023,
+  "ProfitPercet": -1.1108128339988024,
+  "TotalAdvBuy": 2,
+  "TotalAdvSell": 2,
+  "AdvNoBuy": "11317069144698912768",
+  "AdvNoSell": "11371904151834488832"
+ },
+ {
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Profit": false,
+  "DataTime": "2023-01-20T23:25:57.568511+04:00",
+  "Fiat": "TRY",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 431083.1,
+  "PaymentBuy": [
+   "DenizBank",
+   "Garanti",
+   "Ziraat",
+   "Kuveyt Turk",
+   "Bank Transfer"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=TRY",
+  "Pair": "BTCUSDT",
+  "PricePair": 21397.405,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 19.26,
+  "PaymentSell": [
+   "Kuveyt Turk",
+   "alBaraka"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=TRY",
+  "ProfitValue": -440.03301683596436,
+  "ProfitPercet": -4.400330168359644,
+  "TotalAdvBuy": 2,
+  "TotalAdvSell": 16,
+  "AdvNoBuy": "11317069144698912768",
+  "AdvNoSell": "11444654366699421696"
+ }
+]

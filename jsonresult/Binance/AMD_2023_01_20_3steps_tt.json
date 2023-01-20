@@ -1,0 +1,134 @@
+[
+ {
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Profit": false,
+  "DataTime": "2023-01-20T22:56:30.602512+04:00",
+  "Fiat": "AMD",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 402.34,
+  "PaymentBuy": [
+   "Inecobank",
+   "ArCA",
+   "Bank Transfer"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=AMD",
+  "Pair": "BTCUSDT",
+  "PricePair": 21367.055,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_USDT?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 8543765.51,
+  "PaymentSell": [
+   "Inecobank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=AMD\u0026payment=ALL",
+  "ProfitValue": -617.15137797402,
+  "ProfitPercet": -0.61715137797402,
+  "TotalAdvBuy": 6,
+  "TotalAdvSell": 7,
+  "AdvNoBuy": "",
+  "AdvNoSell": ""
+ },
+ {
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Profit": false,
+  "DataTime": "2023-01-20T22:56:31.307194+04:00",
+  "Fiat": "AMD",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 402.34,
+  "PaymentBuy": [
+   "Inecobank",
+   "ArCA",
+   "Bank Transfer"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=AMD",
+  "Pair": "BNBUSDT",
+  "PricePair": 292.75,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_USDT?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 117153.47,
+  "PaymentSell": [
+   "Inecobank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=AMD\u0026payment=ALL",
+  "ProfitValue": -536.201394345218,
+  "ProfitPercet": -0.536201394345218,
+  "TotalAdvBuy": 6,
+  "TotalAdvSell": 7,
+  "AdvNoBuy": "",
+  "AdvNoSell": ""
+ },
+ {
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Profit": false,
+  "DataTime": "2023-01-20T22:56:31.310525+04:00",
+  "Fiat": "AMD",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 402.34,
+  "PaymentBuy": [
+   "Inecobank",
+   "ArCA",
+   "Bank Transfer"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=AMD",
+  "Pair": "BUSDUSDT",
+  "PricePair": 0.99995,
+  "LinkMarket": "https://www.binance.com/en/trade/BUSD_USDT?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 401.32,
+  "PaymentSell": [
+   "Inecobank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BUSD?fiat=AMD\u0026payment=ALL",
+  "ProfitValue": -248.52935245061758,
+  "ProfitPercet": -0.24852935245061758,
+  "TotalAdvBuy": 6,
+  "TotalAdvSell": 6,
+  "AdvNoBuy": "",
+  "AdvNoSell": ""
+ },
+ {
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Profit": true,
+  "DataTime": "2023-01-20T22:56:31.319033+04:00",
+  "Fiat": "AMD",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 402.34,
+  "PaymentBuy": [
+   "Inecobank",
+   "ArCA",
+   "Bank Transfer"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=AMD",
+  "Pair": "ETHUSDT",
+  "PricePair": 1589.6149999999998,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_USDT?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 639874.15,
+  "PaymentSell": [
+   "Inecobank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=AMD\u0026payment=ALL",
+  "ProfitValue": 48.22818053472032,
+  "ProfitPercet": 0.048228180534720326,
+  "TotalAdvBuy": 6,
+  "TotalAdvSell": 6,
+  "AdvNoBuy": "",
+  "AdvNoSell": ""
+ }
+]

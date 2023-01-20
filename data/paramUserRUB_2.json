@@ -1,8 +1,0 @@
-{
- "payTypes": [
-  "TinkoffNew",
-  "RosBankNew"
- ],
- "transAmount": "10000",
- "percentUser": 1.0
-}

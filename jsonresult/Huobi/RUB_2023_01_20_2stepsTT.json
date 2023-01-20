@@ -1,0 +1,293 @@
+[
+ {
+  "Market": {
+   "First": "huobi",
+   "Second": "binance",
+   "Third": ""
+  },
+  "Profit": false,
+  "DataTime": "2023-01-20T22:39:39.307616+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 116829.47,
+  "PaymentBuy": [
+   "Tinkoff",
+   "Sberbank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-ETH-RUB",
+  "Pair": "",
+  "PricePair": 0,
+  "LinkMarket": "",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 113246,
+  "PaymentSell": [
+   "Tinkoff"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=RUB",
+  "ProfitValue": -3067.265476767122,
+  "ProfitPercet": -3.0672654767671217,
+  "TotalAdvBuy": 60,
+  "TotalAdvSell": 2,
+  "AdvNoBuy": "401167696",
+  "AdvNoSell": "11449279447717773312"
+ },
+ {
+  "Market": {
+   "First": "huobi",
+   "Second": "binance",
+   "Third": ""
+  },
+  "Profit": false,
+  "DataTime": "2023-01-20T22:39:39.308137+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 71.52,
+  "PaymentBuy": [
+   "Raiffeisenbank",
+   "SBP - Fast Bank Transfer",
+   "Sberbank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-USDT-RUB",
+  "Pair": "",
+  "PricePair": 0,
+  "LinkMarket": "",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 71.26,
+  "PaymentSell": [
+   "Юmoney"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=RUB",
+  "ProfitValue": -363.5346756151931,
+  "ProfitPercet": -0.36353467561519315,
+  "TotalAdvBuy": 103,
+  "TotalAdvSell": 5,
+  "AdvNoBuy": "267897386",
+  "AdvNoSell": "11448985388172140544"
+ },
+ {
+  "Market": {
+   "First": "huobi",
+   "Second": "binance",
+   "Third": ""
+  },
+  "Profit": false,
+  "DataTime": "2023-01-20T22:39:39.328113+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 1566994.5,
+  "PaymentBuy": [
+   "Tinkoff",
+   "Sberbank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-BTC-RUB",
+  "Pair": "",
+  "PricePair": 0,
+  "LinkMarket": "",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 1519291.53,
+  "PaymentSell": [
+   "Tinkoff"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=RUB",
+  "ProfitValue": -3044.233403499492,
+  "ProfitPercet": -3.044233403499492,
+  "TotalAdvBuy": 68,
+  "TotalAdvSell": 4,
+  "AdvNoBuy": "401167696",
+  "AdvNoSell": "11402968488651599872"
+ },
+ {
+  "Market": {
+   "First": "huobi",
+   "Second": "binance",
+   "Third": ""
+  },
+  "Profit": false,
+  "DataTime": "2023-01-20T22:45:42.812035+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 116906.6,
+  "PaymentBuy": [
+   "Tinkoff",
+   "Sberbank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-ETH-RUB",
+  "Pair": "",
+  "PricePair": 0,
+  "LinkMarket": "",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 113431,
+  "PaymentSell": [
+   "Tinkoff"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=RUB",
+  "ProfitValue": -2972.9715858642817,
+  "ProfitPercet": -2.972971585864282,
+  "TotalAdvBuy": 60,
+  "TotalAdvSell": 2,
+  "AdvNoBuy": "401167696",
+  "AdvNoSell": "11449279447717773312"
+ },
+ {
+  "Market": {
+   "First": "huobi",
+   "Second": "binance",
+   "Third": ""
+  },
+  "Profit": false,
+  "DataTime": "2023-01-20T22:45:42.8174+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 1567558.78,
+  "PaymentBuy": [
+   "Tinkoff",
+   "Sberbank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-BTC-RUB",
+  "Pair": "",
+  "PricePair": 0,
+  "LinkMarket": "",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 1520468.22,
+  "PaymentSell": [
+   "Tinkoff"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=RUB",
+  "ProfitValue": -3004.06980591823,
+  "ProfitPercet": -3.00406980591823,
+  "TotalAdvBuy": 68,
+  "TotalAdvSell": 4,
+  "AdvNoBuy": "401167696",
+  "AdvNoSell": "11441130091675975680"
+ },
+ {
+  "Market": {
+   "First": "huobi",
+   "Second": "binance",
+   "Third": ""
+  },
+  "Profit": false,
+  "DataTime": "2023-01-20T22:45:42.900908+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 71.52,
+  "PaymentBuy": [
+   "Raiffeisenbank",
+   "SBP - Fast Bank Transfer",
+   "Sberbank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-USDT-RUB",
+  "Pair": "",
+  "PricePair": 0,
+  "LinkMarket": "",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 71.26,
+  "PaymentSell": [
+   "Юmoney"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=RUB",
+  "ProfitValue": -363.5346756151931,
+  "ProfitPercet": -0.36353467561519315,
+  "TotalAdvBuy": 110,
+  "TotalAdvSell": 5,
+  "AdvNoBuy": "267897386",
+  "AdvNoSell": "11448985388172140544"
+ },
+ {
+  "Market": {
+   "First": "huobi",
+   "Second": "binance",
+   "Third": ""
+  },
+  "Profit": false,
+  "DataTime": "2023-01-20T23:24:41.020454+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 116850.03,
+  "PaymentBuy": [
+   "Tinkoff",
+   "Sberbank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-ETH-RUB",
+  "Pair": "",
+  "PricePair": 0,
+  "LinkMarket": "",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 113446.55,
+  "PaymentSell": [
+   "Tinkoff"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=RUB",
+  "ProfitValue": -2912.690737007085,
+  "ProfitPercet": -2.912690737007085,
+  "TotalAdvBuy": 57,
+  "TotalAdvSell": 2,
+  "AdvNoBuy": "401167696",
+  "AdvNoSell": "11441130249059323904"
+ },
+ {
+  "Market": {
+   "First": "huobi",
+   "Second": "binance",
+   "Third": ""
+  },
+  "Profit": false,
+  "DataTime": "2023-01-20T23:24:41.027635+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 71.53,
+  "PaymentBuy": [
+   "Raiffeisenbank",
+   "Tinkoff",
+   "Sberbank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-USDT-RUB",
+  "Pair": "",
+  "PricePair": 0,
+  "LinkMarket": "",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 71.27,
+  "PaymentSell": [
+   "Юmoney"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=RUB",
+  "ProfitValue": -363.4838529288474,
+  "ProfitPercet": -0.3634838529288474,
+  "TotalAdvBuy": 123,
+  "TotalAdvSell": 3,
+  "AdvNoBuy": "384534674",
+  "AdvNoSell": "11448985388172140544"
+ },
+ {
+  "Market": {
+   "First": "huobi",
+   "Second": "binance",
+   "Third": ""
+  },
+  "Profit": false,
+  "DataTime": "2023-01-20T23:24:41.032009+04:00",
+  "Fiat": "RUB",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 1568270.78,
+  "PaymentBuy": [
+   "Tinkoff",
+   "Sberbank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-BTC-RUB",
+  "Pair": "",
+  "PricePair": 0,
+  "LinkMarket": "",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 1522181.45,
+  "PaymentSell": [
+   "Tinkoff"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=RUB",
+  "ProfitValue": -2938.863019560958,
+  "ProfitPercet": -2.9388630195609577,
+  "TotalAdvBuy": 66,
+  "TotalAdvSell": 4,
+  "AdvNoBuy": "401167696",
+  "AdvNoSell": "11441565716484513792"
+ }
+]

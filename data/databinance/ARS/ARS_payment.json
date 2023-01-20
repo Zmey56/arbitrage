@@ -1,0 +1,290 @@
+[
+ {
+  "Identifier": "MercadoPagoNew",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Mercadopago",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "BancoBrubankNew",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Banco Brubank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "BankArgentina",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Bank Transfer (Argentina)",
+  "TradeMethodShortName": "Bank Transfer (Argentina)"
+ },
+ {
+  "Identifier": "LemonCash",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Lemon Cash",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "UalaNew",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Uala",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "NaranjaX",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Naranja X",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "BancoDelSol",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Banco del Sol",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "Beloapp",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Belo app",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "Reba",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Reba",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "Prex",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Prex",
+  "TradeMethodShortName": "Prex"
+ },
+ {
+  "Identifier": "SantanderArgentina",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Banco Santander Argentina",
+  "TradeMethodShortName": "Banco Santander Argentina"
+ },
+ {
+  "Identifier": "BBVABank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "BBVA",
+  "TradeMethodShortName": "BBVA"
+ },
+ {
+  "Identifier": "Wilobank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Wilobank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "BANK",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Bank Transfer",
+  "TradeMethodShortName": "Bank Transfer"
+ },
+ {
+  "Identifier": "CashDeposit",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Cash Deposit to Bank",
+  "TradeMethodShortName": "Cash Deposit to Bank"
+ },
+ {
+  "Identifier": "Fiwind",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Fiwind",
+  "TradeMethodShortName": "Fiwind"
+ },
+ {
+  "Identifier": "Modo",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Modo",
+  "TradeMethodShortName": "Modo"
+ },
+ {
+  "Identifier": "CashInPerson",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Cash in Person",
+  "TradeMethodShortName": "Cash in Person"
+ },
+ {
+  "Identifier": "SpecificBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Transfers with specific bank",
+  "TradeMethodShortName": "Transfers with specific bank"
+ },
+ {
+  "Identifier": "BancoRio",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Banco Rio",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "Nuars",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Nuars",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "Wise",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Wise",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "AirTM",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "AirTM",
+  "TradeMethodShortName": "AirTM"
+ },
+ {
+  "Identifier": "TransBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Trans Bank",
+  "TradeMethodShortName": "Trans Bank"
+ },
+ {
+  "Identifier": "SantanderPoland",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Santander Poland",
+  "TradeMethodShortName": "Santander Poland"
+ },
+ {
+  "Identifier": "SkrillMoneybookers",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Skrill (Moneybookers)",
+  "TradeMethodShortName": "Skrill"
+ },
+ {
+  "Identifier": "UalaNewest",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Uala",
+  "TradeMethodShortName": "Uala"
+ },
+ {
+  "Identifier": "BilleteraPersonal",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Billetera Personal",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "BancoSantanderChile",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Banco Santander Chile",
+  "TradeMethodShortName": "Banco Santander Chile"
+ },
+ {
+  "Identifier": "BankVenezuela",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Bank Transfer (Venezuela)",
+  "TradeMethodShortName": "Bank Transfer (Venezuela)"
+ },
+ {
+  "Identifier": "Efecty",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Efecty",
+  "TradeMethodShortName": "Efecty"
+ },
+ {
+  "Identifier": "ForteBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "ForteBank",
+  "TradeMethodShortName": "ForteBank"
+ },
+ {
+  "Identifier": "LendMN",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "LendMN",
+  "TradeMethodShortName": "LendMN"
+ },
+ {
+  "Identifier": "NETELLER",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "NETELLER",
+  "TradeMethodShortName": "NETELLER"
+ },
+ {
+  "Identifier": "Pix",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Pix",
+  "TradeMethodShortName": "Pix"
+ },
+ {
+  "Identifier": "VisionBanco",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Vision Banco",
+  "TradeMethodShortName": ""
+ }
+]

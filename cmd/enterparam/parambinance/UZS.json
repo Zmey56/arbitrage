@@ -1,0 +1,12 @@
+{
+ "payTypes": [
+  "Humo",
+  "Uzcard",
+  "Unired",
+  "UzbekNationalBank",
+  "Kapitalbank"
+ ],
+ "transAmount": "10000000",
+ "publisher_type": "merchant",
+ "percentUser": 0.5
+}

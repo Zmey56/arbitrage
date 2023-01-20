@@ -1,0 +1,86 @@
+{
+ "ADA": [
+  "ADAUSDT",
+  "ADABUSD",
+  "ADAETH",
+  "ADABTC",
+  "ADABNB"
+ ],
+ "BNB": [
+  "BNBUSDT",
+  "BNBBUSD",
+  "BNBETH",
+  "ADABNB",
+  "SLPBNB",
+  "DOGEBNB",
+  "BNBBTC",
+  "C98BNB",
+  "XRPBNB"
+ ],
+ "BTC": [
+  "BTCUSDT",
+  "BTCBUSD",
+  "ETHBTC",
+  "ADABTC",
+  "DOGEBTC",
+  "BNBBTC",
+  "C98BTC",
+  "XRPBTC"
+ ],
+ "BUSD": [
+  "BUSDUSDT",
+  "ETHBUSD",
+  "ADABUSD",
+  "SLPBUSD",
+  "DOGEBUSD",
+  "BTCBUSD",
+  "BNBBUSD",
+  "C98BUSD",
+  "XRPBUSD"
+ ],
+ "C98": [
+  "C98USDT",
+  "C98BUSD",
+  "C98BTC",
+  "C98BNB"
+ ],
+ "DOGE": [
+  "DOGEUSDT",
+  "DOGEBUSD",
+  "DOGEBTC",
+  "DOGEBNB"
+ ],
+ "ETH": [
+  "ETHUSDT",
+  "ETHBUSD",
+  "ADAETH",
+  "SLPETH",
+  "ETHBTC",
+  "BNBETH",
+  "XRPETH"
+ ],
+ "SLP": [
+  "SLPUSDT",
+  "SLPBUSD",
+  "SLPETH",
+  "SLPBNB"
+ ],
+ "USDT": [
+  "BUSDUSDT",
+  "ETHUSDT",
+  "ADAUSDT",
+  "SLPUSDT",
+  "DOGEUSDT",
+  "BTCUSDT",
+  "BNBUSDT",
+  "C98USDT",
+  "XRPUSDT"
+ ],
+ "XRP": [
+  "XRPUSDT",
+  "XRPBUSD",
+  "XRPETH",
+  "XRPBTC",
+  "XRPBNB"
+ ]
+}
