@@ -111,7 +111,8 @@ func ParsingJson(r io.Reader, tradeType string, transAmount float64) getinfobina
 	err := json.Unmarshal([]byte(body), &result)
 
 	if err != nil {
-		log.Println("Error unmarshal json:", err)
+		log.Println("Error unmarshal json from URL:", err, "/n")
+		log.Println(string(body))
 	}
 
 	return result

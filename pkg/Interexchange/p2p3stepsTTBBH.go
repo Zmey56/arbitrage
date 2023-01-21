@@ -1,11 +1,14 @@
-package p2pbinance
+package Interexchange
 
 import (
 	"fmt"
 	"github.com/Zmey56/arbitrage/pkg/getdata"
+	"github.com/Zmey56/arbitrage/pkg/getdatahuobi"
 	"github.com/Zmey56/arbitrage/pkg/getinfobinance"
+	"github.com/Zmey56/arbitrage/pkg/getinfohuobi"
 	"github.com/Zmey56/arbitrage/pkg/result"
 	"github.com/Zmey56/arbitrage/pkg/workingbinance"
+	"github.com/Zmey56/arbitrage/pkg/workinghuobi"
 	"log"
 	"strconv"
 	"strings"
@@ -13,8 +16,8 @@ import (
 	"time"
 )
 
-func P2P3stepsTakerTaker(fiat string, paramUser workingbinance.ParametersBinance) {
-	log.Println(paramUser)
+func P2P3stepsTTBBH(fiat string, binance workingbinance.ParametersBinance, huobi getinfohuobi.ParametersHuobi) {
+	log.Println(binance)
 	allOrders := [][]result.ResultP2P{}
 	//get all assets from binance for this fiat
 
@@ -37,7 +40,7 @@ func P2P3stepsTakerTaker(fiat string, paramUser workingbinance.ParametersBinance
 		wg.Add(1)
 		go func(a string) {
 			defer wg.Done()
-			arr_val := GetResultP2P3TT(a, fiat, pair, paramUser)
+			arr_val := getResultP2P3TT(a, fiat, pair, binance, huobi)
 			allOrders = append(allOrders, arr_val)
 		}(a)
 	}
@@ -46,9 +49,10 @@ func P2P3stepsTakerTaker(fiat string, paramUser workingbinance.ParametersBinance
 	for _, j := range allOrders {
 		for _, i := range j {
 			if (i.TotalAdvBuy > 0) && (i.TotalAdvSell > 0) {
+				log.Printf("%+v\n", i)
 				//result.SaveResultJsonFile(fiat, i, "3steps_tt")
 				//log.Printf("3 steps taker taker. Fiat - %s, Result - %v", fiat, i)
-				if (i.Profit) && (i.ProfitPercet >= paramUser.PercentUser) {
+				if (i.Profit) && (i.ProfitPercet >= binance.PercentUser) {
 					result.FormatMessageAndSend(i, "You are Taker", "You areTaker")
 				}
 			}
@@ -56,15 +60,19 @@ func P2P3stepsTakerTaker(fiat string, paramUser workingbinance.ParametersBinance
 	}
 }
 
-func GetResultP2P3TT(a, fiat string, pair map[string][]string, paramUser workingbinance.ParametersBinance) []result.ResultP2P {
+func getResultP2P3TT(a, fiat string, pair map[string][]string,
+	binance workingbinance.ParametersBinance, huobi getinfohuobi.ParametersHuobi) []result.ResultP2P {
 
 	var resultP2PArr []result.ResultP2P
-	pair_assets := pair[a]
+	pair_ass := pair[a]
+	//get all assets from binance for this fiat
+	currencyarr := getdatahuobi.GetCurrencyHuobi(fiat)
+	pair_assets := CheckMatchesPair(a, pair_ass, currencyarr)
 	//first step
-	order_buy := getdata.GetDataP2PBinance(a, fiat, "Buy", paramUser)
+	order_buy := getdata.GetDataP2PBinance(a, fiat, "Buy", binance)
 	var transAmountFloat float64
-	if paramUser.TransAmount != "" {
-		tmpTransAmountFloat, err := strconv.ParseFloat(paramUser.TransAmount, 64)
+	if binance.TransAmount != "" {
+		tmpTransAmountFloat, err := strconv.ParseFloat(binance.TransAmount, 64)
 		if err != nil {
 			log.Println("Can't convert transAmount", err)
 		}
@@ -75,8 +83,8 @@ func GetResultP2P3TT(a, fiat string, pair map[string][]string, paramUser working
 			log.Println("Can't convert dynamicMaxSingleTransAmount", err)
 		}
 		transAmountFloat = tmpTransAmountFloat
-		paramUser.TransAmount = strconv.Itoa(int(transAmountFloat))
-		log.Println("New transAmount because didn't enter amount in beginer", paramUser.TransAmount)
+		binance.TransAmount = strconv.Itoa(int(transAmountFloat))
+		log.Println("New transAmount because didn't enter amount in beginer", binance.TransAmount)
 	}
 	if len(order_buy.Data) > 0 {
 
@@ -93,8 +101,8 @@ func GetResultP2P3TT(a, fiat string, pair map[string][]string, paramUser working
 
 			go func(p string) {
 				defer wg.Done()
-				value := PrintResultP2P3TT(p, a, fiat, transAmountFirst, price_b,
-					pair_rate, order_buy, paramUser)
+				value := printResultP2P3TT(p, a, fiat, transAmountFirst, price_b,
+					pair_rate, order_buy, binance, huobi)
 				resultP2PArr = append(resultP2PArr, value)
 			}(p)
 
@@ -107,11 +115,17 @@ func GetResultP2P3TT(a, fiat string, pair map[string][]string, paramUser working
 
 }
 
-func PrintResultP2P3TT(p, a, fiat string, transAmountFirst, price_b float64, pair_rate map[string]float64,
-	order_buy getinfobinance.AdvertiserAdv, paramUser workingbinance.ParametersBinance) result.ResultP2P {
+func printResultP2P3TT(p, a, fiat string, transAmountFirst, price_b float64, pair_rate map[string]float64,
+	order_buy getinfobinance.AdvertiserAdv, binance workingbinance.ParametersBinance,
+	huobi getinfohuobi.ParametersHuobi) result.ResultP2P {
+
+	coinidmap := workinghuobi.GetCoinIDHuobo(fiat)
+
+	//log.Println(coinidmap[a])
 
 	profitResult := result.ResultP2P{}
 
+	//with pair on Binance
 	var transAmountSecond float64
 	var assetSell string
 	if strings.HasPrefix(p, a) {
@@ -121,26 +135,32 @@ func PrintResultP2P3TT(p, a, fiat string, transAmountFirst, price_b float64, pai
 		transAmountSecond = (transAmountFirst / pair_rate[p])
 		assetSell = p[:(len(p) - len(a))]
 	}
-	//third steps
-	order_sell := getdata.GetDataP2PBinance(assetSell, fiat,
-		"Sell", paramUser)
+
+	//third staps with huobi
+	//var volume float64
+	if binance.TransAmount != "" {
+		huobi.Amount = binance.TransAmount
+		transAmountFirst, _ = strconv.ParseFloat(binance.TransAmount, 64)
+		//volume = transAmountFirst / order_buy.Data[0].Adv.Price
+	} else {
+		transAmountFirst, _ = strconv.ParseFloat(order_buy.Data[0].Adv.DynamicMaxSingleTransAmount, 64)
+		huobi.Amount = order_buy.Data[0].Adv.DynamicMaxSingleTransAmount
+	}
+
+	order_sell := getdatahuobi.GetDataP2PHuobi(coinidmap[strings.ToUpper(assetSell)], coinidmap[fiat],
+		"buy", huobi)
 	if len(order_sell.Data) == 0 {
 		return profitResult
 	}
-	price_s := order_sell.Data[0].Adv.Price
-
+	price_s, _ := strconv.ParseFloat(order_sell.Data[0].Price, 64)
 	transAmountThird := price_s * transAmountSecond
 
-	transAmountFloat, err := strconv.ParseFloat(paramUser.TransAmount, 64)
-	if err != nil {
-		log.Printf("Problem with convert transAmount to float, err - %v", err)
-	}
 	profitResult.Market.First = "Binance"
-	profitResult.Merchant.FirstMerch = (paramUser.PublisherType == "merchant")
+	profitResult.Merchant.FirstMerch = (binance.PublisherType == "merchant")
 	profitResult.Market.Second = "Binance"
-	profitResult.Market.Third = "Binance"
-	profitResult.Merchant.ThirdMerch = (paramUser.PublisherType == "merchant")
-	profitResult.Profit = transAmountThird > transAmountFloat
+	profitResult.Market.Third = "Huobi"
+	profitResult.Merchant.ThirdMerch = (huobi.IsMerchant == "true")
+	profitResult.Profit = transAmountThird > transAmountFirst
 	profitResult.DataTime = time.Now()
 	profitResult.Fiat = fiat
 	profitResult.AssetsBuy = a
@@ -152,12 +172,11 @@ func PrintResultP2P3TT(p, a, fiat string, transAmountFirst, price_b float64, pai
 	profitResult.LinkMarket = result.ReturnLinkMarket(a, p)
 	profitResult.AssetsSell = assetSell
 	profitResult.PriceAssetsSell = price_s
-	profitResult.PaymentSell = result.PaymentMetods(order_sell)
-	profitResult.LinkAssetsSell = fmt.Sprintf("https://p2p.binance.com/en/trade/sell/%v?fiat=%v&payment=ALL",
-		assetSell, fiat)
-	profitResult.ProfitValue = transAmountThird - transAmountFloat
-	profitResult.ProfitPercet = (((transAmountThird - transAmountFloat) / transAmountFloat) * 100)
+	profitResult.PaymentSell = result.PaymentMetodsHuobi(order_sell)
+	profitResult.LinkAssetsSell = fmt.Sprintf("https://www.huobi.com/en-us/fiat-crypto/trader/%s", strconv.Itoa(order_sell.Data[0].UID))
+	profitResult.ProfitValue = transAmountThird - transAmountFirst
+	profitResult.ProfitPercet = (((transAmountThird - transAmountFirst) / transAmountFirst) * 100)
 	profitResult.TotalAdvBuy = order_buy.Total
-	profitResult.TotalAdvSell = order_sell.Total
+	profitResult.TotalAdvSell = order_sell.TotalCount
 	return profitResult
 }

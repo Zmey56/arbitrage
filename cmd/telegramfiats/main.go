@@ -15,9 +15,10 @@ func main() {
 	fiats := []string{"AED", "AMD", "AZN", "ARS", "EUR", "GEL", "KZT", "RUB", "TRY", "UAH", "UZS"}
 	for {
 		for _, fiat := range fiats {
-			time_total := time.Now()
+			//time_total := time.Now()
 
 			paramUserB := workingbinance.GetParam(fiat)
+			//log.Printf("ParamsHuobi %+v", paramUserB)
 
 			start := time.Now()
 
@@ -25,7 +26,7 @@ func main() {
 
 			log.Println(fiat, "TakerTakerBinance", time.Since(start), "\n")
 
-			time.Sleep(20 * time.Second)
+			time.Sleep(10 * time.Second)
 
 			start_2 := time.Now()
 
@@ -33,9 +34,9 @@ func main() {
 
 			log.Println(fiat, "TakerMakerBinance", time.Since(start_2), "\n")
 
-			time.Sleep(20 * time.Second)
+			time.Sleep(10 * time.Second)
 
-			if fiat != "AMD" || fiat != "AZN" {
+			if fiat != "AMD" && fiat != "AZN" {
 				paranUserH := workinghuobi.GetParamHuobi(fiat)
 				start_3 := time.Now()
 
@@ -43,7 +44,7 @@ func main() {
 
 				log.Println(fiat, "TakerTakerHuobi", time.Since(start_3), "\n")
 
-				time.Sleep(20 * time.Second)
+				time.Sleep(10 * time.Second)
 
 				start_4 := time.Now()
 
@@ -51,7 +52,7 @@ func main() {
 
 				log.Println(fiat, "TakerMakerHuobi", time.Since(start_4), "\n")
 
-				time.Sleep(20 * time.Second)
+				time.Sleep(10 * time.Second)
 
 				start_5 := time.Now()
 
@@ -59,7 +60,7 @@ func main() {
 
 				log.Println(fiat, "TakerMakerBinanceHuobi", time.Since(start_5), "\n")
 
-				time.Sleep(20 * time.Second)
+				time.Sleep(10 * time.Second)
 
 				start_6 := time.Now()
 
@@ -67,10 +68,10 @@ func main() {
 
 				log.Println(fiat, "TakerMakerBinanceHuobi", time.Since(start_6), "\n")
 
-				time.Sleep(20 * time.Second)
+				time.Sleep(10 * time.Second)
 
 			}
-			log.Println(fiat, "TOTAL TIMA", time.Since(time_total), "\n")
+			//log.Println(fiat, "TOTAL TIME", time.Since(time_total), "\n")
 		}
 	}
 }

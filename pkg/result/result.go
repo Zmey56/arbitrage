@@ -14,6 +14,11 @@ type ResultP2P struct {
 		Second string
 		Third  string
 	}
+	Merchant struct {
+		FirstMerch  bool
+		SecondMerch bool
+		ThirdMerch  bool
+	}
 	Profit          bool
 	DataTime        time.Time
 	Fiat            string

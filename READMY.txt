@@ -1,0 +1,5 @@
+Name files in interexchange:
+T - Taker
+M - Maker
+B - Binance
+H - Huobi

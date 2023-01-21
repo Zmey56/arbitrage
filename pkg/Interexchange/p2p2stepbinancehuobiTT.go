@@ -8,7 +8,6 @@ import (
 	"github.com/Zmey56/arbitrage/pkg/result"
 	"github.com/Zmey56/arbitrage/pkg/workingbinance"
 	"github.com/Zmey56/arbitrage/pkg/workinghuobi"
-	"log"
 	"strconv"
 	"strings"
 	"sync"
@@ -74,14 +73,14 @@ func getResultP2P2TTBH(a, fiat string, binance workingbinance.ParametersBinance,
 	order_buy := getdata.GetDataP2PBinance(a, fiat, "Buy", binance)
 
 	if len(order_buy.Data) > 0 {
-		var transAmountThirst, volume float64
+		var transAmountFirst, volume float64
 
 		if binance.TransAmount != "" {
 			huobi.Amount = binance.TransAmount
-			transAmountThirst, _ = strconv.ParseFloat(binance.TransAmount, 64)
-			volume = transAmountThirst / order_buy.Data[0].Adv.Price
+			transAmountFirst, _ = strconv.ParseFloat(binance.TransAmount, 64)
+			volume = transAmountFirst / order_buy.Data[0].Adv.Price
 		} else {
-			transAmountThirst, _ = strconv.ParseFloat(order_buy.Data[0].Adv.DynamicMaxSingleTransAmount, 64)
+			transAmountFirst, _ = strconv.ParseFloat(order_buy.Data[0].Adv.DynamicMaxSingleTransAmount, 64)
 			huobi.Amount = order_buy.Data[0].Adv.DynamicMaxSingleTransAmount
 		}
 
@@ -94,11 +93,13 @@ func getResultP2P2TTBH(a, fiat string, binance workingbinance.ParametersBinance,
 		price_s, _ := strconv.ParseFloat(order_sell.Data[0].Price, 64)
 
 		transAmountSecond := price_s * volume
-		log.Println("FIAT", fiat, "COIN", a, "price_b", price_b, "price_s", price_s, "\n")
+		//log.Println("FIAT", fiat, "COIN", a, "price_b", price_b, "price_s", price_s, "\n")
 
 		profitResult.Market.First = "binance"
+		profitResult.Merchant.FirstMerch = (binance.PublisherType == "merchant")
 		profitResult.Market.Second = "huobi"
-		profitResult.Profit = transAmountSecond > transAmountThirst
+		profitResult.Merchant.ThirdMerch = (huobi.IsMerchant == "true")
+		profitResult.Profit = transAmountSecond > transAmountFirst
 		profitResult.DataTime = time.Now()
 		profitResult.Fiat = fiat
 		profitResult.AssetsBuy = a
@@ -109,8 +110,8 @@ func getResultP2P2TTBH(a, fiat string, binance workingbinance.ParametersBinance,
 		profitResult.PriceAssetsSell = price_s
 		profitResult.PaymentSell = result.PaymentMetodsHuobi(order_sell)
 		profitResult.LinkAssetsSell = fmt.Sprintf("https://www.huobi.com/en-us/fiat-crypto/trader/%s", strconv.Itoa(order_sell.Data[0].UID))
-		profitResult.ProfitValue = transAmountSecond - transAmountThirst
-		profitResult.ProfitPercet = (((transAmountSecond - transAmountThirst) / transAmountThirst) * 100)
+		profitResult.ProfitValue = transAmountSecond - transAmountFirst
+		profitResult.ProfitPercet = (((transAmountSecond - transAmountFirst) / transAmountFirst) * 100)
 		profitResult.TotalAdvBuy = order_buy.Total
 		profitResult.TotalAdvSell = order_sell.TotalCount
 		profitResult.AdvNoBuy = order_buy.Data[0].Adv.AdvNo
@@ -136,19 +137,19 @@ func getResultP2P2TTHB(a, fiat string, binance workingbinance.ParametersBinance,
 	order_buy := getdatahuobi.GetDataP2PHuobi(coinidmap[a], coinidmap[fiat], "sell", huobi)
 
 	if len(order_buy.Data) > 0 {
-		var transAmountThirst, volume float64
+		var transAmountFirst, volume float64
 		price_b, _ := strconv.ParseFloat(order_buy.Data[0].Price, 64)
 
 		if huobi.Amount != "" {
 			binance.TransAmount = huobi.Amount
-			transAmountThirst, _ = strconv.ParseFloat(huobi.Amount, 64)
-			volume = transAmountThirst / price_b
+			transAmountFirst, _ = strconv.ParseFloat(huobi.Amount, 64)
+			volume = transAmountFirst / price_b
 		} else {
-			transAmountThirst, _ = strconv.ParseFloat(order_buy.Data[0].MaxTradeLimit, 64)
+			transAmountFirst, _ = strconv.ParseFloat(order_buy.Data[0].MaxTradeLimit, 64)
 			binance.TransAmount = order_buy.Data[0].MaxTradeLimit
 		}
 
-		order_sell := getdata.GetDataP2PBinance(a, fiat, "sell", binance)
+		order_sell := getdata.GetDataP2PBinance(a, fiat, "Sell", binance)
 		if len(order_sell.Data) == 0 {
 			return profitResult
 		}
@@ -158,8 +159,10 @@ func getResultP2P2TTHB(a, fiat string, binance workingbinance.ParametersBinance,
 		transAmountSecond := price_s * volume
 
 		profitResult.Market.First = "huobi"
+		profitResult.Merchant.FirstMerch = (huobi.IsMerchant == "true")
 		profitResult.Market.Second = "binance"
-		profitResult.Profit = transAmountSecond > transAmountThirst
+		profitResult.Merchant.SecondMerch = (binance.PublisherType == "merchant")
+		profitResult.Profit = transAmountSecond > transAmountFirst
 		profitResult.DataTime = time.Now()
 		profitResult.Fiat = fiat
 		profitResult.AssetsBuy = a
@@ -170,8 +173,8 @@ func getResultP2P2TTHB(a, fiat string, binance workingbinance.ParametersBinance,
 		profitResult.PriceAssetsSell = price_s
 		profitResult.PaymentSell = result.PaymentMetods(order_sell)
 		profitResult.LinkAssetsSell = fmt.Sprintf("https://p2p.binance.com/en/trade/sell/%v?fiat=%v", a, fiat)
-		profitResult.ProfitValue = transAmountSecond - transAmountThirst
-		profitResult.ProfitPercet = (((transAmountSecond - transAmountThirst) / transAmountThirst) * 100)
+		profitResult.ProfitValue = transAmountSecond - transAmountFirst
+		profitResult.ProfitPercet = (((transAmountSecond - transAmountFirst) / transAmountFirst) * 100)
 		profitResult.TotalAdvSell = order_buy.TotalCount
 		profitResult.TotalAdvBuy = order_sell.Total
 		profitResult.AdvNoBuy = strconv.Itoa(order_buy.Data[0].UID)

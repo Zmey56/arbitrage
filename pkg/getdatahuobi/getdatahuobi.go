@@ -2,6 +2,7 @@ package getdatahuobi
 
 import (
 	"encoding/json"
+	"fmt"
 	"github.com/Zmey56/arbitrage/pkg/getinfohuobi"
 	"io"
 	"log"
@@ -48,6 +49,7 @@ func GetDataP2PHuobi(fiat, currency int, tradeType string, paramUser getinfohuob
 	params.Set("onlyTradable", "false")
 	params.Set("isFollowed", "false")
 	resulthuobi := Huobi{}
+	//log.Println("PARAMS HUOBI", params)
 
 	url := ("https://otc-api.huobi.com/v1/data/trade-market" + "?" + params.Encode())
 	var err error
@@ -87,18 +89,25 @@ func GetDataP2PHuobi(fiat, currency int, tradeType string, paramUser getinfohuob
 
 func requestOrdersP2PHuobi(j string) (Huobi, error) {
 
-	response, err := http.Get(j)
-	if err != nil {
-		return Huobi{}, err
+	for {
+		backoff := 5 * time.Second
+		response, err := http.Get(j)
+		if err != nil {
+			return Huobi{}, err
+		}
+
+		defer response.Body.Close()
+
+		if err != nil {
+			return Huobi{}, err
+		}
+		if response.StatusCode != http.StatusTooManyRequests {
+			return ParsingJsonHuobi(response.Body), nil
+		}
+		fmt.Println("Too many requests, backing off for", backoff)
+		time.Sleep(backoff)
 	}
 
-	defer response.Body.Close()
-
-	if err != nil {
-		return Huobi{}, err
-	}
-
-	return ParsingJsonHuobi(response.Body), nil
 }
 
 func ParsingJsonHuobi(r io.Reader) Huobi {
@@ -108,7 +117,7 @@ func ParsingJsonHuobi(r io.Reader) Huobi {
 	err := json.Unmarshal([]byte(body), &result)
 
 	if err != nil {
-		log.Println("Error unmarshal json:", err)
+		log.Println("Error unmarshal json URL Huobi:", err, string(body))
 	}
 
 	return result

@@ -1,46 +1,25 @@
 package main
 
 import (
-	"github.com/Zmey56/arbitrage/pkg/p2phuobi"
+	"github.com/Zmey56/arbitrage/pkg/Interexchange"
+	"github.com/Zmey56/arbitrage/pkg/workingbinance"
 	"github.com/Zmey56/arbitrage/pkg/workinghuobi"
-	"log"
 )
 
 func main() {
+	fiat := "RUB"
 
-	//paramUser := getinfohuobi.ParametersHuobi{
-	//	CoinId:       "2",
-	//	Currency:     "2",
-	//	TradeType:    "sell",
-	//	CurrPage:     "1",
-	//	PayMethod:    "0",
-	//	AcceptOrder:  "0",
-	//	Country:      "",
-	//	BlockType:    "general",
-	//	Online:       "1",
-	//	Range:        "0",
-	//	Intrange:     "",
-	//	Amount:       "",
-	//	IsThumbsUp:   "false",
-	//	IsMerchant:   "false",
-	//	IsTraded:     "false",
-	//	OnlyTradable: "false",
-	//	IsFollowed:   "false",
-	//}
+	paramUserB := workingbinance.GetParam(fiat)
+	paramUserH := workinghuobi.GetParamHuobi(fiat)
 
-	//getinfohuobi.GetDataP2PHuobi(paramUser)
-
-	fiats := []string{"AED", "ARS", "EUR", "GEL", "KZT", "RUB", "TRY", "UAH", "UZS", "VND"}
-
-	//getinfobinance.GetPeymontMethodsBinance("VND")
-
-	for _, i := range fiats {
-		paranUserH := workinghuobi.GetParamHuobi(i)
-		log.Println("FIAT", i)
-		p2phuobi.P2P3stepsTakerTakerHuobi(i, paranUserH)
-		p2phuobi.P2P3stepsTakerMakerHuobi(i, paranUserH)
-		//	workinghuobi.InputCommandLineHuobi(i)
-	}
+	Interexchange.P2P3stepsTTBBH(fiat, paramUserB, paramUserH)
+	//Interexchange.P2P3stepsTMBHH(fiat, paramUserH, paramUserB)
+	//Interexchange.P2P3stepsTMHBB(fiat, paramUserB, paramUserH)
+	//Interexchange.P2P3stepsTMHHB(fiat, paramUserH, paramUserB)
+	//Interexchange.P2P3stepsTTBBH(fiat, paramUserB, paramUserH)
+	//Interexchange.P2P3stepsTTBHH(fiat, paramUserH, paramUserB)
+	//Interexchange.P2P3stepsTTHBB(fiat, paramUserB, paramUserH)
+	//Interexchange.P2P3stepsTTHHB(fiat, paramUserH, paramUserB)
 
 	//workinghuobi.InputCommandLineHuobi("RUB")
 

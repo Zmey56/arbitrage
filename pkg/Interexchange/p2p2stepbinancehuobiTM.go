@@ -158,7 +158,9 @@ func GetResultP2P2TMBH(a, fiat string, binance workingbinance.ParametersBinance,
 		transAmountSecond := price_s * volume
 
 		profitResult.Market.First = "huobi"
+		profitResult.Merchant.FirstMerch = (huobi.IsMerchant == "true")
 		profitResult.Market.Second = "binance"
+		profitResult.Merchant.SecondMerch = (binance.PublisherType == "merchant")
 		profitResult.Profit = transAmountSecond > transAmountThirst
 		profitResult.DataTime = time.Now()
 		profitResult.Fiat = fiat
