@@ -1,0 +1,92 @@
+[
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Taker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T17:21:51.031809334Z",
+  "Fiat": "AMD",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 10424318.95,
+  "PaymentBuy": [
+   "Bank Transfer",
+   "ArCA",
+   "Inecobank",
+   "Unibank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=AMD",
+  "Pair": "BNBBTC",
+  "PricePair": 0.0132135,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BTC?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 120678.37,
+  "PaymentSell": [
+   "Inecobank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BNB?fiat=AMD\u0026payment=ALL",
+  "ProfitValue": -12387.94329036014,
+  "ProfitPercet": -12.38794329036014,
+  "TotalAdvBuy": 1,
+  "TotalAdvSell": 9,
+  "AdvNoBuy": "",
+  "AdvNoSell": ""
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Taker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T17:21:51.427481584Z",
+  "Fiat": "AMD",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 137815.42,
+  "PaymentBuy": [
+   "Bank Transfer",
+   "ArCA",
+   "Inecobank",
+   "Unibank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=AMD",
+  "Pair": "BNBUSDT",
+  "PricePair": 304.15,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 402.02,
+  "PaymentSell": [
+   "IDBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=AMD\u0026payment=ALL",
+  "ProfitValue": -11276.70401468865,
+  "ProfitPercet": -11.27670401468865,
+  "TotalAdvBuy": 1,
+  "TotalAdvSell": 32,
+  "AdvNoBuy": "",
+  "AdvNoSell": ""
+ }
+]
+ }
+]

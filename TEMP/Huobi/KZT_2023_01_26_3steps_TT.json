@@ -1,0 +1,179 @@
+[
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Taker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T16:52:54.306435043Z",
+  "Fiat": "KZT",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 470.79,
+  "PaymentBuy": [
+   "Eurasian Bank",
+   "Kaspi Bank",
+   "ForteBank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-usdt-kzt/",
+  "Pair": "BUSDUSDT",
+  "PricePair": 0.99995,
+  "LinkMarket": "https://www.binance.com/en/trade/BUSD_USDT?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 469.99,
+  "PaymentSell": [
+   "Kaspi Bank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=KZT",
+  "ProfitValue": -164.9353905066496,
+  "ProfitPercet": -0.1649353905066496,
+  "TotalAdvBuy": 2,
+  "TotalAdvSell": 11,
+  "AdvNoBuy": "420069361",
+  "AdvNoSell": "11451963156609118208"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Taker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T16:53:08.734071342Z",
+  "Fiat": "KZT",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 470.79,
+  "PaymentBuy": [
+   "Eurasian Bank",
+   "Kaspi Bank",
+   "ForteBank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-usdt-kzt/",
+  "Pair": "ETHUSDT",
+  "PricePair": 1593.9650000000001,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_USDT?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 746000,
+  "PaymentSell": [
+   "Kaspi Bank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=KZT",
+  "ProfitValue": -589.372078516843,
+  "ProfitPercet": -0.589372078516843,
+  "TotalAdvBuy": 2,
+  "TotalAdvSell": 49,
+  "AdvNoBuy": "420069361",
+  "AdvNoSell": "11451909455389188096"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Taker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T16:53:09.434823592Z",
+  "Fiat": "KZT",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 470.79,
+  "PaymentBuy": [
+   "Eurasian Bank",
+   "Kaspi Bank",
+   "ForteBank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-usdt-kzt/",
+  "Pair": "SHIBUSDT",
+  "PricePair": 0.000011555,
+  "LinkMarket": "https://www.binance.com/en/trade/SHIB_USDT?_from=markets",
+  "AssetsSell": "SHIB",
+  "PriceAssetsSell": 0.005294,
+  "PaymentSell": [
+   "Kaspi Bank",
+   "Halyk Bank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/SHIB?fiat=KZT",
+  "ProfitValue": -2683.438019869368,
+  "ProfitPercet": -2.683438019869368,
+  "TotalAdvBuy": 2,
+  "TotalAdvSell": 13,
+  "AdvNoBuy": "420069361",
+  "AdvNoSell": "11421431836794224640"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Taker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Binance"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": true,
+  "DataTime": "2023-01-26T16:53:32.972041089Z",
+  "Fiat": "KZT",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 470.79,
+  "PaymentBuy": [
+   "Eurasian Bank",
+   "Kaspi Bank",
+   "ForteBank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-usdt-kzt/",
+  "Pair": "SHIBUSDT",
+  "PricePair": 0.00001154,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/shib_usdt",
+  "AssetsSell": "SHIB",
+  "PriceAssetsSell": 0.006,
+  "PaymentSell": [
+   "Kaspi Bank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/shib?fiat=KZT",
+  "ProfitValue": 10437.91837334665,
+  "ProfitPercet": 10.437918373346651,
+  "TotalAdvBuy": 2,
+  "TotalAdvSell": 3,
+  "AdvNoBuy": "420069361",
+  "AdvNoSell": "11450421878899433472"
+ }
+]Sell": "11430581004747460608"
+ }
+]dvNoSell": "11451826706031370240"
+ }
+]

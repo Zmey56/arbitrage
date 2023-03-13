@@ -1,0 +1,126 @@
+[
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Merchant": {
+   "FirstMerch": true,
+   "SecondMerch": false,
+   "ThirdMerch": true
+  },
+  "Profit": true,
+  "DataTime": "2023-01-26T16:49:02.09927763Z",
+  "Fiat": "GEL",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 63468.52,
+  "PaymentBuy": [
+   "TBC Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=GEL",
+  "Pair": "BNBBTC",
+  "PricePair": 0.0132485,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BTC?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 859.61,
+  "PaymentSell": [
+   "TBC Bank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=GEL",
+  "ProfitValue": 22.29533200239995,
+  "ProfitPercet": 2.229533200239995,
+  "TotalAdvBuy": 2,
+  "TotalAdvSell": 1,
+  "AdvNoBuy": "11426606615346880512",
+  "AdvNoSell": "11426608771926175744"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Merchant": {
+   "FirstMerch": true,
+   "SecondMerch": false,
+   "ThirdMerch": true
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T16:49:02.709341547Z",
+  "Fiat": "GEL",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 859.61,
+  "PaymentBuy": [
+   "TBC Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=GEL",
+  "Pair": "BNBBTC",
+  "PricePair": 0.0132485,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BTC?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 63468.52,
+  "PaymentSell": [
+   "TBC Bank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=GEL",
+  "ProfitValue": -21.809091076185894,
+  "ProfitPercet": -2.1809091076185894,
+  "TotalAdvBuy": 1,
+  "TotalAdvSell": 2,
+  "AdvNoBuy": "11426608771926175744",
+  "AdvNoSell": "11426606615346880512"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Merchant": {
+   "FirstMerch": true,
+   "SecondMerch": false,
+   "ThirdMerch": true
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T16:49:02.786166005Z",
+  "Fiat": "GEL",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 4488.5,
+  "PaymentBuy": [
+   "TBC Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=GEL",
+  "Pair": "ETHUSDT",
+  "PricePair": 1595.125,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 2.66,
+  "PaymentSell": [
+   "TBC Bank",
+   "Bank of Georgia"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=GEL",
+  "ProfitValue": -54.68809179013026,
+  "ProfitPercet": -5.468809179013026,
+  "TotalAdvBuy": 1,
+  "TotalAdvSell": 16,
+  "AdvNoBuy": "11426607790110892032",
+  "AdvNoSell": "11432713331882221568"
+ }
+]

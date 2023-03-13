@@ -1,0 +1,49 @@
+[
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T17:02:04.725550215Z",
+  "Fiat": "UZS",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 20092983.21,
+  "PaymentBuy": [
+   "Kapitalbank",
+   "Humo",
+   "Uzcard"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=UZS",
+  "Pair": "ETHBUSD",
+  "PricePair": 1594.525,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BUSD?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 11808.11,
+  "PaymentSell": [
+   "Humo",
+   "Kapitalbank",
+   "Trust",
+   "Agrobank",
+   "PayMe"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=UZS",
+  "ProfitValue": -629402.1146748359,
+  "ProfitPercet": -6.294021146748359,
+  "TotalAdvBuy": 3,
+  "TotalAdvSell": 1,
+  "AdvNoBuy": "11360861797595811840",
+  "AdvNoSell": "11361749473574854656"
+ }
+]

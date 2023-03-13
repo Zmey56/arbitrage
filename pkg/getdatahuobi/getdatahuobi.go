@@ -2,7 +2,6 @@ package getdatahuobi
 
 import (
 	"encoding/json"
-	"fmt"
 	"github.com/Zmey56/arbitrage/pkg/getinfohuobi"
 	"io"
 	"log"
@@ -25,7 +24,7 @@ func GetDataP2PHuobi(fiat, currency int, tradeType string, paramUser getinfohuob
 		params.Set("payMethod", "0")
 	}
 	// +
-	if tradeType == "buy" {
+	if tradeType == "sell" {
 		params.Set("acceptOrder", "0")
 	} else {
 		params.Set("acceptOrder", "-1")
@@ -40,18 +39,18 @@ func GetDataP2PHuobi(fiat, currency int, tradeType string, paramUser getinfohuob
 		params.Set("amount", "")
 	}
 	params.Set("isThumbsUp", "false")
-	if len(paramUser.IsMerchant) > 0 {
-		params.Set("isMerchant", paramUser.IsMerchant)
-	} else {
+	if paramUser.IsMerchant == "true" {
 		params.Set("isMerchant", "true")
+	} else {
+		params.Set("isMerchant", "false")
 	}
 	params.Set("isTraded", "false")
 	params.Set("onlyTradable", "false")
 	params.Set("isFollowed", "false")
 	resulthuobi := Huobi{}
-	//log.Println("PARAMS HUOBI", params)
 
-	url := ("https://otc-api.huobi.com/v1/data/trade-market" + "?" + params.Encode())
+	url := ("https://otc-api.trygofast.com/v1/data/trade-market" + "?" + params.Encode())
+
 	var err error
 
 	for {
@@ -104,7 +103,7 @@ func requestOrdersP2PHuobi(j string) (Huobi, error) {
 		if response.StatusCode != http.StatusTooManyRequests {
 			return ParsingJsonHuobi(response.Body), nil
 		}
-		fmt.Println("Too many requests, backing off for", backoff)
+		log.Println("Too many requests, backing off for", backoff)
 		time.Sleep(backoff)
 	}
 

@@ -1,0 +1,90 @@
+[
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Taker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Binance"
+  },
+  "Merchant": {
+   "FirstMerch": true,
+   "SecondMerch": false,
+   "ThirdMerch": true
+  },
+  "Profit": true,
+  "DataTime": "2023-01-26T16:56:24.429361418Z",
+  "Fiat": "RUB",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 1659939.57,
+  "PaymentBuy": [
+   "Raiffeisenbank",
+   "Tinkoff",
+   "Sberbank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-btc-rub/",
+  "Pair": "ETHBTC",
+  "PricePair": 0.06929,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/eth_btc",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 115300,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/eth?fiat=RUB",
+  "ProfitValue": 245.8651081892304,
+  "ProfitPercet": 0.24586510818923038,
+  "TotalAdvBuy": 5,
+  "TotalAdvSell": 22,
+  "AdvNoBuy": "357011334",
+  "AdvNoSell": "11451623710525050880"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Taker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Binance"
+  },
+  "Merchant": {
+   "FirstMerch": true,
+   "SecondMerch": false,
+   "ThirdMerch": true
+  },
+  "Profit": true,
+  "DataTime": "2023-01-26T16:56:24.775719877Z",
+  "Fiat": "RUB",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 71.65,
+  "PaymentBuy": [
+   "Sberbank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-usdt-rub/",
+  "Pair": "SHIBUSDT",
+  "PricePair": 0.00001152,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/shib_usdt",
+  "AssetsSell": "SHIB",
+  "PriceAssetsSell": 0.000889,
+  "PaymentSell": [
+   "RosBank",
+   "Post Bank",
+   "Raiffeisenbank",
+   "Tinkoff",
+   "BinancePay (RUB)"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/shib?fiat=RUB",
+  "ProfitValue": 7704.311080096151,
+  "ProfitPercet": 7.704311080096152,
+  "TotalAdvBuy": 9,
+  "TotalAdvSell": 3,
+  "AdvNoBuy": "268364352",
+  "AdvNoSell": "11422167747195666432"
+ }
+]

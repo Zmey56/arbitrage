@@ -1,0 +1,170 @@
+[
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "bank",
+  "TradeMethodShortName": "Bank transfer"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "GEO Pay",
+  "TradeMethodShortName": "GEO Pay"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Altyn Bank",
+  "TradeMethodShortName": "Altyn Bank"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "AdvCash",
+  "TradeMethodShortName": "AdvCash"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Bank RBK",
+  "TradeMethodShortName": "Bank RBK"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "CenterCredit Bank",
+  "TradeMethodShortName": "CenterCredit Bank"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Eco Center Bank",
+  "TradeMethodShortName": "Eco Center Bank"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Eurasian Bank",
+  "TradeMethodShortName": "Eurasian Bank"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "ForteBank",
+  "TradeMethodShortName": "ForteBank"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Freedom Bank",
+  "TradeMethodShortName": "Freedom Bank"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Halyk Bank",
+  "TradeMethodShortName": "Halyk Bank"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Home Credit",
+  "TradeMethodShortName": "Home Credit"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Jysan Bank",
+  "TradeMethodShortName": "Jysan Bank"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Kaspi Bank",
+  "TradeMethodShortName": "Kaspi Bank"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "KZI Bank",
+  "TradeMethodShortName": "KZI Bank"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Nurbank",
+  "TradeMethodShortName": "Nurbank"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Otbasy Bank",
+  "TradeMethodShortName": "Otbasy Bank"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Paysera",
+  "TradeMethodShortName": "Paysera"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Sberbank",
+  "TradeMethodShortName": "Sberbank"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Shinhan Bank",
+  "TradeMethodShortName": "Shinhan Bank"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "VTB Bank",
+  "TradeMethodShortName": "VTB Bank"
+ }
+]

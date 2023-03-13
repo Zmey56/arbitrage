@@ -1,0 +1,90 @@
+[
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Taker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Binance"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": true,
+  "DataTime": "2023-01-26T16:42:33.585962673Z",
+  "Fiat": "AED",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 3.73,
+  "PaymentBuy": [
+   "Bank Transfer",
+   "mBank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-usdt-aed/",
+  "Pair": "BNBUSDT",
+  "PricePair": 304.37,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/bnb_usdt",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 1176.847,
+  "PaymentSell": [
+   "Cash Deposit to Bank",
+   "Abu Dhabi Commercial Bank ADCB",
+   "Al Hilal Bank",
+   "mBank",
+   "Bank Transfer"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/bnb?fiat=AED",
+  "ProfitValue": 36.59552218836233,
+  "ProfitPercet": 3.6595522188362333,
+  "TotalAdvBuy": 3,
+  "TotalAdvSell": 4,
+  "AdvNoBuy": "362548767",
+  "AdvNoSell": "11449514259130707968"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Taker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Binance"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": true,
+  "DataTime": "2023-01-26T16:42:33.593630256Z",
+  "Fiat": "AED",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 3.73,
+  "PaymentBuy": [
+   "Bank Transfer",
+   "mBank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-usdt-aed/",
+  "Pair": "MATICUSDT",
+  "PricePair": 1.077133,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/matic_usdt",
+  "AssetsSell": "MATIC",
+  "PriceAssetsSell": 4.747,
+  "PaymentSell": [
+   "Bank Transfer"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/matic?fiat=AED",
+  "ProfitValue": 181.51997524537686,
+  "ProfitPercet": 18.151997524537684,
+  "TotalAdvBuy": 3,
+  "TotalAdvSell": 1,
+  "AdvNoBuy": "362548767",
+  "AdvNoSell": "11397674259359117312"
+ }
+]

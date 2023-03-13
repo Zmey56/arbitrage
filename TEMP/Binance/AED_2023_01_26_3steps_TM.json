@@ -1,0 +1,383 @@
+[
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Merchant": {
+   "FirstMerch": true,
+   "SecondMerch": false,
+   "ThirdMerch": true
+  },
+  "Profit": true,
+  "DataTime": "2023-01-26T17:09:41.665517425Z",
+  "Fiat": "AED",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 6094.12,
+  "PaymentBuy": [
+   "Cash Deposit to Bank",
+   "Abu Dhabi Commercial Bank ADCB",
+   "Al Hilal Bank",
+   "mBank",
+   "Bank Transfer"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=AED",
+  "Pair": "BNBETH",
+  "PricePair": 0.19065,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_ETH?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 1177.194,
+  "PaymentSell": [
+   "Cash Deposit to Bank",
+   "Abu Dhabi Commercial Bank ADCB",
+   "Al Hilal Bank",
+   "mBank",
+   "Bank Transfer"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=AED",
+  "ProfitValue": 13.21177566924579,
+  "ProfitPercet": 1.321177566924579,
+  "TotalAdvBuy": 3,
+  "TotalAdvSell": 4,
+  "AdvNoBuy": "11449978348956504064",
+  "AdvNoSell": "11449514259130707968"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Merchant": {
+   "FirstMerch": true,
+   "SecondMerch": false,
+   "ThirdMerch": true
+  },
+  "Profit": true,
+  "DataTime": "2023-01-26T17:09:42.004684466Z",
+  "Fiat": "AED",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 3.695,
+  "PaymentBuy": [
+   "Bank Transfer",
+   ""
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=AED",
+  "Pair": "BTCBUSD",
+  "PricePair": 23043.54,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_BUSD?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 85998.399,
+  "PaymentSell": [
+   "Cash Deposit to Bank",
+   "Abu Dhabi Commercial Bank ADCB",
+   "Al Hilal Bank",
+   "mBank",
+   "Bank Transfer"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=AED",
+  "ProfitValue": 10.012448012707944,
+  "ProfitPercet": 1.0012448012707944,
+  "TotalAdvBuy": 4,
+  "TotalAdvSell": 5,
+  "AdvNoBuy": "11427744109551304704",
+  "AdvNoSell": "11449494044940812288"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Merchant": {
+   "FirstMerch": true,
+   "SecondMerch": false,
+   "ThirdMerch": true
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T17:09:42.021231175Z",
+  "Fiat": "AED",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 3.695,
+  "PaymentBuy": [
+   "Bank Transfer",
+   ""
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=AED",
+  "Pair": "BUSDUSDT",
+  "PricePair": 0.99995,
+  "LinkMarket": "https://www.binance.com/en/trade/BUSD_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 3.675,
+  "PaymentSell": [
+   "Bank Transfer (Middle East)",
+   "Cash Deposit to Bank",
+   "AL MASHREQ Bank",
+   "mBank",
+   "Bank Transfer"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=AED",
+  "ProfitValue": -5.462449255751165,
+  "ProfitPercet": -0.5462449255751165,
+  "TotalAdvBuy": 4,
+  "TotalAdvSell": 19,
+  "AdvNoBuy": "11427744109551304704",
+  "AdvNoSell": "11450781152241147904"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Merchant": {
+   "FirstMerch": true,
+   "SecondMerch": false,
+   "ThirdMerch": true
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T17:09:42.26325655Z",
+  "Fiat": "AED",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 1177.194,
+  "PaymentBuy": [
+   "Cash Deposit to Bank",
+   "Abu Dhabi Commercial Bank ADCB",
+   "Al Hilal Bank",
+   "mBank",
+   "Bank Transfer"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=AED",
+  "Pair": "BNBBUSD",
+  "PricePair": 304.45,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BUSD?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 3.695,
+  "PaymentSell": [
+   "Bank Transfer",
+   ""
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=AED",
+  "ProfitValue": -44.38626938295643,
+  "ProfitPercet": -4.438626938295643,
+  "TotalAdvBuy": 4,
+  "TotalAdvSell": 4,
+  "AdvNoBuy": "11449514259130707968",
+  "AdvNoSell": "11427744109551304704"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Merchant": {
+   "FirstMerch": true,
+   "SecondMerch": false,
+   "ThirdMerch": true
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T17:09:42.313638842Z",
+  "Fiat": "AED",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 1177.194,
+  "PaymentBuy": [
+   "Cash Deposit to Bank",
+   "Abu Dhabi Commercial Bank ADCB",
+   "Al Hilal Bank",
+   "mBank",
+   "Bank Transfer"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=AED",
+  "Pair": "BNBETH",
+  "PricePair": 0.19065,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_ETH?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 6094.12,
+  "PaymentSell": [
+   "Cash Deposit to Bank",
+   "Abu Dhabi Commercial Bank ADCB",
+   "Al Hilal Bank",
+   "mBank",
+   "Bank Transfer"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=AED",
+  "ProfitValue": -13.039500711012893,
+  "ProfitPercet": -1.3039500711012892,
+  "TotalAdvBuy": 4,
+  "TotalAdvSell": 3,
+  "AdvNoBuy": "11449514259130707968",
+  "AdvNoSell": "11449978348956504064"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Merchant": {
+   "FirstMerch": true,
+   "SecondMerch": false,
+   "ThirdMerch": true
+  },
+  "Profit": true,
+  "DataTime": "2023-01-26T17:09:42.71398805Z",
+  "Fiat": "AED",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 3.695,
+  "PaymentBuy": [
+   "Bank Transfer",
+   ""
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=AED",
+  "Pair": "ETHBUSD",
+  "PricePair": 1597.4650000000001,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BUSD?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 6094.12,
+  "PaymentSell": [
+   "Cash Deposit to Bank",
+   "Abu Dhabi Commercial Bank ADCB",
+   "Al Hilal Bank",
+   "mBank",
+   "Bank Transfer"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=AED",
+  "ProfitValue": 32.44091565964527,
+  "ProfitPercet": 3.244091565964527,
+  "TotalAdvBuy": 4,
+  "TotalAdvSell": 3,
+  "AdvNoBuy": "11427744109551304704",
+  "AdvNoSell": "11449978348956504064"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Merchant": {
+   "FirstMerch": true,
+   "SecondMerch": false,
+   "ThirdMerch": true
+  },
+  "Profit": true,
+  "DataTime": "2023-01-26T17:09:42.763192425Z",
+  "Fiat": "AED",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 3.675,
+  "PaymentBuy": [
+   "Bank Transfer (Middle East)",
+   "Cash Deposit to Bank",
+   "AL MASHREQ Bank",
+   "mBank",
+   "Bank Transfer"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=AED",
+  "Pair": "BNBUSDT",
+  "PricePair": 304.65,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_USDT?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 1177.194,
+  "PaymentSell": [
+   "Cash Deposit to Bank",
+   "Abu Dhabi Commercial Bank ADCB",
+   "Al Hilal Bank",
+   "mBank",
+   "Bank Transfer"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=AED",
+  "ProfitValue": 51.45215151545615,
+  "ProfitPercet": 5.1452151515456155,
+  "TotalAdvBuy": 19,
+  "TotalAdvSell": 4,
+  "AdvNoBuy": "11450781152241147904",
+  "AdvNoSell": "11449514259130707968"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Merchant": {
+   "FirstMerch": true,
+   "SecondMerch": false,
+   "ThirdMerch": true
+  },
+  "Profit": true,
+  "DataTime": "2023-01-26T17:09:42.776510133Z",
+  "Fiat": "AED",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 3.675,
+  "PaymentBuy": [
+   "Bank Transfer (Middle East)",
+   "Cash Deposit to Bank",
+   "AL MASHREQ Bank",
+   "mBank",
+   "Bank Transfer"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=AED",
+  "Pair": "BUSDUSDT",
+  "PricePair": 0.99995,
+  "LinkMarket": "https://www.binance.com/en/trade/BUSD_USDT?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 3.695,
+  "PaymentSell": [
+   "Bank Transfer",
+   ""
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=AED",
+  "ProfitValue": 5.492451493323049,
+  "ProfitPercet": 0.5492451493323048,
+  "TotalAdvBuy": 19,
+  "TotalAdvSell": 4,
+  "AdvNoBuy": "11450781152241147904",
+  "AdvNoSell": "11427744109551304704"
+ }
+]otalAdvSell": 3,
+  "AdvNoBuy": "11450781152241147904",
+  "AdvNoSell": "11449978348956504064"
+ }
+]

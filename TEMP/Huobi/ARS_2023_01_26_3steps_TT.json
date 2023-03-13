@@ -1,0 +1,186 @@
+[
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Taker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T16:21:04.799221215Z",
+  "Fiat": "ARS",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 10191337.81,
+  "PaymentBuy": [
+   "Mercadopago",
+   "Banco Brubank",
+   "Bank Transfer (Argentina)"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-btc-ars/",
+  "Pair": "MATICBTC",
+  "PricePair": 0.000046665,
+  "LinkMarket": "https://www.binance.com/en/trade/MATIC_BTC?_from=markets",
+  "AssetsSell": "MATIC",
+  "PriceAssetsSell": 379.73,
+  "PaymentSell": [
+   "Reba",
+   "Bank Transfer (Argentina)",
+   "Banco Brubank",
+   "Mercadopago",
+   "Lemon Cash"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/MATIC?fiat=ARS",
+  "ProfitValue": -20154.132849369318,
+  "ProfitPercet": -20.15413284936932,
+  "TotalAdvBuy": 1,
+  "TotalAdvSell": 13,
+  "AdvNoBuy": "274806348",
+  "AdvNoSell": "11451414987043545088"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Taker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Binance"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T16:21:28.162250087Z",
+  "Fiat": "ARS",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 10192774.26,
+  "PaymentBuy": [
+   "Mercadopago",
+   "Banco Brubank",
+   "Bank Transfer (Argentina)"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-btc-ars/",
+  "Pair": "BTCUSDT",
+  "PricePair": 22947.01,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/btc_usdt",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 364.3,
+  "PaymentSell": [
+   "Uala"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/usdt?fiat=ARS",
+  "ProfitValue": -17985.079137816603,
+  "ProfitPercet": -17.985079137816605,
+  "TotalAdvBuy": 1,
+  "TotalAdvSell": 92,
+  "AdvNoBuy": "274806348",
+  "AdvNoSell": "11449357437806682112"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Taker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Binance"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T16:21:28.858484379Z",
+  "Fiat": "ARS",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 10192774.26,
+  "PaymentBuy": [
+   "Mercadopago",
+   "Banco Brubank",
+   "Bank Transfer (Argentina)"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-btc-ars/",
+  "Pair": "XRPBTC",
+  "PricePair": 0.000017785,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/xrp_btc",
+  "AssetsSell": "XRP",
+  "PriceAssetsSell": 179,
+  "PaymentSell": [
+   "Mercadopago",
+   "Banco Brubank",
+   "Lemon Cash",
+   "Uala",
+   "Bank Transfer (Argentina)"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/xrp?fiat=ARS",
+  "ProfitValue": -1256.9004802549853,
+  "ProfitPercet": -1.2569004802549852,
+  "TotalAdvBuy": 1,
+  "TotalAdvSell": 1,
+  "AdvNoBuy": "274806348",
+  "AdvNoSell": "11451310397039181824"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Taker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Binance"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T16:21:28.863634712Z",
+  "Fiat": "ARS",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 10192774.26,
+  "PaymentBuy": [
+   "Mercadopago",
+   "Banco Brubank",
+   "Bank Transfer (Argentina)"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-btc-ars/",
+  "Pair": "ETHBTC",
+  "PricePair": 0.06917,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/eth_btc",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 581504.19,
+  "PaymentSell": [
+   "Mercadopago",
+   "Bank Transfer (Argentina)",
+   "Banco Brubank",
+   "Uala",
+   "BBVA"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/eth?fiat=ARS",
+  "ProfitValue": -17521.13675356494,
+  "ProfitPercet": -17.52113675356494,
+  "TotalAdvBuy": 1,
+  "TotalAdvSell": 13,
+  "AdvNoBuy": "274806348",
+  "AdvNoSell": "11446868040041381888"
+ }
+]

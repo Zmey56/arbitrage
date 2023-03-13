@@ -1,0 +1,250 @@
+[
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "bank",
+  "TradeMethodShortName": "Bank transfer"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Abu Dhabi Commercial Bank",
+  "TradeMethodShortName": "Abu Dhabi Commercial Bank"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Abu Dhabi Islamic Bank",
+  "TradeMethodShortName": "ADIB"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Ajman Bank",
+  "TradeMethodShortName": "Ajman Bank"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Al Hilal Bank",
+  "TradeMethodShortName": "Al Hilal Bank"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Al Maryah Community Bank",
+  "TradeMethodShortName": "Al Maryah Community Bank"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Bank of Sharjah",
+  "TradeMethodShortName": "Bank of Sharjah"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Blue",
+  "TradeMethodShortName": "Blue"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Careem Pay",
+  "TradeMethodShortName": "Careem Pay"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Citibank",
+  "TradeMethodShortName": "Citibank"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Commercial Bank International",
+  "TradeMethodShortName": "Commercial Bank International"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Commercial Bank of Dubai",
+  "TradeMethodShortName": "Commercial Bank of Dubai"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Dubai Islamic Bank",
+  "TradeMethodShortName": "Dubai Islamic Bank"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Emirates Islamic Bank",
+  "TradeMethodShortName": "Emirates Islamic Bank"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Emirates NBD Bank",
+  "TradeMethodShortName": "Emirates NBD Bank"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Etisalat Wallet",
+  "TradeMethodShortName": "Etisalat Wallet"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "FasterPay",
+  "TradeMethodShortName": "FasterPay"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "First Abu Dhabi Bank",
+  "TradeMethodShortName": "First Abu Dhabi Bank"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "HSBC",
+  "TradeMethodShortName": "HSBC"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Klip",
+  "TradeMethodShortName": "Klip"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Mashreq Bank",
+  "TradeMethodShortName": "Mashreq Bank"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "MoneyGram",
+  "TradeMethodShortName": "MoneyGram"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Neteller",
+  "TradeMethodShortName": "Neteller"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Payby",
+  "TradeMethodShortName": "Payby"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Payit",
+  "TradeMethodShortName": "Payit"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Revolut",
+  "TradeMethodShortName": "Revolut"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Skrill",
+  "TradeMethodShortName": "Skrill"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Standard Chartered",
+  "TradeMethodShortName": "Standard Chartered"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "United Arab Bank",
+  "TradeMethodShortName": "United Arab Bank"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Wise",
+  "TradeMethodShortName": "Wise"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Zen",
+  "TradeMethodShortName": "Zen"
+ }
+]

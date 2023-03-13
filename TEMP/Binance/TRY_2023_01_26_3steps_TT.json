@@ -1,0 +1,371 @@
+[
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Taker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T16:58:14.695913428Z",
+  "Fiat": "TRY",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 19.17,
+  "PaymentBuy": [
+   "Burgan Bank (K.S.C) (Burgan)",
+   "alBaraka",
+   "VakifBank",
+   "DenizBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=TRY",
+  "Pair": "ethusdt",
+  "PricePair": 1593.76,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/eth_usdt",
+  "AssetsSell": "eth",
+  "PriceAssetsSell": 29733.64,
+  "PaymentSell": [
+   "Bank Transfer"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-eth-try/",
+  "ProfitValue": -267.97886823818953,
+  "ProfitPercet": -2.6797886823818953,
+  "TotalAdvBuy": 53,
+  "TotalAdvSell": 13,
+  "AdvNoBuy": "11450047910823223296",
+  "AdvNoSell": "377715465"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Taker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T16:58:14.735740428Z",
+  "Fiat": "TRY",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 19.17,
+  "PaymentBuy": [
+   "Burgan Bank (K.S.C) (Burgan)",
+   "alBaraka",
+   "VakifBank",
+   "DenizBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=TRY",
+  "Pair": "htusdt",
+  "PricePair": 5.0658,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/ht_usdt",
+  "AssetsSell": "ht",
+  "PriceAssetsSell": 90.31,
+  "PaymentSell": [
+   "Bank Transfer",
+   "Ziraat",
+   "Garanti"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-ht-try/",
+  "ProfitValue": -700.3695735534043,
+  "ProfitPercet": -7.003695735534043,
+  "TotalAdvBuy": 53,
+  "TotalAdvSell": 7,
+  "AdvNoBuy": "11450047910823223296",
+  "AdvNoSell": "406386437"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Taker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T16:58:14.746459469Z",
+  "Fiat": "TRY",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 31788.31,
+  "PaymentBuy": [
+   "Bank Transfer",
+   "Kuveyt Turk",
+   "Ziraat",
+   "Garanti",
+   "DenizBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=TRY",
+  "Pair": "hteth",
+  "PricePair": 0.00317346,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/ht_eth",
+  "AssetsSell": "ht",
+  "PriceAssetsSell": 90.31,
+  "PaymentSell": [
+   "Bank Transfer",
+   "Ziraat",
+   "Garanti"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-ht-try/",
+  "ProfitValue": -1047.6846082859406,
+  "ProfitPercet": -10.476846082859407,
+  "TotalAdvBuy": 2,
+  "TotalAdvSell": 7,
+  "AdvNoBuy": "11317065728976265216",
+  "AdvNoSell": "406386437"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Taker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T16:58:14.768731678Z",
+  "Fiat": "TRY",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 443346.59,
+  "PaymentBuy": [
+   "Garanti",
+   "Ziraat",
+   "Akbank",
+   "Bank Transfer",
+   "Kuveyt Turk"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=TRY",
+  "Pair": "htbtc",
+  "PricePair": 0.00022001,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/ht_btc",
+  "AssetsSell": "ht",
+  "PriceAssetsSell": 90.31,
+  "PaymentSell": [
+   "Bank Transfer",
+   "Ziraat",
+   "Garanti"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-ht-try/",
+  "ProfitValue": -741.2992224166471,
+  "ProfitPercet": -7.412992224166472,
+  "TotalAdvBuy": 5,
+  "TotalAdvSell": 7,
+  "AdvNoBuy": "11446821584807456768",
+  "AdvNoSell": "406386437"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Taker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T16:58:14.787467636Z",
+  "Fiat": "TRY",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 31788.31,
+  "PaymentBuy": [
+   "Bank Transfer",
+   "Kuveyt Turk",
+   "Ziraat",
+   "Garanti",
+   "DenizBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=TRY",
+  "Pair": "ethbtc",
+  "PricePair": 0.06929,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/eth_btc",
+  "AssetsSell": "btc",
+  "PriceAssetsSell": 427000,
+  "PaymentSell": [
+   "Bank Transfer",
+   "Ziraat",
+   "Garanti"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-btc-try/",
+  "ProfitValue": -692.5438942806327,
+  "ProfitPercet": -6.925438942806326,
+  "TotalAdvBuy": 2,
+  "TotalAdvSell": 13,
+  "AdvNoBuy": "11317065728976265216",
+  "AdvNoSell": "362289573"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Taker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T16:58:14.861077386Z",
+  "Fiat": "TRY",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 443346.59,
+  "PaymentBuy": [
+   "Garanti",
+   "Ziraat",
+   "Akbank",
+   "Bank Transfer",
+   "Kuveyt Turk"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=TRY",
+  "Pair": "ethbtc",
+  "PricePair": 0.06929,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/eth_btc",
+  "AssetsSell": "eth",
+  "PriceAssetsSell": 29733.64,
+  "PaymentSell": [
+   "Bank Transfer"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-eth-try/",
+  "ProfitValue": -320.9185355823818,
+  "ProfitPercet": -3.209185355823818,
+  "TotalAdvBuy": 5,
+  "TotalAdvSell": 13,
+  "AdvNoBuy": "11446821584807456768",
+  "AdvNoSell": "377715465"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Taker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T16:58:15.267350261Z",
+  "Fiat": "TRY",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 443346.59,
+  "PaymentBuy": [
+   "Garanti",
+   "Ziraat",
+   "Akbank",
+   "Bank Transfer",
+   "Kuveyt Turk"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=TRY",
+  "Pair": "trxbtc",
+  "PricePair": 0.0000026777,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/trx_btc",
+  "AssetsSell": "trx",
+  "PriceAssetsSell": 1.11,
+  "PaymentSell": [
+   "Bank Transfer (Turkey)",
+   "Ziraat",
+   "Garanti"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-trx-try/",
+  "ProfitValue": -649.8691687593644,
+  "ProfitPercet": -6.498691687593644,
+  "TotalAdvBuy": 5,
+  "TotalAdvSell": 7,
+  "AdvNoBuy": "11446821584807456768",
+  "AdvNoSell": "255269604"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Taker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T16:58:15.495292887Z",
+  "Fiat": "TRY",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 443346.59,
+  "PaymentBuy": [
+   "Garanti",
+   "Ziraat",
+   "Akbank",
+   "Bank Transfer",
+   "Kuveyt Turk"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=TRY",
+  "Pair": "btcusdt",
+  "PricePair": 23002.96,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/btc_usdt",
+  "AssetsSell": "usdt",
+  "PriceAssetsSell": 19.08,
+  "PaymentSell": [
+   "Bank Transfer",
+   "Papara"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-usdt-try/",
+  "ProfitValue": -100.37549177947074,
+  "ProfitPercet": -1.0037549177947074,
+  "TotalAdvBuy": 5,
+  "TotalAdvSell": 65,
+  "AdvNoBuy": "11446821584807456768",
+  "AdvNoSell": "418496863"
+ }
+]

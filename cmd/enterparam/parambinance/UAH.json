@@ -6,7 +6,6 @@
   "ABank",
   "izibank"
  ],
- "transAmount": "10000",
- "publisher_type": "merchant",
+ "transAmount": "50000",
  "percentUser": 0.5
 }

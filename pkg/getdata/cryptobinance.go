@@ -26,8 +26,6 @@ func GetListSymbolsBinance(fiat string) {
 		assets[i] = asset
 		i++
 	}
-	//fmt.Println(assets, len(assets))
-	//
 
 	url := "https://api.binance.com/api/v3/exchangeInfo"
 
@@ -95,9 +93,8 @@ func GetListSymbolsBinance(fiat string) {
 	name_json := fmt.Sprintf("data/databinance/%s/%s_pair.json", fiat, fiat)
 	jsonStr, err := json.MarshalIndent(finalpair, "", " ")
 	if err != nil {
-		fmt.Printf("Error: %s", err.Error())
+		log.Printf("Error: %s", err.Error())
 	}
-	//log.Println("Test pair", jsonStr)
 
 	_ = os.WriteFile(name_json, jsonStr, 0644)
 
@@ -107,7 +104,6 @@ func GetAssets(fiat ...string) map[string]string {
 
 	assets := make(map[string]string)
 	httpposturl := "https://p2p.binance.com/bapi/c2c/v2/friendly/c2c/portal/config"
-	//fmt.Println("HTTP JSON POST URL:", httpposturl)
 
 	var jsonData = []byte(`{
 		"fiat": "USD"
@@ -170,5 +166,6 @@ func GetAssets(fiat ...string) map[string]string {
 			}
 		}
 	}
+	log.Println("assets", assets)
 	return assets
 }

@@ -1,0 +1,45 @@
+[
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Taker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Binance"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": true,
+  "DataTime": "2023-01-26T16:15:14.728075345Z",
+  "Fiat": "UZS",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 11800,
+  "PaymentBuy": [
+   "Humo"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-usdt-uzs/",
+  "Pair": "ETHUSDT",
+  "PricePair": 1587.63,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/eth_usdt",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 20000092.07,
+  "PaymentSell": [
+   "Humo",
+   "Kapitalbank",
+   "Uzcard"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/eth?fiat=UZS",
+  "ProfitValue": 675806.4333608019,
+  "ProfitPercet": 6.758064333608019,
+  "TotalAdvBuy": 1,
+  "TotalAdvSell": 2,
+  "AdvNoBuy": "395739568",
+  "AdvNoSell": "11423971367151263744"
+ }
+]

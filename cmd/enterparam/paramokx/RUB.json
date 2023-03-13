@@ -1,0 +1,21 @@
+{
+ "CoinId": "RUB",
+ "Currency": "",
+ "TradeType": "",
+ "CurrPage": "",
+ "PayMethod": "Sberbank",
+ "AcceptOrder": "",
+ "Country": "",
+ "BlockType": "",
+ "Online": "",
+ "Range": "",
+ "Intrange": "",
+ "Amount": "100000",
+ "IsThumbsUp": "",
+ "IsMerchant": "true",
+ "IsTraded": "",
+ "OnlyTradable": "",
+ "IsFollowed": "",
+ "PercentUser": 0,
+ "Border": 0
+}

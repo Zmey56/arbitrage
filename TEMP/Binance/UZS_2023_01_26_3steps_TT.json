@@ -1,0 +1,259 @@
+[
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Taker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T17:01:48.714982138Z",
+  "Fiat": "UZS",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 11595,
+  "PaymentBuy": [
+   "Humo"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=UZS",
+  "Pair": "ETHUSDT",
+  "PricePair": 1594.7849999999999,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_USDT?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 18154345.51,
+  "PaymentSell": [
+   "Uzcard",
+   "Kapitalbank",
+   "Humo"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/ETH?fiat=UZS\u0026payment=ALL",
+  "ProfitValue": -182346.47277056257,
+  "ProfitPercet": -1.8234647277056255,
+  "TotalAdvBuy": 29,
+  "TotalAdvSell": 11,
+  "AdvNoBuy": "",
+  "AdvNoSell": ""
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Taker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T17:01:49.201360972Z",
+  "Fiat": "UZS",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 3878172.59,
+  "PaymentBuy": [
+   "Kapitalbank",
+   "Humo",
+   "Uzcard"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=UZS",
+  "Pair": "BNBBTC",
+  "PricePair": 0.0132275,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BTC?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 262275586.44,
+  "PaymentSell": [
+   "Humo",
+   "Uzcard"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=UZS\u0026payment=ALL",
+  "ProfitValue": -1054419.990021382,
+  "ProfitPercet": -10.54419990021382,
+  "TotalAdvBuy": 1,
+  "TotalAdvSell": 14,
+  "AdvNoBuy": "",
+  "AdvNoSell": ""
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Taker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T17:01:49.211627722Z",
+  "Fiat": "UZS",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 3878172.59,
+  "PaymentBuy": [
+   "Kapitalbank",
+   "Humo",
+   "Uzcard"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=UZS",
+  "Pair": "BNBUSDT",
+  "PricePair": 304.45,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 11578.02,
+  "PaymentSell": [
+   "Humo",
+   "Uzcard"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=UZS\u0026payment=ALL",
+  "ProfitValue": -910852.709110606,
+  "ProfitPercet": -9.10852709110606,
+  "TotalAdvBuy": 1,
+  "TotalAdvSell": 72,
+  "AdvNoBuy": "",
+  "AdvNoSell": ""
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Taker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T17:02:37.335233758Z",
+  "Fiat": "UZS",
+  "AssetsBuy": "SHIB",
+  "PriceAssetsBuy": 0.15,
+  "PaymentBuy": [
+   "Humo",
+   "Uzcard"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/SHIB?fiat=UZS",
+  "Pair": "SHIBUSDT",
+  "PricePair": 0.000011564999999999999,
+  "LinkMarket": "https://www.binance.com/en/trade/SHIB_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 12000,
+  "PaymentSell": [
+   "Humo"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-usdt-uzs/",
+  "ProfitValue": -748000,
+  "ProfitPercet": -7.48,
+  "TotalAdvBuy": 1,
+  "TotalAdvSell": 10,
+  "AdvNoBuy": "",
+  "AdvNoSell": ""
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Taker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T17:08:13.044172636Z",
+  "Fiat": "UZS",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 280395084.35,
+  "PaymentBuy": [
+   "Humo"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=UZS",
+  "Pair": "btcusdt",
+  "PricePair": 23031.18,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/btc_usdt",
+  "AssetsSell": "usdt",
+  "PriceAssetsSell": 12000,
+  "PaymentSell": [
+   "Humo"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-usdt-uzs/",
+  "ProfitValue": -143402.0984826152,
+  "ProfitPercet": -1.434020984826152,
+  "TotalAdvBuy": 2,
+  "TotalAdvSell": 11,
+  "AdvNoBuy": "11448587297934774272",
+  "AdvNoSell": "392009259"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Taker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T17:08:13.209360553Z",
+  "Fiat": "UZS",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 20115011.77,
+  "PaymentBuy": [
+   "Kapitalbank",
+   "Humo",
+   "Uzcard"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=UZS",
+  "Pair": "ethusdt",
+  "PricePair": 1596.93,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/eth_usdt",
+  "AssetsSell": "usdt",
+  "PriceAssetsSell": 12000,
+  "PaymentSell": [
+   "Humo"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-usdt-uzs/",
+  "ProfitValue": -473204.67961128044,
+  "ProfitPercet": -4.7320467961128045,
+  "TotalAdvBuy": 3,
+  "TotalAdvSell": 11,
+  "AdvNoBuy": "11360861797595811840",
+  "AdvNoSell": "392009259"
+ }
+]

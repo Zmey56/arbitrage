@@ -171,4 +171,5 @@ type ParametersHuobi struct {
 	OnlyTradable string
 	IsFollowed   string
 	PercentUser  float64
+	Border       int
 }

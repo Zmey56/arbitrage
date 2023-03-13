@@ -5,6 +5,7 @@ type ParametersBinance struct {
 	TransAmount   string   `json:"transAmount"`
 	PublisherType string   `json:"publisher_type"`
 	PercentUser   float64  `json:"percentUser"`
+	Border        int      `json:"boader"`
 }
 
 type PaymentsBinance []struct {

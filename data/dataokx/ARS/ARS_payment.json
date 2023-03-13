@@ -1,0 +1,186 @@
+[
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "bank",
+  "TradeMethodShortName": "Bank transfer"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Cash in Person",
+  "TradeMethodShortName": "Cash-in-person"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Banco Brubank",
+  "TradeMethodShortName": "Banco Brubank"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Banco del Sol",
+  "TradeMethodShortName": "Banco del Sol"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Banco Nación",
+  "TradeMethodShortName": "Banco Nación"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Banco Patagonia",
+  "TradeMethodShortName": "Banco Patagonia"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Banco Provincia",
+  "TradeMethodShortName": "Banco Provincia"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "BBVA",
+  "TradeMethodShortName": "BBVA"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Ecopayz",
+  "TradeMethodShortName": "Ecopayz"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Finket",
+  "TradeMethodShortName": "Finket"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Galicia",
+  "TradeMethodShortName": "Galicia"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Hipotecario",
+  "TradeMethodShortName": "Hipotecario"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Lemon Cash",
+  "TradeMethodShortName": "Lemon Cash"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Mercadopago",
+  "TradeMethodShortName": "Mercado Pago"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "NUARS",
+  "TradeMethodShortName": "NUARS"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Paysur",
+  "TradeMethodShortName": "Paysur"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Prex",
+  "TradeMethodShortName": "Prex"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Macro",
+  "TradeMethodShortName": "Macro"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Openbank",
+  "TradeMethodShortName": "Openbank"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Rebanking",
+  "TradeMethodShortName": "Rebanking"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Santander",
+  "TradeMethodShortName": "Santander"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Uala",
+  "TradeMethodShortName": "Ualá"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Wilobank",
+  "TradeMethodShortName": "Wilobank"
+ }
+]

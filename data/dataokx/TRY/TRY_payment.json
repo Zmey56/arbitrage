@@ -1,0 +1,314 @@
+[
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "bank",
+  "TradeMethodShortName": "Bank transfer"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Cash in Person",
+  "TradeMethodShortName": "Cash-in-person"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "AdvCash",
+  "TradeMethodShortName": "AdvCash"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Akbank",
+  "TradeMethodShortName": "Akbank"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Alternatifbank",
+  "TradeMethodShortName": "Alternatifbank"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Anadolubank",
+  "TradeMethodShortName": "Anadolubank"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "BKMExpress",
+  "TradeMethodShortName": "BKMExpress"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Blue",
+  "TradeMethodShortName": "Blue"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "BNP Paribas (TEB)",
+  "TradeMethodShortName": "BNP Paribas (TEB)"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Burgan Bank",
+  "TradeMethodShortName": "Burgan Bank"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Denizbank",
+  "TradeMethodShortName": "Denizbank"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Ecopayz",
+  "TradeMethodShortName": "Ecopayz"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Enpara",
+  "TradeMethodShortName": "Enpara"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "FAST",
+  "TradeMethodShortName": "FAST"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "FasterPay",
+  "TradeMethodShortName": "FasterPay"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Fibabanka",
+  "TradeMethodShortName": "Fibabanka"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Garanti Bankası",
+  "TradeMethodShortName": "Garanti Bankası"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "GPay",
+  "TradeMethodShortName": "GPay"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Halk Bankası",
+  "TradeMethodShortName": "Halk Bankası"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "HSBC",
+  "TradeMethodShortName": "HSBC"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "ICBC",
+  "TradeMethodShortName": "ICBC"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "ING",
+  "TradeMethodShortName": "ING"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Ininal",
+  "TradeMethodShortName": "Ininal"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "İş Bankası",
+  "TradeMethodShortName": "İş Bankası"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Kuveyt Turk",
+  "TradeMethodShortName": "Kuveyt Turk"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Odea Bank",
+  "TradeMethodShortName": "Odea Bank"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Papara",
+  "TradeMethodShortName": "Papara"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Paycell",
+  "TradeMethodShortName": "Paycell"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Paysera",
+  "TradeMethodShortName": "Paysera"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "QNB Finansbank",
+  "TradeMethodShortName": "QNB Finansbank"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Revolut",
+  "TradeMethodShortName": "Revolut"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Şekerbank",
+  "TradeMethodShortName": "Şekerbank"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Skrill",
+  "TradeMethodShortName": "Skrill"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Turkish Bank",
+  "TradeMethodShortName": "Turkish Bank"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Vakıflar Bankası",
+  "TradeMethodShortName": "Vakıflar Bankası"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Wise",
+  "TradeMethodShortName": "Wise"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Yapı Kredi",
+  "TradeMethodShortName": "Yapı Kredi"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Ziraat Bankası",
+  "TradeMethodShortName": "Ziraat Bankası"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Zen",
+  "TradeMethodShortName": "Zen"
+ }
+]

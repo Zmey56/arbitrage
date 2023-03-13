@@ -61,15 +61,12 @@ func SendRequesrRatePair(pair []string) (map[string]float64, error) {
 		}
 		defer resp.Body.Close()
 		body, _ := io.ReadAll(resp.Body)
-		//log.Println(p, " - ", string(body))
 
 		rj := ratejson{}
 
 		if err := json.Unmarshal(body, &rj); err != nil {
 			return rate_pair, err
 		}
-
-		//log.Println(len(rj.Bids), len(rj.Asks))
 
 		if len(rj.Bids) > 0 && len(rj.Asks) > 0 {
 			bids, _ := strconv.ParseFloat(rj.Bids[0][0], 64)
@@ -103,6 +100,8 @@ func GetPairFromJSON(fiat string) map[string][]string {
 	case "TRY":
 		pair = fmt.Sprintf("data/databinance/%s/%s_pair.json", fiat, fiat)
 	case "UAH":
+		pair = fmt.Sprintf("data/databinance/%s/%s_pair.json", fiat, fiat)
+	case "USD":
 		pair = fmt.Sprintf("data/databinance/%s/%s_pair.json", fiat, fiat)
 	case "UZS":
 		pair = fmt.Sprintf("data/databinance/%s/%s_pair.json", fiat, fiat)

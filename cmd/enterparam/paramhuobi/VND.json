@@ -12,9 +12,9 @@
  "Intrange": "",
  "Amount": "10000000",
  "IsThumbsUp": "",
- "IsMerchant": "true",
+ "IsMerchant": "",
  "IsTraded": "",
  "OnlyTradable": "",
  "IsFollowed": "",
- "PercentUser": 0.1
+ "PercentUser": 0.5
 }

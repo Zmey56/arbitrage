@@ -1,0 +1,518 @@
+[
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": true,
+  "DataTime": "2023-01-26T15:14:51.952689211Z",
+  "Fiat": "GEL",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 2.68,
+  "PaymentBuy": [
+   "Bank of Georgia",
+   "TBC Bank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-usdt-gel/",
+  "Pair": "BTCUSDT",
+  "PricePair": 23094.1,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/btc_usdt",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 74624.8,
+  "PaymentSell": [
+   "Bank of Georgia",
+   "TBC Bank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-btc-gel/",
+  "ProfitValue": 205.72244109385838,
+  "ProfitPercet": 20.57224410938584,
+  "TotalAdvBuy": 6,
+  "TotalAdvSell": 1,
+  "AdvNoBuy": "417589790",
+  "AdvNoSell": "410613026"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": true,
+  "DataTime": "2023-01-26T15:14:52.028426002Z",
+  "Fiat": "GEL",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 2.68,
+  "PaymentBuy": [
+   "Bank of Georgia",
+   "TBC Bank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-usdt-gel/",
+  "Pair": "ETHUSDT",
+  "PricePair": 1608.44,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/eth_usdt",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 5527.04,
+  "PaymentSell": [
+   "Bank of Georgia",
+   "TBC Bank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-eth-gel/",
+  "ProfitValue": 282.19166285901565,
+  "ProfitPercet": 28.219166285901565,
+  "TotalAdvBuy": 6,
+  "TotalAdvSell": 1,
+  "AdvNoBuy": "417589790",
+  "AdvNoSell": "410613026"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T15:14:52.039844711Z",
+  "Fiat": "GEL",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 5527.04,
+  "PaymentBuy": [
+   "Bank of Georgia",
+   "TBC Bank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-eth-gel/",
+  "Pair": "ETHBTC",
+  "PricePair": 0.069663,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/eth_btc",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 74624.8,
+  "PaymentSell": [
+   "Bank of Georgia",
+   "TBC Bank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-btc-gel/",
+  "ProfitValue": -59.42648462830019,
+  "ProfitPercet": -5.942648462830018,
+  "TotalAdvBuy": 1,
+  "TotalAdvSell": 1,
+  "AdvNoBuy": "410613026",
+  "AdvNoSell": "410613026"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T15:14:52.056212294Z",
+  "Fiat": "GEL",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 5527.04,
+  "PaymentBuy": [
+   "Bank of Georgia",
+   "TBC Bank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-eth-gel/",
+  "Pair": "ETHUSDT",
+  "PricePair": 1608.44,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/eth_usdt",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 2.68,
+  "PaymentSell": [
+   "Bank of Georgia",
+   "TBC Bank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-usdt-gel/",
+  "ProfitValue": -220.08539833256137,
+  "ProfitPercet": -22.008539833256137,
+  "TotalAdvBuy": 1,
+  "TotalAdvSell": 6,
+  "AdvNoBuy": "410613026",
+  "AdvNoSell": "417589790"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T15:14:52.303650086Z",
+  "Fiat": "GEL",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 74624.8,
+  "PaymentBuy": [
+   "Bank of Georgia",
+   "TBC Bank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-btc-gel/",
+  "Pair": "BTCUSDT",
+  "PricePair": 23094.1,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/btc_usdt",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 2.68,
+  "PaymentSell": [
+   "Bank of Georgia",
+   "TBC Bank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-usdt-gel/",
+  "ProfitValue": -170.62172360930964,
+  "ProfitPercet": -17.062172360930962,
+  "TotalAdvBuy": 1,
+  "TotalAdvSell": 6,
+  "AdvNoBuy": "410613026",
+  "AdvNoSell": "417589790"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": true,
+  "DataTime": "2023-01-26T15:14:52.591963711Z",
+  "Fiat": "GEL",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 74624.8,
+  "PaymentBuy": [
+   "Bank of Georgia",
+   "TBC Bank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-btc-gel/",
+  "Pair": "ETHBTC",
+  "PricePair": 0.069663,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/eth_btc",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 5527.04,
+  "PaymentSell": [
+   "Bank of Georgia",
+   "TBC Bank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-eth-gel/",
+  "ProfitValue": 63.18111626268316,
+  "ProfitPercet": 6.318111626268316,
+  "TotalAdvBuy": 1,
+  "TotalAdvSell": 1,
+  "AdvNoBuy": "410613026",
+  "AdvNoSell": "410613026"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": true,
+  "DataTime": "2023-01-26T16:25:09.730740884Z",
+  "Fiat": "GEL",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 2.68,
+  "PaymentBuy": [
+   "Bank of Georgia",
+   "TBC Bank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-usdt-gel/",
+  "Pair": "BTCUSDT",
+  "PricePair": 22935.45,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/btc_usdt",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 74268.16,
+  "PaymentSell": [
+   "Bank of Georgia",
+   "TBC Bank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-btc-gel/",
+  "ProfitValue": 208.26057478706548,
+  "ProfitPercet": 20.82605747870655,
+  "TotalAdvBuy": 6,
+  "TotalAdvSell": 1,
+  "AdvNoBuy": "417589790",
+  "AdvNoSell": "410613026"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": true,
+  "DataTime": "2023-01-26T16:25:09.756744217Z",
+  "Fiat": "GEL",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 74268.16,
+  "PaymentBuy": [
+   "Bank of Georgia",
+   "TBC Bank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-btc-gel/",
+  "Pair": "ETHBTC",
+  "PricePair": 0.069196,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/eth_btc",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 5461.24,
+  "PaymentSell": [
+   "Bank of Georgia",
+   "TBC Bank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-eth-gel/",
+  "ProfitValue": 62.692481846313534,
+  "ProfitPercet": 6.269248184631353,
+  "TotalAdvBuy": 1,
+  "TotalAdvSell": 1,
+  "AdvNoBuy": "410613026",
+  "AdvNoSell": "410613026"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T16:25:09.802220592Z",
+  "Fiat": "GEL",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 74268.16,
+  "PaymentBuy": [
+   "Bank of Georgia",
+   "TBC Bank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-btc-gel/",
+  "Pair": "BTCUSDT",
+  "PricePair": 22935.45,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/btc_usdt",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 2.68,
+  "PaymentSell": [
+   "Bank of Georgia",
+   "TBC Bank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-usdt-gel/",
+  "ProfitValue": -172.36395785219395,
+  "ProfitPercet": -17.236395785219393,
+  "TotalAdvBuy": 1,
+  "TotalAdvSell": 6,
+  "AdvNoBuy": "410613026",
+  "AdvNoSell": "417589790"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T16:25:09.970586717Z",
+  "Fiat": "GEL",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 5461.24,
+  "PaymentBuy": [
+   "Bank of Georgia",
+   "TBC Bank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-eth-gel/",
+  "Pair": "ETHBTC",
+  "PricePair": 0.069196,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/eth_btc",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 74268.16,
+  "PaymentSell": [
+   "Bank of Georgia",
+   "TBC Bank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-btc-gel/",
+  "ProfitValue": -58.99400147951744,
+  "ProfitPercet": -5.899400147951744,
+  "TotalAdvBuy": 1,
+  "TotalAdvSell": 1,
+  "AdvNoBuy": "410613026",
+  "AdvNoSell": "410613026"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T16:25:10.397631509Z",
+  "Fiat": "GEL",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 5461.24,
+  "PaymentBuy": [
+   "Bank of Georgia",
+   "TBC Bank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-eth-gel/",
+  "Pair": "ETHUSDT",
+  "PricePair": 1586.9,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/eth_usdt",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 2.68,
+  "PaymentSell": [
+   "Bank of Georgia",
+   "TBC Bank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-usdt-gel/",
+  "ProfitValue": -221.25890823329482,
+  "ProfitPercet": -22.12589082332948,
+  "TotalAdvBuy": 1,
+  "TotalAdvSell": 6,
+  "AdvNoBuy": "410613026",
+  "AdvNoSell": "417589790"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": true,
+  "DataTime": "2023-01-26T16:25:10.515903551Z",
+  "Fiat": "GEL",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 2.68,
+  "PaymentBuy": [
+   "Bank of Georgia",
+   "TBC Bank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-usdt-gel/",
+  "Pair": "ETHUSDT",
+  "PricePair": 1586.9,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/eth_usdt",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 5461.24,
+  "PaymentSell": [
+   "Bank of Georgia",
+   "TBC Bank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-eth-gel/",
+  "ProfitValue": 284.123838555035,
+  "ProfitPercet": 28.4123838555035,
+  "TotalAdvBuy": 6,
+  "TotalAdvSell": 1,
+  "AdvNoBuy": "417589790",
+  "AdvNoSell": "410613026"
+ }
+]

@@ -1,0 +1,534 @@
+[
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T15:25:10.015183553Z",
+  "Fiat": "UAH",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 75399.99,
+  "PaymentBuy": [
+   "Privat Bank",
+   "Monobank",
+   "A-Bank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-eth-uah/",
+  "Pair": "ETHUSDT",
+  "PricePair": 1614.41,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/eth_usdt",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 40.15,
+  "PaymentSell": [
+   "Monobank",
+   "Izibank",
+   "PUMB"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-usdt-uah/",
+  "ProfitValue": -1403.3726662297963,
+  "ProfitPercet": -14.033726662297962,
+  "TotalAdvBuy": 4,
+  "TotalAdvSell": 29,
+  "AdvNoBuy": "36753377",
+  "AdvNoSell": "395004360"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T15:25:10.038902594Z",
+  "Fiat": "UAH",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 75399.99,
+  "PaymentBuy": [
+   "Privat Bank",
+   "Monobank",
+   "A-Bank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-eth-uah/",
+  "Pair": "ETHBTC",
+  "PricePair": 0.069723,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/eth_btc",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 965043.34,
+  "PaymentSell": [
+   "Privat Bank",
+   "Monobank",
+   "A-Bank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-btc-uah/",
+  "ProfitValue": -1076.163697790942,
+  "ProfitPercet": -10.76163697790942,
+  "TotalAdvBuy": 4,
+  "TotalAdvSell": 2,
+  "AdvNoBuy": "36753377",
+  "AdvNoSell": "410613026"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": true,
+  "DataTime": "2023-01-26T15:25:10.672736844Z",
+  "Fiat": "UAH",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 965043.34,
+  "PaymentBuy": [
+   "Privat Bank",
+   "Monobank",
+   "A-Bank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-btc-uah/",
+  "Pair": "ETHBTC",
+  "PricePair": 0.069723,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/eth_btc",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 75399.99,
+  "PaymentSell": [
+   "Privat Bank",
+   "Monobank",
+   "A-Bank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-eth-uah/",
+  "ProfitValue": 1205.9428942287336,
+  "ProfitPercet": 12.059428942287337,
+  "TotalAdvBuy": 2,
+  "TotalAdvSell": 4,
+  "AdvNoBuy": "410613026",
+  "AdvNoSell": "36753377"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T15:25:10.705475636Z",
+  "Fiat": "UAH",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 965043.34,
+  "PaymentBuy": [
+   "Privat Bank",
+   "Monobank",
+   "A-Bank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-btc-uah/",
+  "Pair": "BTCUSDT",
+  "PricePair": 23140.23,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/btc_usdt",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 40.15,
+  "PaymentSell": [
+   "Monobank",
+   "Izibank",
+   "PUMB"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-usdt-uah/",
+  "ProfitValue": -372.6579316116522,
+  "ProfitPercet": -3.726579316116522,
+  "TotalAdvBuy": 2,
+  "TotalAdvSell": 29,
+  "AdvNoBuy": "410613026",
+  "AdvNoSell": "395004360"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": true,
+  "DataTime": "2023-01-26T15:25:10.73434097Z",
+  "Fiat": "UAH",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 40.15,
+  "PaymentBuy": [
+   "Monobank",
+   "Izibank",
+   "PUMB"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-usdt-uah/",
+  "Pair": "ETHUSDT",
+  "PricePair": 1614.41,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/eth_usdt",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 75399.99,
+  "PaymentSell": [
+   "Privat Bank",
+   "Monobank",
+   "A-Bank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-eth-uah/",
+  "ProfitValue": 1632.4688877891867,
+  "ProfitPercet": 16.32468887789187,
+  "TotalAdvBuy": 29,
+  "TotalAdvSell": 4,
+  "AdvNoBuy": "395004360",
+  "AdvNoSell": "36753377"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": true,
+  "DataTime": "2023-01-26T15:25:10.745569511Z",
+  "Fiat": "UAH",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 40.15,
+  "PaymentBuy": [
+   "Monobank",
+   "Izibank",
+   "PUMB"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-usdt-uah/",
+  "Pair": "BTCUSDT",
+  "PricePair": 23140.23,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/btc_usdt",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 965043.34,
+  "PaymentSell": [
+   "Privat Bank",
+   "Monobank",
+   "A-Bank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-btc-uah/",
+  "ProfitValue": 387.08288223733626,
+  "ProfitPercet": 3.870828822373363,
+  "TotalAdvBuy": 29,
+  "TotalAdvSell": 2,
+  "AdvNoBuy": "395004360",
+  "AdvNoSell": "410613026"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T16:35:35.547122257Z",
+  "Fiat": "UAH",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 74852.35,
+  "PaymentBuy": [
+   "Privat Bank",
+   "Monobank",
+   "A-Bank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-eth-uah/",
+  "Pair": "ETHBTC",
+  "PricePair": 0.069215,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/eth_btc",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 959372.37,
+  "PaymentSell": [
+   "Privat Bank",
+   "Monobank",
+   "A-Bank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-btc-uah/",
+  "ProfitValue": -1128.8077676185194,
+  "ProfitPercet": -11.288077676185194,
+  "TotalAdvBuy": 4,
+  "TotalAdvSell": 2,
+  "AdvNoBuy": "36753377",
+  "AdvNoSell": "410613026"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T16:35:35.667492007Z",
+  "Fiat": "UAH",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 74852.35,
+  "PaymentBuy": [
+   "Privat Bank",
+   "Monobank",
+   "A-Bank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-eth-uah/",
+  "Pair": "ETHUSDT",
+  "PricePair": 1591.06,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/eth_usdt",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 40.2,
+  "PaymentSell": [
+   "Monobank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-usdt-uah/",
+  "ProfitValue": -1455.096332980862,
+  "ProfitPercet": -14.550963329808619,
+  "TotalAdvBuy": 4,
+  "TotalAdvSell": 28,
+  "AdvNoBuy": "36753377",
+  "AdvNoSell": "385916046"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": true,
+  "DataTime": "2023-01-26T16:35:36.230192841Z",
+  "Fiat": "UAH",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 959372.37,
+  "PaymentBuy": [
+   "Privat Bank",
+   "Monobank",
+   "A-Bank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-btc-uah/",
+  "Pair": "ETHBTC",
+  "PricePair": 0.069215,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/eth_btc",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 74852.35,
+  "PaymentSell": [
+   "Privat Bank",
+   "Monobank",
+   "A-Bank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-eth-uah/",
+  "ProfitValue": 1272.4420101034018,
+  "ProfitPercet": 12.724420101034017,
+  "TotalAdvBuy": 2,
+  "TotalAdvSell": 4,
+  "AdvNoBuy": "410613026",
+  "AdvNoSell": "36753377"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T16:35:36.283316882Z",
+  "Fiat": "UAH",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 959372.37,
+  "PaymentBuy": [
+   "Privat Bank",
+   "Monobank",
+   "A-Bank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-btc-uah/",
+  "Pair": "BTCUSDT",
+  "PricePair": 22994.6,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/btc_usdt",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 40.2,
+  "PaymentSell": [
+   "Monobank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-usdt-uah/",
+  "ProfitValue": -364.7118792883317,
+  "ProfitPercet": -3.647118792883317,
+  "TotalAdvBuy": 2,
+  "TotalAdvSell": 28,
+  "AdvNoBuy": "410613026",
+  "AdvNoSell": "385916046"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": true,
+  "DataTime": "2023-01-26T16:35:36.383101424Z",
+  "Fiat": "UAH",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 40.2,
+  "PaymentBuy": [
+   "Monobank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-usdt-uah/",
+  "Pair": "ETHUSDT",
+  "PricePair": 1591.06,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/eth_usdt",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 74852.35,
+  "PaymentSell": [
+   "Privat Bank",
+   "Monobank",
+   "A-Bank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-eth-uah/",
+  "ProfitValue": 1702.8820799901048,
+  "ProfitPercet": 17.028820799901048,
+  "TotalAdvBuy": 28,
+  "TotalAdvSell": 4,
+  "AdvNoBuy": "385916046",
+  "AdvNoSell": "36753377"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": true,
+  "DataTime": "2023-01-26T16:35:36.397567799Z",
+  "Fiat": "UAH",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 40.2,
+  "PaymentBuy": [
+   "Monobank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-usdt-uah/",
+  "Pair": "BTCUSDT",
+  "PricePair": 22994.6,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/btc_usdt",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 959372.37,
+  "PaymentSell": [
+   "Privat Bank",
+   "Monobank",
+   "A-Bank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-btc-uah/",
+  "ProfitValue": 378.5168380220606,
+  "ProfitPercet": 3.785168380220606,
+  "TotalAdvBuy": 28,
+  "TotalAdvSell": 2,
+  "AdvNoBuy": "385916046",
+  "AdvNoSell": "410613026"
+ }
+]

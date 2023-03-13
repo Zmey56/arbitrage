@@ -1,0 +1,550 @@
+[
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Merchant": {
+   "FirstMerch": true,
+   "SecondMerch": false,
+   "ThirdMerch": true
+  },
+  "Profit": true,
+  "DataTime": "2023-01-26T16:54:03.006334547Z",
+  "Fiat": "RUB",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 71.77,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=RUB",
+  "Pair": "ETHBUSD",
+  "PricePair": 1592.395,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BUSD?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 115300,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=RUB",
+  "ProfitValue": 887.0808078738039,
+  "ProfitPercet": 0.887080807873804,
+  "TotalAdvBuy": 17,
+  "TotalAdvSell": 22,
+  "AdvNoBuy": "11451882860426317824",
+  "AdvNoSell": "11451623710525050880"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Merchant": {
+   "FirstMerch": true,
+   "SecondMerch": false,
+   "ThirdMerch": true
+  },
+  "Profit": true,
+  "DataTime": "2023-01-26T16:54:03.295167672Z",
+  "Fiat": "RUB",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 115300,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=RUB",
+  "Pair": "BNBETH",
+  "PricePair": 0.19119999999999998,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_ETH?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 22198,
+  "PaymentSell": [
+   "Tinkoff"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=RUB",
+  "ProfitValue": 692.3905982937132,
+  "ProfitPercet": 0.6923905982937132,
+  "TotalAdvBuy": 22,
+  "TotalAdvSell": 15,
+  "AdvNoBuy": "11451623710525050880",
+  "AdvNoSell": "11451423350311227392"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Merchant": {
+   "FirstMerch": true,
+   "SecondMerch": false,
+   "ThirdMerch": true
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T16:54:03.307181172Z",
+  "Fiat": "RUB",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 115300,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=RUB",
+  "Pair": "ETHBUSD",
+  "PricePair": 1592.1550000000002,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BUSD?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 71.77,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=RUB",
+  "ProfitValue": -894.2199913269542,
+  "ProfitPercet": -0.8942199913269542,
+  "TotalAdvBuy": 22,
+  "TotalAdvSell": 17,
+  "AdvNoBuy": "11451623710525050880",
+  "AdvNoSell": "11451882860426317824"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Merchant": {
+   "FirstMerch": true,
+   "SecondMerch": false,
+   "ThirdMerch": true
+  },
+  "Profit": true,
+  "DataTime": "2023-01-26T16:54:03.617606464Z",
+  "Fiat": "RUB",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 71.66,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=RUB",
+  "Pair": "SHIBUSDT",
+  "PricePair": 0.000011524999999999999,
+  "LinkMarket": "https://www.binance.com/en/trade/SHIB_USDT?_from=markets",
+  "AssetsSell": "SHIB",
+  "PriceAssetsSell": 0.000889,
+  "PaymentSell": [
+   "RosBank",
+   "Post Bank",
+   "Raiffeisenbank",
+   "Tinkoff",
+   "BinancePay (RUB)"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/SHIB?fiat=RUB",
+  "ProfitValue": 7642.561311762056,
+  "ProfitPercet": 7.642561311762056,
+  "TotalAdvBuy": 87,
+  "TotalAdvSell": 3,
+  "AdvNoBuy": "11449068728846032896",
+  "AdvNoSell": "11422167747195666432"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Merchant": {
+   "FirstMerch": true,
+   "SecondMerch": false,
+   "ThirdMerch": true
+  },
+  "Profit": true,
+  "DataTime": "2023-01-26T16:54:03.632641256Z",
+  "Fiat": "RUB",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 71.66,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=RUB",
+  "Pair": "BTCUSDT",
+  "PricePair": 22979.195,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_USDT?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 1652700,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=RUB",
+  "ProfitValue": 365.0286049741422,
+  "ProfitPercet": 0.3650286049741422,
+  "TotalAdvBuy": 87,
+  "TotalAdvSell": 37,
+  "AdvNoBuy": "11449068728846032896",
+  "AdvNoSell": "11451940952349249536"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Merchant": {
+   "FirstMerch": true,
+   "SecondMerch": false,
+   "ThirdMerch": true
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T16:54:03.720159006Z",
+  "Fiat": "RUB",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 71.77,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=RUB",
+  "Pair": "BUSDUSDT",
+  "PricePair": 0.99995,
+  "LinkMarket": "https://www.binance.com/en/trade/BUSD_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 71.66,
+  "PaymentSell": [
+   "RosBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=RUB",
+  "ProfitValue": -158.2597185453548,
+  "ProfitPercet": -0.15825971854535478,
+  "TotalAdvBuy": 17,
+  "TotalAdvSell": 87,
+  "AdvNoBuy": "11451882860426317824",
+  "AdvNoSell": "11449068728846032896"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": true,
+   "SecondMerch": false,
+   "ThirdMerch": true
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T16:55:05.243033965Z",
+  "Fiat": "RUB",
+  "AssetsBuy": "RUB",
+  "PriceAssetsBuy": 1.04,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/RUB?fiat=RUB",
+  "Pair": "BTCRUB",
+  "PricePair": 1598844.5,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_RUB?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 1659200.1,
+  "PaymentSell": [
+   "Raiffeisenbank",
+   "Tinkoff",
+   "Sberbank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trader/357011334",
+  "ProfitValue": -216.39305520570684,
+  "ProfitPercet": -0.21639305520570687,
+  "TotalAdvBuy": 20,
+  "TotalAdvSell": 5,
+  "AdvNoBuy": "",
+  "AdvNoSell": ""
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": true,
+   "SecondMerch": false,
+   "ThirdMerch": true
+  },
+  "Profit": true,
+  "DataTime": "2023-01-26T16:55:05.314965173Z",
+  "Fiat": "RUB",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 71.77,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=RUB",
+  "Pair": "BTCBUSD",
+  "PricePair": 22981.695,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_BUSD?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 1659200.1,
+  "PaymentSell": [
+   "Raiffeisenbank",
+   "Tinkoff",
+   "Sberbank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trader/357011334",
+  "ProfitValue": 594.3902109095105,
+  "ProfitPercet": 0.5943902109095105,
+  "TotalAdvBuy": 17,
+  "TotalAdvSell": 5,
+  "AdvNoBuy": "",
+  "AdvNoSell": ""
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": true,
+   "SecondMerch": false,
+   "ThirdMerch": true
+  },
+  "Profit": true,
+  "DataTime": "2023-01-26T16:55:05.410823507Z",
+  "Fiat": "RUB",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 71.66,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=RUB",
+  "Pair": "BTCUSDT",
+  "PricePair": 22980.97,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_USDT?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 1659200.1,
+  "PaymentSell": [
+   "Raiffeisenbank",
+   "Tinkoff",
+   "Sberbank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trader/357011334",
+  "ProfitValue": 751.9836743963295,
+  "ProfitPercet": 0.7519836743963295,
+  "TotalAdvBuy": 82,
+  "TotalAdvSell": 5,
+  "AdvNoBuy": "",
+  "AdvNoSell": ""
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": true,
+   "SecondMerch": false,
+   "ThirdMerch": true
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T16:55:05.460800965Z",
+  "Fiat": "RUB",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 115300,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=RUB",
+  "Pair": "ETHBTC",
+  "PricePair": 0.0692965,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BTC?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 1659200.1,
+  "PaymentSell": [
+   "Raiffeisenbank",
+   "Tinkoff",
+   "Sberbank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trader/357011334",
+  "ProfitValue": -280.3471555507325,
+  "ProfitPercet": -0.28034715555073253,
+  "TotalAdvBuy": 22,
+  "TotalAdvSell": 5,
+  "AdvNoBuy": "",
+  "AdvNoSell": ""
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": true,
+   "SecondMerch": false,
+   "ThirdMerch": true
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T16:55:05.500091882Z",
+  "Fiat": "RUB",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 22198,
+  "PaymentBuy": [
+   "Tinkoff"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=RUB",
+  "Pair": "BNBBTC",
+  "PricePair": 0.0132505,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BTC?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 1659200.1,
+  "PaymentSell": [
+   "Raiffeisenbank",
+   "Tinkoff",
+   "Sberbank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trader/357011334",
+  "ProfitValue": -958.5056083881396,
+  "ProfitPercet": -0.9585056083881396,
+  "TotalAdvBuy": 15,
+  "TotalAdvSell": 5,
+  "AdvNoBuy": "",
+  "AdvNoSell": ""
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": true,
+   "SecondMerch": false,
+   "ThirdMerch": true
+  },
+  "Profit": true,
+  "DataTime": "2023-01-26T16:55:06.315214965Z",
+  "Fiat": "RUB",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 1652700,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=RUB",
+  "Pair": "ETHBTC",
+  "PricePair": 0.0692965,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BTC?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 117534.38,
+  "PaymentSell": [
+   "Tinkoff",
+   "Sberbank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trader/401167696",
+  "ProfitValue": 2626.517908047919,
+  "ProfitPercet": 2.626517908047919,
+  "TotalAdvBuy": 37,
+  "TotalAdvSell": 4,
+  "AdvNoBuy": "",
+  "AdvNoSell": ""
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": true,
+   "SecondMerch": false,
+   "ThirdMerch": true
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T16:55:06.394241799Z",
+  "Fiat": "RUB",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 1652700,
+  "PaymentBuy": [
+   "RosBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=RUB",
+  "Pair": "BTCUSDT",
+  "PricePair": 22982.425000000003,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 71.65,
+  "PaymentSell": [
+   "Sberbank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trader/268364352",
+  "ProfitValue": -363.60190899737114,
+  "ProfitPercet": -0.36360190899737116,
+  "TotalAdvBuy": 37,
+  "TotalAdvSell": 9,
+  "AdvNoBuy": "",
+  "AdvNoSell": ""
+ }
+]

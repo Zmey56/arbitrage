@@ -16,7 +16,7 @@ func GetPeymontMethodsHuobi(fiat string) []PaymentHuobi {
 	//var payment []PayMethodHuobi
 	response, err := http.Get(url)
 	if err != nil {
-		fmt.Printf("The HTTP request failed with error %s\n", err)
+		log.Printf("The HTTP request failed with error %s\n", err)
 		//return payment, err
 	}
 	defer response.Body.Close()
@@ -36,19 +36,14 @@ func GetPeymontMethodsHuobi(fiat string) []PaymentHuobi {
 	allpayment := []PaymentHuobi{}
 	cp := PaymentHuobi{}
 	for _, c := range ph.Data.Currency {
-		log.Println(c.NameShort, " - ", c.SupportPayments)
 		if c.NameShort == fiat {
 			for _, j := range c.SupportPayments {
-				//log.Println(j)
 				tmp := &cp
 				tmp.PayMethodId = j
 				tmp.TradeMethodName = idpayment[j]
 				allpayment = append(allpayment, *tmp)
 			}
 		}
-		//}
-		log.Println(allpayment)
-		//savePaymentToJSONHuobi(allpayment, fiat)
 	}
 	return allpayment
 }

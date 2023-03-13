@@ -14,14 +14,10 @@ import (
 )
 
 func P2P3stepsTakerTakerHuobi(fiat string, paramUser getinfohuobi.ParametersHuobi) {
-	//log.Println(paramUser)
-	allOrders := [][]result.ResultP2P{}
-
 	//get all assets from huobi and maps with ID coin for this fiat
 
 	//get all assets from binance for this fiat
 	currencyarr := getdatahuobi.GetCurrencyHuobi(fiat)
-	//log.Println(currencyarr)
 
 	//get pair for rate
 
@@ -32,32 +28,25 @@ func P2P3stepsTakerTakerHuobi(fiat string, paramUser getinfohuobi.ParametersHuob
 		wg.Add(1)
 		go func(a string) {
 			defer wg.Done()
-			arr_val := getResultP2P3TT(a, fiat, pairmap, paramUser)
-			allOrders = append(allOrders, arr_val)
+			getResultP2P3TT(a, fiat, pairmap, paramUser)
 
 		}(a)
 	}
 	wg.Wait()
 
-	for _, j := range allOrders {
-		for _, i := range j {
-			if (i.TotalAdvBuy > 0) && (i.TotalAdvSell > 0) {
-				//result.SaveResultJsonFile(fiat, i, "3steps_tt")
-				//log.Printf("3 steps taker taker. Fiat - %s, Result - %v", fiat, i)
-				if (i.Profit) && (i.ProfitPercet >= paramUser.PercentUser) {
-					result.FormatMessageAndSend(i, "You are Taker", "You areTaker")
-				}
-			}
-		}
-	}
 }
 
 func getResultP2P3TT(a, fiat string, pair map[string][]string,
-	paramUser getinfohuobi.ParametersHuobi) []result.ResultP2P {
+	paramUser getinfohuobi.ParametersHuobi) {
 	coinidmap := workinghuobi.GetCoinIDHuobo(fiat)
-	var resultP2PArr []result.ResultP2P
 	pair_assets := pair[strings.ToLower(a)]
+
+	//log.Printf("coinidmap %+v\n", coinidmap)
+	//log.Println("coinidmap[a]", a, "-", coinidmap[a], "fiat", fiat, " - ", coinidmap[fiat])
+	//log.Println("coinidmap[a], coinidmap[fiat], paramUser", coinidmap[a], coinidmap[fiat], "sell", paramUser)
 	order_buy := getdatahuobi.GetDataP2PHuobi(coinidmap[a], coinidmap[fiat], "sell", paramUser)
+	//log.Printf("%+v\n", order_buy)
+
 	if len(order_buy.Data) > 0 {
 		var transAmountFloat float64
 		if paramUser.Amount != "" {
@@ -67,23 +56,22 @@ func getResultP2P3TT(a, fiat string, pair map[string][]string,
 			}
 			transAmountFloat = tmpTransAmountFloat
 		} else {
-			//log.Println(a, " - ", fiat, "order_buy.Data[0].MaxTradeLimit", order_buy.Data[0].MaxTradeLimit)
 			tmpTransAmountFloat, err := strconv.ParseFloat(order_buy.Data[0].MaxTradeLimit, 64)
 			if err != nil {
 				log.Println("Can't convert MaxTradeLimit", err)
 			}
 			transAmountFloat = tmpTransAmountFloat
 			paramUser.Amount = strconv.Itoa(int(transAmountFloat))
-			log.Println("New transAmount because didn't enter amount in beginer", paramUser.Amount)
 		}
 
 		price_b, _ := strconv.ParseFloat(order_buy.Data[0].Price, 64)
-		//fmt.Printf("%+v\n", order_buy)
 
 		transAmountFirst := transAmountFloat / price_b
 		//second step
 
+		//log.Println("pair_assets", pair_assets)
 		pair_rate := getdatahuobi.GetRatePairHuobi(pair_assets)
+		//log.Println("pair_rate", pair_rate)
 
 		var wg sync.WaitGroup
 		for p := range pair_rate {
@@ -91,23 +79,20 @@ func getResultP2P3TT(a, fiat string, pair map[string][]string,
 
 			go func(p string) {
 				defer wg.Done()
-				value := printResultP2P3TT(p, a, fiat, transAmountFirst, price_b,
+				printResultP2P3TT(p, a, fiat, transAmountFirst, price_b,
 					pair_rate, order_buy, paramUser)
-				resultP2PArr = append(resultP2PArr, value)
 			}(p)
 
 		}
 		wg.Wait()
-		return resultP2PArr
 	} else {
-		log.Printf("Can't find on Huobi for buy(Taker - Taker) %s - %s", fiat, a)
-		return resultP2PArr
+		log.Printf("Order buy is empty, fiat - %s, assets - %s, param %+v\n", fiat, a, paramUser)
 	}
 
 }
 
 func printResultP2P3TT(p, a, fiat string, transAmountFirst, price_b float64, pair_rate map[string]float64,
-	order_buy getdatahuobi.Huobi, paramUser getinfohuobi.ParametersHuobi) result.ResultP2P {
+	order_buy getdatahuobi.Huobi, paramUser getinfohuobi.ParametersHuobi) {
 
 	coinidmap := workinghuobi.GetCoinIDHuobo(fiat)
 
@@ -122,45 +107,52 @@ func printResultP2P3TT(p, a, fiat string, transAmountFirst, price_b float64, pai
 		assetSell = p[:(len(p) - len(a))]
 	}
 	//third steps
+	//log.Println("coinidmap[strings.ToUpper(assetSell)], coinidmap[fiat], paramUser", coinidmap[strings.ToUpper(assetSell)], coinidmap[fiat],
+	//	"buy", paramUser)
 	order_sell := getdatahuobi.GetDataP2PHuobi(coinidmap[strings.ToUpper(assetSell)], coinidmap[fiat],
 		"buy", paramUser)
-	//fmt.Println("FIAT", fiat, "COIN", a, "\n")
-	//fmt.Printf("%+v\n", order_sell)
+	//log.Printf("%+v\n\n", order_sell)
+
 	if len(order_sell.Data) == 0 {
-		log.Printf("Can't find for sell on Huobi (Taker-Taker) %s - %s", fiat, a)
-		return profitResult
-	}
-	price_s, _ := strconv.ParseFloat(order_sell.Data[0].Price, 64)
+		log.Printf("Order sell is empty, fiat - %s, assets - %s, param %+v\n", fiat, a, paramUser)
+	} else {
+		price_s, _ := strconv.ParseFloat(order_sell.Data[0].Price, 64)
 
-	transAmountThird := price_s * transAmountSecond
+		transAmountThird := price_s * transAmountSecond
 
-	transAmountFloat, err := strconv.ParseFloat(paramUser.Amount, 64)
-	if err != nil {
-		log.Printf("Problem with convert transAmount to float, err - %v", err)
+		transAmountFloat, err := strconv.ParseFloat(paramUser.Amount, 64)
+		if err != nil {
+			log.Printf("Problem with convert transAmount to float, err - %v", err)
+		}
+		profitResult.Amount = paramUser.Amount
+		profitResult.Market.First = "Huobi"
+		profitResult.Merchant.FirstMerch = (paramUser.IsMerchant == "true")
+		profitResult.User.FirstUser = "Taker"
+		profitResult.Market.Second = "Huobi"
+		profitResult.Market.Third = "Huobi"
+		profitResult.Merchant.ThirdMerch = (paramUser.IsMerchant == "true")
+		profitResult.User.ThirdUser = "Taker"
+		profitResult.Profit = transAmountThird > transAmountFloat
+		profitResult.DataTime = time.Now()
+		profitResult.Fiat = fiat
+		profitResult.AssetsBuy = a
+		profitResult.PriceAssetsBuy = price_b
+		profitResult.PaymentBuy = result.PaymentMetodsHuobi(order_buy)
+		profitResult.LinkAssetsBuy = fmt.Sprintf("https://www.huobi.com/en-us/fiat-crypto/trade/buy-%s-%s/", strings.ToLower(a), strings.ToLower(fiat))
+		profitResult.Pair = p
+		profitResult.PricePair = pair_rate[p]
+		profitResult.LinkMarket = result.ReturnLinkMarketHuobi(strings.ToLower(a), strings.ToLower(p))
+		profitResult.AssetsSell = assetSell
+		profitResult.PriceAssetsSell = price_s
+		profitResult.PaymentSell = result.PaymentMetodsHuobi(order_sell)
+		profitResult.LinkAssetsSell = fmt.Sprintf("https://p2p.binance.com/en/trade/sell/%v?fiat=%v", assetSell, fiat)
+		profitResult.ProfitValue = transAmountThird - transAmountFloat
+		profitResult.ProfitPercet = (((transAmountThird - transAmountFloat) / transAmountFloat) * 100)
+		profitResult.TotalAdvBuy = order_buy.TotalCount
+		profitResult.TotalAdvSell = order_sell.TotalCount
+		profitResult.AdvNoBuy = strconv.Itoa(order_buy.Data[0].UID)
+		profitResult.AdvNoSell = strconv.Itoa(order_sell.Data[0].UID)
+		//return profitResult
+		result.CheckResultSaveSend(profitResult.User.FirstUser, profitResult.User.ThirdUser, paramUser.Border, paramUser.PercentUser, profitResult)
 	}
-	profitResult.Market.First = "Huobi"
-	profitResult.Market.Second = "Huobi"
-	profitResult.Market.Third = "Huobi"
-	profitResult.Profit = transAmountThird > transAmountFloat
-	profitResult.DataTime = time.Now()
-	profitResult.Fiat = fiat
-	profitResult.AssetsBuy = a
-	profitResult.PriceAssetsBuy = price_b
-	profitResult.PaymentBuy = result.PaymentMetodsHuobi(order_buy)
-	profitResult.LinkAssetsBuy = fmt.Sprintf("https://www.huobi.com/en-us/fiat-crypto/trader/%s", strconv.Itoa(order_buy.Data[0].UID))
-	profitResult.Pair = p
-	profitResult.PricePair = pair_rate[p]
-	profitResult.LinkMarket = result.ReturnLinkMarketHuobi(strings.ToLower(a), strings.ToLower(p))
-	profitResult.AssetsSell = assetSell
-	profitResult.PriceAssetsSell = price_s
-	profitResult.PaymentSell = result.PaymentMetodsHuobi(order_sell)
-	profitResult.LinkAssetsSell = fmt.Sprintf("https://www.huobi.com/en-us/fiat-crypto/trader/%s", strconv.Itoa(order_sell.Data[0].UID))
-	profitResult.ProfitValue = transAmountThird - transAmountFloat
-	profitResult.ProfitPercet = (((transAmountThird - transAmountFloat) / transAmountFloat) * 100)
-	profitResult.TotalAdvBuy = order_buy.TotalCount
-	profitResult.TotalAdvSell = order_sell.TotalCount
-	profitResult.AdvNoBuy = strconv.Itoa(order_buy.Data[0].UID)
-	profitResult.AdvNoSell = strconv.Itoa(order_sell.Data[0].UID)
-	//fmt.Printf("%s - %s %+v\n", fiat, a, profitResult)
-	return profitResult
 }

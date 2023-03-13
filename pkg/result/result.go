@@ -4,42 +4,9 @@ import (
 	"fmt"
 	"github.com/Zmey56/arbitrage/pkg/getdatahuobi"
 	"github.com/Zmey56/arbitrage/pkg/getinfobinance"
+	"log"
 	"strings"
-	"time"
 )
-
-type ResultP2P struct {
-	Market struct {
-		First  string
-		Second string
-		Third  string
-	}
-	Merchant struct {
-		FirstMerch  bool
-		SecondMerch bool
-		ThirdMerch  bool
-	}
-	Profit          bool
-	DataTime        time.Time
-	Fiat            string
-	AssetsBuy       string
-	PriceAssetsBuy  float64
-	PaymentBuy      []string
-	LinkAssetsBuy   string
-	Pair            string
-	PricePair       float64
-	LinkMarket      string
-	AssetsSell      string
-	PriceAssetsSell float64
-	PaymentSell     []string
-	LinkAssetsSell  string
-	ProfitValue     float64
-	ProfitPercet    float64
-	TotalAdvBuy     int
-	TotalAdvSell    int
-	AdvNoBuy        string
-	AdvNoSell       string
-}
 
 func ReturnLinkMarket(a, p string) string {
 	var pair string
@@ -75,4 +42,38 @@ func PaymentMetodsHuobi(a getdatahuobi.Huobi) []string {
 		payMethods = append(payMethods, tm.Name)
 	}
 	return payMethods
+}
+
+func CheckResultSaveSend(howone, howtwo string, boarder int, per float64, profitResult ResultP2P) {
+	if (profitResult.TotalAdvBuy > 0) && (profitResult.TotalAdvSell > 0) {
+		log.Printf("%+v\n\n", profitResult)
+		how_market := fmt.Sprintf("3steps_%s%s", string(profitResult.User.FirstUser[0]), string(profitResult.User.ThirdUser[0]))
+		SaveResultJsonFile(profitResult.Fiat, profitResult, how_market)
+		if profitResult.Profit && (profitResult.ProfitPercet >= per) &&
+			(profitResult.TotalAdvBuy >= boarder) && (profitResult.TotalAdvSell >= boarder) {
+			log.Printf("Profit - %s, ProfitPercet - %v, per - %v, TotalAdvBuy - %v, TotalAdvSell - %v, border - %v",
+				profitResult.Profit, profitResult.ProfitPercet, per, profitResult.TotalAdvBuy, profitResult.TotalAdvSell, boarder)
+			FormatMessageAndSend(profitResult)
+		}
+	}
+}
+
+func CheckResultSaveSend2Steps(profitResult ResultP2P2steps, border int) {
+	if (profitResult.AdvToalSell > 0) && (profitResult.AdvToalSell > 0) {
+		//log.Printf("%+v\n\n", profitResult)
+		how_market := ""
+		if profitResult.Merchant {
+			how_market = "2steps_merchant"
+		} else {
+			how_market = "2steps"
+		}
+
+		SaveResultJsonFile2steps(profitResult.FiatUnit, profitResult, how_market)
+
+		if (profitResult.AdvToalBuy >= border) &&
+			(profitResult.AdvToalSell >= border) {
+
+			FormatMessageAndSend2steps(profitResult)
+		}
+	}
 }

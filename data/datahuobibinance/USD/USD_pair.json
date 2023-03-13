@@ -1,0 +1,31 @@
+{
+ "BTC": [
+  "ethbtc",
+  "btcusdt"
+ ],
+ "ETH": [
+  "ethusdt",
+  "ethbtc"
+ ],
+ "HT": [
+  "htusdt",
+  "htbtc",
+  "hteth"
+ ],
+ "TRX": [
+  "trxbtc",
+  "trxusdt",
+  "trxeth"
+ ],
+ "USDD": [
+  "usddusdt",
+  "ethusdd",
+  "btcusdd"
+ ],
+ "USDT": [
+  "ethusdt",
+  "bnbusdt",
+  "btcusdt",
+  "daiusdt"
+ ]
+}

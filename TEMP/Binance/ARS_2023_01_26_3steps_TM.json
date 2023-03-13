@@ -1,0 +1,98 @@
+[
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Merchant": {
+   "FirstMerch": true,
+   "SecondMerch": false,
+   "ThirdMerch": true
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T16:43:58.352124087Z",
+  "Fiat": "ARS",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 113800,
+  "PaymentBuy": [
+   "Mercadopago",
+   "Uala",
+   "Lemon Cash",
+   "Belo app",
+   "Bank Transfer (Argentina)"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=ARS",
+  "Pair": "BNBBTC",
+  "PricePair": 0.013247499999999999,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BTC?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 8443310.81,
+  "PaymentSell": [
+   "BBVA",
+   "Uala",
+   "Banco Brubank",
+   "Bank Transfer (Argentina)",
+   "Mercadopago"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=ARS",
+  "ProfitValue": -1711.107244749566,
+  "ProfitPercet": -1.711107244749566,
+  "TotalAdvBuy": 8,
+  "TotalAdvSell": 12,
+  "AdvNoBuy": "11451735220388646912",
+  "AdvNoSell": "11446866114847629312"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Merchant": {
+   "FirstMerch": true,
+   "SecondMerch": false,
+   "ThirdMerch": true
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T16:43:58.434184253Z",
+  "Fiat": "ARS",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 113800,
+  "PaymentBuy": [
+   "Mercadopago",
+   "Uala",
+   "Lemon Cash",
+   "Belo app",
+   "Bank Transfer (Argentina)"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=ARS",
+  "Pair": "BNBBUSD",
+  "PricePair": 304.85,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BUSD?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 364.78,
+  "PaymentSell": [
+   "Bank Transfer (Argentina)",
+   "Banco Brubank",
+   "Mercadopago"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=ARS",
+  "ProfitValue": -2281.9130052724054,
+  "ProfitPercet": -2.2819130052724055,
+  "TotalAdvBuy": 8,
+  "TotalAdvSell": 12,
+  "AdvNoBuy": "11451735220388646912",
+  "AdvNoSell": "11447223385782767616"
+ }
+]

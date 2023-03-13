@@ -1,0 +1,48 @@
+{
+ "BTC": [
+  "ETHBTC",
+  "BNBBTC",
+  "BTCUSDT",
+  "BTCBUSD",
+  "BTCUAH"
+ ],
+ "ETH": [
+  "ETHBTC",
+  "BNBETH",
+  "ETHUSDT",
+  "ETHBUSD",
+  "ETHUAH"
+ ],
+ "HT": [],
+ "LTC": [
+  "LTCBTC",
+  "LTCETH",
+  "LTCUSDT",
+  "LTCBNB",
+  "LTCBUSD",
+  "LTCUAH"
+ ],
+ "TRX": [
+  "TRXBTC",
+  "TRXETH",
+  "TRXBNB",
+  "TRXUSDT",
+  "TRXBUSD"
+ ],
+ "USDD": [],
+ "USDT": [
+  "BTCUSDT",
+  "ETHUSDT",
+  "BNBUSDT",
+  "BUSDUSDT",
+  "USDTUAH",
+  "SHIBUSDT"
+ ],
+ "XRP": [
+  "XRPBTC",
+  "XRPETH",
+  "XRPUSDT",
+  "XRPBNB",
+  "XRPBUSD"
+ ]
+}

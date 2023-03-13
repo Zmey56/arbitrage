@@ -1,0 +1,218 @@
+[
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "bank",
+  "TradeMethodShortName": "Bank transfer"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "GEO Pay",
+  "TradeMethodShortName": "GEO Pay"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "A-Bank",
+  "TradeMethodShortName": "A-Bank"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "AdvCash",
+  "TradeMethodShortName": "AdvCash"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Alfa Bank",
+  "TradeMethodShortName": "Alfa Bank"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Bank Pivdenny",
+  "TradeMethodShortName": "Bank Pivdenny"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "BNP Paribas",
+  "TradeMethodShortName": "BNP Paribas"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Cash in Person",
+  "TradeMethodShortName": "Cash-in-person"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Crédit Agricole",
+  "TradeMethodShortName": "Crédit Agricole"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Ecopayz",
+  "TradeMethodShortName": "Ecopayz"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Idea Bank",
+  "TradeMethodShortName": "Idea Bank"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Izibank",
+  "TradeMethodShortName": "Izibank"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "KredoBank",
+  "TradeMethodShortName": "KredoBank"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Raiffaisen Bank",
+  "TradeMethodShortName": "Raiffeisen Bank"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Monobank",
+  "TradeMethodShortName": "Monobank"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Oschad Bank",
+  "TradeMethodShortName": "Oschad Bank"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "OTP Bank",
+  "TradeMethodShortName": "OTP Bank"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "PrivatBank",
+  "TradeMethodShortName": "PrivatBank"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "PUMB",
+  "TradeMethodShortName": "PUMB"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Raiffaizen",
+  "TradeMethodShortName": "Raiffaizen"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "SEP",
+  "TradeMethodShortName": "SEP"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Sportbank",
+  "TradeMethodShortName": "Sportbank"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Tascombank",
+  "TradeMethodShortName": "Tascombank"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Ukreximbank",
+  "TradeMethodShortName": "Ukreximbank"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Ukrgasbank",
+  "TradeMethodShortName": "Ukrgasbank"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Ukrsibbank",
+  "TradeMethodShortName": "Ukrsibbank"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Wise",
+  "TradeMethodShortName": "Wise"
+ }
+]

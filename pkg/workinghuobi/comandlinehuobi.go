@@ -56,6 +56,27 @@ func InputCommandLineHuobi(fiat string) {
 		if strings.ToLower(strings.TrimRight(readmerchant, "\n")) == "yes" {
 			paramUser.IsMerchant = "true"
 		}
+		//BORDER
+		fmt.Println("What is the minimum limit for the number of ads to set?")
+
+		readborder, _ := n.ReadString('\n')
+		readborder = strings.TrimSpace(readborder)
+		for {
+			if readborder != "" {
+				var f int
+				f, err = strconv.Atoi(readborder)
+				if err != nil {
+					log.Println("User try to enter wrong value of percent to track:", err)
+				} else {
+					log.Println(f)
+					paramUser.Border = f
+					break
+				}
+			} else {
+				paramUser.Border = 0
+				break
+			}
+		}
 
 		//PERCENT
 		fmt.Println("What percentage will you track?(0.01 - 100)")

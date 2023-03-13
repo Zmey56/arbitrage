@@ -1,0 +1,49 @@
+[
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T17:22:05.569388091Z",
+  "Fiat": "AMD",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 722135.93,
+  "PaymentBuy": [
+   "Unibank",
+   "Inecobank",
+   "ArCA",
+   "Bank Transfer"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=AMD",
+  "Pair": "ETHBUSD",
+  "PricePair": 1595.185,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BUSD?_from=markets",
+  "AssetsSell": "BUSD",
+  "PriceAssetsSell": 405.99,
+  "PaymentSell": [
+   "Unibank",
+   "Inecobank",
+   "ArCA",
+   "Bank Transfer"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=AMD",
+  "ProfitValue": -10317.555013500027,
+  "ProfitPercet": -10.317555013500026,
+  "TotalAdvBuy": 1,
+  "TotalAdvSell": 3,
+  "AdvNoBuy": "11407525630851264512",
+  "AdvNoSell": "11407534592642850816"
+ }
+]

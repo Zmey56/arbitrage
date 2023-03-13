@@ -1,0 +1,136 @@
+[
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Taker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T16:52:40.587716801Z",
+  "Fiat": "KZT",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 10813933,
+  "PaymentBuy": [
+   "CenterCredit Bank",
+   "Home Credit Kazakhstan",
+   "Kaspi Bank",
+   "ForteBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=KZT",
+  "Pair": "btcusdt",
+  "PricePair": 22996.54,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/btc_usdt",
+  "AssetsSell": "usdt",
+  "PriceAssetsSell": 467.82,
+  "PaymentSell": [
+   "Kaspi Bank",
+   "Halyk Bank",
+   "ForteBank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-usdt-kzt/",
+  "ProfitValue": -514.9990960735494,
+  "ProfitPercet": -0.5149990960735494,
+  "TotalAdvBuy": 22,
+  "TotalAdvSell": 63,
+  "AdvNoBuy": "11451826706031370240",
+  "AdvNoSell": "424680298"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Taker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T16:52:40.952026759Z",
+  "Fiat": "KZT",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 10813933,
+  "PaymentBuy": [
+   "CenterCredit Bank",
+   "Home Credit Kazakhstan",
+   "Kaspi Bank",
+   "ForteBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=KZT",
+  "Pair": "htbtc",
+  "PricePair": 0.00022001,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/ht_btc",
+  "AssetsSell": "ht",
+  "PriceAssetsSell": 2215.98,
+  "PaymentSell": [
+   "Kaspi Bank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-ht-kzt/",
+  "ProfitValue": -6859.247811696139,
+  "ProfitPercet": -6.8592478116961395,
+  "TotalAdvBuy": 22,
+  "TotalAdvSell": 1,
+  "AdvNoBuy": "11451826706031370240",
+  "AdvNoSell": "393771692"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Taker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T16:52:41.359812635Z",
+  "Fiat": "KZT",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 10813933,
+  "PaymentBuy": [
+   "CenterCredit Bank",
+   "Home Credit Kazakhstan",
+   "Kaspi Bank",
+   "ForteBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=KZT",
+  "Pair": "trxbtc",
+  "PricePair": 0.0000026773,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/trx_btc",
+  "AssetsSell": "trx",
+  "PriceAssetsSell": 26.97,
+  "PaymentSell": [
+   "Kaspi Bank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-trx-kzt/",
+  "ProfitValue": -6846.273290242026,
+  "ProfitPercet": -6.846273290242026,
+  "TotalAdvBuy": 22,
+  "TotalAdvSell": 2,
+  "AdvNoBuy": "11451826706031370240",
+  "AdvNoSell": "393771692"
+ }
+]

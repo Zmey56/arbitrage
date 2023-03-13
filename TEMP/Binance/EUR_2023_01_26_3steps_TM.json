@@ -1,0 +1,377 @@
+[
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T16:46:24.768824418Z",
+  "Fiat": "EUR",
+  "AssetsBuy": "DAI",
+  "PriceAssetsBuy": 1,
+  "PaymentBuy": [
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/DAI?fiat=EUR",
+  "Pair": "BNBDAI",
+  "PricePair": 305.1,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_DAI?_from=markets",
+  "AssetsSell": "BNB",
+  "PriceAssetsSell": 292.892,
+  "PaymentSell": [
+   "SEPA Instant"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=EUR",
+  "ProfitValue": -40.01311045558848,
+  "ProfitPercet": -4.0013110455588485,
+  "TotalAdvBuy": 2,
+  "TotalAdvSell": 4,
+  "AdvNoBuy": "11366411078492884992",
+  "AdvNoSell": "11444623881398296576"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": true,
+  "DataTime": "2023-01-26T16:46:24.820154835Z",
+  "Fiat": "EUR",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 0.933,
+  "PaymentBuy": [
+   "SEPA Instant",
+   "ZEN"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=EUR",
+  "Pair": "ETHBUSD",
+  "PricePair": 1593.955,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_BUSD?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 1530.906,
+  "PaymentSell": [
+   "SEPA Instant"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=EUR",
+  "ProfitValue": 29.415788858470442,
+  "ProfitPercet": 2.9415788858470444,
+  "TotalAdvBuy": 7,
+  "TotalAdvSell": 6,
+  "AdvNoBuy": "11451936250193727488",
+  "AdvNoSell": "11444624559143772160"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T16:47:15.354752678Z",
+  "Fiat": "EUR",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 1531.796,
+  "PaymentBuy": [
+   "SEPA Instant"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=EUR",
+  "Pair": "ETHUSDT",
+  "PricePair": 1594.1750000000002,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 0.94,
+  "PaymentSell": [
+   "Transferwise"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trader/406176076",
+  "ProfitValue": -21.72058159180469,
+  "ProfitPercet": -2.172058159180469,
+  "TotalAdvBuy": 6,
+  "TotalAdvSell": 27,
+  "AdvNoBuy": "",
+  "AdvNoSell": ""
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": true,
+  "DataTime": "2023-01-26T16:47:15.658476637Z",
+  "Fiat": "EUR",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 0.93,
+  "PaymentBuy": [
+   "SEPA Instant"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=EUR",
+  "Pair": "ETHUSDT",
+  "PricePair": 1594.1750000000002,
+  "LinkMarket": "https://www.binance.com/en/trade/ETH_USDT?_from=markets",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 1679.67,
+  "PaymentSell": [
+   "Bank Transfer",
+   "SEPA (EU) Bank Transfer",
+   "SEPA Instant"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trader/353285065",
+  "ProfitValue": 132.93507563068556,
+  "ProfitPercet": 13.293507563068557,
+  "TotalAdvBuy": 79,
+  "TotalAdvSell": 2,
+  "AdvNoBuy": "",
+  "AdvNoSell": ""
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": true,
+  "DataTime": "2023-01-26T16:47:15.723893762Z",
+  "Fiat": "EUR",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 0.93,
+  "PaymentBuy": [
+   "SEPA Instant"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=EUR",
+  "Pair": "BTCUSDT",
+  "PricePair": 23009.295,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_USDT?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 24254.43,
+  "PaymentSell": [
+   "Bank Transfer",
+   "SEPA (EU) Bank Transfer",
+   "SEPA Instant"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trader/353285065",
+  "ProfitValue": 133.45638178242834,
+  "ProfitPercet": 13.345638178242833,
+  "TotalAdvBuy": 79,
+  "TotalAdvSell": 3,
+  "AdvNoBuy": "",
+  "AdvNoSell": ""
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": true,
+  "DataTime": "2023-01-26T16:47:16.096235262Z",
+  "Fiat": "EUR",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 0.933,
+  "PaymentBuy": [
+   "SEPA Instant",
+   "ZEN"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=EUR",
+  "Pair": "BUSDUSDT",
+  "PricePair": 0.99995,
+  "LinkMarket": "https://www.binance.com/en/trade/BUSD_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 0.94,
+  "PaymentSell": [
+   "Transferwise"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trader/406176076",
+  "ProfitValue": 7.452304394426471,
+  "ProfitPercet": 0.745230439442647,
+  "TotalAdvBuy": 7,
+  "TotalAdvSell": 27,
+  "AdvNoBuy": "",
+  "AdvNoSell": ""
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T16:47:16.862022679Z",
+  "Fiat": "EUR",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 22008.214,
+  "PaymentBuy": [
+   "SEPA Instant"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=EUR",
+  "Pair": "BTCUSDT",
+  "PricePair": 23009.129999999997,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 0.94,
+  "PaymentSell": [
+   "Transferwise"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trader/406176076",
+  "ProfitValue": -17.249550554170533,
+  "ProfitPercet": -1.7249550554170532,
+  "TotalAdvBuy": 17,
+  "TotalAdvSell": 27,
+  "AdvNoBuy": "",
+  "AdvNoSell": ""
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T16:47:16.894720429Z",
+  "Fiat": "EUR",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 293.05,
+  "PaymentBuy": [
+   "SEPA Instant"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=EUR",
+  "Pair": "BNBUSDT",
+  "PricePair": 304.85,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 0.94,
+  "PaymentSell": [
+   "Transferwise"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trader/406176076",
+  "ProfitValue": -22.149803787749658,
+  "ProfitPercet": -2.214980378774966,
+  "TotalAdvBuy": 4,
+  "TotalAdvSell": 27,
+  "AdvNoBuy": "",
+  "AdvNoSell": ""
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T16:47:17.012343137Z",
+  "Fiat": "EUR",
+  "AssetsBuy": "DAI",
+  "PriceAssetsBuy": 1,
+  "PaymentBuy": [
+   "Wise"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/DAI?fiat=EUR",
+  "Pair": "USDTDAI",
+  "PricePair": 1.0004499999999998,
+  "LinkMarket": "https://www.binance.com/en/trade/USDT_DAI?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 0.94,
+  "PaymentSell": [
+   "Transferwise"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trader/406176076",
+  "ProfitValue": -60.42280973561891,
+  "ProfitPercet": -6.042280973561891,
+  "TotalAdvBuy": 2,
+  "TotalAdvSell": 27,
+  "AdvNoBuy": "",
+  "AdvNoSell": ""
+ }
+]

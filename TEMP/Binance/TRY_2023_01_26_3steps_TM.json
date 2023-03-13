@@ -1,0 +1,140 @@
+[
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": true,
+  "DataTime": "2023-01-26T16:57:49.227079597Z",
+  "Fiat": "TRY",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 443346.59,
+  "PaymentBuy": [
+   "Garanti",
+   "Ziraat",
+   "Akbank",
+   "Bank Transfer",
+   "Kuveyt Turk"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=TRY",
+  "Pair": "BTCUSDT",
+  "PricePair": 23004.82,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 19.7,
+  "PaymentSell": [
+   "Bank Transfer (Turkey)",
+   "Ziraat"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trader/260035887",
+  "ProfitValue": 222.13690647761362,
+  "ProfitPercet": 2.221369064776136,
+  "TotalAdvBuy": 5,
+  "TotalAdvSell": 1,
+  "AdvNoBuy": "",
+  "AdvNoSell": ""
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T16:57:49.878614805Z",
+  "Fiat": "TRY",
+  "AssetsBuy": "SOL",
+  "PriceAssetsBuy": 601.91,
+  "PaymentBuy": [
+   "Garanti",
+   "Bank Transfer",
+   "Ziraat",
+   "Kuveyt Turk",
+   "Bank Transfer (Turkey)"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/SOL?fiat=TRY",
+  "Pair": "SOLUSDT",
+  "PricePair": 24.295,
+  "LinkMarket": "https://www.binance.com/en/trade/SOL_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 19.7,
+  "PaymentSell": [
+   "Bank Transfer (Turkey)",
+   "Ziraat"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trader/260035887",
+  "ProfitValue": -2048.4540878204375,
+  "ProfitPercet": -20.484540878204374,
+  "TotalAdvBuy": 1,
+  "TotalAdvSell": 1,
+  "AdvNoBuy": "",
+  "AdvNoSell": ""
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T16:57:49.96748818Z",
+  "Fiat": "TRY",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 6073.61,
+  "PaymentBuy": [
+   "Bank Transfer",
+   "Kuveyt Turk",
+   "Ziraat",
+   "Garanti",
+   "DenizBank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=TRY",
+  "Pair": "BNBUSDT",
+  "PricePair": 304.85,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 19.7,
+  "PaymentSell": [
+   "Bank Transfer (Turkey)",
+   "Ziraat"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trader/260035887",
+  "ProfitValue": -112.06679388370281,
+  "ProfitPercet": -1.1206679388370282,
+  "TotalAdvBuy": 2,
+  "TotalAdvSell": 1,
+  "AdvNoBuy": "",
+  "AdvNoSell": ""
+ }
+]

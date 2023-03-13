@@ -27,8 +27,6 @@ func GetInfoCryptoHuobi(fiat string) {
 
 	json.Unmarshal(body, &cf)
 
-	//log.Println(cf)
-
 	crypto, coinId := GetFiat(cf)
 
 	coinId_json := fmt.Sprintf("data/datahuobi/%s/%s_coinId.json", fiat, fiat)
@@ -81,7 +79,6 @@ func getPair(fiat string, crypto map[string][]string) {
 	}
 	finalpair := make(map[string][]string)
 	assets := crypto[fiat]
-	log.Println("ASSETS", assets)
 
 	for _, f := range assets {
 		tmp := strings.ToLower(f)
@@ -106,7 +103,6 @@ func getPair(fiat string, crypto map[string][]string) {
 	if err != nil {
 		log.Printf("Error: %s", err.Error())
 	}
-	//log.Println("Test pair", jsonStr)
 
 	_ = os.WriteFile(name_json, jsonStr, 0644)
 }

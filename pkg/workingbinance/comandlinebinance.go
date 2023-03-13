@@ -57,6 +57,28 @@ func InputCommandLineBinance(fiat string) ParametersBinance {
 			paramUser.PublisherType = "merchant"
 		}
 
+		//BORDER
+		fmt.Println("What is the minimum limit for the number of ads to set?")
+
+		readborder, _ := n.ReadString('\n')
+		readborder = strings.TrimSpace(readborder)
+		for {
+			if readborder != "" {
+				var f int
+				f, err := strconv.Atoi(readborder)
+				if err != nil {
+					log.Println("User try to enter wrong value of percent to track:", err)
+				} else {
+					log.Println(f)
+					paramUser.Border = f
+					break
+				}
+			} else {
+				paramUser.Border = 0
+				break
+			}
+		}
+
 		//PERCENT
 		fmt.Println("What percentage will you track?(0.01 - 100)")
 
@@ -180,6 +202,8 @@ func GetPaymentFromJSONBinance(fiat string) PaymentsBinance {
 	case "TRY":
 		payment = fmt.Sprintf("data/databinance/%s/%s_payment.json", fiat, fiat)
 	case "UAH":
+		payment = fmt.Sprintf("data/databinance/%s/%s_payment.json", fiat, fiat)
+	case "USD":
 		payment = fmt.Sprintf("data/databinance/%s/%s_payment.json", fiat, fiat)
 	case "UZS":
 		payment = fmt.Sprintf("data/databinance/%s/%s_payment.json", fiat, fiat)

@@ -1,0 +1,789 @@
+[
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": true,
+   "SecondMerch": false,
+   "ThirdMerch": true
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T16:54:37.246429966Z",
+  "Fiat": "RUB",
+  "AssetsBuy": "XRP",
+  "PriceAssetsBuy": 31.23,
+  "PaymentBuy": [
+   "SBP - Fast Bank Transfer",
+   "Tinkoff",
+   "Sberbank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-xrp-rub/",
+  "Pair": "XRPBTC",
+  "PricePair": 0.0000178,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/xrp_btc",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 1660102.23,
+  "PaymentSell": [
+   "Raiffeisenbank",
+   "Tinkoff",
+   "Sberbank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-btc-rub/",
+  "ProfitValue": -5380.020192122957,
+  "ProfitPercet": -5.380020192122957,
+  "TotalAdvBuy": 2,
+  "TotalAdvSell": 5,
+  "AdvNoBuy": "17285356",
+  "AdvNoSell": "357011334"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": true,
+   "SecondMerch": false,
+   "ThirdMerch": true
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T16:54:37.273015216Z",
+  "Fiat": "RUB",
+  "AssetsBuy": "TRX",
+  "PriceAssetsBuy": 4.65,
+  "PaymentBuy": [
+   "SBP - Fast Bank Transfer",
+   "Tinkoff",
+   "Sberbank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-trx-rub/",
+  "Pair": "TRXUSDT",
+  "PricePair": 0.061568,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/trx_usdt",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 71.65,
+  "PaymentSell": [
+   "Sberbank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-usdt-rub/",
+  "ProfitValue": -5132.318279569888,
+  "ProfitPercet": -5.132318279569888,
+  "TotalAdvBuy": 2,
+  "TotalAdvSell": 9,
+  "AdvNoBuy": "17285356",
+  "AdvNoSell": "268364352"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": true,
+   "SecondMerch": false,
+   "ThirdMerch": true
+  },
+  "Profit": true,
+  "DataTime": "2023-01-26T16:54:38.0166058Z",
+  "Fiat": "RUB",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 117569.84,
+  "PaymentBuy": [
+   "Tinkoff",
+   "Sberbank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-eth-rub/",
+  "Pair": "TRXETH",
+  "PricePair": 0.00003868,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/trx_eth",
+  "AssetsSell": "TRX",
+  "PriceAssetsSell": 4.65,
+  "PaymentSell": [
+   "SBP - Fast Bank Transfer",
+   "Tinkoff",
+   "Sberbank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-trx-rub/",
+  "ProfitValue": 2251.7054495543307,
+  "ProfitPercet": 2.2517054495543305,
+  "TotalAdvBuy": 4,
+  "TotalAdvSell": 2,
+  "AdvNoBuy": "401167696",
+  "AdvNoSell": "17285356"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": true,
+   "SecondMerch": false,
+   "ThirdMerch": true
+  },
+  "Profit": true,
+  "DataTime": "2023-01-26T16:54:38.066225466Z",
+  "Fiat": "RUB",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 117569.84,
+  "PaymentBuy": [
+   "Tinkoff",
+   "Sberbank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-eth-rub/",
+  "Pair": "HTETH",
+  "PricePair": 0.00317346,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/ht_eth",
+  "AssetsSell": "HT",
+  "PriceAssetsSell": 378.08,
+  "PaymentSell": [
+   "SBP - Fast Bank Transfer",
+   "Tinkoff",
+   "Sberbank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-ht-rub/",
+  "ProfitValue": 1333.8979030651908,
+  "ProfitPercet": 1.3338979030651907,
+  "TotalAdvBuy": 4,
+  "TotalAdvSell": 2,
+  "AdvNoBuy": "401167696",
+  "AdvNoSell": "17285356"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": true,
+   "SecondMerch": false,
+   "ThirdMerch": true
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T16:54:38.106885091Z",
+  "Fiat": "RUB",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 117569.84,
+  "PaymentBuy": [
+   "Tinkoff",
+   "Sberbank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-eth-rub/",
+  "Pair": "ETHUSDT",
+  "PricePair": 1591.95,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/eth_usdt",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 71.65,
+  "PaymentSell": [
+   "Sberbank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-usdt-rub/",
+  "ProfitValue": -2982.586775656054,
+  "ProfitPercet": -2.9825867756560545,
+  "TotalAdvBuy": 4,
+  "TotalAdvSell": 9,
+  "AdvNoBuy": "401167696",
+  "AdvNoSell": "268364352"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": true,
+   "SecondMerch": false,
+   "ThirdMerch": true
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T16:54:38.126907466Z",
+  "Fiat": "RUB",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 117569.84,
+  "PaymentBuy": [
+   "Tinkoff",
+   "Sberbank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-eth-rub/",
+  "Pair": "ETHBTC",
+  "PricePair": 0.069296,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/eth_btc",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 1660102.23,
+  "PaymentSell": [
+   "Raiffeisenbank",
+   "Tinkoff",
+   "Sberbank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-btc-rub/",
+  "ProfitValue": -2153.099697949744,
+  "ProfitPercet": -2.1530996979497443,
+  "TotalAdvBuy": 4,
+  "TotalAdvSell": 5,
+  "AdvNoBuy": "401167696",
+  "AdvNoSell": "357011334"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": true,
+   "SecondMerch": false,
+   "ThirdMerch": true
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T16:54:38.43561755Z",
+  "Fiat": "RUB",
+  "AssetsBuy": "HT",
+  "PriceAssetsBuy": 378.08,
+  "PaymentBuy": [
+   "SBP - Fast Bank Transfer",
+   "Tinkoff",
+   "Sberbank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-ht-rub/",
+  "Pair": "HTETH",
+  "PricePair": 0.00317346,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/ht_eth",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 117569.84,
+  "PaymentSell": [
+   "Tinkoff",
+   "Sberbank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-eth-rub/",
+  "ProfitValue": -1316.3392809987365,
+  "ProfitPercet": -1.3163392809987364,
+  "TotalAdvBuy": 2,
+  "TotalAdvSell": 4,
+  "AdvNoBuy": "17285356",
+  "AdvNoSell": "401167696"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": true,
+   "SecondMerch": false,
+   "ThirdMerch": true
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T16:54:38.445792925Z",
+  "Fiat": "RUB",
+  "AssetsBuy": "HT",
+  "PriceAssetsBuy": 378.08,
+  "PaymentBuy": [
+   "SBP - Fast Bank Transfer",
+   "Tinkoff",
+   "Sberbank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-ht-rub/",
+  "Pair": "HTBTC",
+  "PricePair": 0.00022001,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/ht_btc",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 1660102.23,
+  "PaymentSell": [
+   "Raiffeisenbank",
+   "Tinkoff",
+   "Sberbank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-btc-rub/",
+  "ProfitValue": -3396.3469048085003,
+  "ProfitPercet": -3.3963469048085004,
+  "TotalAdvBuy": 2,
+  "TotalAdvSell": 5,
+  "AdvNoBuy": "17285356",
+  "AdvNoSell": "357011334"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": true,
+   "SecondMerch": false,
+   "ThirdMerch": true
+  },
+  "Profit": true,
+  "DataTime": "2023-01-26T16:54:38.46500705Z",
+  "Fiat": "RUB",
+  "AssetsBuy": "HT",
+  "PriceAssetsBuy": 378.08,
+  "PaymentBuy": [
+   "SBP - Fast Bank Transfer",
+   "Tinkoff",
+   "Sberbank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-ht-rub/",
+  "Pair": "XRPHT",
+  "PricePair": 0.081111,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/xrp_ht",
+  "AssetsSell": "XRP",
+  "PriceAssetsSell": 31.23,
+  "PaymentSell": [
+   "SBP - Fast Bank Transfer",
+   "Tinkoff",
+   "Sberbank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-xrp-rub/",
+  "ProfitValue": 1837.6863880097396,
+  "ProfitPercet": 1.8376863880097398,
+  "TotalAdvBuy": 2,
+  "TotalAdvSell": 2,
+  "AdvNoBuy": "17285356",
+  "AdvNoSell": "17285356"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": true,
+   "SecondMerch": false,
+   "ThirdMerch": true
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T16:54:38.473411008Z",
+  "Fiat": "RUB",
+  "AssetsBuy": "HT",
+  "PriceAssetsBuy": 378.08,
+  "PaymentBuy": [
+   "SBP - Fast Bank Transfer",
+   "Tinkoff",
+   "Sberbank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-ht-rub/",
+  "Pair": "HTUSDT",
+  "PricePair": 5.0631,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/ht_usdt",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 71.65,
+  "PaymentSell": [
+   "Sberbank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-usdt-rub/",
+  "ProfitValue": -4049.1126216673542,
+  "ProfitPercet": -4.049112621667354,
+  "TotalAdvBuy": 2,
+  "TotalAdvSell": 9,
+  "AdvNoBuy": "17285356",
+  "AdvNoSell": "268364352"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": true,
+   "SecondMerch": false,
+   "ThirdMerch": true
+  },
+  "Profit": true,
+  "DataTime": "2023-01-26T16:54:38.989194175Z",
+  "Fiat": "RUB",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 1660102.23,
+  "PaymentBuy": [
+   "Raiffeisenbank",
+   "Tinkoff",
+   "Sberbank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-btc-rub/",
+  "Pair": "ETHBTC",
+  "PricePair": 0.069296,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/eth_btc",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 117569.84,
+  "PaymentSell": [
+   "Tinkoff",
+   "Sberbank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-eth-rub/",
+  "ProfitValue": 2200.4781871507425,
+  "ProfitPercet": 2.200478187150743,
+  "TotalAdvBuy": 5,
+  "TotalAdvSell": 4,
+  "AdvNoBuy": "357011334",
+  "AdvNoSell": "401167696"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": true,
+   "SecondMerch": false,
+   "ThirdMerch": true
+  },
+  "Profit": true,
+  "DataTime": "2023-01-26T16:54:39.001523967Z",
+  "Fiat": "RUB",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 1660102.23,
+  "PaymentBuy": [
+   "Raiffeisenbank",
+   "Tinkoff",
+   "Sberbank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-btc-rub/",
+  "Pair": "LTCBTC",
+  "PricePair": 0.003816,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/ltc_btc",
+  "AssetsSell": "LTC",
+  "PriceAssetsSell": 6519.95,
+  "PaymentSell": [
+   "SBP - Fast Bank Transfer",
+   "Tinkoff",
+   "Sberbank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-ltc-rub/",
+  "ProfitValue": 2920.3054028367847,
+  "ProfitPercet": 2.9203054028367847,
+  "TotalAdvBuy": 5,
+  "TotalAdvSell": 2,
+  "AdvNoBuy": "357011334",
+  "AdvNoSell": "17285356"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": true,
+   "SecondMerch": false,
+   "ThirdMerch": true
+  },
+  "Profit": true,
+  "DataTime": "2023-01-26T16:54:39.017724967Z",
+  "Fiat": "RUB",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 1660102.23,
+  "PaymentBuy": [
+   "Raiffeisenbank",
+   "Tinkoff",
+   "Sberbank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-btc-rub/",
+  "Pair": "TRXBTC",
+  "PricePair": 0.0000026784,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/trx_btc",
+  "AssetsSell": "TRX",
+  "PriceAssetsSell": 4.65,
+  "PaymentSell": [
+   "SBP - Fast Bank Transfer",
+   "Tinkoff",
+   "Sberbank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-trx-rub/",
+  "ProfitValue": 4578.566291734417,
+  "ProfitPercet": 4.578566291734417,
+  "TotalAdvBuy": 5,
+  "TotalAdvSell": 2,
+  "AdvNoBuy": "357011334",
+  "AdvNoSell": "17285356"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": true,
+   "SecondMerch": false,
+   "ThirdMerch": true
+  },
+  "Profit": true,
+  "DataTime": "2023-01-26T16:54:39.04585955Z",
+  "Fiat": "RUB",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 71.65,
+  "PaymentBuy": [
+   "Sberbank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-usdt-rub/",
+  "Pair": "XRPUSDT",
+  "PricePair": 0.40877,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/xrp_usdt",
+  "AssetsSell": "XRP",
+  "PriceAssetsSell": 31.23,
+  "PaymentSell": [
+   "SBP - Fast Bank Transfer",
+   "Tinkoff",
+   "Sberbank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-xrp-rub/",
+  "ProfitValue": 6629.35310791701,
+  "ProfitPercet": 6.6293531079170105,
+  "TotalAdvBuy": 9,
+  "TotalAdvSell": 2,
+  "AdvNoBuy": "268364352",
+  "AdvNoSell": "17285356"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": true,
+   "SecondMerch": false,
+   "ThirdMerch": true
+  },
+  "Profit": true,
+  "DataTime": "2023-01-26T16:54:39.061879258Z",
+  "Fiat": "RUB",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 71.65,
+  "PaymentBuy": [
+   "Sberbank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-usdt-rub/",
+  "Pair": "ETHUSDT",
+  "PricePair": 1591.95,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/eth_usdt",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 117569.84,
+  "PaymentSell": [
+   "Tinkoff",
+   "Sberbank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-eth-rub/",
+  "ProfitValue": 3074.279839598597,
+  "ProfitPercet": 3.0742798395985966,
+  "TotalAdvBuy": 9,
+  "TotalAdvSell": 4,
+  "AdvNoBuy": "268364352",
+  "AdvNoSell": "401167696"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": true,
+   "SecondMerch": false,
+   "ThirdMerch": true
+  },
+  "Profit": true,
+  "DataTime": "2023-01-26T16:54:39.0743448Z",
+  "Fiat": "RUB",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 71.65,
+  "PaymentBuy": [
+   "Sberbank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-usdt-rub/",
+  "Pair": "TRXUSDT",
+  "PricePair": 0.061568,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/trx_usdt",
+  "AssetsSell": "TRX",
+  "PriceAssetsSell": 4.65,
+  "PaymentSell": [
+   "SBP - Fast Bank Transfer",
+   "Tinkoff",
+   "Sberbank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-trx-rub/",
+  "ProfitValue": 5409.975437888912,
+  "ProfitPercet": 5.409975437888912,
+  "TotalAdvBuy": 9,
+  "TotalAdvSell": 2,
+  "AdvNoBuy": "268364352",
+  "AdvNoSell": "17285356"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": true,
+   "SecondMerch": false,
+   "ThirdMerch": true
+  },
+  "Profit": true,
+  "DataTime": "2023-01-26T16:54:39.102684925Z",
+  "Fiat": "RUB",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 71.65,
+  "PaymentBuy": [
+   "Sberbank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-usdt-rub/",
+  "Pair": "BTCUSDT",
+  "PricePair": 22980,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/btc_usdt",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 1660102.23,
+  "PaymentSell": [
+   "Raiffeisenbank",
+   "Tinkoff",
+   "Sberbank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-btc-rub/",
+  "ProfitValue": 825.088960514836,
+  "ProfitPercet": 0.8250889605148359,
+  "TotalAdvBuy": 9,
+  "TotalAdvSell": 5,
+  "AdvNoBuy": "268364352",
+  "AdvNoSell": "357011334"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": true,
+   "SecondMerch": false,
+   "ThirdMerch": true
+  },
+  "Profit": true,
+  "DataTime": "2023-01-26T16:54:39.109758217Z",
+  "Fiat": "RUB",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 71.65,
+  "PaymentBuy": [
+   "Sberbank"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-usdt-rub/",
+  "Pair": "HTUSDT",
+  "PricePair": 5.0631,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/ht_usdt",
+  "AssetsSell": "HT",
+  "PriceAssetsSell": 378.08,
+  "PaymentSell": [
+   "SBP - Fast Bank Transfer",
+   "Tinkoff",
+   "Sberbank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-ht-rub/",
+  "ProfitValue": 4219.984548659545,
+  "ProfitPercet": 4.2199845486595455,
+  "TotalAdvBuy": 9,
+  "TotalAdvSell": 2,
+  "AdvNoBuy": "268364352",
+  "AdvNoSell": "17285356"
+ }
+]

@@ -1,0 +1,236 @@
+[
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Taker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T17:22:49.681526416Z",
+  "Fiat": "ARS",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 112000,
+  "PaymentBuy": [
+   "Banco Brubank",
+   "Lemon Cash",
+   "BBVA",
+   "Bank Transfer"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=ARS",
+  "Pair": "BNBUSDT",
+  "PricePair": 304.25,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 363.1,
+  "PaymentSell": [
+   "Mercadopago",
+   "Bank Transfer (Argentina)",
+   "Banco Brubank",
+   "Uala",
+   "BBVA"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/USDT?fiat=ARS\u0026payment=ALL",
+  "ProfitValue": -1363.236607142848,
+  "ProfitPercet": -1.363236607142848,
+  "TotalAdvBuy": 12,
+  "TotalAdvSell": 141,
+  "AdvNoBuy": "",
+  "AdvNoSell": ""
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Taker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T17:22:49.688540458Z",
+  "Fiat": "ARS",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 112000,
+  "PaymentBuy": [
+   "Banco Brubank",
+   "Lemon Cash",
+   "BBVA",
+   "Bank Transfer"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=ARS",
+  "Pair": "BNBBTC",
+  "PricePair": 0.0132145,
+  "LinkMarket": "https://www.binance.com/en/trade/BNB_BTC?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 8342000,
+  "PaymentSell": [
+   "Lemon Cash",
+   "Bank Transfer (Argentina)",
+   "Banco Brubank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=ARS\u0026payment=ALL",
+  "ProfitValue": -1575.5723214285683,
+  "ProfitPercet": -1.5755723214285682,
+  "TotalAdvBuy": 12,
+  "TotalAdvSell": 40,
+  "AdvNoBuy": "",
+  "AdvNoSell": ""
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Taker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T17:22:49.772195625Z",
+  "Fiat": "ARS",
+  "AssetsBuy": "BNB",
+  "PriceAssetsBuy": 112000,
+  "PaymentBuy": [
+   "Banco Brubank",
+   "Lemon Cash",
+   "BBVA",
+   "Bank Transfer"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BNB?fiat=ARS",
+  "Pair": "MATICBNB",
+  "PricePair": 0.0035725,
+  "LinkMarket": "https://www.binance.com/en/trade/MATIC_BNB?_from=markets",
+  "AssetsSell": "MATIC",
+  "PriceAssetsSell": 385.1,
+  "PaymentSell": [
+   "Fiwind",
+   "Lemon Cash",
+   "Uala",
+   "Mercadopago",
+   "Banco Brubank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/MATIC?fiat=ARS\u0026payment=ALL",
+  "ProfitValue": -3753.8738378486432,
+  "ProfitPercet": -3.7538738378486434,
+  "TotalAdvBuy": 12,
+  "TotalAdvSell": 14,
+  "AdvNoBuy": "",
+  "AdvNoSell": ""
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Taker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T17:22:49.8532285Z",
+  "Fiat": "ARS",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 364.4,
+  "PaymentBuy": [
+   "Lemon Cash",
+   "Uala"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=ARS",
+  "Pair": "BUSDDAI",
+  "PricePair": 1.0000499999999999,
+  "LinkMarket": "https://www.binance.com/en/trade/BUSD_DAI?_from=markets",
+  "AssetsSell": "DAI",
+  "PriceAssetsSell": 363,
+  "PaymentSell": [
+   "Uala",
+   "Lemon Cash",
+   "Bank Transfer (Argentina)",
+   "Banco Brubank",
+   "Mercadopago"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/DAI?fiat=ARS\u0026payment=ALL",
+  "ProfitValue": -379.21240395169633,
+  "ProfitPercet": -0.37921240395169636,
+  "TotalAdvBuy": 19,
+  "TotalAdvSell": 54,
+  "AdvNoBuy": "",
+  "AdvNoSell": ""
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Taker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T17:22:49.872750375Z",
+  "Fiat": "ARS",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 364.4,
+  "PaymentBuy": [
+   "Lemon Cash",
+   "Uala"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=ARS",
+  "Pair": "MATICBUSD",
+  "PricePair": 1.0866500000000001,
+  "LinkMarket": "https://www.binance.com/en/trade/MATIC_BUSD?_from=markets",
+  "AssetsSell": "MATIC",
+  "PriceAssetsSell": 385.1,
+  "PaymentSell": [
+   "Fiwind",
+   "Lemon Cash",
+   "Uala",
+   "Mercadopago",
+   "Banco Brubank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/MATIC?fiat=ARS\u0026payment=ALL",
+  "ProfitValue": -2746.4493615080846,
+  "ProfitPercet": -2.7464493615080845,
+  "TotalAdvBuy": 19,
+  "TotalAdvSell": 14,
+  "AdvNoBuy": "",
+  "AdvNoSell": ""
+ }
+]

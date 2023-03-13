@@ -1,0 +1,45 @@
+[
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Maker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": true,
+  "DataTime": "2023-01-26T16:52:16.22388722Z",
+  "Fiat": "KZT",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 469.99,
+  "PaymentBuy": [
+   "Kaspi Bank"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=KZT",
+  "Pair": "BUSDUSDT",
+  "PricePair": 0.99995,
+  "LinkMarket": "https://www.binance.com/en/trade/BUSD_USDT?_from=markets",
+  "AssetsSell": "USDT",
+  "PriceAssetsSell": 470.79,
+  "PaymentSell": [
+   "Eurasian Bank",
+   "Kaspi Bank",
+   "ForteBank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trader/420069361",
+  "ProfitValue": 165.20787676333916,
+  "ProfitPercet": 0.16520787676333915,
+  "TotalAdvBuy": 11,
+  "TotalAdvSell": 2,
+  "AdvNoBuy": "",
+  "AdvNoSell": ""
+ }
+]

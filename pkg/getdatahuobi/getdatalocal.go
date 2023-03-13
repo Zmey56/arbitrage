@@ -31,6 +31,8 @@ func GetPairFromJSONHuobi(fiat string) map[string][]string {
 		pair = fmt.Sprintf("data/datahuobi/%s/%s_pair.json", fiat, fiat)
 	case "UAH":
 		pair = fmt.Sprintf("data/datahuobi/%s/%s_pair.json", fiat, fiat)
+	case "USD":
+		pair = fmt.Sprintf("data/datahuobi/%s/%s_pair.json", fiat, fiat)
 	case "UZS":
 		pair = fmt.Sprintf("data/datahuobi/%s/%s_pair.json", fiat, fiat)
 	case "VND":

@@ -12,7 +12,7 @@ import (
 	"strconv"
 )
 
-func GetPeymontMethodsBinance(fiat string) {
+func GetPaymontMethodsBinance(fiat string) {
 	allpayment := []PaymentBinance{}
 	httpposturl := "https://p2p.binance.com/bapi/c2c/v2/public/c2c/adv/filter-conditions"
 
@@ -37,8 +37,6 @@ func GetPeymontMethodsBinance(fiat string) {
 	var result map[string]any
 
 	json.Unmarshal([]byte(body), &result)
-
-	//log.Println(result)
 
 	for key, value := range result {
 		if key == "data" {

@@ -36,6 +36,8 @@ func GetParam(fiat string) ParametersBinance {
 		file_path = fmt.Sprintf("cmd/enterparam/parambinance/%s.json", fiat)
 	case "UAH":
 		file_path = fmt.Sprintf("cmd/enterparam/parambinance/%s.json", fiat)
+	case "USD":
+		file_path = fmt.Sprintf("cmd/enterparam/parambinance/%s.json", fiat)
 	case "UZS":
 		file_path = fmt.Sprintf("cmd/enterparam/parambinance/%s.json", fiat)
 	case "VND":

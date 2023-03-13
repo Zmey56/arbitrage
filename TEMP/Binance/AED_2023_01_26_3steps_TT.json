@@ -1,0 +1,276 @@
+[
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Taker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Merchant": {
+   "FirstMerch": true,
+   "SecondMerch": false,
+   "ThirdMerch": true
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T17:09:24.913870875Z",
+  "Fiat": "AED",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 3.675,
+  "PaymentBuy": [
+   "Bank Transfer (Middle East)",
+   "Cash Deposit to Bank",
+   "AL MASHREQ Bank",
+   "mBank",
+   "Bank Transfer"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=AED",
+  "Pair": "BTCUSDT",
+  "PricePair": 23043.21,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_USDT?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 83692.118,
+  "PaymentSell": [
+   "Abu Dhabi Commercial Bank ADCB",
+   "Al Hilal Bank",
+   "mBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=AED\u0026payment=ALL",
+  "ProfitValue": -11.710371854577778,
+  "ProfitPercet": -1.1710371854577777,
+  "TotalAdvBuy": 19,
+  "TotalAdvSell": 22,
+  "AdvNoBuy": "",
+  "AdvNoSell": ""
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Taker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Merchant": {
+   "FirstMerch": true,
+   "SecondMerch": false,
+   "ThirdMerch": true
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T17:09:25.006868875Z",
+  "Fiat": "AED",
+  "AssetsBuy": "BUSD",
+  "PriceAssetsBuy": 3.695,
+  "PaymentBuy": [
+   "Bank Transfer",
+   ""
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BUSD?fiat=AED",
+  "Pair": "BTCBUSD",
+  "PricePair": 23044.809999999998,
+  "LinkMarket": "https://www.binance.com/en/trade/BTC_BUSD?_from=markets",
+  "AssetsSell": "BTC",
+  "PriceAssetsSell": 83692.118,
+  "PaymentSell": [
+   "Abu Dhabi Commercial Bank ADCB",
+   "Al Hilal Bank",
+   "mBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/BTC?fiat=AED\u0026payment=ALL",
+  "ProfitValue": -17.127952278799054,
+  "ProfitPercet": -1.7127952278799055,
+  "TotalAdvBuy": 4,
+  "TotalAdvSell": 22,
+  "AdvNoBuy": "",
+  "AdvNoSell": ""
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Taker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": true,
+   "SecondMerch": false,
+   "ThirdMerch": true
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T17:20:54.028595294Z",
+  "Fiat": "AED",
+  "AssetsBuy": "ETH",
+  "PriceAssetsBuy": 6088.683,
+  "PaymentBuy": [
+   "Cash Deposit to Bank",
+   "Abu Dhabi Commercial Bank ADCB",
+   "Al Hilal Bank",
+   "mBank",
+   "Bank Transfer"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/ETH?fiat=AED",
+  "Pair": "ethusdt",
+  "PricePair": 1593.95,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/eth_usdt",
+  "AssetsSell": "usdt",
+  "PriceAssetsSell": 3.45,
+  "PaymentSell": [
+   "Bank Transfer",
+   "Transfers with specific bank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-usdt-aed/",
+  "ProfitValue": -96.8280825262211,
+  "ProfitPercet": -9.68280825262211,
+  "TotalAdvBuy": 3,
+  "TotalAdvSell": 1,
+  "AdvNoBuy": "11449978348956504064",
+  "AdvNoSell": "266601818"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Taker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": true,
+   "SecondMerch": false,
+   "ThirdMerch": true
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T17:20:54.637499086Z",
+  "Fiat": "AED",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 3.675,
+  "PaymentBuy": [
+   "Bank Transfer (Middle East)",
+   "Cash Deposit to Bank",
+   "AL MASHREQ Bank",
+   "mBank",
+   "Bank Transfer"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=AED",
+  "Pair": "ethusdt",
+  "PricePair": 1593.95,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/eth_usdt",
+  "AssetsSell": "eth",
+  "PriceAssetsSell": 5393.03,
+  "PaymentSell": [
+   "Transfers with specific bank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-eth-aed/",
+  "ProfitValue": -79.33676937006481,
+  "ProfitPercet": -7.9336769370064815,
+  "TotalAdvBuy": 17,
+  "TotalAdvSell": 1,
+  "AdvNoBuy": "11450781152241147904",
+  "AdvNoSell": "266601818"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Taker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": true,
+   "SecondMerch": false,
+   "ThirdMerch": true
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T17:20:54.650952044Z",
+  "Fiat": "AED",
+  "AssetsBuy": "BTC",
+  "PriceAssetsBuy": 85980.962,
+  "PaymentBuy": [
+   "Cash Deposit to Bank",
+   "Abu Dhabi Commercial Bank ADCB",
+   "Al Hilal Bank",
+   "mBank",
+   "Bank Transfer"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/BTC?fiat=AED",
+  "Pair": "btcusdt",
+  "PricePair": 23017.04,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/btc_usdt",
+  "AssetsSell": "usdt",
+  "PriceAssetsSell": 3.45,
+  "PaymentSell": [
+   "Bank Transfer",
+   "Transfers with specific bank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-usdt-aed/",
+  "ProfitValue": -76.43754904719471,
+  "ProfitPercet": -7.643754904719471,
+  "TotalAdvBuy": 5,
+  "TotalAdvSell": 1,
+  "AdvNoBuy": "11449494044940812288",
+  "AdvNoSell": "266601818"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Taker"
+  },
+  "Market": {
+   "First": "Binance",
+   "Second": "Huobi",
+   "Third": "Huobi"
+  },
+  "Merchant": {
+   "FirstMerch": true,
+   "SecondMerch": false,
+   "ThirdMerch": true
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T17:20:54.674750627Z",
+  "Fiat": "AED",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 3.675,
+  "PaymentBuy": [
+   "Bank Transfer (Middle East)",
+   "Cash Deposit to Bank",
+   "AL MASHREQ Bank",
+   "mBank",
+   "Bank Transfer"
+  ],
+  "LinkAssetsBuy": "https://p2p.binance.com/en/trade/all-payments/USDT?fiat=AED",
+  "Pair": "btcusdt",
+  "PricePair": 23017.04,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/btc_usdt",
+  "AssetsSell": "btc",
+  "PriceAssetsSell": 81157.32,
+  "PaymentSell": [
+   "Bank Transfer",
+   "Transfers with specific bank"
+  ],
+  "LinkAssetsSell": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-btc-aed/",
+  "ProfitValue": -40.55323839225538,
+  "ProfitPercet": -4.0553238392255375,
+  "TotalAdvBuy": 17,
+  "TotalAdvSell": 1,
+  "AdvNoBuy": "11450781152241147904",
+  "AdvNoSell": "266601818"
+ }
+]

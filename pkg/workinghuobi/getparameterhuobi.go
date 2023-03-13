@@ -36,6 +36,8 @@ func GetParamHuobi(fiat string) getinfohuobi.ParametersHuobi {
 		file_path = fmt.Sprintf("cmd/enterparam/paramhuobi/%s.json", fiat)
 	case "UAH":
 		file_path = fmt.Sprintf("cmd/enterparam/paramhuobi/%s.json", fiat)
+	case "USD":
+		file_path = fmt.Sprintf("cmd/enterparam/paramhuobi/%s.json", fiat)
 	case "UZS":
 		file_path = fmt.Sprintf("cmd/enterparam/paramhuobi/%s.json", fiat)
 	case "VND":

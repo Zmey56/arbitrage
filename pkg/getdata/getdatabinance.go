@@ -64,7 +64,7 @@ func GetDataP2PBinance(asset, fiat, tradeType string, paramUser workingbinance.P
 		}()
 
 		resultadvertiseradv, err = requestOrdersP2P(newJsonData, tradeType, transAmountFloat)
-
+		//log.Println("AND?", resultadvertiseradv)
 		if err != nil {
 			if err.Error() == "connection reset by peer" {
 				// reconecting
@@ -86,18 +86,19 @@ func GetDataP2PBinance(asset, fiat, tradeType string, paramUser workingbinance.P
 
 func requestOrdersP2P(j []byte, tt string, taf float64) (getinfobinance.AdvertiserAdv, error) {
 	httpposturl := "https://p2p.binance.com/bapi/c2c/v2/friendly/c2c/adv/search"
-	//fmt.Println("HTTP JSON POST URL:", "https://p2p.binance.com/en/trade/"+string(j))
 	request, err := http.NewRequest("POST", httpposturl, bytes.NewBuffer(j))
+	//log.Println("ERR???", err)
 	if err != nil {
 		return getinfobinance.AdvertiserAdv{}, err
 	}
 	request.Header.Set("Content-Type", "application/json; charset=UTF-8")
-
+	//log.Println("AND???", request)
 	client := &http.Client{}
 	response, err := client.Do(request)
 	if err != nil {
 		return getinfobinance.AdvertiserAdv{}, err
 	}
+	//log.Println("ERR???", err)
 
 	defer response.Body.Close()
 
@@ -112,7 +113,6 @@ func ParsingJson(r io.Reader, tradeType string, transAmount float64) getinfobina
 
 	if err != nil {
 		log.Println("Error unmarshal json from URL:", err, "/n")
-		log.Println(string(body))
 	}
 
 	return result

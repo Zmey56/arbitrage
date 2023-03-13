@@ -1,0 +1,142 @@
+[
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Taker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Binance",
+   "Third": "Binance"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": false,
+  "DataTime": "2023-01-26T16:58:42.834154677Z",
+  "Fiat": "TRY",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 19.7,
+  "PaymentBuy": [
+   "Bank Transfer (Turkey)",
+   "Ziraat"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-usdt-try/",
+  "Pair": "SOLUSDT",
+  "PricePair": 24.314999999999998,
+  "LinkMarket": "https://www.binance.com/en/trade/SOL_USDT?_from=markets",
+  "AssetsSell": "SOL",
+  "PriceAssetsSell": 454.03,
+  "PaymentSell": [
+   "QNB",
+   "Garanti",
+   "VakifBank",
+   "Ziraat",
+   "DenizBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/all-payments/SOL?fiat=TRY",
+  "ProfitValue": -521.4031989194267,
+  "ProfitPercet": -5.214031989194267,
+  "TotalAdvBuy": 1,
+  "TotalAdvSell": 27,
+  "AdvNoBuy": "260035887",
+  "AdvNoSell": "11443910371786403840"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Taker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Binance"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": true,
+  "DataTime": "2023-01-26T16:59:08.087483758Z",
+  "Fiat": "TRY",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 19.7,
+  "PaymentBuy": [
+   "Bank Transfer (Turkey)",
+   "Ziraat"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-usdt-try/",
+  "Pair": "SOLUSDT",
+  "PricePair": 24.2857,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/sol_usdt",
+  "AssetsSell": "SOL",
+  "PriceAssetsSell": 602.7,
+  "PaymentSell": [
+   "Garanti",
+   "Bank Transfer",
+   "Ziraat",
+   "Kuveyt Turk",
+   "Bank Transfer (Turkey)"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/sol?fiat=TRY",
+  "ProfitValue": 2597.4991988872594,
+  "ProfitPercet": 25.974991988872592,
+  "TotalAdvBuy": 1,
+  "TotalAdvSell": 1,
+  "AdvNoBuy": "260035887",
+  "AdvNoSell": "11403614477012566016"
+ },
+ {
+  "User": {
+   "FirstUser": "Taker",
+   "SecondUser": "",
+   "ThirdUser": "Taker"
+  },
+  "Market": {
+   "First": "Huobi",
+   "Second": "Huobi",
+   "Third": "Binance"
+  },
+  "Merchant": {
+   "FirstMerch": false,
+   "SecondMerch": false,
+   "ThirdMerch": false
+  },
+  "Profit": true,
+  "DataTime": "2023-01-26T16:59:08.105699383Z",
+  "Fiat": "TRY",
+  "AssetsBuy": "USDT",
+  "PriceAssetsBuy": 19.7,
+  "PaymentBuy": [
+   "Bank Transfer (Turkey)",
+   "Ziraat"
+  ],
+  "LinkAssetsBuy": "https://www.huobi.com/en-us/fiat-crypto/trade/buy-usdt-try/",
+  "Pair": "ETHUSDT",
+  "PricePair": 1594.59,
+  "LinkMarket": "https://www.huobi.com/en-us/exchange/eth_usdt",
+  "AssetsSell": "ETH",
+  "PriceAssetsSell": 31788.31,
+  "PaymentSell": [
+   "Bank Transfer",
+   "Kuveyt Turk",
+   "Ziraat",
+   "Garanti",
+   "DenizBank"
+  ],
+  "LinkAssetsSell": "https://p2p.binance.com/en/trade/sell/eth?fiat=TRY",
+  "ProfitValue": 119.33974848904684,
+  "ProfitPercet": 1.1933974848904685,
+  "TotalAdvBuy": 1,
+  "TotalAdvSell": 2,
+  "AdvNoBuy": "260035887",
+  "AdvNoSell": "11317065728976265216"
+ }
+]56"
+ }
+]
