@@ -1,0 +1,52 @@
+{
+ "BNB": [
+  "BNBUSDT",
+  "BNBBTC",
+  "BNBBUSD",
+  "BNBETH",
+  "BNBUAH"
+ ],
+ "BTC": [
+  "BTCUSDT",
+  "BTCBUSD",
+  "BNBBTC",
+  "ETHBTC",
+  "BTCUAH"
+ ],
+ "BUSD": [
+  "BUSDUSDT",
+  "BTCBUSD",
+  "BNBBUSD",
+  "ETHBUSD",
+  "BUSDUAH",
+  "SHIBBUSD"
+ ],
+ "ETH": [
+  "ETHUSDT",
+  "ETHBTC",
+  "ETHBUSD",
+  "BNBETH",
+  "ETHUAH"
+ ],
+ "SHIB": [
+  "SHIBUSDT",
+  "SHIBBUSD",
+  "SHIBUAH"
+ ],
+ "UAH": [
+  "USDTUAH",
+  "BTCUAH",
+  "BUSDUAH",
+  "BNBUAH",
+  "ETHUAH",
+  "SHIBUAH"
+ ],
+ "USDT": [
+  "BTCUSDT",
+  "BUSDUSDT",
+  "BNBUSDT",
+  "ETHUSDT",
+  "USDTUAH",
+  "SHIBUSDT"
+ ]
+}

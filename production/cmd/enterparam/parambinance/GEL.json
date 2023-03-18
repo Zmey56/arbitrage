@@ -1,0 +1,11 @@
+{
+ "payTypes": [
+  "BankofGeorgia",
+  "TBCbank",
+  "CREDOBANK",
+  "LIBERTYBANK",
+  "KoronaPay"
+ ],
+ "transAmount": "1000",
+ "percentUser": 0.5
+}

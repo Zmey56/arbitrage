@@ -1,0 +1,274 @@
+[
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 51,
+  "PayType": "",
+  "TradeMethodName": "Mercadopago",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 63,
+  "PayType": "",
+  "TradeMethodName": "Banco Brubank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 307,
+  "PayType": "",
+  "TradeMethodName": "Bank Transfer (Argentina)",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 240,
+  "PayType": "",
+  "TradeMethodName": "Reba",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 74,
+  "PayType": "",
+  "TradeMethodName": "Prex",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 234,
+  "PayType": "",
+  "TradeMethodName": "Banco del Sol",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 91,
+  "PayType": "",
+  "TradeMethodName": "Lemon Cash",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 60,
+  "PayType": "",
+  "TradeMethodName": "BBVA",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 1,
+  "PayType": "",
+  "TradeMethodName": "Bank Transfer",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 24,
+  "PayType": "",
+  "TradeMethodName": "PAYEER",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 21,
+  "PayType": "",
+  "TradeMethodName": "Cash Deposit",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 156,
+  "PayType": "",
+  "TradeMethodName": "Sportbank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 371,
+  "PayType": "",
+  "TradeMethodName": "Uphold",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 55,
+  "PayType": "",
+  "TradeMethodName": "Efecty",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 115,
+  "PayType": "",
+  "TradeMethodName": "LendMN",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 409,
+  "PayType": "",
+  "TradeMethodName": "mBank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 87,
+  "PayType": "",
+  "TradeMethodName": "GoPay",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 298,
+  "PayType": "",
+  "TradeMethodName": "Wilobank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 70,
+  "PayType": "",
+  "TradeMethodName": "Transfers with specific bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 169,
+  "PayType": "",
+  "TradeMethodName": "Cash in Person",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 139,
+  "PayType": "",
+  "TradeMethodName": "Bank RBK",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 75,
+  "PayType": "",
+  "TradeMethodName": "AirTm",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 235,
+  "PayType": "",
+  "TradeMethodName": "Banco Rio",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 62,
+  "PayType": "",
+  "TradeMethodName": "Bancolombia S.A",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 61,
+  "PayType": "",
+  "TradeMethodName": "Banesco",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 280,
+  "PayType": "",
+  "TradeMethodName": "Pago Movil",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 43,
+  "PayType": "",
+  "TradeMethodName": "Perfect Money",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 41,
+  "PayType": "",
+  "TradeMethodName": "Revolut",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 34,
+  "PayType": "",
+  "TradeMethodName": "Transferwise",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 4,
+  "PayType": "",
+  "TradeMethodName": "",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 5,
+  "PayType": "",
+  "TradeMethodName": "Western Union",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 6,
+  "PayType": "",
+  "TradeMethodName": "SWIFT international remittance",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 71,
+  "PayType": "",
+  "TradeMethodName": "Ualá",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 73,
+  "PayType": "",
+  "TradeMethodName": "Banco Galicia",
+  "TradeMethodShortName": ""
+ }
+]

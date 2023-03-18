@@ -1,0 +1,21 @@
+{
+ "CoinId": "45",
+ "Currency": "",
+ "TradeType": "",
+ "CurrPage": "",
+ "PayMethod": "49,33,37,149,499",
+ "AcceptOrder": "",
+ "Country": "",
+ "BlockType": "",
+ "Online": "",
+ "Range": "",
+ "Intrange": "",
+ "Amount": "50000",
+ "IsThumbsUp": "",
+ "IsMerchant": "true",
+ "IsTraded": "",
+ "OnlyTradable": "",
+ "IsFollowed": "",
+ "PercentUser": 0.5,
+ "Border": 10
+}

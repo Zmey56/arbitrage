@@ -1,0 +1,11 @@
+{
+ "payTypes": [
+  "MercadoPagoNew",
+  "BancoBrubankNew",
+  "BankArgentina",
+  "LemonCash",
+  "UalaNew"
+ ],
+ "transAmount": "100000",
+ "percentUser": 0.5
+}

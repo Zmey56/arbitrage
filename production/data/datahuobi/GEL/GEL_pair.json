@@ -1,0 +1,42 @@
+{
+ "btc": [
+  "btcusdt",
+  "trxbtc",
+  "ethbtc",
+  "htbtc",
+  "btcusdd"
+ ],
+ "eth": [
+  "ethbtc",
+  "ethusdt",
+  "trxeth",
+  "hteth",
+  "ethusdd"
+ ],
+ "ht": [
+  "htbtc",
+  "htusdt",
+  "hteth",
+  "htusdd"
+ ],
+ "trx": [
+  "trxbtc",
+  "trxusdt",
+  "trxeth",
+  "trxusdd"
+ ],
+ "usdd": [
+  "btcusdd",
+  "usddusdt",
+  "trxusdd",
+  "ethusdd",
+  "htusdd"
+ ],
+ "usdt": [
+  "btcusdt",
+  "trxusdt",
+  "ethusdt",
+  "htusdt",
+  "usddusdt"
+ ]
+}

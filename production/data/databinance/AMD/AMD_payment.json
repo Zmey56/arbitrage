@@ -1,0 +1,138 @@
+[
+ {
+  "Identifier": "Inecobank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Inecobank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "IDBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "IDBank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "ArCA",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "ArCA",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "BANK",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Bank Transfer",
+  "TradeMethodShortName": "Bank Transfer"
+ },
+ {
+  "Identifier": "Ameriabank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Ameriabank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "Idram",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Idram",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "UNIBANK",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Unibank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "ArmBusinessBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "ArmBusinessBank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "Evocabank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Evocabank",
+  "TradeMethodShortName": "Evocabank"
+ },
+ {
+  "Identifier": "ACBAbank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "ACBA Bank",
+  "TradeMethodShortName": "ACBA Bank"
+ },
+ {
+  "Identifier": "Ardshinbank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Ardshinbank",
+  "TradeMethodShortName": "Ardshinbank"
+ },
+ {
+  "Identifier": "ArmEconomBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "ArmEconomBank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "TinkoffNew",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Tinkoff",
+  "TradeMethodShortName": "Tinkoff"
+ },
+ {
+  "Identifier": "RosBankNew",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "RosBank",
+  "TradeMethodShortName": "RosBank"
+ },
+ {
+  "Identifier": "SpecificBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Transfers with specific bank",
+  "TradeMethodShortName": "Transfers with specific bank"
+ },
+ {
+  "Identifier": "ByblosBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Byblos Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "EasyPay",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "EasyPay",
+  "TradeMethodShortName": "EasyPay"
+ }
+]

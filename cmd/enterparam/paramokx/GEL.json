@@ -10,12 +10,12 @@
  "Online": "",
  "Range": "",
  "Intrange": "",
- "Amount": "1000",
+ "Amount": "3000",
  "IsThumbsUp": "",
  "IsMerchant": "true",
  "IsTraded": "",
  "OnlyTradable": "",
  "IsFollowed": "",
- "PercentUser": 0,
- "Border": 0
+ "PercentUser": 0.5,
+ "Border": 10
 }

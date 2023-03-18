@@ -1,0 +1,11 @@
+{
+ "payTypes": [
+  "BANK",
+  "CashDeposit",
+  "EmiratesNBD",
+  "ADCB",
+  "ADIB"
+ ],
+ "transAmount": "1000",
+ "percentUser": 0.5
+}

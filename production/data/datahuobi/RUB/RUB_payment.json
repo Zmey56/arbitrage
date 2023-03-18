@@ -1,0 +1,466 @@
+[
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 28,
+  "PayType": "",
+  "TradeMethodName": "Tinkoff",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 29,
+  "PayType": "",
+  "TradeMethodName": "Sberbank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 407,
+  "PayType": "",
+  "TradeMethodName": "Paysend.com",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 69,
+  "PayType": "",
+  "TradeMethodName": "SBP - Fast Bank Transfer",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 25,
+  "PayType": "",
+  "TradeMethodName": "Alfa-bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 27,
+  "PayType": "",
+  "TradeMethodName": "VTB BANK",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 9,
+  "PayType": "",
+  "TradeMethodName": "QIWI",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 36,
+  "PayType": "",
+  "TradeMethodName": "Raiffeisenbank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 351,
+  "PayType": "",
+  "TradeMethodName": "Gazprombank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 103,
+  "PayType": "",
+  "TradeMethodName": "Otkritie Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 156,
+  "PayType": "",
+  "TradeMethodName": "Sportbank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 1,
+  "PayType": "",
+  "TradeMethodName": "Bank Transfer",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 361,
+  "PayType": "",
+  "TradeMethodName": "Sovkombank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 359,
+  "PayType": "",
+  "TradeMethodName": "Rosselkhozbank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 358,
+  "PayType": "",
+  "TradeMethodName": "Rosbank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 172,
+  "PayType": "",
+  "TradeMethodName": "Home Credit Bank (Russia)",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 24,
+  "PayType": "",
+  "TradeMethodName": "PAYEER",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 356,
+  "PayType": "",
+  "TradeMethodName": "MTS-Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 178,
+  "PayType": "",
+  "TradeMethodName": "RNCB Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 21,
+  "PayType": "",
+  "TradeMethodName": "Cash Deposit",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 95,
+  "PayType": "",
+  "TradeMethodName": "Mobile top-up",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 20,
+  "PayType": "",
+  "TradeMethodName": "ADVCash",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 357,
+  "PayType": "",
+  "TradeMethodName": "Post Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 50,
+  "PayType": "",
+  "TradeMethodName": "Mir",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 179,
+  "PayType": "",
+  "TradeMethodName": "Uralsib Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 169,
+  "PayType": "",
+  "TradeMethodName": "Cash in Person",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 352,
+  "PayType": "",
+  "TradeMethodName": "Credit Bank of Moscow",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 363,
+  "PayType": "",
+  "TradeMethodName": "UniCredit",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 176,
+  "PayType": "",
+  "TradeMethodName": "Ak Bars Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 174,
+  "PayType": "",
+  "TradeMethodName": "Bank Saint-Petersburg",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 360,
+  "PayType": "",
+  "TradeMethodName": "Citibank (Russia)",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 70,
+  "PayType": "",
+  "TradeMethodName": "Transfers with specific bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 155,
+  "PayType": "",
+  "TradeMethodName": "Raiffeisen Bank Aval",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 270,
+  "PayType": "",
+  "TradeMethodName": "MICB",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 45,
+  "PayType": "",
+  "TradeMethodName": "OTP",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 173,
+  "PayType": "",
+  "TradeMethodName": "Renaissance Credit Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 26,
+  "PayType": "",
+  "TradeMethodName": "Russian standard bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 268,
+  "PayType": "",
+  "TradeMethodName": "Victoriabank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 88,
+  "PayType": "",
+  "TradeMethodName": "Idram",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 49,
+  "PayType": "",
+  "TradeMethodName": "Monobank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 170,
+  "PayType": "",
+  "TradeMethodName": "BCS Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 171,
+  "PayType": "",
+  "TradeMethodName": "Credit Europe Bank (Russia)",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 355,
+  "PayType": "",
+  "TradeMethodName": "ForteBank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 354,
+  "PayType": "",
+  "TradeMethodName": "Halyk Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 127,
+  "PayType": "",
+  "TradeMethodName": "Jysan Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 353,
+  "PayType": "",
+  "TradeMethodName": "Kaspi Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 37,
+  "PayType": "",
+  "TradeMethodName": "PUMB",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 33,
+  "PayType": "",
+  "TradeMethodName": "Privat Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 10,
+  "PayType": "",
+  "TradeMethodName": "Interac e-transfer",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 34,
+  "PayType": "",
+  "TradeMethodName": "Transferwise",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 35,
+  "PayType": "",
+  "TradeMethodName": "SEPA (EU) Bank Transfer",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 19,
+  "PayType": "",
+  "TradeMethodName": "Yandex",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 2,
+  "PayType": "",
+  "TradeMethodName": "Alipay",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 3,
+  "PayType": "",
+  "TradeMethodName": "WeChat",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 5,
+  "PayType": "",
+  "TradeMethodName": "Western Union",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 6,
+  "PayType": "",
+  "TradeMethodName": "SWIFT international remittance",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 8,
+  "PayType": "",
+  "TradeMethodName": "Paytm",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 40,
+  "PayType": "",
+  "TradeMethodName": "Skrill (Moneybookers)",
+  "TradeMethodShortName": ""
+ }
+]

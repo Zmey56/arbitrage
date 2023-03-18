@@ -1,0 +1,46 @@
+{
+ "BNB": [
+  "bnbusdt"
+ ],
+ "BTC": [
+  "xrpbtc",
+  "btcusdc",
+  "htbtc",
+  "ethbtc",
+  "btcusdt",
+  "btcusdd",
+  "eosbtc",
+  "trxbtc",
+  "ltcbtc"
+ ],
+ "BUSD": [],
+ "ETH": [
+  "eoseth",
+  "ethusdc",
+  "ethbtc",
+  "ethusdt",
+  "trxeth",
+  "ethusdd",
+  "hteth"
+ ],
+ "RUB": [
+  "btcrub",
+  "usdtrub"
+ ],
+ "SHIB": [
+  "shibusdc",
+  "shibusdt",
+  "shibusdd"
+ ],
+ "USDT": [
+  "usdcusdt",
+  "usddusdt",
+  "eosusdt",
+  "trxusdt",
+  "htusdt",
+  "btcusdt",
+  "ethusdt",
+  "ltcusdt",
+  "xrpusdt"
+ ]
+}

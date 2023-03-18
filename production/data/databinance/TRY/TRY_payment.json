@@ -1,0 +1,266 @@
+[
+ {
+  "Identifier": "Ziraat",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Ziraat",
+  "TradeMethodShortName": "Ziraat"
+ },
+ {
+  "Identifier": "BANK",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Bank Transfer",
+  "TradeMethodShortName": "Bank Transfer"
+ },
+ {
+  "Identifier": "Garanti",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Garanti",
+  "TradeMethodShortName": "Garanti"
+ },
+ {
+  "Identifier": "KuveytTurk",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Kuveyt Turk",
+  "TradeMethodShortName": "Kuveyt Turk"
+ },
+ {
+  "Identifier": "DenizBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "DenizBank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "Papara",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Papara",
+  "TradeMethodShortName": "Papara"
+ },
+ {
+  "Identifier": "BanktransferTurkey",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Bank Transfer (Turkey)",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "VakifBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "VakifBank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "Oldubil",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "OLDUBIL",
+  "TradeMethodShortName": "OLDUBIL"
+ },
+ {
+  "Identifier": "QNB",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "QNB",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "ISBANK",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "İŞBANK",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "Akbank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Akbank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "alBaraka",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "alBaraka",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "SpecificBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Transfers with specific bank",
+  "TradeMethodShortName": "Transfers with specific bank"
+ },
+ {
+  "Identifier": "HALKBANK",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "HalkBank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "Fibabanka",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Fibabanka",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "Revolut",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Revolut",
+  "TradeMethodShortName": "Revolut"
+ },
+ {
+  "Identifier": "Advcash",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Advcash",
+  "TradeMethodShortName": "Advcash"
+ },
+ {
+  "Identifier": "ING",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "ING",
+  "TradeMethodShortName": "ING"
+ },
+ {
+  "Identifier": "Wise",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Wise",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "AirTM",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "AirTM",
+  "TradeMethodShortName": "AirTM"
+ },
+ {
+  "Identifier": "BAKAIBANK",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Bakai Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "ZEN",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "ZEN",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "MoneyGram",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Moneygram",
+  "TradeMethodShortName": "Moneygram"
+ },
+ {
+  "Identifier": "WesternUnion",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Western Union",
+  "TradeMethodShortName": "Western Union"
+ },
+ {
+  "Identifier": "CashDeposit",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Cash Deposit to Bank",
+  "TradeMethodShortName": "Cash Deposit to Bank"
+ },
+ {
+  "Identifier": "RosBankNew",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "RosBank",
+  "TradeMethodShortName": "RosBank"
+ },
+ {
+  "Identifier": "BCAMobile",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "BCA",
+  "TradeMethodShortName": "BCA Mobile"
+ },
+ {
+  "Identifier": "BurganBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Burgan Bank (K.S.C) (Burgan)",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "CashU",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "CashU",
+  "TradeMethodShortName": "CashU"
+ },
+ {
+  "Identifier": "Cashapp",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Cash app",
+  "TradeMethodShortName": "Cash app"
+ },
+ {
+  "Identifier": "KaspiBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Kaspi Bank",
+  "TradeMethodShortName": "Kaspi Bank"
+ },
+ {
+  "Identifier": "Paysend",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Paysend.com",
+  "TradeMethodShortName": "Paysend"
+ }
+]

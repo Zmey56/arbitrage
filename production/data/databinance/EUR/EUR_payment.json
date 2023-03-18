@@ -1,0 +1,1394 @@
+[
+ {
+  "Identifier": "Wise",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Wise",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "Revolut",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Revolut",
+  "TradeMethodShortName": "Revolut"
+ },
+ {
+  "Identifier": "SEPAinstant",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "SEPA Instant",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "SEPA",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "SEPA (EU) bank transfer",
+  "TradeMethodShortName": "SEPA"
+ },
+ {
+  "Identifier": "Paysera",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Paysera",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "N26",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "N26",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "BBVABank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "BBVA",
+  "TradeMethodShortName": "BBVA"
+ },
+ {
+  "Identifier": "ZEN",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "ZEN",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "BANK",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Bank Transfer",
+  "TradeMethodShortName": "Bank Transfer"
+ },
+ {
+  "Identifier": "Bizum",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Bizum",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "Advcash",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Advcash",
+  "TradeMethodShortName": "Advcash"
+ },
+ {
+  "Identifier": "SkrillMoneybookers",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Skrill (Moneybookers)",
+  "TradeMethodShortName": "Skrill"
+ },
+ {
+  "Identifier": "Bunq",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Bunq",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "ING",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "ING",
+  "TradeMethodShortName": "ING"
+ },
+ {
+  "Identifier": "BancoSantanderSpain",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Banco Santander (Spain)",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "CaixaBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "CaixaBank (Spain)",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "ABNAMRO",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "ABN AMRO",
+  "TradeMethodShortName": "ABN AMRO"
+ },
+ {
+  "Identifier": "Monobank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Monobank",
+  "TradeMethodShortName": "Monobank"
+ },
+ {
+  "Identifier": "BancoSabadellSpain",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Banco Sabadell (Spain)",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "PrivatBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Privat Bank (Universal Card)",
+  "TradeMethodShortName": "Privat Bank"
+ },
+ {
+  "Identifier": "MAIB",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "MAIB",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "PerfectMoney",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Perfect Money",
+  "TradeMethodShortName": "Perfect Money"
+ },
+ {
+  "Identifier": "Payeer",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Payeer",
+  "TradeMethodShortName": "Payeer"
+ },
+ {
+  "Identifier": "RaiffeisenBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Raiffeisenbank",
+  "TradeMethodShortName": "Raiffeisenbank"
+ },
+ {
+  "Identifier": "MICB",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "MICB",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "NETELLER",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "NETELLER",
+  "TradeMethodShortName": "NETELLER"
+ },
+ {
+  "Identifier": "Kapitalbank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Kapitalbank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "BankofGeorgia",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Bank of Georgia",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "TinkoffNew",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Tinkoff",
+  "TradeMethodShortName": "Tinkoff"
+ },
+ {
+  "Identifier": "BNPParibas",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "BNP Paribas",
+  "TradeMethodShortName": "BNP Paribas"
+ },
+ {
+  "Identifier": "SpecificBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Transfers with specific bank",
+  "TradeMethodShortName": "Transfers with specific bank"
+ },
+ {
+  "Identifier": "KaspiBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Kaspi Bank",
+  "TradeMethodShortName": "Kaspi Bank"
+ },
+ {
+  "Identifier": "Paysend",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Paysend.com",
+  "TradeMethodShortName": "Paysend"
+ },
+ {
+  "Identifier": "Victoriabank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Victoriabank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "DukascopyBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Dukascopy Bank",
+  "TradeMethodShortName": "Dukascopy Bank"
+ },
+ {
+  "Identifier": "VakifBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "VakifBank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "CashDeposit",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Cash Deposit to Bank",
+  "TradeMethodShortName": "Cash Deposit to Bank"
+ },
+ {
+  "Identifier": "SocieteGenerale",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Societe Generale",
+  "TradeMethodShortName": "Societe Generale"
+ },
+ {
+  "Identifier": "ABank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "A-Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "SWIFT",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "International Wire (SWIFT)",
+  "TradeMethodShortName": "International Wire (SWIFT)"
+ },
+ {
+  "Identifier": "TBCbank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "TBC Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "AirTM",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "AirTM",
+  "TradeMethodShortName": "AirTM"
+ },
+ {
+  "Identifier": "Postepay",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Postepay",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "CenterCreditBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "CenterCredit Bank",
+  "TradeMethodShortName": "CenterCredit Bank"
+ },
+ {
+  "Identifier": "HalykBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Halyk Bank",
+  "TradeMethodShortName": "Halyk Bank"
+ },
+ {
+  "Identifier": "Millennium",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Millennium",
+  "TradeMethodShortName": "Millennium"
+ },
+ {
+  "Identifier": "AltynBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Altyn Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "PriorBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "PriorBank",
+  "TradeMethodShortName": "PriorBank"
+ },
+ {
+  "Identifier": "JysanBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Jysan Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "UniCreditRussia",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "UniCredit",
+  "TradeMethodShortName": "UniCredit"
+ },
+ {
+  "Identifier": "DenizBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "DenizBank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "OTPBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "OTP Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "ForteBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "ForteBank",
+  "TradeMethodShortName": "ForteBank"
+ },
+ {
+  "Identifier": "RosBankNew",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "RosBank",
+  "TradeMethodShortName": "RosBank"
+ },
+ {
+  "Identifier": "CreditAgricole",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Credit Agricole",
+  "TradeMethodShortName": "Credit Agricole"
+ },
+ {
+  "Identifier": "PUMBBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "PUMB",
+  "TradeMethodShortName": "PUMB"
+ },
+ {
+  "Identifier": "BanktransferTurkey",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Bank Transfer (Turkey)",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "OPTIMABANK",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Optima Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "LaBanquepostale",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "La Banque postale",
+  "TradeMethodShortName": "La Banque postale"
+ },
+ {
+  "Identifier": "Ziraat",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Ziraat",
+  "TradeMethodShortName": "Ziraat"
+ },
+ {
+  "Identifier": "RaiffeisenBankAval",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Raiffeisen Bank Aval",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "VividMoney",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Vivid Money",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "WesternUnion",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Western Union",
+  "TradeMethodShortName": "Western Union"
+ },
+ {
+  "Identifier": "DEMIRBANK",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "DemirBank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "FinComBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "FinComBank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "KuveytTurk",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Kuveyt Turk",
+  "TradeMethodShortName": "Kuveyt Turk"
+ },
+ {
+  "Identifier": "BAKAIBANK",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Bakai Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "ErsteBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Erste Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "CREDOBANK",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Credo Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "EurasianBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Eurasian Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "UniCreditEU",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "UniCredit",
+  "TradeMethodShortName": "UniCredit"
+ },
+ {
+  "Identifier": "Garanti",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Garanti",
+  "TradeMethodShortName": "Garanti"
+ },
+ {
+  "Identifier": "IDBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "IDBank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "QIWI",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "QIWI",
+  "TradeMethodShortName": "QIWI"
+ },
+ {
+  "Identifier": "UNIBANK",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Unibank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "ISBANK",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "İŞBANK",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "MTBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "MTBank",
+  "TradeMethodShortName": "MTBank"
+ },
+ {
+  "Identifier": "Ameriabank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Ameriabank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "MoneyGram",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Moneygram",
+  "TradeMethodShortName": "Moneygram"
+ },
+ {
+  "Identifier": "Ceskasporitelna",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Česká spořitelna",
+  "TradeMethodShortName": "Česká spořitelna"
+ },
+ {
+  "Identifier": "DSKBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "DSK Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "KoronaPay",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "KoronaPay",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "SantanderPoland",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Santander Poland",
+  "TradeMethodShortName": "Santander Poland"
+ },
+ {
+  "Identifier": "ABBBANK",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "ABB Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "CashInPerson",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Cash in Person",
+  "TradeMethodShortName": "Cash in Person"
+ },
+ {
+  "Identifier": "Fiobanka",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Fio banka",
+  "TradeMethodShortName": "Fio banka"
+ },
+ {
+  "Identifier": "KHBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "K\u0026H Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "Ukrsibbank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Ukrsibbank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "Uzcard",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Uzcard",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "BANKTRANSFERRON",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Bank Transfer (Romania)",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "BankRBK",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Bank RBK",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "HomeCreditKazakhstan",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Home Credit Kazakhstan",
+  "TradeMethodShortName": "Home Credit Kazakhstan"
+ },
+ {
+  "Identifier": "Humo",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Humo",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "AsakaBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Asaka Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "BancoGeneralPanama",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Banco General Panama",
+  "TradeMethodShortName": "Banco General Panama"
+ },
+ {
+  "Identifier": "CSOB",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "ČSOB",
+  "TradeMethodShortName": "ČSOB"
+ },
+ {
+  "Identifier": "FasterPayments",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Faster Payments",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "FreedomBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Freedom Bank",
+  "TradeMethodShortName": "Freedom Bank"
+ },
+ {
+  "Identifier": "IpotekaBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Ipoteka Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "Nequi",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Nequi",
+  "TradeMethodShortName": "Nequi"
+ },
+ {
+  "Identifier": "PKObank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "PKO Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "ParitetBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Paritet Bank",
+  "TradeMethodShortName": "Paritet Bank"
+ },
+ {
+  "Identifier": "UniCreditBulbank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "UniCredit Bulbank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "ApplePay",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Apple Pay",
+  "TradeMethodShortName": "Apple Pay"
+ },
+ {
+  "Identifier": "BanescoPanama",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Banesco Panama",
+  "TradeMethodShortName": "Banesco Panama"
+ },
+ {
+  "Identifier": "Caissedepargne",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Caisse d′Epargne",
+  "TradeMethodShortName": "Caisse d′Epargne"
+ },
+ {
+  "Identifier": "CreditBankofPeru",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Credit Bank of Peru",
+  "TradeMethodShortName": "BCP"
+ },
+ {
+  "Identifier": "Inecobank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Inecobank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "InfinBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "InfinBank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "Nurbank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Nurbank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "PostBankNew",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Post Bank",
+  "TradeMethodShortName": "Post Bank"
+ },
+ {
+  "Identifier": "Uphold",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Uphold",
+  "TradeMethodShortName": "Uphold"
+ },
+ {
+  "Identifier": "7Eleven",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "7-Eleven",
+  "TradeMethodShortName": "7-Eleven"
+ },
+ {
+  "Identifier": "ALIPAY",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Alipay",
+  "TradeMethodShortName": "Alipay"
+ },
+ {
+  "Identifier": "AliorBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Alior Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "Anorbank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Anorbank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "ArCA",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "ArCA",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "BancoDeCredito",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Banco de Credito",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "BancolombiaSA",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Bancolombia S.A",
+  "TradeMethodShortName": "Bancolombia S.A"
+ },
+ {
+  "Identifier": "BanistmoPanama",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Banistmo Panama",
+  "TradeMethodShortName": "Banistmo Panama"
+ },
+ {
+  "Identifier": "BankTransferMena",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Bank Transfer (Middle East)",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "Daviplata",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Daviplata",
+  "TradeMethodShortName": "Daviplata"
+ },
+ {
+  "Identifier": "DaviviendaSA",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Davivienda S.A",
+  "TradeMethodShortName": "Davivienda S.A"
+ },
+ {
+  "Identifier": "EasypaisaPK",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Easypaisa-PK Only",
+  "TradeMethodShortName": "Easypaisa-PK Only"
+ },
+ {
+  "Identifier": "Fibabanka",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Fibabanka",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "IdeaBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Idea Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "Interbank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Interbank",
+  "TradeMethodShortName": "Interbank"
+ },
+ {
+  "Identifier": "LIBERTYBANK",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Liberty Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "LloydsBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Lloyds Bank",
+  "TradeMethodShortName": "Lloyds Bank"
+ },
+ {
+  "Identifier": "MKBBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "MKB Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "Monzo",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Monzo",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "NayaPay",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "NayaPay",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "PASHABANK",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Pasha Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "Payall",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Payall",
+  "TradeMethodShortName": "Payall"
+ },
+ {
+  "Identifier": "Payme",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "PayMe",
+  "TradeMethodShortName": "PayMe"
+ },
+ {
+  "Identifier": "RussianStandardBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Russian Standard Bank",
+  "TradeMethodShortName": "Russian Standard Bank"
+ },
+ {
+  "Identifier": "Sofort",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Sofort",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "TransferenciaACH",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Transferencia ACH (Panamá)",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "UnitedBulgarianBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "United Bulgarian Bank (UBB)",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "WECHAT",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "WeChat",
+  "TradeMethodShortName": "WeChat"
+ },
+ {
+  "Identifier": "ABA",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "ABA",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "ACLEDA",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "ACLEDA",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "AgroBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Agrobank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "Akbank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Akbank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "AlliedBankLimited",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Allied Bank Limited, Wholesale Branch",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "Apelsin",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Apelsin",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "AzerTurkBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Azer Turk Bank",
+  "TradeMethodShortName": "Azer Turk Bank"
+ },
+ {
+  "Identifier": "BCEL",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "BCEL",
+  "TradeMethodShortName": "BCEL"
+ },
+ {
+  "Identifier": "Bancontact",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Bancontact",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "Banesco",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Banesco",
+  "TradeMethodShortName": "Banesco"
+ },
+ {
+  "Identifier": "COMMERCIALBANKKZT",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Commercial bank Kyrgyzstan",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "Cashapp",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Cash app",
+  "TradeMethodShortName": "Cash app"
+ },
+ {
+  "Identifier": "GPay",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Google Pay (GPay)",
+  "TradeMethodShortName": "Google Pay (GPay)"
+ },
+ {
+  "Identifier": "HALKBANK",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "HalkBank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "IMPS",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "IMPS",
+  "TradeMethodShortName": "IMPS"
+ },
+ {
+  "Identifier": "KICB",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "KICB",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "KredoBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "KredoBank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "MeezanBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Meezan Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "OTPBankRussia",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "OTP",
+  "TradeMethodShortName": "OTP"
+ },
+ {
+  "Identifier": "OrangeMoney",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Orange Money - OM",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "Oschadbank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Oschadbank",
+  "TradeMethodShortName": "Oschadbank"
+ },
+ {
+  "Identifier": "Papara",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Papara",
+  "TradeMethodShortName": "Papara"
+ },
+ {
+  "Identifier": "Pix",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Pix",
+  "TradeMethodShortName": "Pix"
+ },
+ {
+  "Identifier": "QNB",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "QNB",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "RSKBANK",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "RSK Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "Raast",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Raast",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "Rocket",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Rocket",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "SadaPay",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "SadaPay",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "Satispay",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Satispay",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "TransBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Trans Bank",
+  "TradeMethodShortName": "Trans Bank"
+ },
+ {
+  "Identifier": "UPI",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "UPI",
+  "TradeMethodShortName": "UPI"
+ },
+ {
+  "Identifier": "alBaraka",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "alBaraka",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "izibank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Izibank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "mBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "mBank",
+  "TradeMethodShortName": "mBank"
+ }
+]

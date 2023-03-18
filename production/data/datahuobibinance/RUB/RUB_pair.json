@@ -1,0 +1,53 @@
+{
+ "BTC": [
+  "ethbtc",
+  "btcusdt",
+  "btcrub"
+ ],
+ "EOS": [
+  "eosusdt",
+  "eoseth",
+  "eosbtc"
+ ],
+ "ETH": [
+  "ethbtc",
+  "ethusdt"
+ ],
+ "HT": [
+  "htbtc",
+  "hteth",
+  "htusdt"
+ ],
+ "LTC": [
+  "ltcbtc",
+  "ltcusdt"
+ ],
+ "TRX": [
+  "trxeth",
+  "trxusdt",
+  "trxbtc"
+ ],
+ "USDC": [
+  "ethusdc",
+  "shibusdc",
+  "btcusdc",
+  "usdcusdt"
+ ],
+ "USDD": [
+  "usddusdt",
+  "shibusdd",
+  "btcusdd",
+  "ethusdd"
+ ],
+ "USDT": [
+  "btcusdt",
+  "usdtrub",
+  "ethusdt",
+  "bnbusdt",
+  "shibusdt"
+ ],
+ "XRP": [
+  "xrpbtc",
+  "xrpusdt"
+ ]
+}

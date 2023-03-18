@@ -1,0 +1,38 @@
+{
+ "BNB": [
+  "BNBUSDT",
+  "BNBBTC",
+  "BNBBUSD",
+  "BNBETH"
+ ],
+ "BTC": [
+  "BTCUSDT",
+  "BTCBUSD",
+  "BNBBTC",
+  "ETHBTC"
+ ],
+ "BUSD": [
+  "SHIBBUSD",
+  "BUSDUSDT",
+  "BTCBUSD",
+  "BNBBUSD",
+  "ETHBUSD"
+ ],
+ "ETH": [
+  "ETHUSDT",
+  "ETHBTC",
+  "ETHBUSD",
+  "BNBETH"
+ ],
+ "SHIB": [
+  "SHIBUSDT",
+  "SHIBBUSD"
+ ],
+ "USDT": [
+  "SHIBUSDT",
+  "BTCUSDT",
+  "BUSDUSDT",
+  "BNBUSDT",
+  "ETHUSDT"
+ ]
+}

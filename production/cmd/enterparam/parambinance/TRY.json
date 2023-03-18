@@ -1,0 +1,11 @@
+{
+ "payTypes": [
+  "Ziraat",
+  "BANK",
+  "Garanti",
+  "DenizBank",
+  "KuveytTurk"
+ ],
+ "transAmount": "10000",
+ "percentUser": 0.5
+}

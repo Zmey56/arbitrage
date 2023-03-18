@@ -1,0 +1,866 @@
+[
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 35,
+  "PayType": "",
+  "TradeMethodName": "SEPA (EU) Bank Transfer",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 34,
+  "PayType": "",
+  "TradeMethodName": "Transferwise",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 112,
+  "PayType": "",
+  "TradeMethodName": "Paysera",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 41,
+  "PayType": "",
+  "TradeMethodName": "Revolut",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 303,
+  "PayType": "",
+  "TradeMethodName": "SEPA Instant",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 1,
+  "PayType": "",
+  "TradeMethodName": "Bank Transfer",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 60,
+  "PayType": "",
+  "TradeMethodName": "BBVA",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 20,
+  "PayType": "",
+  "TradeMethodName": "ADVCash",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 310,
+  "PayType": "",
+  "TradeMethodName": "N26",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 40,
+  "PayType": "",
+  "TradeMethodName": "Skrill (Moneybookers)",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 99,
+  "PayType": "",
+  "TradeMethodName": "ShopeePay",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 125,
+  "PayType": "",
+  "TradeMethodName": "Ameriabank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 159,
+  "PayType": "",
+  "TradeMethodName": "Esewa",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 217,
+  "PayType": "",
+  "TradeMethodName": "Venmo",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 220,
+  "PayType": "",
+  "TradeMethodName": "Ziraat",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 221,
+  "PayType": "",
+  "TradeMethodName": "Garanti",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 289,
+  "PayType": "",
+  "TradeMethodName": "Kapitalbank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 313,
+  "PayType": "",
+  "TradeMethodName": "Bunq",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 358,
+  "PayType": "",
+  "TradeMethodName": "Rosbank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 498,
+  "PayType": "",
+  "TradeMethodName": "",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 519,
+  "PayType": "",
+  "TradeMethodName": "Unibank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 527,
+  "PayType": "",
+  "TradeMethodName": "ZEN",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 536,
+  "PayType": "",
+  "TradeMethodName": "DemirBank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 544,
+  "PayType": "",
+  "TradeMethodName": "QNB Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 419,
+  "PayType": "",
+  "TradeMethodName": "ING",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 293,
+  "PayType": "",
+  "TradeMethodName": "Bizum",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 114,
+  "PayType": "",
+  "TradeMethodName": "ABN AMRO",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 43,
+  "PayType": "",
+  "TradeMethodName": "Perfect Money",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 24,
+  "PayType": "",
+  "TradeMethodName": "PAYEER",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 28,
+  "PayType": "",
+  "TradeMethodName": "Tinkoff",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 70,
+  "PayType": "",
+  "TradeMethodName": "Transfers with specific bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 13,
+  "PayType": "",
+  "TradeMethodName": "NETELLER",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 29,
+  "PayType": "",
+  "TradeMethodName": "Sberbank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 211,
+  "PayType": "",
+  "TradeMethodName": "Postepay",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 407,
+  "PayType": "",
+  "TradeMethodName": "Paysend.com",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 371,
+  "PayType": "",
+  "TradeMethodName": "Uphold",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 5,
+  "PayType": "",
+  "TradeMethodName": "Western Union",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 75,
+  "PayType": "",
+  "TradeMethodName": "AirTm",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 49,
+  "PayType": "",
+  "TradeMethodName": "Monobank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 126,
+  "PayType": "",
+  "TradeMethodName": "PKO Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 6,
+  "PayType": "",
+  "TradeMethodName": "SWIFT international remittance",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 21,
+  "PayType": "",
+  "TradeMethodName": "Cash Deposit",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 25,
+  "PayType": "",
+  "TradeMethodName": "Alfa-bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 415,
+  "PayType": "",
+  "TradeMethodName": "BNP Paribas",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 400,
+  "PayType": "",
+  "TradeMethodName": "Credit Bank of Peru",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 268,
+  "PayType": "",
+  "TradeMethodName": "Victoriabank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 270,
+  "PayType": "",
+  "TradeMethodName": "MICB",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 37,
+  "PayType": "",
+  "TradeMethodName": "PUMB",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 406,
+  "PayType": "",
+  "TradeMethodName": "Payall",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 413,
+  "PayType": "",
+  "TradeMethodName": "Societe Generale",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 2,
+  "PayType": "",
+  "TradeMethodName": "Alipay",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 33,
+  "PayType": "",
+  "TradeMethodName": "Privat Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 9,
+  "PayType": "",
+  "TradeMethodName": "QIWI",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 403,
+  "PayType": "",
+  "TradeMethodName": "Interbank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 269,
+  "PayType": "",
+  "TradeMethodName": "MAIB",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 127,
+  "PayType": "",
+  "TradeMethodName": "Jysan Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 353,
+  "PayType": "",
+  "TradeMethodName": "Kaspi Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 416,
+  "PayType": "",
+  "TradeMethodName": "La Banque postale",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 350,
+  "PayType": "",
+  "TradeMethodName": "Oschadbank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 142,
+  "PayType": "",
+  "TradeMethodName": "Bank Transfer (Turkey)",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 414,
+  "PayType": "",
+  "TradeMethodName": "Credit Agricole",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 265,
+  "PayType": "",
+  "TradeMethodName": "FinComBank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 219,
+  "PayType": "",
+  "TradeMethodName": "Millenium",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 421,
+  "PayType": "",
+  "TradeMethodName": "Moneygram",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 155,
+  "PayType": "",
+  "TradeMethodName": "Raiffeisen Bank Aval",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 108,
+  "PayType": "",
+  "TradeMethodName": "Bank of Georgia",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 84,
+  "PayType": "",
+  "TradeMethodName": "Easypaisa-PK Only",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 86,
+  "PayType": "",
+  "TradeMethodName": "Google Pay (GPay)",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 354,
+  "PayType": "",
+  "TradeMethodName": "Halyk Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 4,
+  "PayType": "",
+  "TradeMethodName": "",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 109,
+  "PayType": "",
+  "TradeMethodName": "TBC Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 77,
+  "PayType": "",
+  "TradeMethodName": "Apple pay",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 59,
+  "PayType": "",
+  "TradeMethodName": "Cash app",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 102,
+  "PayType": "",
+  "TradeMethodName": "PIX",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 357,
+  "PayType": "",
+  "TradeMethodName": "Post Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 285,
+  "PayType": "",
+  "TradeMethodName": "True Money",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 196,
+  "PayType": "",
+  "TradeMethodName": "WorldRemit",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 67,
+  "PayType": "",
+  "TradeMethodName": "ABA Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 243,
+  "PayType": "",
+  "TradeMethodName": "Bakong",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 63,
+  "PayType": "",
+  "TradeMethodName": "Banco Brubank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 62,
+  "PayType": "",
+  "TradeMethodName": "Bancolombia S.A",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 61,
+  "PayType": "",
+  "TradeMethodName": "Banesco",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 141,
+  "PayType": "",
+  "TradeMethodName": "Bank Transfer (Middle East)",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 169,
+  "PayType": "",
+  "TradeMethodName": "Cash in Person",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 57,
+  "PayType": "",
+  "TradeMethodName": "Davivienda S.A",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 56,
+  "PayType": "",
+  "TradeMethodName": "EasyPay",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 355,
+  "PayType": "",
+  "TradeMethodName": "ForteBank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 309,
+  "PayType": "",
+  "TradeMethodName": "Hype",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 88,
+  "PayType": "",
+  "TradeMethodName": "Idram",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 10,
+  "PayType": "",
+  "TradeMethodName": "Interac e-transfer",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 53,
+  "PayType": "",
+  "TradeMethodName": "Itaú Brazil",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 89,
+  "PayType": "",
+  "TradeMethodName": "JazzCash",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 51,
+  "PayType": "",
+  "TradeMethodName": "Mercadopago",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 47,
+  "PayType": "",
+  "TradeMethodName": "Nequi",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 140,
+  "PayType": "",
+  "TradeMethodName": "Nurbank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 45,
+  "PayType": "",
+  "TradeMethodName": "OTP",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 222,
+  "PayType": "",
+  "TradeMethodName": "Papara",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 42,
+  "PayType": "",
+  "TradeMethodName": "PicPay",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 401,
+  "PayType": "",
+  "TradeMethodName": "Scotiabank Peru",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 20010,
+  "PayType": "",
+  "TradeMethodName": "",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 363,
+  "PayType": "",
+  "TradeMethodName": "UniCredit",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 223,
+  "PayType": "",
+  "TradeMethodName": "Vodafone cash",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 3,
+  "PayType": "",
+  "TradeMethodName": "WeChat",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 23,
+  "PayType": "",
+  "TradeMethodName": "PayMe",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 17,
+  "PayType": "",
+  "TradeMethodName": "FPS",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 19,
+  "PayType": "",
+  "TradeMethodName": "Yandex",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 7,
+  "PayType": "",
+  "TradeMethodName": "PayNow",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 8,
+  "PayType": "",
+  "TradeMethodName": "Paytm",
+  "TradeMethodShortName": ""
+ }
+]

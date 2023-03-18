@@ -1,0 +1,21 @@
+{
+ "CoinId": "TRY",
+ "Currency": "",
+ "TradeType": "",
+ "CurrPage": "",
+ "PayMethod": "bank",
+ "AcceptOrder": "",
+ "Country": "",
+ "BlockType": "",
+ "Online": "",
+ "Range": "",
+ "Intrange": "",
+ "Amount": "10000",
+ "IsThumbsUp": "",
+ "IsMerchant": "true",
+ "IsTraded": "",
+ "OnlyTradable": "",
+ "IsFollowed": "",
+ "PercentUser": 0,
+ "Border": 0
+}

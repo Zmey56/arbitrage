@@ -1,0 +1,98 @@
+[
+ {
+  "Identifier": "m10",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "m10",
+  "TradeMethodShortName": "m10"
+ },
+ {
+  "Identifier": "Kapitalbank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Kapitalbank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "LeoBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Leobank",
+  "TradeMethodShortName": "Leobank"
+ },
+ {
+  "Identifier": "UNIBANK",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Unibank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "ABBBANK",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "ABB Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "AzerTurkBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Azer Turk Bank",
+  "TradeMethodShortName": "Azer Turk Bank"
+ },
+ {
+  "Identifier": "BANK",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Bank Transfer",
+  "TradeMethodShortName": "Bank Transfer"
+ },
+ {
+  "Identifier": "AccessBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Access Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "PASHABANK",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Pasha Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "Rabitabank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Rabitabank",
+  "TradeMethodShortName": "Rabitabank"
+ },
+ {
+  "Identifier": "mBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "mBank",
+  "TradeMethodShortName": "mBank"
+ },
+ {
+  "Identifier": "KoronaPay",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "KoronaPay",
+  "TradeMethodShortName": ""
+ }
+]

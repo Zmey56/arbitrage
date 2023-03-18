@@ -1,0 +1,60 @@
+{
+ "btc": [
+  "btcusdt",
+  "trxbtc",
+  "ethbtc",
+  "htbtc",
+  "btcusdd",
+  "xrpbtc",
+  "ltcbtc"
+ ],
+ "eth": [
+  "ethbtc",
+  "ethusdt",
+  "trxeth",
+  "hteth",
+  "ethusdd"
+ ],
+ "ht": [
+  "htbtc",
+  "htusdt",
+  "hteth",
+  "htusdd",
+  "xrpht",
+  "ltcht"
+ ],
+ "ltc": [
+  "ltcbtc",
+  "ltcusdt",
+  "ltcht"
+ ],
+ "trx": [
+  "trxbtc",
+  "trxusdt",
+  "trxeth",
+  "trxusdd"
+ ],
+ "usdd": [
+  "btcusdd",
+  "usddusdt",
+  "trxusdd",
+  "ethusdd",
+  "htusdd",
+  "xrpusdd"
+ ],
+ "usdt": [
+  "btcusdt",
+  "trxusdt",
+  "ethusdt",
+  "htusdt",
+  "usddusdt",
+  "xrpusdt",
+  "ltcusdt"
+ ],
+ "xrp": [
+  "xrpbtc",
+  "xrpusdt",
+  "xrpht",
+  "xrpusdd"
+ ]
+}

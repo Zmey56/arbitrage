@@ -36,6 +36,8 @@ func GetParamOKX(fiat string) getinfookx.ParametersOKX {
 		file_path = fmt.Sprintf("cmd/enterparam/paramokx/%s.json", fiat)
 	case "UAH":
 		file_path = fmt.Sprintf("cmd/enterparam/paramokx/%s.json", fiat)
+	case "USD":
+		file_path = fmt.Sprintf("cmd/enterparam/paramokx/%s.json", fiat)
 	case "UZS":
 		file_path = fmt.Sprintf("cmd/enterparam/paramokx/%s.json", fiat)
 	case "VND":

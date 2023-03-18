@@ -1,0 +1,20 @@
+{
+ "CoinId": "5",
+ "Currency": "",
+ "TradeType": "",
+ "CurrPage": "",
+ "PayMethod": "",
+ "AcceptOrder": "",
+ "Country": "",
+ "BlockType": "",
+ "Online": "",
+ "Range": "",
+ "Intrange": "",
+ "Amount": "10000000",
+ "IsThumbsUp": "",
+ "IsMerchant": "",
+ "IsTraded": "",
+ "OnlyTradable": "",
+ "IsFollowed": "",
+ "PercentUser": 0.5
+}

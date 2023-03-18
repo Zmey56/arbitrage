@@ -1,0 +1,11 @@
+{
+ "payTypes": [
+  "Kapitalbank",
+  "m10",
+  "LeoBank",
+  "UNIBANK",
+  "ABBBANK"
+ ],
+ "transAmount": "1000",
+ "percentUser": 0.5
+}

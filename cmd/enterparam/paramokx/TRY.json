@@ -3,19 +3,19 @@
  "Currency": "",
  "TradeType": "",
  "CurrPage": "",
- "PayMethod": "bank",
+ "PayMethod": "AdvCash",
  "AcceptOrder": "",
  "Country": "",
  "BlockType": "",
  "Online": "",
  "Range": "",
  "Intrange": "",
- "Amount": "10000",
+ "Amount": "20000",
  "IsThumbsUp": "",
  "IsMerchant": "true",
  "IsTraded": "",
  "OnlyTradable": "",
  "IsFollowed": "",
- "PercentUser": 0,
- "Border": 0
+ "PercentUser": 0.5,
+ "Border": 10
 }

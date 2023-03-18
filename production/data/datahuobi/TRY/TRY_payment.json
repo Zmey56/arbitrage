@@ -1,0 +1,242 @@
+[
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 1,
+  "PayType": "",
+  "TradeMethodName": "Bank Transfer",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 220,
+  "PayType": "",
+  "TradeMethodName": "Ziraat",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 375,
+  "PayType": "",
+  "TradeMethodName": "Kuveyt Turk",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 221,
+  "PayType": "",
+  "TradeMethodName": "Garanti",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 142,
+  "PayType": "",
+  "TradeMethodName": "Bank Transfer (Turkey)",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 222,
+  "PayType": "",
+  "TradeMethodName": "Papara",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 70,
+  "PayType": "",
+  "TradeMethodName": "Transfers with specific bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 21,
+  "PayType": "",
+  "TradeMethodName": "Cash Deposit",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 34,
+  "PayType": "",
+  "TradeMethodName": "Transferwise",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 297,
+  "PayType": "",
+  "TradeMethodName": "Banplus",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 40,
+  "PayType": "",
+  "TradeMethodName": "Skrill (Moneybookers)",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 544,
+  "PayType": "",
+  "TradeMethodName": "QNB Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 543,
+  "PayType": "",
+  "TradeMethodName": "HalkBank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 421,
+  "PayType": "",
+  "TradeMethodName": "Moneygram",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 20,
+  "PayType": "",
+  "TradeMethodName": "ADVCash",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 419,
+  "PayType": "",
+  "TradeMethodName": "ING",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 406,
+  "PayType": "",
+  "TradeMethodName": "Payall",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 41,
+  "PayType": "",
+  "TradeMethodName": "Revolut",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 5,
+  "PayType": "",
+  "TradeMethodName": "Western Union",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 43,
+  "PayType": "",
+  "TradeMethodName": "Perfect Money",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 223,
+  "PayType": "",
+  "TradeMethodName": "Vodafone cash",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 12,
+  "PayType": "",
+  "TradeMethodName": "UPI",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 23,
+  "PayType": "",
+  "TradeMethodName": "PayMe",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 13,
+  "PayType": "",
+  "TradeMethodName": "NETELLER",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 59,
+  "PayType": "",
+  "TradeMethodName": "Cash app",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 4,
+  "PayType": "",
+  "TradeMethodName": "",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 6,
+  "PayType": "",
+  "TradeMethodName": "SWIFT international remittance",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 60,
+  "PayType": "",
+  "TradeMethodName": "BBVA",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 64,
+  "PayType": "",
+  "TradeMethodName": "1+ Winner",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 86,
+  "PayType": "",
+  "TradeMethodName": "Google Pay (GPay)",
+  "TradeMethodShortName": ""
+ }
+]

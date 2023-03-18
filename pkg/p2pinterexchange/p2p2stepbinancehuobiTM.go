@@ -19,6 +19,9 @@ func P2P2stepsBinanceHuobiTM(fiat string, paramUser workingbinance.ParametersBin
 	//get all assets from binance for this fiat
 
 	assets := getdata.GetAssets(fiat)
+	log.Println("ASSETS", assets)
+	//assetsH := getdatahuobi.GetCurrencyHuobi(fiat)
+	//assets := commonfunction.CommonElement(assetsH, assetsB)
 	assets_symbol := make([]string, 0, len(assets))
 	//assets_name := make([]string, 0, len(assets))
 

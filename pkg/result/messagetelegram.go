@@ -4,24 +4,27 @@ import (
 	"fmt"
 	"io"
 	"log"
+	"math"
 	"net/http"
 	"net/url"
 	"strconv"
 	"strings"
 )
 
-// const chatID = -1001592565485
+//const chatID = -1001592565485
+
 const chatID = -993812776
 
-// const TELEGRAM_BOT_TOKEN = "5763797414:AAHJ8exgiqxHuW44SyEr15fKsWKPixNofVg"
+//const TELEGRAM_BOT_TOKEN = "5763797414:AAHJ8exgiqxHuW44SyEr15fKsWKPixNofVg"
+
 const TELEGRAM_BOT_TOKEN = "6072584429:AAGkRNgzQSZNJ9VMpqkol-r1H2D7jCZNuVA"
 
 func SendTextToTelegramChat(chatId int, text string) (string, error) {
 
-	log.Printf("Sending %s to chat_id: %d", text, chatId)
+	//log.Printf("Sending %s to chat_id: %d", text, chatId)
 	//var telegramApi string = "https://api.telegram.org/bot" + os.Getenv("TELEGRAM_BOT_TOKEN") + "/sendMessage"
 	var telegramApi string = "https://api.telegram.org/bot" + TELEGRAM_BOT_TOKEN + "/sendMessage"
-	log.Println(telegramApi)
+	//log.Println(telegramApi)
 
 	response, err := http.PostForm(
 		telegramApi,
@@ -44,7 +47,7 @@ func SendTextToTelegramChat(chatId int, text string) (string, error) {
 		return "", err
 	}
 	bodyString := string(bodyBytes)
-	log.Printf("Body of Telegram Response: %s", bodyString)
+	//log.Printf("Body of Telegram Response: %s", bodyString)
 
 	return bodyString, nil
 }
@@ -111,7 +114,7 @@ func FormatMessageAndSend2steps(r ResultP2P2steps) {
 			"\n"+
 			"Mean price BUY <b>%s</b> and SELL <b>%s</b> (Delta %.2f %%)\n"+
 			"\n"+
-			"<i>Standard deviation price BUY <b>%s</b> and SELL <b>%s</b></i>\n"+
+			"<i>Standard deviation price BUY <b>%s</b> (%.2f %%) and SELL <b>%s</b></i> (%.2f %%) (Delta: %.2f %%)\n"+
 			"\n"+
 			"Weight mean price BUY <b>%s</b> and SELL <b>%s</b> (Delta %.2f %%)\n"+
 			"\n"+
@@ -125,24 +128,25 @@ func FormatMessageAndSend2steps(r ResultP2P2steps) {
 			"Payment(s) BUY: %s \n"+
 			"\n"+
 			"Payment(s) SELL: %s \n"+
-			"\n",
+			"\n"+
+			"Amount: %s %s",
 		r.FiatUnit, r.Asset,
 		r.MarketOne, r.User.FirstUser, r.MarketTwo, r.User.SecondUser,
 		r.DataTime.Format("2006/01/02 15:04:05"),
 		formattedNum(r.PriceB), formattedNum(r.PriceS), r.DeltaBuySell,
 		formattedNum(r.PriceBSecond), r.DeltaFirstSecondB, formattedNum(r.PriceSSecond), r.DeltaFirstSecondS,
 		formattedNum(r.MeanPriceB), formattedNum(r.MeanPriceS), r.DeltaMean,
-		formattedNum(r.SDPriceB), formattedNum(r.SDPriceS),
+		formattedNum(r.SDPriceB), r.DeltaSDb, formattedNum(r.SDPriceS), r.DeltaSDs, r.DeltaSD,
 		formattedNum(r.MeanWeighB), formattedNum(r.MeanWeighS), r.DeltaMeanWeight,
 		formattedNum(r.GiantPriceB), r.DeltaGiantPriceB, formattedNum(r.GiantPriceS), r.DeltaGiantPriceS, r.DeltaGiant,
 		formattedNum(r.GiantVolB), formattedNum(r.GiantVolS),
 		isMerchantVerifiedFirst2steps(r),
 		strings.Join(r.PaymentBuy, ", "),
-		strings.Join(r.PaymentSell, ", "))
+		strings.Join(r.PaymentSell, ", "),
+		formattedNum(r.Amount), r.FiatUnit)
 
 	log.Println("RESULT", text)
 
-	//text = "TEST TEST TEST TEST TEST TEST"
 	SendTextToTelegramChat(chatID, text)
 }
 
@@ -216,6 +220,11 @@ func chooseFlag(fiat string) string {
 }
 
 func formattedNum(num float64) string {
+	if num > 1 {
+		num = math.Round(num*10000) / 10000
+	} else {
+		num = math.Round(num*1000000) / 1000000
+	}
 	formattedNum := strconv.FormatFloat(num, 'f', -1, 64)
 	parts := strings.Split(formattedNum, ".")
 	if len(parts) > 1 {

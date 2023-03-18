@@ -1,7 +1,10 @@
 {
  "payTypes": [
   "TinkoffNew",
-  "RosBankNew"
+  "RosBankNew",
+  "RaiffeisenBank",
+  "QIWI",
+  "YandexMoneyNew"
  ],
  "transAmount": "100000",
  "publisher_type": "merchant",

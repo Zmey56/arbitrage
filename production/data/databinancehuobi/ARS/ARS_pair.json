@@ -1,0 +1,54 @@
+{
+ "ADA": [
+  "adaeth",
+  "adabtc",
+  "adausdt",
+  "adausdd"
+ ],
+ "BNB": [
+  "bnbusdt"
+ ],
+ "BTC": [
+  "ethbtc",
+  "trxbtc",
+  "btcusdt",
+  "btcusdd",
+  "htbtc"
+ ],
+ "BUSD": [],
+ "DAI": [
+  "daiusdt"
+ ],
+ "DOGE": [
+  "dogeeth",
+  "dogeusdt",
+  "dogeusdd",
+  "dogebtc"
+ ],
+ "ETH": [
+  "trxeth",
+  "ethbtc",
+  "hteth",
+  "ethusdd",
+  "ethusdt"
+ ],
+ "MATIC": [
+  "maticusdt",
+  "maticeth",
+  "maticusdd",
+  "maticbtc"
+ ],
+ "USDT": [
+  "trxusdt",
+  "usddusdt",
+  "btcusdt",
+  "htusdt",
+  "ethusdt"
+ ],
+ "XRP": [
+  "xrpbtc",
+  "xrpusdd",
+  "xrpusdt",
+  "xrpht"
+ ]
+}

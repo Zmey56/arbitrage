@@ -34,6 +34,9 @@ type ResultP2P2steps struct {
 	DeltaGiantPriceS  float64
 	DeltaGiant        float64
 	DeltaADV          float64
+	DeltaSDb          float64
+	DeltaSDs          float64
+	DeltaSD           float64
 	User              struct {
 		FirstUser  string
 		SecondUser string
@@ -81,36 +84,3 @@ type ResultP2P struct {
 	AdvNoBuy        string
 	AdvNoSell       string
 }
-
-//type ResultP2P2Steps struct {
-//	Amount string
-//	User   struct {
-//		FirstUser  string
-//		SecondUser string
-//	}
-//	Market struct {
-//		First  string
-//		Second string
-//	}
-//	Merchant struct {
-//		FirstMerch  bool
-//		SecondMerch bool
-//	}
-//	Profit          bool
-//	DataTime        time.Time
-//	Fiat            string
-//	AssetsBuy       string
-//	PriceAssetsBuy  float64
-//	PaymentBuy      []string
-//	LinkAssetsBuy   string
-//	AssetsSell      string
-//	PriceAssetsSell float64
-//	PaymentSell     []string
-//	LinkAssetsSell  string
-//	ProfitValue     float64
-//	ProfitPercet    float64
-//	TotalAdvBuy     int
-//	TotalAdvSell    int
-//	AdvNoBuy        string
-//	AdvNoSell       string
-//}

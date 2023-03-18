@@ -1,0 +1,98 @@
+{
+ "ADA": [
+  "ADABTC",
+  "ADABUSD",
+  "ADAUSDT",
+  "ADABNB",
+  "ADAETH"
+ ],
+ "BNB": [
+  "XRPBNB",
+  "MATICBNB",
+  "BNBBTC",
+  "BNBBUSD",
+  "DAIBNB",
+  "BNBDAI",
+  "DOGEBNB",
+  "ADABNB",
+  "BNBUSDT",
+  "BNBETH"
+ ],
+ "BTC": [
+  "XRPBTC",
+  "MATICBTC",
+  "BTCBUSD",
+  "DAIBTC",
+  "BTCDAI",
+  "DOGEBTC",
+  "ADABTC",
+  "BTCUSDT",
+  "BNBBTC",
+  "ETHBTC"
+ ],
+ "BUSD": [
+  "XRPBUSD",
+  "MATICBUSD",
+  "BTCBUSD",
+  "DAIBUSD",
+  "BUSDDAI",
+  "DOGEBUSD",
+  "ADABUSD",
+  "BUSDUSDT",
+  "BNBBUSD",
+  "ETHBUSD"
+ ],
+ "DAI": [
+  "DAIBTC",
+  "BTCDAI",
+  "DAIBUSD",
+  "BUSDDAI",
+  "DAIUSDT",
+  "USDTDAI",
+  "DAIBNB",
+  "BNBDAI",
+  "ETHDAI"
+ ],
+ "DOGE": [
+  "DOGEBTC",
+  "DOGEBUSD",
+  "DOGEUSDT",
+  "DOGEBNB"
+ ],
+ "ETH": [
+  "XRPETH",
+  "MATICETH",
+  "ETHBTC",
+  "ETHBUSD",
+  "ETHDAI",
+  "ADAETH",
+  "ETHUSDT",
+  "BNBETH"
+ ],
+ "MATIC": [
+  "MATICBTC",
+  "MATICBUSD",
+  "MATICUSDT",
+  "MATICBNB",
+  "MATICETH"
+ ],
+ "USDT": [
+  "XRPUSDT",
+  "MATICUSDT",
+  "BTCUSDT",
+  "BUSDUSDT",
+  "DAIUSDT",
+  "USDTDAI",
+  "DOGEUSDT",
+  "ADAUSDT",
+  "BNBUSDT",
+  "ETHUSDT"
+ ],
+ "XRP": [
+  "XRPBTC",
+  "XRPBUSD",
+  "XRPUSDT",
+  "XRPBNB",
+  "XRPETH"
+ ]
+}

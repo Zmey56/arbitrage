@@ -1,0 +1,226 @@
+[
+ {
+  "Identifier": "KaspiBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Kaspi Bank",
+  "TradeMethodShortName": "Kaspi Bank"
+ },
+ {
+  "Identifier": "HalykBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Halyk Bank",
+  "TradeMethodShortName": "Halyk Bank"
+ },
+ {
+  "Identifier": "CenterCreditBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "CenterCredit Bank",
+  "TradeMethodShortName": "CenterCredit Bank"
+ },
+ {
+  "Identifier": "ForteBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "ForteBank",
+  "TradeMethodShortName": "ForteBank"
+ },
+ {
+  "Identifier": "JysanBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Jysan Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "AltynBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Altyn Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "EurasianBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Eurasian Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "HomeCreditKazakhstan",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Home Credit Kazakhstan",
+  "TradeMethodShortName": "Home Credit Kazakhstan"
+ },
+ {
+  "Identifier": "FreedomBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Freedom Bank",
+  "TradeMethodShortName": "Freedom Bank"
+ },
+ {
+  "Identifier": "BANK",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Bank Transfer",
+  "TradeMethodShortName": "Bank Transfer"
+ },
+ {
+  "Identifier": "BankRBK",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Bank RBK",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "QIWI",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "QIWI",
+  "TradeMethodShortName": "QIWI"
+ },
+ {
+  "Identifier": "Mobiletopup",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Mobile top-up",
+  "TradeMethodShortName": "Mobile top-up"
+ },
+ {
+  "Identifier": "Nurbank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Nurbank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "SpecificBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Transfers with specific bank",
+  "TradeMethodShortName": "Transfers with specific bank"
+ },
+ {
+  "Identifier": "RosBankNew",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "RosBank",
+  "TradeMethodShortName": "RosBank"
+ },
+ {
+  "Identifier": "Advcash",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Advcash",
+  "TradeMethodShortName": "Advcash"
+ },
+ {
+  "Identifier": "TinkoffNew",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Tinkoff",
+  "TradeMethodShortName": "Tinkoff"
+ },
+ {
+  "Identifier": "RUBfiatbalance",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "BinancePay (RUB)",
+  "TradeMethodShortName": "RUB fiat balance"
+ },
+ {
+  "Identifier": "ELCART",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Elcart",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "MICB",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "MICB",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "PrivatBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Privat Bank (Universal Card)",
+  "TradeMethodShortName": "Privat Bank"
+ },
+ {
+  "Identifier": "BBVABank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "BBVA",
+  "TradeMethodShortName": "BBVA"
+ },
+ {
+  "Identifier": "BankofGeorgia",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Bank of Georgia",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "KoronaPay",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "KoronaPay",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "MAIB",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "MAIB",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "OPTIMABANK",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Optima Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "PUMBBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "PUMB",
+  "TradeMethodShortName": "PUMB"
+ }
+]

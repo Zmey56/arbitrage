@@ -1,0 +1,122 @@
+[
+ {
+  "Identifier": "BANK",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Bank Transfer",
+  "TradeMethodShortName": "Bank Transfer"
+ },
+ {
+  "Identifier": "BankTransferVietnam",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Bank Transfer (Vietnam)",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "MoMoNew",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "MoMo",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "ZaloPayNew",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "ZaloPay",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "ViettelMoney",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Viettel Money",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "ShopeePay",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "ShopeePay-SEA",
+  "TradeMethodShortName": "ShopeePay-SEA"
+ },
+ {
+  "Identifier": "SpecificBank",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Transfers with specific bank",
+  "TradeMethodShortName": "Transfers with specific bank"
+ },
+ {
+  "Identifier": "CashDeposit",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Cash Deposit to Bank",
+  "TradeMethodShortName": "Cash Deposit to Bank"
+ },
+ {
+  "Identifier": "VNpay",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "VNPAY",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "VNPTpay",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "VNPT Money",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "ALIPAY",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Alipay",
+  "TradeMethodShortName": "Alipay"
+ },
+ {
+  "Identifier": "CashInPerson",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Cash in Person",
+  "TradeMethodShortName": "Cash in Person"
+ },
+ {
+  "Identifier": "KoronaPay",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "KoronaPay",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "OKSO",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "OSKO",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "PostBankNew",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Post Bank",
+  "TradeMethodShortName": "Post Bank"
+ }
+]

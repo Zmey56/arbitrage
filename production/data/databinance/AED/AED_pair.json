@@ -1,0 +1,130 @@
+{
+ "ADA": [
+  "ADAUSDT",
+  "ADABTC",
+  "ADAETH",
+  "ADABUSD",
+  "ADABNB"
+ ],
+ "BNB": [
+  "DOTBNB",
+  "BNBUSDT",
+  "BNBBTC",
+  "BNBETH",
+  "DAIBNB",
+  "BNBDAI",
+  "ADABNB",
+  "SOLBNB",
+  "BNBBUSD",
+  "DOGEBNB",
+  "TRXBNB",
+  "MATICBNB"
+ ],
+ "BTC": [
+  "DOTBTC",
+  "BTCUSDT",
+  "ETHBTC",
+  "DAIBTC",
+  "BTCDAI",
+  "ADABTC",
+  "SOLBTC",
+  "BTCBUSD",
+  "BNBBTC",
+  "DOGEBTC",
+  "TRXBTC",
+  "MATICBTC"
+ ],
+ "BUSD": [
+  "DOTBUSD",
+  "BUSDUSDT",
+  "BTCBUSD",
+  "ETHBUSD",
+  "DAIBUSD",
+  "BUSDDAI",
+  "ADABUSD",
+  "SOLBUSD",
+  "BNBBUSD",
+  "SHIBBUSD",
+  "DOGEBUSD",
+  "TRXBUSD",
+  "MATICBUSD"
+ ],
+ "DAI": [
+  "DAIUSDT",
+  "USDTDAI",
+  "DAIBTC",
+  "BTCDAI",
+  "ETHDAI",
+  "DAIBUSD",
+  "BUSDDAI",
+  "DAIBNB",
+  "BNBDAI"
+ ],
+ "DOGE": [
+  "DOGEUSDT",
+  "DOGEBTC",
+  "DOGEBUSD",
+  "DOGEBNB",
+  "SHIBDOGE"
+ ],
+ "DOT": [
+  "DOTUSDT",
+  "DOTBTC",
+  "DOTETH",
+  "DOTBUSD",
+  "DOTBNB"
+ ],
+ "ETH": [
+  "DOTETH",
+  "ETHUSDT",
+  "ETHBTC",
+  "ETHDAI",
+  "ADAETH",
+  "SOLETH",
+  "ETHBUSD",
+  "BNBETH",
+  "TRXETH",
+  "MATICETH"
+ ],
+ "MATIC": [
+  "MATICUSDT",
+  "MATICBTC",
+  "MATICETH",
+  "MATICBUSD",
+  "MATICBNB"
+ ],
+ "SHIB": [
+  "SHIBUSDT",
+  "SHIBBUSD",
+  "SHIBDOGE"
+ ],
+ "SOL": [
+  "SOLUSDT",
+  "SOLBTC",
+  "SOLETH",
+  "SOLBUSD",
+  "SOLBNB"
+ ],
+ "TRX": [
+  "TRXUSDT",
+  "TRXBTC",
+  "TRXETH",
+  "TRXBUSD",
+  "TRXBNB"
+ ],
+ "USDT": [
+  "DOTUSDT",
+  "BTCUSDT",
+  "ETHUSDT",
+  "DAIUSDT",
+  "USDTDAI",
+  "ADAUSDT",
+  "SOLUSDT",
+  "BUSDUSDT",
+  "BNBUSDT",
+  "SHIBUSDT",
+  "DOGEUSDT",
+  "TRXUSDT",
+  "MATICUSDT"
+ ]
+}

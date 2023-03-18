@@ -1,0 +1,11 @@
+{
+ "payTypes": [
+  "Inecobank",
+  "IDBank",
+  "ArCA",
+  "BANK",
+  "Idram"
+ ],
+ "transAmount": "100000",
+ "percentUser": 0.5
+}

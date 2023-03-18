@@ -1,0 +1,20 @@
+{
+ "CoinId": "11",
+ "Currency": "",
+ "TradeType": "",
+ "CurrPage": "",
+ "PayMethod": "28,29,36,9,19",
+ "AcceptOrder": "",
+ "Country": "",
+ "BlockType": "",
+ "Online": "",
+ "Range": "",
+ "Intrange": "",
+ "Amount": "100000",
+ "IsThumbsUp": "",
+ "IsMerchant": "true",
+ "IsTraded": "",
+ "OnlyTradable": "",
+ "IsFollowed": "",
+ "PercentUser": 0.5
+}

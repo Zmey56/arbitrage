@@ -1,0 +1,11 @@
+{
+ "payTypes": [
+  "Monobank",
+  "PrivatBank",
+  "PUMBBank",
+  "ABank",
+  "izibank"
+ ],
+ "transAmount": "50000",
+ "percentUser": 0.5
+}

@@ -1,0 +1,30 @@
+{
+ "BTC": [
+  "BTC-USDT",
+  "BTC-USDC",
+  "ETH-BTC",
+  "BTC-DAI"
+ ],
+ "DAI": [
+  "DAI-USDT",
+  "BTC-DAI",
+  "ETH-DAI"
+ ],
+ "ETH": [
+  "ETH-USDT",
+  "ETH-USDC",
+  "ETH-BTC",
+  "ETH-DAI"
+ ],
+ "USDC": [
+  "USDT-USDC",
+  "BTC-USDC",
+  "ETH-USDC"
+ ],
+ "USDT": [
+  "USDT-USDC",
+  "BTC-USDT",
+  "ETH-USDT",
+  "DAI-USDT"
+ ]
+}

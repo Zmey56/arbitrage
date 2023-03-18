@@ -1,0 +1,210 @@
+[
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 1,
+  "PayType": "",
+  "TradeMethodName": "Bank Transfer",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 30,
+  "PayType": "",
+  "TradeMethodName": "MoMo",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 31,
+  "PayType": "",
+  "TradeMethodName": "ZaloPay",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 38,
+  "PayType": "",
+  "TradeMethodName": "ViettelPay",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 106,
+  "PayType": "",
+  "TradeMethodName": "Bank Transfer (Vietnam)",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 70,
+  "PayType": "",
+  "TradeMethodName": "Transfers with specific bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 272,
+  "PayType": "",
+  "TradeMethodName": "VNPT Pay",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 274,
+  "PayType": "",
+  "TradeMethodName": "VNPAY",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 21,
+  "PayType": "",
+  "TradeMethodName": "Cash Deposit",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 273,
+  "PayType": "",
+  "TradeMethodName": "VinID",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 6,
+  "PayType": "",
+  "TradeMethodName": "SWIFT international remittance",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 275,
+  "PayType": "",
+  "TradeMethodName": "SmartPay",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 76,
+  "PayType": "",
+  "TradeMethodName": "7-Eleven",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 149,
+  "PayType": "",
+  "TradeMethodName": "A-Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 193,
+  "PayType": "",
+  "TradeMethodName": "Alior Bank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 77,
+  "PayType": "",
+  "TradeMethodName": "Apple pay",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 108,
+  "PayType": "",
+  "TradeMethodName": "Bank of Georgia",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 29,
+  "PayType": "",
+  "TradeMethodName": "Sberbank",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 34,
+  "PayType": "",
+  "TradeMethodName": "Transferwise",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 99,
+  "PayType": "",
+  "TradeMethodName": "ShopeePay",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 19,
+  "PayType": "",
+  "TradeMethodName": "Yandex",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 2,
+  "PayType": "",
+  "TradeMethodName": "Alipay",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 3,
+  "PayType": "",
+  "TradeMethodName": "WeChat",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 4,
+  "PayType": "",
+  "TradeMethodName": "",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 5,
+  "PayType": "",
+  "TradeMethodName": "Western Union",
+  "TradeMethodShortName": ""
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 20,
+  "PayType": "",
+  "TradeMethodName": "ADVCash",
+  "TradeMethodShortName": ""
+ }
+]
