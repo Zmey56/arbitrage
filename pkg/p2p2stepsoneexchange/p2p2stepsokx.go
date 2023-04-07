@@ -191,6 +191,8 @@ func deltaBuySellOKX(ob getdataokx.OKXBuy, os getdataokx.OKXSell, asset, fiat st
 
 	res.MeanWeighS = weightedSumS / sumOfWeightsS
 
+	res.MeanWeight = (weightedSumB + weightedSumS) / (sumOfWeightsB + sumOfWeightsS)
+
 	res.DeltaMeanWeight = ((res.MeanWeighS - res.MeanWeighB) / res.MeanWeighB) * 100
 
 	res.AdvToalBuy = ob.Data.Total

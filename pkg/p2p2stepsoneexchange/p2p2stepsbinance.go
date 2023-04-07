@@ -2,6 +2,7 @@
 package p2p2stepsoneexchange
 
 import (
+	"github.com/Zmey56/arbitrage/pkg/commonfunction"
 	"github.com/Zmey56/arbitrage/pkg/getdata"
 	"github.com/Zmey56/arbitrage/pkg/getinfobinance"
 	"github.com/Zmey56/arbitrage/pkg/result"
@@ -82,6 +83,9 @@ func printResultP2P2stepsBinance(fiat, a string, transAmountFirst, price_b float
 
 func deltaBuySellBinance(ob, os getinfobinance.AdvertiserAdv, asset, fiat string, pu workingbinance.ParametersBinance) result.ResultP2P2steps {
 	res := result.ResultP2P2steps{}
+	//variable for find weight SD
+	tmpData := []float64{}
+	tmpDataW := []float64{}
 
 	firstB := ob.Data[0].Adv.Price
 	res.PriceB = firstB
@@ -104,6 +108,7 @@ func deltaBuySellBinance(ob, os getinfobinance.AdvertiserAdv, asset, fiat string
 	for _, j := range ob.Data {
 		sumDeltaB = sumDeltaB + (j.Adv.Price - tmpB)
 		tmpB = j.Adv.Price
+		tmpData = append(tmpData, tmpB) //for weight SD
 		sumB = sumB + j.Adv.Price
 		tmpVB, _ := strconv.ParseFloat(j.Adv.SurplusAmount, 64)
 		if tmpVB > res.GiantVolB {
@@ -132,6 +137,7 @@ func deltaBuySellBinance(ob, os getinfobinance.AdvertiserAdv, asset, fiat string
 	for _, i := range os.Data {
 		sumDeltaS = sumDeltaS + (i.Adv.Price - tmpS)
 		tmpS = i.Adv.Price
+		tmpData = append(tmpData, tmpS) //for weight SD
 		sumS = sumS + i.Adv.Price
 		tmpVS, _ := strconv.ParseFloat(i.Adv.SurplusAmount, 64)
 		if tmpVS > res.GiantVolS {
@@ -158,6 +164,7 @@ func deltaBuySellBinance(ob, os getinfobinance.AdvertiserAdv, asset, fiat string
 	weightedSumB := 0.0
 	for i := 0; i < len(ob.Data); i++ {
 		tmp_w, _ := strconv.ParseFloat(ob.Data[i].Adv.SurplusAmount, 64)
+		tmpDataW = append(tmpDataW, tmp_w) //for weight SD
 		weightedSumB += ob.Data[i].Adv.Price * tmp_w
 	}
 
@@ -172,6 +179,7 @@ func deltaBuySellBinance(ob, os getinfobinance.AdvertiserAdv, asset, fiat string
 	weightedSumS := 0.0
 	for j := 0; j < len(os.Data); j++ {
 		tmp_ws, _ := strconv.ParseFloat(os.Data[j].Adv.SurplusAmount, 64)
+		tmpDataW = append(tmpDataW, tmp_ws) //for weight SD
 		weightedSumS += os.Data[j].Adv.Price * tmp_ws
 	}
 
@@ -182,8 +190,11 @@ func deltaBuySellBinance(ob, os getinfobinance.AdvertiserAdv, asset, fiat string
 	}
 
 	res.MeanWeighS = weightedSumS / sumOfWeightsS
+	res.MeanWeight = (weightedSumB + weightedSumS) / (sumOfWeightsB + sumOfWeightsS)
 
 	res.DeltaMeanWeight = ((res.MeanWeighS - res.MeanWeighB) / res.MeanWeighB) * 100
+	res.MeanWeightSD = commonfunction.WeightedStandardDeviation(tmpData, tmpDataW)
+	res.DeltaWSD = (res.MeanWeightSD / res.PriceB) * 100
 
 	res.AdvToalBuy = ob.Total
 	res.AdvToalSell = os.Total

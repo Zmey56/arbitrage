@@ -1,11 +1,13 @@
 {
  "payTypes": [
-  "BankofGeorgia",
   "TBCbank",
+  "BankofGeorgia",
   "CREDOBANK",
   "LIBERTYBANK",
-  "KoronaPay"
+  "BANK"
  ],
- "transAmount": "1000",
- "percentUser": 0.5
+ "transAmount": "3000",
+ "publisher_type": "merchant",
+ "percentUser": 0.5,
+ "boader": 10
 }

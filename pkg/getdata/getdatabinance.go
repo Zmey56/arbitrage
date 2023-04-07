@@ -11,6 +11,7 @@ import (
 	"log"
 	"net/http"
 	"strconv"
+	"strings"
 	"time"
 )
 
@@ -21,9 +22,9 @@ func GetDataP2PBinance(asset, fiat, tradeType string, paramUser workingbinance.P
 		log.Println("Can't convert transAmount", err)
 	}
 	var jsonData = []byte(`{
-				"payTypes": [],
-				"rows": 10
-			}`)
+                "payTypes": [],
+                "rows": 10
+            }`)
 	var m map[string]interface{}
 	err = json.Unmarshal(jsonData, &m)
 	if err != nil {
@@ -49,28 +50,16 @@ func GetDataP2PBinance(asset, fiat, tradeType string, paramUser workingbinance.P
 
 	resultadvertiseradv := getinfobinance.AdvertiserAdv{}
 
-	for {
-		defer func() {
-			if r := recover(); r != nil {
-				if r == "connection reset by peer" {
-					log.Println("An error occured 'connection reset by peer', reconecting...")
-					time.Sleep(time.Second * 1)
-				} else {
-					// Handling other errors
-					log.Println("An error occured:", r)
-					time.Sleep(time.Second * 1)
-				}
-			}
-		}()
-
+	for retries := 0; retries < 3; retries++ {
 		resultadvertiseradv, err = requestOrdersP2P(newJsonData, tradeType, transAmountFloat)
-		//log.Println("AND?", resultadvertiseradv)
 		if err != nil {
-			if err.Error() == "connection reset by peer" {
-				// reconecting
-				panic("connection reset by peer")
+			if strings.Contains(err.Error(), "connection reset by peer") {
+				log.Printf("Error: %s, retrying in 1 second...\n", err)
+				time.Sleep(time.Second * 1)
+				continue
 			} else {
 				log.Println("Error:", err)
+				break
 			}
 		} else {
 			break

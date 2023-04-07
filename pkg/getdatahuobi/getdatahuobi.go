@@ -50,6 +50,7 @@ func GetDataP2PHuobi(fiat, currency int, tradeType string, paramUser getinfohuob
 	resulthuobi := Huobi{}
 
 	url := ("https://otc-api.trygofast.com/v1/data/trade-market" + "?" + params.Encode())
+	//log.Println("URL", url)
 
 	var err error
 
@@ -67,6 +68,7 @@ func GetDataP2PHuobi(fiat, currency int, tradeType string, paramUser getinfohuob
 			}
 		}()
 		resulthuobi, err = requestOrdersP2PHuobi(url)
+		//log.Println("resulthuobi", resulthuobi)
 		if err != nil {
 			if err.Error() == "connection reset by peer" {
 				// reconecting

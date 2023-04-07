@@ -1,10 +1,6 @@
 {
  "payTypes": [
-  "TBCbank",
-  "BankofGeorgia",
-  "CREDOBANK",
-  "LIBERTYBANK",
-  "BANK"
+  "Wise"
  ],
  "transAmount": "3000",
  "publisher_type": "merchant",

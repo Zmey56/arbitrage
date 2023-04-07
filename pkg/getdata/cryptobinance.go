@@ -9,6 +9,7 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"strings"
 )
 
 type exchangeInfo struct {
@@ -168,4 +169,96 @@ func GetAssets(fiat ...string) map[string]string {
 	}
 	log.Println("assets", assets)
 	return assets
+}
+
+func GetAssetsLocalBinance(fiat string) []string {
+	pathcurrency := fmt.Sprintf("data/databinance/%s/%s_pair.json", fiat, fiat)
+	file, _ := os.Open(pathcurrency)
+	defer file.Close()
+	decoder := json.NewDecoder(file)
+	var data map[string][]string
+	decoder.Decode(&data)
+	assets := []string{}
+	for i, _ := range data {
+		assets = append(assets, strings.ToUpper(i))
+	}
+	return assets
+}
+
+// GetListSymbolsBinancePairPair - get for working currency - p2p - pair - pair - currency
+func GetListSymbolsBinancePairPair(fiat string) {
+	//get slice all assets for this fiat
+	mapassets := GetAssets(fiat)
+	assets := make([]string, len(mapassets))
+
+	i := 0
+	for asset, _ := range mapassets {
+		assets[i] = asset
+		i++
+	}
+
+	//get all pair
+	url := "https://api.binance.com/api/v3/exchangeInfo"
+
+	resp, err := http.Get(url)
+
+	if err != nil {
+		panic(err)
+	}
+
+	defer resp.Body.Close()
+
+	body, _ := io.ReadAll(resp.Body)
+
+	symbols := Symbols{}
+
+	if err := json.Unmarshal(body, &symbols); err != nil {
+		panic(err)
+	}
+
+	allpair := make([]string, len(symbols.Symbols))
+
+	finalpair := make(map[string][]string)
+
+	rubPair := []string{}
+
+	for i, value := range symbols.Symbols {
+		allpair[i] = value.Symbol
+	}
+
+	for _, value := range symbols.Symbols {
+		if value.QuoteAsset == fiat || value.BaseAsset == fiat {
+			rubPair = append(rubPair, value.Symbol)
+
+			tmpNotFiat := ""
+			if value.QuoteAsset != fiat {
+				tmpNotFiat = value.QuoteAsset
+			} else {
+				tmpNotFiat = value.BaseAsset
+			}
+			log.Println("tmpNotFiat", tmpNotFiat)
+			for _, a := range assets {
+				tmp_b := tmpNotFiat + a
+				tmp_q := a + tmpNotFiat
+				//log.Println(tmp_b, tmp_q)
+				for _, pair := range allpair {
+					if tmp_b == pair {
+						finalpair[a] = append(finalpair[a], fmt.Sprintf("%s|%s", tmp_b, value.Symbol))
+					}
+					if tmp_q == pair {
+						finalpair[a] = append(finalpair[a], fmt.Sprintf("%s|%s", tmp_q, value.Symbol))
+					}
+				}
+			}
+		}
+	}
+
+	name_json := fmt.Sprintf("data/databinance/%s/%s_pair_pair.json", fiat, fiat)
+	jsonStr, err := json.MarshalIndent(finalpair, "", " ")
+	if err != nil {
+		log.Printf("Error: %s", err.Error())
+	}
+
+	_ = os.WriteFile(name_json, jsonStr, 0644)
+
 }

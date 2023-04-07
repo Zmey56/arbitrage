@@ -116,8 +116,9 @@ func FormatMessageAndSend2steps(r ResultP2P2steps) {
 			"\n"+
 			"<i>Standard deviation price BUY <b>%s</b> (%.2f %%) and SELL <b>%s</b></i> (%.2f %%) (Delta: %.2f %%)\n"+
 			"\n"+
-			"Weight mean price BUY <b>%s</b> and SELL <b>%s</b> (Delta %.2f %%)\n"+
+			"Weight mean price BUY <b>%s</b> and SELL <b>%s</b> (Delta %.2f %%) \n"+
 			"\n"+
+			"Weighted Average <b>%s</b> SD: <b>%s</b> (Delta %.2f %%)\n"+
 			"\n"+
 			"Resistance BUY <b>%s</b>(%.2f %%) and SELL <b>%s</b>(%.2f %%) (Delta %.2f %%)\n"+
 			"\n"+
@@ -138,6 +139,7 @@ func FormatMessageAndSend2steps(r ResultP2P2steps) {
 		formattedNum(r.MeanPriceB), formattedNum(r.MeanPriceS), r.DeltaMean,
 		formattedNum(r.SDPriceB), r.DeltaSDb, formattedNum(r.SDPriceS), r.DeltaSDs, r.DeltaSD,
 		formattedNum(r.MeanWeighB), formattedNum(r.MeanWeighS), r.DeltaMeanWeight,
+		formattedNum(r.MeanWeight), formattedNum(r.MeanWeightSD), r.DeltaWSD,
 		formattedNum(r.GiantPriceB), r.DeltaGiantPriceB, formattedNum(r.GiantPriceS), r.DeltaGiantPriceS, r.DeltaGiant,
 		formattedNum(r.GiantVolB), formattedNum(r.GiantVolS),
 		isMerchantVerifiedFirst2steps(r),

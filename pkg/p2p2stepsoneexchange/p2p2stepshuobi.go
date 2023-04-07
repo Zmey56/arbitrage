@@ -197,6 +197,8 @@ func deltaBuySellHuobi(ob, os getdatahuobi.Huobi, asset, fiat string, pu getinfo
 
 	res.MeanWeighS = weightedSumS / sumOfWeightsS
 
+	res.MeanWeight = (weightedSumB + weightedSumS) / (sumOfWeightsB + sumOfWeightsS)
+
 	res.DeltaMeanWeight = res.MeanWeighB - res.MeanWeighS
 
 	res.AdvToalBuy = ob.TotalCount

@@ -3,7 +3,7 @@
  "Currency": "",
  "TradeType": "",
  "CurrPage": "",
- "PayMethod": "20,43,24",
+ "PayMethod": "20,24,43",
  "AcceptOrder": "",
  "Country": "",
  "BlockType": "",
@@ -17,5 +17,5 @@
  "OnlyTradable": "",
  "IsFollowed": "",
  "PercentUser": 0.5,
- "Border": 10
+ "Border": 2
 }

@@ -4,6 +4,38 @@
   "PayAccount": "",
   "PayMethodId": 0,
   "PayType": "",
+  "TradeMethodName": "BAC Credomatic Guatemala",
+  "TradeMethodShortName": "BAC Credomatic Guatemala"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Banco Agromercantil Guatemala",
+  "TradeMethodShortName": "Banco Agromercantil Guatemala"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Banco G\u0026T Continental Guatemala",
+  "TradeMethodShortName": "Banco G\u0026T Continental Guatemala"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
+  "TradeMethodName": "Banco Industrial Guatemala",
+  "TradeMethodShortName": "Banco Industrial Guatemala"
+ },
+ {
+  "Identifier": "",
+  "PayAccount": "",
+  "PayMethodId": 0,
+  "PayType": "",
   "TradeMethodName": "Bank Transfer",
   "TradeMethodShortName": "bank"
  },

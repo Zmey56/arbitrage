@@ -1,13 +1,11 @@
 {
  "payTypes": [
-  "Monobank",
-  "PrivatBank",
-  "PUMBBank",
-  "ABank",
-  "izibank"
+  "UAHfiatbalance",
+  "Advcash",
+  "Wise"
  ],
  "transAmount": "40000",
  "publisher_type": "merchant",
  "percentUser": 0.5,
- "boader": 10
+ "boader": 5
 }

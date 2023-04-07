@@ -16,6 +16,6 @@
  "IsTraded": "",
  "OnlyTradable": "",
  "IsFollowed": "",
- "PercentUser": 0,
- "Border": 0
+ "PercentUser": 0.5,
+ "Border": 10
 }

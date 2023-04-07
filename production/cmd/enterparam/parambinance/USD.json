@@ -1,10 +1,8 @@
 {
  "payTypes": [
   "Advcash",
-  "PerfectMoney",
   "Payeer",
-  "RUBfiatbalance",
-  "UAHfiatbalance"
+  "PerfectMoney"
  ],
  "transAmount": "1000",
  "publisher_type": "merchant",

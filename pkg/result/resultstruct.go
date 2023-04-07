@@ -19,6 +19,8 @@ type ResultP2P2steps struct {
 	SDPriceS          float64
 	MeanWeighB        float64
 	MeanWeighS        float64
+	MeanWeight        float64
+	MeanWeightSD      float64
 	GiantPriceB       float64
 	GiantVolB         float64
 	GiantPriceS       float64
@@ -37,6 +39,7 @@ type ResultP2P2steps struct {
 	DeltaSDb          float64
 	DeltaSDs          float64
 	DeltaSD           float64
+	DeltaWSD          float64
 	User              struct {
 		FirstUser  string
 		SecondUser string

@@ -1,10 +1,7 @@
 {
  "payTypes": [
-  "KaspiBank",
-  "HalykBank",
-  "CenterCreditBank",
-  "ForteBank",
-  "JysanBank"
+  "Advcash",
+  "RUBfiatbalance"
  ],
  "transAmount": "500000",
  "publisher_type": "merchant",

@@ -1,6 +1,7 @@
 {
  "payTypes": [
-  "Advcash"
+  "Advcash",
+  "Wise"
  ],
  "transAmount": "20000",
  "publisher_type": "merchant",

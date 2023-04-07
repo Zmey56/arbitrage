@@ -129,8 +129,9 @@ func PrintResultP2P3TT(p, a, fiat string, transAmountFirst, price_b float64, pai
 		profitResult.ProfitPercet = (((transAmountThird - transAmountFloat) / transAmountFloat) * 100)
 		profitResult.TotalAdvBuy = order_buy.Total
 		profitResult.TotalAdvSell = order_sell.Total
-		//return profitResult
-
+		profitResult.AdvNoBuy = order_buy.Data[0].Adv.AdvNo
+		profitResult.AdvNoSell = order_sell.Data[0].Adv.AdvNo
 		result.CheckResultSaveSend(profitResult.User.FirstUser, profitResult.User.ThirdUser, paramUser.Border, paramUser.PercentUser, profitResult)
+
 	}
 }

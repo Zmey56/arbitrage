@@ -3,18 +3,19 @@
  "Currency": "",
  "TradeType": "",
  "CurrPage": "",
- "PayMethod": "",
+ "PayMethod": "353,354,355",
  "AcceptOrder": "",
  "Country": "",
  "BlockType": "",
  "Online": "",
  "Range": "",
  "Intrange": "",
- "Amount": "100000",
+ "Amount": "500000",
  "IsThumbsUp": "",
- "IsMerchant": "",
+ "IsMerchant": "true",
  "IsTraded": "",
  "OnlyTradable": "",
  "IsFollowed": "",
- "PercentUser": 0.5
+ "PercentUser": 0.5,
+ "Border": 10
 }

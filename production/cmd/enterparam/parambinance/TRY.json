@@ -1,11 +1,9 @@
 {
  "payTypes": [
-  "Ziraat",
-  "BANK",
-  "Garanti",
-  "DenizBank",
-  "KuveytTurk"
+  "Advcash"
  ],
- "transAmount": "10000",
- "percentUser": 0.5
+ "transAmount": "20000",
+ "publisher_type": "merchant",
+ "percentUser": 0.5,
+ "boader": 10
 }
