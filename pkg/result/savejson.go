@@ -3,10 +3,51 @@ package result
 import (
 	"encoding/json"
 	"fmt"
+	"github.com/Zmey56/arbitrage/pkg/getdatahuobi"
+	"github.com/Zmey56/arbitrage/pkg/getdataokx"
+	"github.com/Zmey56/arbitrage/pkg/getinfobinance"
 	"log"
 	"os"
 	"time"
 )
+
+// SaveAllData save all data to file
+func SaveAllData(tradeType, fiat, asset string, data interface{}) {
+	const layout = "2006-01-02_15-04"
+	resultPath := ""
+	t := time.Now()
+	timePath := t.Format(layout)
+	nameFile := fmt.Sprintf("%s_%s_%s", fiat, asset, timePath)
+
+	switch data.(type) {
+	case []getinfobinance.Binance:
+		if tradeType == "BUY" {
+			resultPath = fmt.Sprintf("jsonresult/Binance/%s_buy.json", nameFile)
+		} else {
+			resultPath = fmt.Sprintf("jsonresult/Binance/%s_sell.json", nameFile)
+		}
+	case []getdatahuobi.Huobi:
+		log.Println("HUOBI")
+		if tradeType == "BUY" {
+			resultPath = fmt.Sprintf("jsonresult/Huobi/%s_buy.json", nameFile)
+		} else {
+			resultPath = fmt.Sprintf("jsonresult/Huobi/%s_sell.json", nameFile)
+		}
+	case []getdataokx.OKXBuy:
+		resultPath = fmt.Sprintf("jsonresult/OKX/%s_buy.json", nameFile)
+	case []getdataokx.OKXSell:
+		resultPath = fmt.Sprintf("jsonresult/OKX/%s_sell.json", nameFile)
+	default:
+		log.Println("I don't now this format")
+	}
+
+	log.Println("resultPath", resultPath)
+	file, err := json.MarshalIndent(data, "", " ")
+	if err != nil {
+		panic(err)
+	}
+	os.WriteFile(resultPath, file, 0644)
+}
 
 func SaveResultJsonFile(fiat string, pr ResultP2P, how string) {
 	current := time.Now()

@@ -16,13 +16,7 @@ import (
 
 func P2P2stepsBinance(fiat string, paramUser workingbinance.ParametersBinance) {
 	//get all assets from binance for this fiat
-
-	assets := getdata.GetAssets(fiat)
-	assets_symbol := make([]string, 0, len(assets))
-
-	for k, _ := range assets {
-		assets_symbol = append(assets_symbol, k)
-	}
+	assets_symbol := getdata.GetAssetsLocalBinance(fiat)
 
 	var wg sync.WaitGroup
 	for _, a := range assets_symbol {
@@ -163,9 +157,9 @@ func deltaBuySellBinance(ob, os getinfobinance.AdvertiserAdv, asset, fiat string
 
 	weightedSumB := 0.0
 	for i := 0; i < len(ob.Data); i++ {
-		tmp_w, _ := strconv.ParseFloat(ob.Data[i].Adv.SurplusAmount, 64)
-		tmpDataW = append(tmpDataW, tmp_w) //for weight SD
-		weightedSumB += ob.Data[i].Adv.Price * tmp_w
+		tmp_wb, _ := strconv.ParseFloat(ob.Data[i].Adv.SurplusAmount, 64)
+		tmpDataW = append(tmpDataW, tmp_wb) //for weight SD
+		weightedSumB += ob.Data[i].Adv.Price * tmp_wb
 	}
 
 	sumOfWeightsB := 0.0

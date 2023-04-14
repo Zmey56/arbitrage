@@ -11,13 +11,13 @@ import (
 	"strings"
 )
 
-//const chatID = -1001592565485
+const chatID = -1001592565485
 
-const chatID = -993812776
+//const chatID = -993812776
 
-//const TELEGRAM_BOT_TOKEN = "5763797414:AAHJ8exgiqxHuW44SyEr15fKsWKPixNofVg"
+const TELEGRAM_BOT_TOKEN = "5763797414:AAHJ8exgiqxHuW44SyEr15fKsWKPixNofVg"
 
-const TELEGRAM_BOT_TOKEN = "6072584429:AAGkRNgzQSZNJ9VMpqkol-r1H2D7jCZNuVA"
+//const TELEGRAM_BOT_TOKEN = "6072584429:AAGkRNgzQSZNJ9VMpqkol-r1H2D7jCZNuVA"
 
 func SendTextToTelegramChat(chatId int, text string) (string, error) {
 
@@ -267,8 +267,8 @@ func formattedNum(num float64) string {
 //		return ""
 //	}
 //}
-
-//func FormatMessageAndSend2steps(r ResultP2P2Steps) {
+//
+//func FormatMessageAndSend2steps(r ResultP2P2steps) {
 //	text := fmt.Sprintf(
 //		chooseFlag(r.Fiat)+"<b><u>%s</u></b>\n"+
 //			"\n"+
@@ -297,7 +297,7 @@ func formattedNum(num float64) string {
 //			"\n"+
 //			"\n"+
 //			"Your profit is <b>%.2f</b> (%.2f %%)",
-//		r.Fiat,
+//		r.FiatUnit,
 //		r.DataTime.Format("2006/01/02 15:04:05"),
 //		r.ProfitValue, r.ProfitPercet,
 //		r.Market.First, r.User.FirstUser,

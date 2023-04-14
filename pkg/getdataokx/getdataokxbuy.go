@@ -49,7 +49,6 @@ func GetDataP2POKXBuy(fiat, currency string, pu getinfookx.ParametersOKX) OKXBuy
 			}
 		}()
 		resultokxbuy, err = requestOrdersP2POKXBuy(url_buy)
-		//log.Println("resulthOKX Buy", len(resultokxbuy.Data.Sell), "FIAT ", fiat, " Currency ", currency)
 		if err != nil {
 			if err.Error() == "connection reset by peer" {
 				// reconecting
@@ -89,7 +88,6 @@ func requestOrdersP2POKXBuy(j string) (OKXBuy, error) {
 			fmt.Println("Error sending HTTP request:", err)
 			return OKXBuy{}, err
 		}
-		//log.Println("RESP BODY", resp.Body)
 
 		// Make sure the response body is closed when we're done with it
 		defer resp.Body.Close()
@@ -112,11 +110,6 @@ func parsingJsonOKXBuy(r io.Reader) OKXBuy {
 	if err != nil {
 		log.Println("Error unmarshal json URL Huobi:", err, string(body))
 	}
-
-	//log.Println("Size for buy", len(result.Data.Sell))
-	//for i, j := range result.Data.Sell {
-	//	log.Println(i, " - ", j.Price, j.NickName)
-	//}
 
 	return result
 }

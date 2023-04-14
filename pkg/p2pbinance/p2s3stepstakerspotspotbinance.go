@@ -112,7 +112,7 @@ func PrintResultP2S3TSS(a, p, fiat string, transAmountFirst, price_b float64,
 	}
 
 	if transAmountThird > 10000 {
-		log.Printf("Fiat %s - %s, Asset, %s - %.8f(%.2f), Second pair %s - %.8f(%.8f), Third pair %s - %.8f, RESULT: %.8f",
+		log.Printf("Fiat %s - %s, Asset, %s - %.2f(%.2f), Second pair %s - %.2f(%.8f), Third pair %s - %.2f, RESULT: %.2f",
 			fiat, paramUser.TransAmount, a, price_b, transAmountFirst, secondPair, pairRate[secondPair], transAmountSecond, thirdPair,
 			pairRate[thirdPair], transAmountThird)
 	}

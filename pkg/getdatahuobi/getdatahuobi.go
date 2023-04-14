@@ -18,11 +18,7 @@ func GetDataP2PHuobi(fiat, currency int, tradeType string, paramUser getinfohuob
 	params.Set("currency", strconv.Itoa(currency)) //find this
 	params.Set("tradeType", tradeType)
 	params.Set("currPage", "1")
-	if len(paramUser.PayMethod) > 0 {
-		params.Set("payMethod", paramUser.PayMethod)
-	} else {
-		params.Set("payMethod", "0")
-	}
+	params.Set("payMethod", "0")
 	// +
 	if tradeType == "sell" {
 		params.Set("acceptOrder", "0")
@@ -33,17 +29,11 @@ func GetDataP2PHuobi(fiat, currency int, tradeType string, paramUser getinfohuob
 	params.Set("blockType", "general")
 	params.Set("online", "1")
 	params.Set("range", "0")
-	if len(paramUser.Amount) > 0 {
-		params.Set("amount", paramUser.Amount)
-	} else {
-		params.Set("amount", "")
-	}
+
+	params.Set("amount", "")
 	params.Set("isThumbsUp", "false")
-	if paramUser.IsMerchant == "true" {
-		params.Set("isMerchant", "true")
-	} else {
-		params.Set("isMerchant", "false")
-	}
+	params.Set("isMerchant", "false")
+
 	params.Set("isTraded", "false")
 	params.Set("onlyTradable", "false")
 	params.Set("isFollowed", "false")

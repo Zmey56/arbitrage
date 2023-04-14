@@ -1,8 +1,8 @@
 {
  "payTypes": [
   "Advcash",
-  "Payeer",
-  "PerfectMoney"
+  "PerfectMoney",
+  "Payeer"
  ],
  "transAmount": "1000",
  "publisher_type": "merchant",

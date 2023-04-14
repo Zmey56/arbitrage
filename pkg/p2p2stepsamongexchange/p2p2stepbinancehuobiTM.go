@@ -19,16 +19,9 @@ import (
 func P2P2stepsBinanceHuobiTM(fiat string, paramUser workingbinance.ParametersBinance) {
 	//get all assets from binance and huobi for this fiat
 
-	assets := getdata.GetAssets(fiat)
 	assetsH := getdatahuobi.GetCurrencyHuobi(fiat)
-	assetsB := make([]string, 0, len(assets))
-	for k, _ := range assets {
-		assetsB = append(assetsB, k)
-	}
+	assetsB := getdata.GetAssetsLocalBinance(fiat)
 	assetsSymbol := commonfunction.CommonElement(assetsB, assetsH)
-	//log.Println("assetsB", assetsB)
-	//log.Println("assetsH", assetsH)
-	//log.Println("assetsSymbol", assetsSymbol)
 
 	var wg sync.WaitGroup
 	for _, a := range assetsSymbol {
@@ -110,6 +103,8 @@ func printResultP2P2stepsBinanceHuobiTM(fiat, a string, transAmountFirst, price_
 func deltaBuySellBHTM(ob getinfobinance.AdvertiserAdv, os getdatahuobi.Huobi, asset, fiat string,
 	pu workingbinance.ParametersBinance) result.ResultP2P2steps {
 	res := result.ResultP2P2steps{}
+	tmpData := []float64{}
+	tmpDataW := []float64{}
 
 	firstB := ob.Data[0].Adv.Price
 	res.PriceB = firstB
@@ -132,6 +127,7 @@ func deltaBuySellBHTM(ob getinfobinance.AdvertiserAdv, os getdatahuobi.Huobi, as
 	for _, j := range ob.Data {
 		sumDeltaB = sumDeltaB + (j.Adv.Price - tmpB)
 		tmpB = j.Adv.Price
+		tmpData = append(tmpData, tmpB) //for weight SD
 		sumB = sumB + j.Adv.Price
 		tmpVB, _ := strconv.ParseFloat(j.Adv.SurplusAmount, 64)
 		if tmpVB > res.GiantVolB {
@@ -159,10 +155,11 @@ func deltaBuySellBHTM(ob getinfobinance.AdvertiserAdv, os getdatahuobi.Huobi, as
 
 	// Mean of sell adv
 	for _, i := range os.Data {
-		tmpSMean, _ := strconv.ParseFloat(i.Price, 64)
-		sumDeltaS = sumDeltaS + (tmpSMean - tmpS)
-		tmpS = tmpSMean
-		sumS = sumS + tmpSMean
+		tmpPS, _ := strconv.ParseFloat(i.Price, 64)
+		tmpData = append(tmpData, tmpPS) //for weight SD
+		sumDeltaS = sumDeltaS + (tmpPS - tmpS)
+		tmpS = tmpPS
+		sumS = sumS + tmpPS
 		tmpVS, _ := strconv.ParseFloat(i.TradeCount, 64)
 		if tmpVS > res.GiantVolS {
 			res.GiantVolS = tmpVS
@@ -189,8 +186,9 @@ func deltaBuySellBHTM(ob getinfobinance.AdvertiserAdv, os getdatahuobi.Huobi, as
 
 	weightedSumB := 0.0
 	for i := 0; i < len(ob.Data); i++ {
-		tmp_w, _ := strconv.ParseFloat(ob.Data[i].Adv.SurplusAmount, 64)
-		weightedSumB += ob.Data[i].Adv.Price * tmp_w
+		tmp_wb, _ := strconv.ParseFloat(ob.Data[i].Adv.SurplusAmount, 64)
+		tmpDataW = append(tmpDataW, tmp_wb) //for weight SD
+		weightedSumB += ob.Data[i].Adv.Price * tmp_wb
 	}
 
 	sumOfWeightsB := 0.0
@@ -204,6 +202,7 @@ func deltaBuySellBHTM(ob getinfobinance.AdvertiserAdv, os getdatahuobi.Huobi, as
 	weightedSumS := 0.0
 	for j := 0; j < len(os.Data); j++ {
 		tmp_ws, _ := strconv.ParseFloat(os.Data[j].TradeCount, 64)
+		tmpDataW = append(tmpDataW, tmp_ws) //for weight SD
 		tmpPrice, _ := strconv.ParseFloat(os.Data[j].Price, 64)
 		weightedSumS += tmpPrice * tmp_ws
 	}
@@ -242,6 +241,11 @@ func deltaBuySellBHTM(ob getinfobinance.AdvertiserAdv, os getdatahuobi.Huobi, as
 	res.DeltaSD = ((res.SDPriceS - res.SDPriceB) / res.SDPriceB) * 100
 
 	res.Amount, _ = strconv.ParseFloat(pu.TransAmount, 64)
+
+	log.Println("tmpData", tmpData)
+	log.Println("tmpDataW", tmpDataW)
+	res.MeanWeightSD = commonfunction.WeightedStandardDeviation(tmpData, tmpDataW)
+	res.DeltaWSD = (res.MeanWeightSD / res.PriceB) * 100
 
 	return res
 }

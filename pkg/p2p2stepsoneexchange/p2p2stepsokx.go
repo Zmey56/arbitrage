@@ -1,6 +1,7 @@
 package p2p2stepsoneexchange
 
 import (
+	"github.com/Zmey56/arbitrage/pkg/commonfunction"
 	"github.com/Zmey56/arbitrage/pkg/getdataokx"
 	"github.com/Zmey56/arbitrage/pkg/getinfookx"
 	"github.com/Zmey56/arbitrage/pkg/result"
@@ -84,6 +85,8 @@ func printResultP2P2OKX(a, fiat string, transAmountFirst, price_b float64,
 
 func deltaBuySellOKX(ob getdataokx.OKXBuy, os getdataokx.OKXSell, asset, fiat string, pu getinfookx.ParametersOKX) result.ResultP2P2steps {
 	res := result.ResultP2P2steps{}
+	tmpData := []float64{}  // for Weighted mean Buy and Sell
+	tmpDataW := []float64{} // for Weighted mean Buy and Sell
 
 	firstB, _ := strconv.ParseFloat(ob.Data.Sell[0].Price, 64)
 	res.PriceB = firstB
@@ -105,6 +108,7 @@ func deltaBuySellOKX(ob getdataokx.OKXBuy, os getdataokx.OKXSell, asset, fiat st
 
 	for _, j := range ob.Data.Sell {
 		tmpPP, _ := strconv.ParseFloat(j.Price, 64)
+		tmpData = append(tmpData, tmpPP) //for weight SD
 		sumDeltaB = sumDeltaB + (tmpPP - tmpB)
 		tmpB = tmpPP
 		sumB = sumB + tmpPP
@@ -135,6 +139,7 @@ func deltaBuySellOKX(ob getdataokx.OKXBuy, os getdataokx.OKXSell, asset, fiat st
 
 	for _, i := range os.Data.Buy {
 		tmpPS, _ := strconv.ParseFloat(i.Price, 64)
+		tmpData = append(tmpData, tmpPS) //for weight SD
 		sumDeltaS = sumDeltaS + (tmpPS - tmpS)
 		tmpS = tmpPS
 		sumS = sumS + tmpPS
@@ -163,9 +168,10 @@ func deltaBuySellOKX(ob getdataokx.OKXBuy, os getdataokx.OKXSell, asset, fiat st
 
 	weightedSumB := 0.0
 	for i := 0; i < len(ob.Data.Sell); i++ {
-		tmp_w, _ := strconv.ParseFloat(ob.Data.Sell[i].AvailableAmount, 64)
+		tmp_wb, _ := strconv.ParseFloat(ob.Data.Sell[i].AvailableAmount, 64)
+		tmpDataW = append(tmpDataW, tmp_wb) //for weight SD
 		tmpPP3, _ := strconv.ParseFloat(ob.Data.Sell[i].Price, 64)
-		weightedSumB += tmpPP3 * tmp_w
+		weightedSumB += tmpPP3 * tmp_wb
 	}
 
 	sumOfWeightsB := 0.0
@@ -179,6 +185,7 @@ func deltaBuySellOKX(ob getdataokx.OKXBuy, os getdataokx.OKXSell, asset, fiat st
 	weightedSumS := 0.0
 	for j := 0; j < len(os.Data.Buy); j++ {
 		tmp_ws, _ := strconv.ParseFloat(os.Data.Buy[j].AvailableAmount, 64)
+		tmpDataW = append(tmpDataW, tmp_ws) //for weight SD
 		tmpPS3, _ := strconv.ParseFloat(os.Data.Buy[j].Price, 64)
 		weightedSumS += tmpPS3 * tmp_ws
 	}
@@ -216,6 +223,9 @@ func deltaBuySellOKX(ob getdataokx.OKXBuy, os getdataokx.OKXSell, asset, fiat st
 	//res.DeltaBuySell = ((firstS - firstB) / firstB) * 100
 
 	res.Amount, _ = strconv.ParseFloat(pu.Amount, 64)
+
+	res.MeanWeightSD = commonfunction.WeightedStandardDeviation(tmpData, tmpDataW)
+	res.DeltaWSD = (res.MeanWeightSD / res.PriceB) * 100
 
 	return res
 }

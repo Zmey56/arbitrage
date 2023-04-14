@@ -3,7 +3,7 @@
  "Currency": "",
  "TradeType": "",
  "CurrPage": "",
- "PayMethod": "AdvCash",
+ "PayMethod": "Sberbank",
  "AcceptOrder": "",
  "Country": "",
  "BlockType": "",
@@ -17,5 +17,5 @@
  "OnlyTradable": "",
  "IsFollowed": "",
  "PercentUser": 0.5,
- "Border": 2
+ "Border": 10
 }

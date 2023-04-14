@@ -92,6 +92,8 @@ func printResultP2P2stepsBinanceOKXTT(fiat, a string, transAmountFirst, price_b 
 func deltaBuySellBOTT(ob getinfobinance.AdvertiserAdv, os getdataokx.OKXSell, asset, fiat string,
 	pu workingbinance.ParametersBinance) result.ResultP2P2steps {
 	res := result.ResultP2P2steps{}
+	tmpData := []float64{}
+	tmpDataW := []float64{}
 
 	firstB := ob.Data[0].Adv.Price
 	res.PriceB = firstB
@@ -114,6 +116,7 @@ func deltaBuySellBOTT(ob getinfobinance.AdvertiserAdv, os getdataokx.OKXSell, as
 	for _, j := range ob.Data {
 		sumDeltaB = sumDeltaB + (j.Adv.Price - tmpB)
 		tmpB = j.Adv.Price
+		tmpData = append(tmpData, tmpB) //for weight SD
 		sumB = sumB + j.Adv.Price
 		tmpVB, _ := strconv.ParseFloat(j.Adv.SurplusAmount, 64)
 		if tmpVB > res.GiantVolB {
@@ -141,10 +144,11 @@ func deltaBuySellBOTT(ob getinfobinance.AdvertiserAdv, os getdataokx.OKXSell, as
 
 	// Mean of sell adv
 	for _, i := range os.Data.Buy {
-		tmpSMean, _ := strconv.ParseFloat(i.Price, 64)
-		sumDeltaS = sumDeltaS + (tmpSMean - tmpS)
-		tmpS = tmpSMean
-		sumS = sumS + tmpSMean
+		tmpPS, _ := strconv.ParseFloat(i.Price, 64)
+		tmpData = append(tmpData, tmpPS) //for weight SD
+		sumDeltaS = sumDeltaS + (tmpPS - tmpS)
+		tmpS = tmpPS
+		sumS = sumS + tmpPS
 		tmpVS, _ := strconv.ParseFloat(i.AvailableAmount, 64)
 		if tmpVS > res.GiantVolS {
 			res.GiantVolS = tmpVS
@@ -152,7 +156,7 @@ func deltaBuySellBOTT(ob getinfobinance.AdvertiserAdv, os getdataokx.OKXSell, as
 		}
 	}
 
-	meanS := sumS / float64(len(os.Data.Sell))
+	meanS := sumS / float64(len(os.Data.Buy))
 	res.MeanPriceS = meanS
 
 	res.DeltaGiantPriceS = ((res.PriceS - res.GiantPriceS) / res.PriceS) * 100
@@ -161,18 +165,18 @@ func deltaBuySellBOTT(ob getinfobinance.AdvertiserAdv, os getdataokx.OKXSell, as
 	for _, valueS := range os.Data.Buy {
 		valueStmp, _ := strconv.ParseFloat(valueS.Price, 64)
 		diff := valueStmp - meanS
-		//log.Println("TEST", diff)
 		varianceS += diff * diff
 	}
-	varianceS /= float64(len(os.Data.Sell))
+	varianceS /= float64(len(os.Data.Buy))
 	res.SDPriceS = math.Sqrt(varianceS)
 
 	res.DeltaMean = ((meanS - meanB) / meanB) * 100
 
 	weightedSumB := 0.0
 	for i := 0; i < len(ob.Data); i++ {
-		tmp_w, _ := strconv.ParseFloat(ob.Data[i].Adv.SurplusAmount, 64)
-		weightedSumB += ob.Data[i].Adv.Price * tmp_w
+		tmp_wb, _ := strconv.ParseFloat(ob.Data[i].Adv.SurplusAmount, 64)
+		tmpDataW = append(tmpDataW, tmp_wb) //for weight SD
+		weightedSumB += ob.Data[i].Adv.Price * tmp_wb
 	}
 
 	sumOfWeightsB := 0.0
@@ -184,14 +188,15 @@ func deltaBuySellBOTT(ob getinfobinance.AdvertiserAdv, os getdataokx.OKXSell, as
 	res.MeanWeighB = weightedSumB / sumOfWeightsB
 
 	weightedSumS := 0.0
-	for j := 0; j < len(os.Data.Sell); j++ {
+	for j := 0; j < len(os.Data.Buy); j++ {
 		tmp_ws, _ := strconv.ParseFloat(os.Data.Buy[j].AvailableAmount, 64)
+		tmpDataW = append(tmpDataW, tmp_ws) //for weight SD
 		tmpPrice, _ := strconv.ParseFloat(os.Data.Buy[j].Price, 64)
 		weightedSumS += tmpPrice * tmp_ws
 	}
 
 	sumOfWeightsS := 0.0
-	for i := 0; i < len(os.Data.Sell); i++ {
+	for i := 0; i < len(os.Data.Buy); i++ {
 		tmp_ws_2, _ := strconv.ParseFloat(os.Data.Buy[i].AvailableAmount, 64)
 		sumOfWeightsS += tmp_ws_2
 	}
@@ -205,7 +210,6 @@ func deltaBuySellBOTT(ob getinfobinance.AdvertiserAdv, os getdataokx.OKXSell, as
 	res.AdvToalBuy = ob.Total
 	res.AdvToalSell = os.Data.Total
 	res.DeltaADV = 100 * ((float64(res.AdvToalSell) - float64(res.AdvToalBuy)) / float64(res.AdvToalSell))
-	//log.Println("TEST", float64(res.AdvToalBuy), "-", float64(res.AdvToalSell), (float64(res.AdvToalBuy)-float64(res.AdvToalSell))/float64(res.AdvToalSell))
 	res.DeltaGiant = ((res.GiantPriceS - res.GiantPriceB) / res.GiantPriceB) * 100
 
 	res.FiatUnit = fiat
@@ -221,6 +225,11 @@ func deltaBuySellBOTT(ob getinfobinance.AdvertiserAdv, os getdataokx.OKXSell, as
 	res.PaymentSell = os.Data.Buy[0].PaymentMethods
 
 	res.Amount, _ = strconv.ParseFloat(pu.TransAmount, 64)
+
+	log.Println("tmpData", tmpData)
+	log.Println("tmpDataW", tmpDataW)
+	res.MeanWeightSD = commonfunction.WeightedStandardDeviation(tmpData, tmpDataW)
+	res.DeltaWSD = (res.MeanWeightSD / res.PriceB) * 100
 
 	return res
 }

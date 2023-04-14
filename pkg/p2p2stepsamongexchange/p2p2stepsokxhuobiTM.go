@@ -110,6 +110,8 @@ func printResultP2P2stepsOKXHuobiTM(a, fiat string, transAmountFirst, price_b fl
 
 func deltaBuySellOHTM(ob getdataokx.OKXBuy, os getdatahuobi.Huobi, asset, fiat string, pu getinfookx.ParametersOKX) result.ResultP2P2steps {
 	res := result.ResultP2P2steps{}
+	tmpData := []float64{}
+	tmpDataW := []float64{}
 
 	firstB, _ := strconv.ParseFloat(ob.Data.Sell[0].Price, 64)
 	res.PriceB = firstB
@@ -131,6 +133,7 @@ func deltaBuySellOHTM(ob getdataokx.OKXBuy, os getdatahuobi.Huobi, asset, fiat s
 
 	for _, j := range ob.Data.Sell {
 		tmpPP, _ := strconv.ParseFloat(j.Price, 64)
+		tmpData = append(tmpData, tmpPP) //for weight SD
 		sumDeltaB = sumDeltaB + (tmpPP - tmpB)
 		tmpB = tmpPP
 		sumB = sumB + tmpPP
@@ -160,10 +163,11 @@ func deltaBuySellOHTM(ob getdataokx.OKXBuy, os getdatahuobi.Huobi, asset, fiat s
 	tmpS := 0.0
 
 	for _, i := range os.Data {
-		tmpSMean, _ := strconv.ParseFloat(i.Price, 64)
-		sumDeltaS = sumDeltaS + (tmpSMean - tmpS)
-		tmpS = tmpSMean
-		sumS = sumS + tmpSMean
+		tmpPS, _ := strconv.ParseFloat(i.Price, 64)
+		tmpData = append(tmpData, tmpPS) //for weight SD
+		sumDeltaS = sumDeltaS + (tmpPS - tmpS)
+		tmpS = tmpPS
+		sumS = sumS + tmpPS
 		tmpVS, _ := strconv.ParseFloat(i.TradeCount, 64)
 		if tmpVS > res.GiantVolS {
 			res.GiantVolS = tmpVS
@@ -190,9 +194,10 @@ func deltaBuySellOHTM(ob getdataokx.OKXBuy, os getdatahuobi.Huobi, asset, fiat s
 
 	weightedSumB := 0.0
 	for i := 0; i < len(ob.Data.Sell); i++ {
-		tmp_w, _ := strconv.ParseFloat(ob.Data.Sell[i].AvailableAmount, 64)
+		tmp_wb, _ := strconv.ParseFloat(ob.Data.Sell[i].AvailableAmount, 64)
+		tmpDataW = append(tmpDataW, tmp_wb) //for weight SD
 		tmpPP3, _ := strconv.ParseFloat(ob.Data.Sell[i].Price, 64)
-		weightedSumB += tmpPP3 * tmp_w
+		weightedSumB += tmpPP3 * tmp_wb
 	}
 
 	sumOfWeightsB := 0.0
@@ -206,6 +211,7 @@ func deltaBuySellOHTM(ob getdataokx.OKXBuy, os getdatahuobi.Huobi, asset, fiat s
 	weightedSumS := 0.0
 	for j := 0; j < len(os.Data); j++ {
 		tmp_ws, _ := strconv.ParseFloat(os.Data[j].TradeCount, 64)
+		tmpDataW = append(tmpDataW, tmp_ws) //for weight SD
 		tmpPrice, _ := strconv.ParseFloat(os.Data[j].Price, 64)
 		weightedSumS += tmpPrice * tmp_ws
 	}
@@ -243,6 +249,11 @@ func deltaBuySellOHTM(ob getdataokx.OKXBuy, os getdatahuobi.Huobi, asset, fiat s
 	res.DeltaSD = ((res.SDPriceS - res.SDPriceB) / res.SDPriceB) * 100
 
 	res.Amount, _ = strconv.ParseFloat(pu.Amount, 64)
+
+	log.Println("tmpData", tmpData)
+	log.Println("tmpDataW", tmpDataW)
+	res.MeanWeightSD = commonfunction.WeightedStandardDeviation(tmpData, tmpDataW)
+	res.DeltaWSD = (res.MeanWeightSD / res.PriceB) * 100
 
 	return res
 }

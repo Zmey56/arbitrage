@@ -89,6 +89,8 @@ func printResultP2P2stepsBinanceOKXTM(fiat, a string, transAmountFirst, price_b 
 func deltaBuySellBOTM(ob getinfobinance.AdvertiserAdv, os getdataokx.OKXBuy, asset, fiat string,
 	pu workingbinance.ParametersBinance) result.ResultP2P2steps {
 	res := result.ResultP2P2steps{}
+	tmpData := []float64{}
+	tmpDataW := []float64{}
 
 	firstB := ob.Data[0].Adv.Price
 	res.PriceB = firstB
@@ -111,6 +113,7 @@ func deltaBuySellBOTM(ob getinfobinance.AdvertiserAdv, os getdataokx.OKXBuy, ass
 	for _, j := range ob.Data {
 		sumDeltaB = sumDeltaB + (j.Adv.Price - tmpB)
 		tmpB = j.Adv.Price
+		tmpData = append(tmpData, tmpB) //for weight SD
 		sumB = sumB + j.Adv.Price
 		tmpVB, _ := strconv.ParseFloat(j.Adv.SurplusAmount, 64)
 		if tmpVB > res.GiantVolB {
@@ -138,10 +141,11 @@ func deltaBuySellBOTM(ob getinfobinance.AdvertiserAdv, os getdataokx.OKXBuy, ass
 
 	// Mean of sell adv
 	for _, i := range os.Data.Sell {
-		tmpSMean, _ := strconv.ParseFloat(i.Price, 64)
-		sumDeltaS = sumDeltaS + (tmpSMean - tmpS)
-		tmpS = tmpSMean
-		sumS = sumS + tmpSMean
+		tmpPS, _ := strconv.ParseFloat(i.Price, 64)
+		tmpData = append(tmpData, tmpPS) //for weight SD
+		sumDeltaS = sumDeltaS + (tmpPS - tmpS)
+		tmpS = tmpPS
+		sumS = sumS + tmpPS
 		tmpVS, _ := strconv.ParseFloat(i.AvailableAmount, 64)
 		if tmpVS > res.GiantVolS {
 			res.GiantVolS = tmpVS
@@ -167,8 +171,9 @@ func deltaBuySellBOTM(ob getinfobinance.AdvertiserAdv, os getdataokx.OKXBuy, ass
 
 	weightedSumB := 0.0
 	for i := 0; i < len(ob.Data); i++ {
-		tmp_w, _ := strconv.ParseFloat(ob.Data[i].Adv.SurplusAmount, 64)
-		weightedSumB += ob.Data[i].Adv.Price * tmp_w
+		tmp_wb, _ := strconv.ParseFloat(ob.Data[i].Adv.SurplusAmount, 64)
+		tmpDataW = append(tmpDataW, tmp_wb) //for weight SD
+		weightedSumB += ob.Data[i].Adv.Price * tmp_wb
 	}
 
 	sumOfWeightsB := 0.0
@@ -182,6 +187,7 @@ func deltaBuySellBOTM(ob getinfobinance.AdvertiserAdv, os getdataokx.OKXBuy, ass
 	weightedSumS := 0.0
 	for j := 0; j < len(os.Data.Sell); j++ {
 		tmp_ws, _ := strconv.ParseFloat(os.Data.Sell[j].AvailableAmount, 64)
+		tmpDataW = append(tmpDataW, tmp_ws) //for weight SD
 		tmpPrice, _ := strconv.ParseFloat(os.Data.Sell[j].Price, 64)
 		weightedSumS += tmpPrice * tmp_ws
 	}
@@ -222,6 +228,11 @@ func deltaBuySellBOTM(ob getinfobinance.AdvertiserAdv, os getdataokx.OKXBuy, ass
 	res.DeltaSD = ((res.SDPriceS - res.SDPriceB) / res.SDPriceB) * 100
 
 	res.Amount, _ = strconv.ParseFloat(pu.TransAmount, 64)
+
+	log.Println("tmpData", tmpData)
+	log.Println("tmpDataW", tmpDataW)
+	res.MeanWeightSD = commonfunction.WeightedStandardDeviation(tmpData, tmpDataW)
+	res.DeltaWSD = (res.MeanWeightSD / res.PriceB) * 100
 
 	return res
 }
