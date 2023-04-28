@@ -9,7 +9,41 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"strings"
 )
+
+// GetListSymbolsAssetOKX pair only for crypto
+func GetListSymbolsAssetOKX(asset string) ([]string, error) {
+
+	//get all pair
+	url := fmt.Sprintf("https://www.okx.com/priapi/v5/public/simpleProduct?instType=SPOT")
+
+	resp, err := http.Get(url)
+	if err != nil {
+		log.Println("trable with get response from OKX", err)
+	}
+	defer resp.Body.Close()
+
+	body, err := io.ReadAll(resp.Body)
+	if err != nil {
+		log.Println("Can't read body", err)
+	}
+
+	var pair PairOKX
+
+	json.Unmarshal(body, &pair)
+
+	pairArray := []string{}
+
+	for _, j := range pair.Data {
+		tmpArr := strings.Split(j.InstID, "-")
+		if tmpArr[0] == asset || tmpArr[1] == asset {
+			pairArray = append(pairArray, fmt.Sprintf("%s%s", tmpArr[0], tmpArr[1]))
+		}
+	}
+	return pairArray, nil
+
+}
 
 func GetCoinOKX(fiat string) {
 	url := fmt.Sprintf("https://www.okx.com/v3/c2c/currency/pairs?type=2&quote=%s", fiat)

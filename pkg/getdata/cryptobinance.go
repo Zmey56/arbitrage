@@ -18,6 +18,43 @@ type exchangeInfo struct {
 	quoteAsset string
 }
 
+// GetListSymbolsAssetBinance pair only for crypto
+func GetListSymbolsAssetBinance(asset string) ([]string, error) {
+
+	//get all pair
+	url := "https://api.binance.com/api/v3/exchangeInfo"
+
+	resp, err := http.Get(url)
+
+	if err != nil {
+		return nil, err
+	}
+
+	defer resp.Body.Close()
+
+	body, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return nil, err
+	}
+
+	symbols := Symbols{}
+
+	if err := json.Unmarshal(body, &symbols); err != nil {
+		panic(err)
+	}
+
+	allpair := []string{}
+
+	for _, value := range symbols.Symbols {
+		if value.BaseAsset == asset || value.QuoteAsset == asset {
+			allpair = append(allpair, strings.ToUpper(value.Symbol))
+		}
+	}
+
+	return allpair, nil
+
+}
+
 func GetListSymbolsBinance(fiat string) {
 	mapassets := GetAssets(fiat)
 	assets := make([]string, len(mapassets))
@@ -261,4 +298,117 @@ func GetListSymbolsBinancePairPair(fiat string) {
 
 	_ = os.WriteFile(name_json, jsonStr, 0644)
 
+}
+
+// GetThreePairs - get for working pair - pair - pair
+func GetThreePairs(asset string) {
+	//get slice all pair for asset for this fiat
+	pairs, _ := GetListSymbolsAssetBinance(asset)
+
+	mapPairs := make(map[string][]string)
+
+	for i, pair := range pairs {
+		tmpPairs := make([]string, 0, len(pairs)-1)
+		for j, p := range pairs {
+			if i != j {
+				tmpPairs = append(tmpPairs, p)
+			}
+		}
+		mapPairs[pair] = tmpPairs
+	}
+
+	mapPairFinal := make(map[string][]string)
+	allPair := GetAllPair()
+
+	for firstPair, arrayPair := range mapPairs {
+		tmpFirst := strings.Replace(firstPair, "USDT", "", 1)
+		var tmpArray []string
+		for _, secondPair := range arrayPair {
+			tmpSecond := strings.Replace(secondPair, "USDT", "", 1)
+			fExample := fmt.Sprintf("%s%s", tmpFirst, tmpSecond)
+			sExample := fmt.Sprintf("%s%s", tmpSecond, tmpFirst)
+			if findElementArray(fExample, allPair) {
+				tmpArray = append(tmpArray, fmt.Sprintf("%s|%s", fExample, secondPair))
+			} else if findElementArray(sExample, allPair) {
+				tmpArray = append(tmpArray, fmt.Sprintf("%s|%s", sExample, secondPair))
+			}
+		}
+		mapPairFinal[firstPair] = uniqElement(tmpArray)
+	}
+
+	name_json := fmt.Sprintf("data/databinance/%s/%s_pair_pair_pair.json", asset, asset)
+	jsonStr, err := json.MarshalIndent(mapPairFinal, "", " ")
+	if err != nil {
+		log.Printf("Error: %s", err.Error())
+	}
+
+	_ = os.WriteFile(name_json, jsonStr, 0644)
+}
+
+func findAndRemove(pair string, pairs []string) []string {
+	var index int
+	for i, p := range pairs {
+		if p == pair {
+			index = i
+			break
+		}
+	}
+
+	// Remove the element at the index
+	pairs = append(pairs[:index], pairs[index+1:]...)
+
+	return pairs
+}
+
+// GetAllPair get all pair in Binance
+func GetAllPair() []string {
+	url := "https://api.binance.com/api/v3/exchangeInfo"
+
+	resp, err := http.Get(url)
+
+	if err != nil {
+		panic(err)
+	}
+
+	defer resp.Body.Close()
+
+	body, _ := io.ReadAll(resp.Body)
+
+	symbols := Symbols{}
+
+	if err := json.Unmarshal(body, &symbols); err != nil {
+		panic(err)
+	}
+
+	allpair := make([]string, len(symbols.Symbols))
+
+	for i, value := range symbols.Symbols {
+		allpair[i] = value.Symbol
+	}
+
+	return allpair
+}
+
+func findElementArray(pair string, pairs []string) bool {
+
+	for _, p := range pairs {
+		if p == pair {
+			return true
+		}
+	}
+
+	return false
+
+}
+
+func uniqElement(a []string) []string {
+	uniqueE := make(map[string]bool)
+	for _, elem := range a {
+		uniqueE[elem] = true
+	}
+	a = []string{}
+	for price := range uniqueE {
+		a = append(a, price)
+	}
+	return a
 }

@@ -11,13 +11,13 @@ import (
 	"strings"
 )
 
-const chatID = -1001592565485
+//const chatID = -1001592565485
 
-//const chatID = -993812776
+const chatID = -993812776
 
-const TELEGRAM_BOT_TOKEN = "5763797414:AAHJ8exgiqxHuW44SyEr15fKsWKPixNofVg"
+//const TELEGRAM_BOT_TOKEN = "5763797414:AAHJ8exgiqxHuW44SyEr15fKsWKPixNofVg"
 
-//const TELEGRAM_BOT_TOKEN = "6072584429:AAGkRNgzQSZNJ9VMpqkol-r1H2D7jCZNuVA"
+const TELEGRAM_BOT_TOKEN = "6072584429:AAGkRNgzQSZNJ9VMpqkol-r1H2D7jCZNuVA"
 
 func SendTextToTelegramChat(chatId int, text string) (string, error) {
 
@@ -92,62 +92,51 @@ func FormatMessageAndSend(r ResultP2P) {
 		r.LinkMarket,
 		r.Market.Third,
 		r.User.ThirdUser,
-		r.AssetsSell, formattedNum(r.PriceAssetsSell), isMerchantVerifiedThird(r),
+		strings.ToUpper(r.AssetsSell), formattedNum(r.PriceAssetsSell), isMerchantVerifiedThird(r),
 		strings.Join(r.PaymentSell, ", "),
 		r.LinkAssetsSell)
-	//fmt.Println(text)
+
+	fmt.Println(text)
 
 	SendTextToTelegramChat(chatID, text)
 }
 
-func FormatMessageAndSend2steps(r ResultP2P2steps) {
+func FormatMessageAndSend2steps(r ResultP2P) {
+	tmpAmount, _ := strconv.ParseFloat(r.Amount, 64)
 	text := fmt.Sprintf(
-		chooseFlag(r.FiatUnit)+"<b><u>%s</u></b> - <b><u>%s</u></b>\n"+
-			"\n"+
-			"Market one  <b>%s</b> (%s) and two <b>%s</b> (%s)\n"+
+		chooseFlag(r.Fiat)+"<b><u>%s</u></b>\n"+
 			"\n"+
 			"Data and Time  %s \n"+
 			"\n"+
-			"Price BUY <b>%s</b> and SELL <b>%s</b> (Delta %.2f %%)\n"+ //+
+			"Your profit is <b>%.2f</b> (%.2f %%) from <b>%s</b> %s\n"+
 			"\n"+
-			"<i>Second price BUY %s(%.2f %%) and SELL %s(%.2f %%)</i>\n"+ //+
-			"\n"+
-			"Mean price BUY <b>%s</b> and SELL <b>%s</b> (Delta %.2f %%)\n"+
-			"\n"+
-			"<i>Standard deviation price BUY <b>%s</b> (%.2f %%) and SELL <b>%s</b></i> (%.2f %%) (Delta: %.2f %%)\n"+
-			"\n"+
-			"Weight mean price BUY <b>%s</b> and SELL <b>%s</b> (Delta %.2f %%) \n"+
-			"\n"+
-			"Weighted Average <b>%s</b> SD: <b>%s</b> (Delta %.2f %%)\n"+
-			"\n"+
-			"Resistance BUY <b>%s</b>(%.2f %%) and SELL <b>%s</b>(%.2f %%) (Delta %.2f %%)\n"+
-			"\n"+
-			"<i>Volume resistance BUY <b>%s</b> and SELL <b>%s</b></i>\n"+
+			"<i>FIRST STEP - <b>%s</b></i> - You are %s\n"+
+			"Assets to buy  <b>%s</b> by price <b>%s</b>\n"+
+			"%s\n"+
+			"<u>Payment(s):</u> %s \n"+
 			"\n"+
 			"%s\n"+
 			"\n"+
-			"Payment(s) BUY: %s \n"+
+			"<i>SECOND STEP - <b>%s</b></i> You are %s\n"+
+			"Assets to sell <b>%s</b> by price <b>%s</b> \n"+
+			"%s\n"+
+			"<u>Payment(s):</u> %s \n"+
 			"\n"+
-			"Payment(s) SELL: %s \n"+
-			"\n"+
-			"Amount: %s %s",
-		r.FiatUnit, r.Asset,
-		r.MarketOne, r.User.FirstUser, r.MarketTwo, r.User.SecondUser,
+			"%s\n",
+		r.Fiat,
 		r.DataTime.Format("2006/01/02 15:04:05"),
-		formattedNum(r.PriceB), formattedNum(r.PriceS), r.DeltaBuySell,
-		formattedNum(r.PriceBSecond), r.DeltaFirstSecondB, formattedNum(r.PriceSSecond), r.DeltaFirstSecondS,
-		formattedNum(r.MeanPriceB), formattedNum(r.MeanPriceS), r.DeltaMean,
-		formattedNum(r.SDPriceB), r.DeltaSDb, formattedNum(r.SDPriceS), r.DeltaSDs, r.DeltaSD,
-		formattedNum(r.MeanWeighB), formattedNum(r.MeanWeighS), r.DeltaMeanWeight,
-		formattedNum(r.MeanWeight), formattedNum(r.MeanWeightSD), r.DeltaWSD,
-		formattedNum(r.GiantPriceB), r.DeltaGiantPriceB, formattedNum(r.GiantPriceS), r.DeltaGiantPriceS, r.DeltaGiant,
-		formattedNum(r.GiantVolB), formattedNum(r.GiantVolS),
-		isMerchantVerifiedFirst2steps(r),
+		r.ProfitValue, r.ProfitPercet, formattedNum(tmpAmount), r.Fiat,
+		r.Market.First, r.User.FirstUser,
+		r.AssetsBuy, formattedNum(r.PriceAssetsBuy), isMerchantVerifiedFirst(r),
 		strings.Join(r.PaymentBuy, ", "),
+		r.LinkAssetsBuy,
+		r.Market.Third,
+		r.User.ThirdUser,
+		strings.ToUpper(r.AssetsSell), formattedNum(r.PriceAssetsSell), isMerchantVerifiedThird(r),
 		strings.Join(r.PaymentSell, ", "),
-		formattedNum(r.Amount), r.FiatUnit)
+		r.LinkAssetsSell)
 
-	log.Println("RESULT", text)
+	fmt.Println(text)
 
 	SendTextToTelegramChat(chatID, text)
 }
@@ -243,6 +232,58 @@ func formattedNum(num float64) string {
 
 	return formattedNum
 }
+
+//func FormatMessageAndSend2steps(r ResultP2P2steps) {
+//	text := fmt.Sprintf(
+//		chooseFlag(r.FiatUnit)+"<b><u>%s</u></b> - <b><u>%s</u></b>\n"+
+//			"\n"+
+//			"Market one  <b>%s</b> (%s) and two <b>%s</b> (%s)\n"+
+//			"\n"+
+//			"Data and Time  %s \n"+
+//			"\n"+
+//			"Price BUY <b>%s</b> and SELL <b>%s</b> (Delta %.2f %%)\n"+ //+
+//			"\n"+
+//			"<i>Second price BUY %s(%.2f %%) and SELL %s(%.2f %%)</i>\n"+ //+
+//			"\n"+
+//			"Mean price BUY <b>%s</b> and SELL <b>%s</b> (Delta %.2f %%)\n"+
+//			"\n"+
+//			"<i>Standard deviation price BUY <b>%s</b> (%.2f %%) and SELL <b>%s</b></i> (%.2f %%) (Delta: %.2f %%)\n"+
+//			"\n"+
+//			"Weight mean price BUY <b>%s</b> and SELL <b>%s</b> (Delta %.2f %%) \n"+
+//			"\n"+
+//			"Weighted Average <b>%s</b> SD: <b>%s</b> (Delta %.2f %%)\n"+
+//			"\n"+
+//			"Resistance BUY <b>%s</b>(%.2f %%) and SELL <b>%s</b>(%.2f %%) (Delta %.2f %%)\n"+
+//			"\n"+
+//			"<i>Volume resistance BUY <b>%s</b> and SELL <b>%s</b></i>\n"+
+//			"\n"+
+//			"%s\n"+
+//			"\n"+
+//			"Payment(s) BUY: %s \n"+
+//			"\n"+
+//			"Payment(s) SELL: %s \n"+
+//			"\n"+
+//			"Amount: %s %s",
+//		r.FiatUnit, r.Asset,
+//		r.MarketOne, r.User.FirstUser, r.MarketTwo, r.User.SecondUser,
+//		r.DataTime.Format("2006/01/02 15:04:05"),
+//		formattedNum(r.PriceB), formattedNum(r.PriceS), r.DeltaBuySell,
+//		formattedNum(r.PriceBSecond), r.DeltaFirstSecondB, formattedNum(r.PriceSSecond), r.DeltaFirstSecondS,
+//		formattedNum(r.MeanPriceB), formattedNum(r.MeanPriceS), r.DeltaMean,
+//		formattedNum(r.SDPriceB), r.DeltaSDb, formattedNum(r.SDPriceS), r.DeltaSDs, r.DeltaSD,
+//		formattedNum(r.MeanWeighB), formattedNum(r.MeanWeighS), r.DeltaMeanWeight,
+//		formattedNum(r.MeanWeight), formattedNum(r.MeanWeightSD), r.DeltaWSD,
+//		formattedNum(r.GiantPriceB), r.DeltaGiantPriceB, formattedNum(r.GiantPriceS), r.DeltaGiantPriceS, r.DeltaGiant,
+//		formattedNum(r.GiantVolB), formattedNum(r.GiantVolS),
+//		isMerchantVerifiedFirst2steps(r),
+//		strings.Join(r.PaymentBuy, ", "),
+//		strings.Join(r.PaymentSell, ", "),
+//		formattedNum(r.Amount), r.FiatUnit)
+//
+//	log.Println("RESULT", text)
+//
+//	SendTextToTelegramChat(chatID, text)
+//}
 
 //func isMerchantVerifiedFirst2steps(r ResultP2P2Steps) string {
 //	if r.Merchant.FirstMerch == true && r.User.FirstUser == "Taker" {

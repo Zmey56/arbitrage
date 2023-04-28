@@ -58,20 +58,11 @@ func CheckResultSaveSend(howone, howtwo string, boarder int, per float64, profit
 	}
 }
 
-func CheckResultSaveSend2Steps(profitResult ResultP2P2steps, border int) {
-	if (profitResult.AdvToalSell > 0) && (profitResult.AdvToalSell > 0) {
-		//log.Printf("%+v\n\n", profitResult)
-		//how_market := ""
-		//if profitResult.Merchant {
-		//	how_market = "2steps_merchant"
-		//} else {
-		//	how_market = "2steps"
-		//}
-
-		//SaveResultJsonFile2steps(profitResult.FiatUnit, profitResult, how_market)
-
-		if (profitResult.AdvToalBuy >= border) &&
-			(profitResult.AdvToalSell >= border) {
+func CheckResultSaveSend2Steps(profitResult ResultP2P, border int) {
+	log.Println("CheckResultSaveSend2Steps")
+	if profitResult.Profit == true {
+		if (profitResult.TotalAdvSell >= border) &&
+			(profitResult.TotalAdvBuy >= border) {
 
 			FormatMessageAndSend2steps(profitResult)
 		}

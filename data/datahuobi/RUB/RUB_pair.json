@@ -4,7 +4,6 @@
   "btcusdt",
   "trxbtc",
   "ethbtc",
-  "htbtc",
   "btcusdd",
   "eosbtc",
   "xrpbtc",
@@ -28,7 +27,6 @@
   "eoseth"
  ],
  "ht": [
-  "htbtc",
   "htusdc",
   "htusdt",
   "hteth",

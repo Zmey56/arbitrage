@@ -57,7 +57,7 @@ func SendRequestRatePair(pair []string) (map[string]float64, error) {
 
 		resp, err := http.Get(url)
 		if err != nil {
-			return rate_pair, err
+			return nil, err
 		}
 		defer resp.Body.Close()
 		body, _ := io.ReadAll(resp.Body)
@@ -65,7 +65,7 @@ func SendRequestRatePair(pair []string) (map[string]float64, error) {
 		rj := ratejson{}
 
 		if err := json.Unmarshal(body, &rj); err != nil {
-			return rate_pair, err
+			return nil, err
 		}
 
 		if len(rj.Bids) > 0 && len(rj.Asks) > 0 {

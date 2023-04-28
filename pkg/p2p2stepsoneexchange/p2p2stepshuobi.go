@@ -1,6 +1,7 @@
 package p2p2stepsoneexchange
 
 import (
+	"fmt"
 	"github.com/Zmey56/arbitrage/pkg/commonfunction"
 	"github.com/Zmey56/arbitrage/pkg/getdatahuobi"
 	"github.com/Zmey56/arbitrage/pkg/getinfohuobi"
@@ -83,12 +84,46 @@ func printResultP2P2Huobi(a, fiat string, transAmountFirst, price_b float64,
 	if len(order_sell.Data) < 2 {
 		log.Printf("Order sell is empty, fiat - %s, assets - %s, param %+v\n", fiat, a, paramUser)
 	} else {
-		profitResult := deltaBuySellHuobi(order_buy, order_sell, a, fiat, paramUser)
+		profitResult := result.ResultP2P{}
+		price_s, _ := strconv.ParseFloat(order_sell.Data[0].Price, 64)
+
+		transAmountThird := price_s * transAmountFirst
+
+		transAmountFloat, err := strconv.ParseFloat(paramUser.Amount, 64)
+		if err != nil {
+			log.Printf("Problem with convert transAmount to float, err - %v", err)
+		}
+		profitResult.Amount = paramUser.Amount
+		profitResult.Market.First = "Huobi"
+		profitResult.Merchant.FirstMerch = (paramUser.IsMerchant == "true")
+		profitResult.User.FirstUser = "Taker"
+		profitResult.Market.Second = ""
+		profitResult.Market.Third = "Huobi"
+		profitResult.Merchant.ThirdMerch = (paramUser.IsMerchant == "true")
+		profitResult.User.ThirdUser = "Taker"
+		profitResult.Profit = transAmountThird > transAmountFloat
+		profitResult.DataTime = time.Now()
+		profitResult.Fiat = fiat
+		profitResult.AssetsBuy = a
+		profitResult.PriceAssetsBuy = price_b
+		profitResult.PaymentBuy = result.PaymentMetodsHuobi(order_buy)
+		profitResult.LinkAssetsBuy = fmt.Sprintf("https://www.huobi.com/en-us/fiat-crypto/trade/buy-%s-%s/", strings.ToLower(a), strings.ToLower(fiat))
+		profitResult.AssetsSell = assetSell
+		profitResult.PriceAssetsSell = price_s
+		profitResult.PaymentSell = result.PaymentMetodsHuobi(order_sell)
+		profitResult.LinkAssetsSell = fmt.Sprintf("https://www.huobi.com/en-us/fiat-crypto/trade/sell-%s-%s/", assetSell, strings.ToLower(fiat))
+		profitResult.ProfitValue = transAmountThird - transAmountFloat
+		profitResult.ProfitPercet = (((transAmountThird - transAmountFloat) / transAmountFloat) * 100)
+		profitResult.TotalAdvBuy = order_buy.TotalCount
+		profitResult.TotalAdvSell = order_sell.TotalCount
+		profitResult.AdvNoBuy = strconv.Itoa(order_buy.Data[0].UID)
+		profitResult.AdvNoSell = strconv.Itoa(order_sell.Data[0].UID)
 
 		result.CheckResultSaveSend2Steps(profitResult, paramUser.Border)
 	}
 }
 
+// may be sometime
 func deltaBuySellHuobi(ob, os getdatahuobi.Huobi, asset, fiat string, pu getinfohuobi.ParametersHuobi) result.ResultP2P2steps {
 	res := result.ResultP2P2steps{}
 	tmpData := []float64{}  // for Weighted mean Buy and Sell

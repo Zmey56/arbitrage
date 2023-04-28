@@ -11,18 +11,18 @@ type PairHuobi struct {
 		Symbol                          string  `json:"symbol"`
 		State                           string  `json:"state"`
 		ValuePrecision                  int     `json:"value-precision"`
-		MinOrderAmt                     int     `json:"min-order-amt"`
-		MaxOrderAmt                     int     `json:"max-order-amt"`
+		MinOrderAmt                     float64 `json:"min-order-amt"`
+		MaxOrderAmt                     float64 `json:"max-order-amt"`
 		MinOrderValue                   float64 `json:"min-order-value"`
-		LimitOrderMinOrderAmt           int     `json:"limit-order-min-order-amt"`
-		LimitOrderMaxOrderAmt           int     `json:"limit-order-max-order-amt"`
-		LimitOrderMaxBuyAmt             int     `json:"limit-order-max-buy-amt"`
-		LimitOrderMaxSellAmt            int     `json:"limit-order-max-sell-amt"`
+		LimitOrderMinOrderAmt           float64 `json:"limit-order-min-order-amt"`
+		LimitOrderMaxOrderAmt           float64 `json:"limit-order-max-order-amt"`
+		LimitOrderMaxBuyAmt             float64 `json:"limit-order-max-buy-amt"`
+		LimitOrderMaxSellAmt            float64 `json:"limit-order-max-sell-amt"`
 		BuyLimitMustLessThan            float64 `json:"buy-limit-must-less-than"`
 		SellLimitMustGreaterThan        float64 `json:"sell-limit-must-greater-than"`
-		SellMarketMinOrderAmt           int     `json:"sell-market-min-order-amt"`
-		SellMarketMaxOrderAmt           int     `json:"sell-market-max-order-amt"`
-		BuyMarketMaxOrderValue          int     `json:"buy-market-max-order-value"`
+		SellMarketMinOrderAmt           float64 `json:"sell-market-min-order-amt"`
+		SellMarketMaxOrderAmt           float64 `json:"sell-market-max-order-amt"`
+		BuyMarketMaxOrderValue          float64 `json:"buy-market-max-order-value"`
 		MarketSellOrderRateMustLessThan float64 `json:"market-sell-order-rate-must-less-than"`
 		MarketBuyOrderRateMustLessThan  float64 `json:"market-buy-order-rate-must-less-than"`
 		APITrading                      string  `json:"api-trading"`

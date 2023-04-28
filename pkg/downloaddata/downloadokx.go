@@ -3,22 +3,18 @@ package downloaddata
 import (
 	"github.com/Zmey56/arbitrage/pkg/getdataokx"
 	"github.com/Zmey56/arbitrage/pkg/result"
-	"log"
 	"math"
-	"time"
 )
 
 func DownloadDataOKX(fiat string) {
-	start01 := time.Now()
+	//start01 := time.Now()
 	assetsO := getdataokx.GetCurrencyOKX(fiat)
 
 	for _, asset := range assetsO {
-		start02 := time.Now()
-		//	log.Println("Asset", asset)
-		//	// Create channel
+		// Create channel
 		buyCh := make(chan getdataokx.OKXBuy)
 		sellCh := make(chan getdataokx.OKXSell)
-		//
+
 		// Get first result
 		resultBuy := getdataokx.GetDataP2POKXBuyVer2(asset, fiat, "BUY", 1)
 		resultSell := getdataokx.GetDataP2POKXSellVer2(asset, fiat, "SELL", 1)
@@ -28,8 +24,6 @@ func DownloadDataOKX(fiat string) {
 		resultSellTotal := float64(resultSell.Data.Total)
 		pageBuy := int(math.Ceil(resultBuyTotal / 10))
 		pageSell := int(math.Ceil(resultSellTotal / 10))
-
-		//log.Println("Asset", asset, "|", resultBuyTotal, " - ", pageBuy, "|", resultSellTotal, " - ", pageSell)
 
 		// Creating arrays to store results
 		arrayBuy := make([]getdataokx.OKXBuy, pageBuy)
@@ -42,8 +36,6 @@ func DownloadDataOKX(fiat string) {
 		if len(resultSell.Data.Buy) > 0 {
 			arraySell[0] = resultSell
 		}
-
-		log.Println("Asset", asset, resultBuyTotal, pageBuy, " - ", resultSellTotal, pageSell)
 
 		// Launching goroutin to get results
 		if pageBuy > 1 {
@@ -80,9 +72,5 @@ func DownloadDataOKX(fiat string) {
 		result.SaveAllData("BUY", fiat, asset, arrayBuy)
 		result.SaveAllData("SELL", fiat, asset, arraySell)
 
-		log.Println("TIME", time.Since(start02), "\n")
 	}
-
-	log.Println("TIME", time.Since(start01), "\n")
-	//time.Sleep(1 * time.Minute)
 }

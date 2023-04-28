@@ -4,18 +4,14 @@ import (
 	"github.com/Zmey56/arbitrage/pkg/getdatahuobi"
 	"github.com/Zmey56/arbitrage/pkg/result"
 	"github.com/Zmey56/arbitrage/pkg/workinghuobi"
-	"log"
 	"math"
-	"time"
 )
 
 func DownloadDataHuobi(fiat string) {
-	start01 := time.Now()
 	assetsH := getdatahuobi.GetCurrencyHuobi(fiat)
 	coinidmap := workinghuobi.GetCoinIDHuobo(fiat)
 
 	for _, asset := range assetsH {
-		start02 := time.Now()
 		// Create channel
 		buyCh := make(chan getdatahuobi.Huobi)
 		sellCh := make(chan getdatahuobi.Huobi)
@@ -41,8 +37,6 @@ func DownloadDataHuobi(fiat string) {
 		if len(resultSell.Data) > 0 {
 			arraySell[0] = resultSell
 		}
-
-		log.Println(resultBuyTotal, pageBuy, " - ", resultSellTotal, pageSell)
 
 		// Launching goroutin to get results
 		if pageBuy > 1 {
@@ -79,8 +73,6 @@ func DownloadDataHuobi(fiat string) {
 		result.SaveAllData("BUY", fiat, asset, arrayBuy)
 		result.SaveAllData("SELL", fiat, asset, arraySell)
 
-		log.Println("ASSET", asset, "TIME", time.Since(start02), "\n")
 	}
 
-	log.Println("FIAT", fiat, "TIME", time.Since(start01), "\n")
 }

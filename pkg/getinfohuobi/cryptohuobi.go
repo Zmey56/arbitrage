@@ -10,6 +10,43 @@ import (
 	"strings"
 )
 
+// GetListSymbolsAssetHuobi pair only for crypto
+func GetListSymbolsAssetHuobi(asset string) ([]string, error) {
+
+	//get all pair
+	url := "https://api.huobi.pro/v1/common/symbols"
+
+	resp, err := http.Get(url)
+
+	if err != nil {
+		return nil, err
+	}
+
+	defer resp.Body.Close()
+
+	body, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return nil, err
+	}
+
+	symbols := PairHuobi{}
+
+	if err := json.Unmarshal(body, &symbols); err != nil {
+		panic(err)
+	}
+
+	allpair := []string{}
+
+	for _, value := range symbols.Data {
+		if strings.ToUpper(value.QuoteCurrency) == asset || strings.ToUpper(value.BaseCurrency) == asset {
+			allpair = append(allpair, strings.ToUpper(value.Symbol))
+		}
+	}
+
+	return allpair, nil
+
+}
+
 func GetInfoCryptoHuobi(fiat string) {
 	url := "https://otc-cf.huobi.com/v1/otc/coin/config-trade?side=1&blockType=1"
 	resp, err := http.Get(url)

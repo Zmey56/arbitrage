@@ -1,3 +1,8 @@
 jsonresult/
 *.xmind
+*.json
 TEMP/
+.ipynb_checkpoints/
+.idea/
+Dockerfile
+.dockerignore

@@ -20,7 +20,6 @@ func P2P3stepsTakerTakerHuobi(fiat string, paramUser getinfohuobi.ParametersHuob
 	currencyarr := getdatahuobi.GetCurrencyHuobi(fiat)
 
 	//get pair for rate
-
 	pairmap := getdatahuobi.GetPairFromJSONHuobi(fiat)
 
 	var wg sync.WaitGroup
@@ -41,11 +40,7 @@ func getResultP2P3TT(a, fiat string, pair map[string][]string,
 	coinidmap := workinghuobi.GetCoinIDHuobo(fiat)
 	pair_assets := pair[strings.ToLower(a)]
 
-	//log.Printf("coinidmap %+v\n", coinidmap)
-	//log.Println("coinidmap[a]", a, "-", coinidmap[a], "fiat", fiat, " - ", coinidmap[fiat])
-	//log.Println("coinidmap[a], coinidmap[fiat], paramUser", coinidmap[a], coinidmap[fiat], "sell", paramUser)
 	order_buy := getdatahuobi.GetDataP2PHuobi(coinidmap[a], coinidmap[fiat], "sell", paramUser)
-	//log.Printf("%+v\n", order_buy)
 
 	if len(order_buy.Data) > 0 {
 		var transAmountFloat float64
@@ -69,9 +64,7 @@ func getResultP2P3TT(a, fiat string, pair map[string][]string,
 		transAmountFirst := transAmountFloat / price_b
 		//second step
 
-		//log.Println("pair_assets", pair_assets)
 		pair_rate := getdatahuobi.GetRatePairHuobi(pair_assets)
-		//log.Println("pair_rate", pair_rate)
 
 		var wg sync.WaitGroup
 		for p := range pair_rate {
@@ -107,11 +100,9 @@ func printResultP2P3TT(p, a, fiat string, transAmountFirst, price_b float64, pai
 		assetSell = p[:(len(p) - len(a))]
 	}
 	//third steps
-	//log.Println("coinidmap[strings.ToUpper(assetSell)], coinidmap[fiat], paramUser", coinidmap[strings.ToUpper(assetSell)], coinidmap[fiat],
-	//	"buy", paramUser)
+	log.Println("ORDER SELL", paramUser)
 	order_sell := getdatahuobi.GetDataP2PHuobi(coinidmap[strings.ToUpper(assetSell)], coinidmap[fiat],
 		"buy", paramUser)
-	//log.Printf("%+v\n\n", order_sell)
 
 	if len(order_sell.Data) == 0 {
 		log.Printf("Order sell is empty, fiat - %s, assets - %s, param %+v\n", fiat, a, paramUser)

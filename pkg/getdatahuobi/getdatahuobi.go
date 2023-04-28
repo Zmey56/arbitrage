@@ -18,7 +18,7 @@ func GetDataP2PHuobi(fiat, currency int, tradeType string, paramUser getinfohuob
 	params.Set("currency", strconv.Itoa(currency)) //find this
 	params.Set("tradeType", tradeType)
 	params.Set("currPage", "1")
-	params.Set("payMethod", "0")
+	params.Set("payMethod", paramUser.PayMethod)
 	// +
 	if tradeType == "sell" {
 		params.Set("acceptOrder", "0")
@@ -39,8 +39,13 @@ func GetDataP2PHuobi(fiat, currency int, tradeType string, paramUser getinfohuob
 	params.Set("isFollowed", "false")
 	resulthuobi := Huobi{}
 
-	url := ("https://otc-api.trygofast.com/v1/data/trade-market" + "?" + params.Encode())
-	//log.Println("URL", url)
+	url := ""
+	if tradeType == "buy" {
+		url = ("https://otc-api.trygofast.com/v1/data/trade-market" + "?" + params.Encode())
+	} else {
+		url = ("https://otc-cf.huobi.com/v1/data/trade-market" + "?" + params.Encode())
+	}
+	log.Println("URL", url)
 
 	var err error
 

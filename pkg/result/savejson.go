@@ -41,7 +41,7 @@ func SaveAllData(tradeType, fiat, asset string, data interface{}) {
 		log.Println("I don't now this format")
 	}
 
-	log.Println("resultPath", resultPath)
+	//log.Println("resultPath", resultPath)
 	file, err := json.MarshalIndent(data, "", " ")
 	if err != nil {
 		panic(err)

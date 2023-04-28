@@ -2,6 +2,7 @@
 package p2p2stepsoneexchange
 
 import (
+	"fmt"
 	"github.com/Zmey56/arbitrage/pkg/commonfunction"
 	"github.com/Zmey56/arbitrage/pkg/getdata"
 	"github.com/Zmey56/arbitrage/pkg/getinfobinance"
@@ -66,15 +67,51 @@ func printResultP2P2stepsBinance(fiat, a string, transAmountFirst, price_b float
 
 	//third steps
 	order_sell := getdata.GetDataP2PBinance(a, fiat, "Sell", paramUser)
-	if len(order_sell.Data) < 2 {
+	if len(order_sell.Data) < 1 {
 		log.Printf("Order sell is empty, fiat - %s, assets - %s, param %+v\n", fiat, a, paramUser)
 	} else {
 
-		profitResult := deltaBuySellBinance(order_buy, order_sell, a, fiat, paramUser)
+		profitResult := result.ResultP2P{}
+		price_s := order_sell.Data[0].Adv.Price
+
+		transAmountThird := price_s * transAmountFirst
+
+		transAmountFloat, err := strconv.ParseFloat(paramUser.TransAmount, 64)
+		if err != nil {
+			log.Printf("Problem with convert transAmount to float, err - %v", err)
+		}
+		profitResult.Amount = paramUser.TransAmount
+		profitResult.Market.First = "Binance"
+		profitResult.Merchant.FirstMerch = (paramUser.PublisherType == "merchant")
+		profitResult.User.FirstUser = "Taker"
+		profitResult.Market.Second = "None"
+		profitResult.Market.Third = "Binance"
+		profitResult.User.ThirdUser = "Taker"
+		profitResult.Merchant.ThirdMerch = (paramUser.PublisherType == "merchant")
+		profitResult.Profit = transAmountThird > transAmountFloat
+		profitResult.DataTime = time.Now()
+		profitResult.Fiat = fiat
+		profitResult.AssetsBuy = a
+		profitResult.PriceAssetsBuy = price_b
+		profitResult.PaymentBuy = result.PaymentMetods(order_buy)
+		profitResult.LinkAssetsBuy = fmt.Sprintf("https://p2p.binance.com/en/trade/all-payments/%v?fiat=%v", a, fiat)
+		profitResult.AssetsSell = a
+		profitResult.PriceAssetsSell = price_s
+		profitResult.PaymentSell = result.PaymentMetods(order_sell)
+		profitResult.LinkAssetsSell = fmt.Sprintf("https://p2p.binance.com/en/trade/all-payments/%v?fiat=%v",
+			a, fiat)
+		profitResult.ProfitValue = transAmountThird - transAmountFloat
+		profitResult.ProfitPercet = (((transAmountThird - transAmountFloat) / transAmountFloat) * 100)
+		profitResult.TotalAdvBuy = order_buy.Total
+		profitResult.TotalAdvSell = order_sell.Total
+		profitResult.AdvNoBuy = order_buy.Data[0].Adv.AdvNo
+		profitResult.AdvNoSell = order_sell.Data[0].Adv.AdvNo
+
 		result.CheckResultSaveSend2Steps(profitResult, paramUser.Border)
 	}
 }
 
+// may be next time
 func deltaBuySellBinance(ob, os getinfobinance.AdvertiserAdv, asset, fiat string, pu workingbinance.ParametersBinance) result.ResultP2P2steps {
 	res := result.ResultP2P2steps{}
 	//variable for find weight SD

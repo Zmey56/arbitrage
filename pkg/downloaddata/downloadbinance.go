@@ -4,17 +4,15 @@ import (
 	"github.com/Zmey56/arbitrage/pkg/getdata"
 	"github.com/Zmey56/arbitrage/pkg/getinfobinance"
 	"github.com/Zmey56/arbitrage/pkg/result"
-	"log"
 	"math"
-	"time"
 )
 
 func DownloadDataBinance(fiat string) {
-	start01 := time.Now()
+	//start01 := time.Now()
 	assetsB := getdata.GetAssetsLocalBinance(fiat)
 
 	for _, asset := range assetsB {
-		start02 := time.Now()
+		//start02 := time.Now()
 		// Create channel
 		buyCh := make(chan getinfobinance.Binance)
 		sellCh := make(chan getinfobinance.Binance)
@@ -76,9 +74,6 @@ func DownloadDataBinance(fiat string) {
 		result.SaveAllData("BUY", fiat, asset, arrayBuy)
 		result.SaveAllData("SELL", fiat, asset, arraySell)
 
-		log.Println("TIME", time.Since(start02), "\n")
 	}
 
-	log.Println("TIME", time.Since(start01), "\n")
-	//time.Sleep(1 * time.Minute)
 }

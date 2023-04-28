@@ -1,6 +1,7 @@
 package p2p2stepsoneexchange
 
 import (
+	"fmt"
 	"github.com/Zmey56/arbitrage/pkg/commonfunction"
 	"github.com/Zmey56/arbitrage/pkg/getdataokx"
 	"github.com/Zmey56/arbitrage/pkg/getinfookx"
@@ -8,6 +9,7 @@ import (
 	"log"
 	"math"
 	"strconv"
+	"strings"
 	"sync"
 	"time"
 )
@@ -77,12 +79,46 @@ func printResultP2P2OKX(a, fiat string, transAmountFirst, price_b float64,
 	if len(order_sell.Data.Buy) < 2 {
 		log.Printf("Order sell is empty, fiat - %s, assets - %s, param %+v\n", fiat, a, paramUser)
 	} else {
-		profitResult := deltaBuySellOKX(order_buy, order_sell, a, fiat, paramUser)
+		price_s, _ := strconv.ParseFloat(order_sell.Data.Buy[0].Price, 64)
+		transAmountFloat, err := strconv.ParseFloat(paramUser.Amount, 64)
+		if err != nil {
+			log.Printf("Problem with convert transAmount to float, err - %v", err)
+		}
+
+		transAmountThird := price_s * transAmountFirst
+
+		profitResult := result.ResultP2P{}
+		profitResult.Amount = paramUser.Amount
+		profitResult.Market.First = "OKX"
+		profitResult.Merchant.FirstMerch = (paramUser.IsMerchant == "true")
+		profitResult.User.FirstUser = "Taker"
+		profitResult.Market.Second = ""
+		profitResult.Market.Third = "OKX"
+		profitResult.Merchant.ThirdMerch = (paramUser.IsMerchant == "true")
+		profitResult.User.ThirdUser = "Taker"
+		profitResult.Profit = transAmountThird > transAmountFloat
+		profitResult.DataTime = time.Now()
+		profitResult.Fiat = fiat
+		profitResult.AssetsBuy = a
+		profitResult.PriceAssetsBuy = price_b
+		profitResult.PaymentBuy = order_buy.Data.Sell[0].PaymentMethods
+		profitResult.LinkAssetsBuy = fmt.Sprintf("https://www.okx.com/p2p-markets/%s/buy-%s/", strings.ToLower(fiat), strings.ToLower(a))
+		profitResult.AssetsSell = assetSell
+		profitResult.PriceAssetsSell = price_s
+		profitResult.PaymentSell = order_sell.Data.Buy[0].PaymentMethods
+		profitResult.LinkAssetsSell = fmt.Sprintf("https://www.okx.com/p2p-markets/%s/sell-%s", fiat, assetSell)
+		profitResult.ProfitValue = transAmountThird - transAmountFloat
+		profitResult.ProfitPercet = (((transAmountThird - transAmountFloat) / transAmountFloat) * 100)
+		profitResult.TotalAdvBuy = order_buy.Data.Total
+		profitResult.TotalAdvSell = order_sell.Data.Total
+		profitResult.AdvNoBuy = order_buy.Data.Sell[0].ID
+		profitResult.AdvNoSell = order_sell.Data.Buy[0].ID
 
 		result.CheckResultSaveSend2Steps(profitResult, paramUser.Border)
 	}
 }
 
+// may be sometime
 func deltaBuySellOKX(ob getdataokx.OKXBuy, os getdataokx.OKXSell, asset, fiat string, pu getinfookx.ParametersOKX) result.ResultP2P2steps {
 	res := result.ResultP2P2steps{}
 	tmpData := []float64{}  // for Weighted mean Buy and Sell
