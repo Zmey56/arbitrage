@@ -11,13 +11,13 @@ import (
 	"strings"
 )
 
-//const chatID = -1001592565485
+const chatID = -1001592565485
 
-const chatID = -993812776
+//const chatID = -993812776
 
-//const TELEGRAM_BOT_TOKEN = "5763797414:AAHJ8exgiqxHuW44SyEr15fKsWKPixNofVg"
+const TELEGRAM_BOT_TOKEN = "5763797414:AAHJ8exgiqxHuW44SyEr15fKsWKPixNofVg"
 
-const TELEGRAM_BOT_TOKEN = "6072584429:AAGkRNgzQSZNJ9VMpqkol-r1H2D7jCZNuVA"
+//const TELEGRAM_BOT_TOKEN = "6072584429:AAGkRNgzQSZNJ9VMpqkol-r1H2D7jCZNuVA"
 
 func SendTextToTelegramChat(chatId int, text string) (string, error) {
 

@@ -25,11 +25,12 @@ func GetRatePair(pair []string) map[string]float64 {
 			if r := recover(); r != nil {
 				if r == "connection reset by peer" {
 					log.Println("An error occured 'connection reset by peer', reconecting...")
-					time.Sleep(time.Second * 1)
+					time.Sleep(time.Second * 5)
 				} else {
 					// Handling other errors
 					log.Println("An error occured:", r)
-					return
+					time.Sleep(time.Second * 5)
+					//return
 				}
 			}
 		}()
@@ -41,7 +42,10 @@ func GetRatePair(pair []string) map[string]float64 {
 				// reconecting
 				panic("connection reset by peer")
 			} else {
-				log.Println("Error:", err)
+				log.Println(err)
+				log.Println(res)
+				log.Println(pair)
+				panic("error")
 			}
 		} else {
 			return res
@@ -60,7 +64,10 @@ func SendRequestRatePair(pair []string) (map[string]float64, error) {
 			return nil, err
 		}
 		defer resp.Body.Close()
-		body, _ := io.ReadAll(resp.Body)
+		body, err := io.ReadAll(resp.Body)
+		if err != nil {
+			log.Println("Error  in Body", err)
+		}
 
 		rj := ratejson{}
 
@@ -212,6 +219,26 @@ func GetPairFromJSONPairPair(fiat string) map[string][]string {
 		pair = fmt.Sprintf("data/databinance/%s/%s_pair_pair.json", fiat, fiat)
 	default:
 		log.Printf("For %v don't have para\n", fiat)
+	}
+
+	jsonfile, err := os.ReadFile(pair)
+	if err != nil {
+		panic(err)
+	}
+	var result map[string][]string
+	_ = json.Unmarshal(jsonfile, &result)
+
+	return result
+}
+
+// GetPairFromJSONPairPairPair return map with pair of map[cryptoPair]cryptoPair|cryptoPair
+func GetPairFromJSONPairPairPair(asset string) map[string][]string {
+	pair := ""
+	switch asset {
+	case "USDT":
+		pair = fmt.Sprintf("data/databinance/%s/%s_pair_pair_pair.json", asset, asset)
+	default:
+		log.Printf("For %v don't have para\n", asset)
 	}
 
 	jsonfile, err := os.ReadFile(pair)
