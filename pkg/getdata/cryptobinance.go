@@ -5,6 +5,7 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
+	"github.com/Zmey56/arbitrage/pkg/commonfunction"
 	"io"
 	"log"
 	"net/http"
@@ -327,9 +328,9 @@ func GetThreePairs(asset string) {
 			tmpSecond := strings.Replace(secondPair, "USDT", "", 1)
 			fExample := fmt.Sprintf("%s%s", tmpFirst, tmpSecond)
 			sExample := fmt.Sprintf("%s%s", tmpSecond, tmpFirst)
-			if findElementArray(fExample, allPair) {
+			if commonfunction.FindElementArray(fExample, allPair) {
 				tmpArray = append(tmpArray, fmt.Sprintf("%s|%s", fExample, secondPair))
-			} else if findElementArray(sExample, allPair) {
+			} else if commonfunction.FindElementArray(sExample, allPair) {
 				tmpArray = append(tmpArray, fmt.Sprintf("%s|%s", sExample, secondPair))
 			}
 		}
@@ -387,18 +388,6 @@ func GetAllPair() []string {
 	}
 
 	return allpair
-}
-
-func findElementArray(pair string, pairs []string) bool {
-
-	for _, p := range pairs {
-		if p == pair {
-			return true
-		}
-	}
-
-	return false
-
 }
 
 func uniqElement(a []string) []string {

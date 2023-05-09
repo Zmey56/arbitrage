@@ -42,3 +42,15 @@ func WeightedStandardDeviation(data []float64, weights []float64) float64 {
 
 	return math.Sqrt(sumSquaredDeviations / sumWeights)
 }
+
+func FindElementArray(pair string, pairs []string) bool {
+
+	for _, p := range pairs {
+		if p == pair {
+			return true
+		}
+	}
+
+	return false
+
+}

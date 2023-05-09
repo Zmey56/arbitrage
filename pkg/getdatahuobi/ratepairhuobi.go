@@ -47,7 +47,30 @@ func GetRatePairHuobi(pair []string) map[string]float64 {
 func SendRequesrRatePair(pair []string) (map[string]float64, error) {
 	rate_pair := make(map[string]float64)
 	for _, p := range pair {
-		url := fmt.Sprintf("https://api.huobi.pro/market/detail/merged?symbol=%s", p)
+		url := fmt.Sprintf("https://api.huobi.pro/market/detail/merged?symbol=%s", strings.ToLower(p))
+
+		resp, err := http.Get(url)
+		if err != nil {
+			return rate_pair, err
+		}
+		defer resp.Body.Close()
+		body, _ := io.ReadAll(resp.Body)
+
+		ratejson := HuobiRate{}
+
+		if err := json.Unmarshal(body, &ratejson); err != nil {
+			return rate_pair, err
+		}
+
+		rate_pair[p] = ratejson.Tick.Close
+	}
+	return rate_pair, nil
+}
+
+func SendRequesrRatePairBidAsk(pair []string) (map[string]float64, error) {
+	rate_pair := make(map[string]float64)
+	for _, p := range pair {
+		url := fmt.Sprintf("https://api.huobi.pro/market/detail/merged?symbol=%s", strings.ToLower(p))
 
 		resp, err := http.Get(url)
 		if err != nil {

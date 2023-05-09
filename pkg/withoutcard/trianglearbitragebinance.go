@@ -4,25 +4,29 @@ import (
 	"github.com/Zmey56/arbitrage/pkg/getinfobinance"
 	"log"
 	"strings"
+	"time"
 )
 
-func TriangleArbitrage(asset string, amount float64) {
+func TriangleArbitrageBinance(asset string, amount float64) {
+	start := time.Now()
 	pair := getinfobinance.GetPairFromJSONPairPairPair(asset)
 
 	for firstPairName, secondThirdPairs := range pair {
-		GetTriangleArbitrage(asset, firstPairName, secondThirdPairs, amount)
+		GetTriangleArbitrage(start, asset, firstPairName, secondThirdPairs, amount)
 	}
 }
 
-func GetTriangleArbitrage(asset, firstPairName string, pairsArray []string, amount float64) {
-	for _, pp := range pairsArray {
-		CalculateTriangleArbitrage(asset, firstPairName, pp, amount)
+func GetTriangleArbitrage(t time.Time, asset, firstPairName string, pairsArray []string, amount float64) {
+	for count, pp := range pairsArray {
+		CalculateTriangleArbitrage(t, count, asset, firstPairName, pp, amount)
+
 	}
 }
 
-func CalculateTriangleArbitrage(asset, firstPairName, pp string, amount float64) {
+func CalculateTriangleArbitrage(t time.Time, count int, asset, firstPairName, pp string, amount float64) {
 	pairRate := strings.Split(pp, "|")
 	pairRate = append(pairRate, firstPairName)
+
 	pairRateValue := getinfobinance.GetRatePairTriangle(pairRate)
 
 	if pairRateValue[firstPairName][0] == 0.0 || pairRateValue[pairRate[0]][0] == 0 || pairRateValue[pairRate[1]][0] == 0 ||
@@ -60,9 +64,10 @@ func CalculateTriangleArbitrage(asset, firstPairName, pp string, amount float64)
 		rateThird = pairRateValue[pairRate[1]][0]
 	}
 
+	timeSince := time.Since(t)
 	if result > amount {
-		log.Printf("Asset: %s First Pair %s %.2f %.2f Secong Pair %s %.2f %.2f Third Pair %s %.2f %.2f",
-			asset, firstPairName, rateFirst, transAmountFirst, pairRate[0], rateSecond,
-			transAmountSecond, pairRate[1], rateThird, result)
+		log.Printf("%d Asset: %s First Pair %s %.2f %.2f Secong Pair %s %.2f %.2f Third Pair %s %.2f %.2f - %v",
+			count, asset, firstPairName, rateFirst, transAmountFirst, pairRate[0], rateSecond,
+			transAmountSecond, pairRate[1], rateThird, result, timeSince)
 	}
 }

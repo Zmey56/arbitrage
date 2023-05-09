@@ -1,4 +1,4 @@
-package getinfobinance
+package getinfohuobi
 
 import (
 	"encoding/json"
@@ -6,17 +6,30 @@ import (
 	"io"
 	"log"
 	"net/http"
-	"strconv"
+	"strings"
 	"time"
 )
 
-type RatePair struct {
-	LastUpdateId int64      `json:"lastUpdateId"`
-	Bids         [][]string `json:"bids"`
-	Asks         [][]string `json:"asks"`
+type ratePairFull struct {
+	Ch     string `json:"ch"`
+	Status string `json:"status"`
+	Ts     int64  `json:"ts"`
+	Tick   struct {
+		Id      int64     `json:"id"`
+		Version int64     `json:"version"`
+		Open    float64   `json:"open"`
+		Close   float64   `json:"close"`
+		Low     float64   `json:"low"`
+		High    float64   `json:"high"`
+		Amount  float64   `json:"amount"`
+		Vol     float64   `json:"vol"`
+		Count   int       `json:"count"`
+		Bid     []float64 `json:"bid"`
+		Ask     []float64 `json:"ask"`
+	} `json:"tick"`
 }
 
-func GetRatePairTriangle(pair []string) map[string][4]float64 {
+func GetRatePairTriangleHuobi(pair []string) map[string][4]float64 {
 	for {
 		defer func() {
 			if r := recover(); r != nil {
@@ -32,7 +45,7 @@ func GetRatePairTriangle(pair []string) map[string][4]float64 {
 			}
 		}()
 
-		res, err := SendRequestRatePairTriangle(pair)
+		res, err := sendRequestRatePairTriangle(pair)
 
 		if err != nil {
 			if err.Error() == "connection reset by peer" {
@@ -49,10 +62,12 @@ func GetRatePairTriangle(pair []string) map[string][4]float64 {
 	}
 }
 
-func SendRequestRatePairTriangle(pair []string) (map[string][4]float64, error) {
+func sendRequestRatePairTriangle(pair []string) (map[string][4]float64, error) {
 	rate_pair := make(map[string][4]float64)
 	for _, p := range pair {
-		url := fmt.Sprintf("https://www.binance.com/api/v3/depth?symbol=%s&limit=1", p)
+		//log.Println("pair", p)
+
+		url := fmt.Sprintf("https://api.huobi.pro/market/detail/merged?symbol=%s", strings.ToLower(p))
 
 		resp, err := http.Get(url)
 		if err != nil {
@@ -64,22 +79,27 @@ func SendRequestRatePairTriangle(pair []string) (map[string][4]float64, error) {
 			log.Println("Error  in Body", err)
 		}
 
-		rj := RatePair{}
+		rj := ratePairFull{}
 
 		if err := json.Unmarshal(body, &rj); err != nil {
 			log.Println("failed to parse JSON: %v", err)
 			return nil, err
 		}
+		//log.Println(rj.Tick.Bid, " - ", rj.Tick.Ask)
 
-		if len(rj.Bids) > 0 && len(rj.Asks) > 0 {
-			bid, _ := strconv.ParseFloat(rj.Bids[0][0], 64)
-			bidVolume, _ := strconv.ParseFloat(rj.Bids[0][1], 64)
-			ask, _ := strconv.ParseFloat(rj.Asks[0][0], 64)
-			askVolume, _ := strconv.ParseFloat(rj.Asks[0][1], 64)
+		if len(rj.Tick.Bid) > 0 && len(rj.Tick.Ask) > 0 {
+			bid := rj.Tick.Bid[0]
+			bidVolume := rj.Tick.Bid[1]
+			ask := rj.Tick.Ask[0]
+			askVolume := rj.Tick.Ask[1]
 
 			rate_pair[p] = [4]float64{bid, bidVolume, ask, askVolume}
 			//log.Println(p, " - ", rate_pair[p], " - ", [4]float64{bid, bidVolume, ask, askVolume})
 		}
 	}
+	//for l, m := range rate_pair {
+	//	fmt.Println(l, " - ", m)
+	//}
+
 	return rate_pair, nil
 }
