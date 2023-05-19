@@ -1,6 +1,7 @@
 package p2p2stepsamongexchange
 
 import (
+	"fmt"
 	"github.com/Zmey56/arbitrage/pkg/commonfunction"
 	"github.com/Zmey56/arbitrage/pkg/getdata"
 	"github.com/Zmey56/arbitrage/pkg/getdatahuobi"
@@ -70,7 +71,6 @@ func getResultP2P2stepsBinanceHuobiTT(fiat, a string, paramUser workingbinance.P
 
 func printResultP2P2stepsBinanceHuobiTT(fiat, a string, transAmountFirst, price_b float64,
 	order_buy getinfobinance.AdvertiserAdv, binance workingbinance.ParametersBinance) {
-	//log.Println("START THIRD FUNCTION", fiat, " - ", a)
 	coinidmap := workinghuobi.GetCoinIDHuobo(fiat)
 	paramUserH := workinghuobi.GetParamHuobi(fiat)
 	paramUserH.Amount = binance.TransAmount
@@ -83,16 +83,51 @@ func printResultP2P2stepsBinanceHuobiTT(fiat, a string, transAmountFirst, price_
 	//third steps
 	var assetSell = a
 
+	//third steps
+
 	if coinidmap[strings.ToUpper(assetSell)] != 0 {
 		order_sell := getdatahuobi.GetDataP2PHuobi(coinidmap[strings.ToUpper(assetSell)], coinidmap[fiat],
 			"buy", paramUserH)
-		//log.Printf("%+v\n\n", order_sell)
+		//log.Printf("len %v %+v\n\n", len(order_sell.Data), order_sell)
 		if len(order_sell.Data) < 2 {
 			log.Printf("Order sell is empty, fiat - %s, assets - %s, param %+v\n", fiat, a, paramUserH)
 		} else {
-			//log.Println("fiat", fiat, "Asset", a, "LEN")
+			profitResult := result.ResultP2P{}
 
-			profitResult := deltaBuySellBHTT(order_buy, order_sell, a, fiat, binance)
+			price_s, _ := strconv.ParseFloat(order_sell.Data[0].Price, 64)
+
+			transAmountThird := price_s * transAmountFirst
+
+			transAmountFloat, err := strconv.ParseFloat(binance.TransAmount, 64)
+			if err != nil {
+				log.Printf("Problem with convert transAmount to float, err - %v", err)
+			}
+			profitResult.Amount = binance.TransAmount
+			profitResult.Market.First = "Huobi"
+			profitResult.Merchant.FirstMerch = (binance.PublisherType == "merchant")
+			profitResult.User.FirstUser = "Taker"
+			profitResult.Market.Second = ""
+			profitResult.Market.Third = "Huobi"
+			profitResult.Merchant.ThirdMerch = (binance.PublisherType == "merchant")
+			profitResult.User.ThirdUser = "Taker"
+			profitResult.Profit = transAmountThird > transAmountFloat
+			profitResult.DataTime = time.Now()
+			profitResult.Fiat = fiat
+			profitResult.AssetsBuy = a
+			profitResult.PriceAssetsBuy = price_b
+			profitResult.PaymentBuy = result.PaymentMetods(order_buy)
+			profitResult.LinkAssetsBuy = fmt.Sprintf("https://p2p.binance.com/en/trade/all-payments/%v?fiat=%v", a, fiat)
+			profitResult.AssetsSell = assetSell
+			profitResult.PriceAssetsSell = price_s
+			profitResult.PaymentSell = result.PaymentMetodsHuobi(order_sell)
+			profitResult.LinkAssetsSell = fmt.Sprintf("https://www.huobi.com/en-us/fiat-crypto/trade/sell-%s-%s/", assetSell, strings.ToLower(fiat))
+			profitResult.ProfitValue = transAmountThird - transAmountFloat
+			profitResult.ProfitPercet = (((transAmountThird - transAmountFloat) / transAmountFloat) * 100)
+			profitResult.TotalAdvBuy = order_buy.Total
+			profitResult.TotalAdvSell = order_sell.TotalCount
+			profitResult.AdvNoBuy = order_buy.Data[0].Adv.AdvNo
+			profitResult.AdvNoSell = strconv.Itoa(order_sell.Data[0].UID)
+
 			result.CheckResultSaveSend2Steps(profitResult, binance.Border)
 		}
 	}

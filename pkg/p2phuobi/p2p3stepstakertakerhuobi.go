@@ -136,7 +136,7 @@ func printResultP2P3TT(p, a, fiat string, transAmountFirst, price_b float64, pai
 		profitResult.AssetsSell = assetSell
 		profitResult.PriceAssetsSell = price_s
 		profitResult.PaymentSell = result.PaymentMetodsHuobi(order_sell)
-		profitResult.LinkAssetsSell = fmt.Sprintf("https://p2p.binance.com/en/trade/sell/%v?fiat=%v", assetSell, fiat)
+		profitResult.LinkAssetsSell = fmt.Sprintf("https://www.huobi.com/en-us/fiat-crypto/trade/sell-%s-%s/", assetSell, strings.ToLower(fiat))
 		profitResult.ProfitValue = transAmountThird - transAmountFloat
 		profitResult.ProfitPercet = (((transAmountThird - transAmountFloat) / transAmountFloat) * 100)
 		profitResult.TotalAdvBuy = order_buy.TotalCount

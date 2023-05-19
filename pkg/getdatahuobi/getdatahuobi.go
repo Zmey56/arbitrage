@@ -32,7 +32,7 @@ func GetDataP2PHuobi(fiat, currency int, tradeType string, paramUser getinfohuob
 
 	params.Set("amount", "")
 	params.Set("isThumbsUp", "false")
-	params.Set("isMerchant", "false")
+	params.Set("isMerchant", paramUser.IsMerchant)
 
 	params.Set("isTraded", "false")
 	params.Set("onlyTradable", "false")

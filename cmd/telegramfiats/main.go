@@ -17,7 +17,8 @@ import (
 
 func main() {
 	//
-	fiats := []string{"AED", "EUR", "GEL", "KZT", "RUB", "TRY", "UAH", "USD"}
+	//fiats := []string{"AED", "EUR", "GEL", "KZT", "RUB", "TRY", "UAH", "USD"}
+	fiats := []string{"RUB"}
 	count := 0
 	tmp_multi := 0
 	multi := []float32{0.1, 0.5, 1}

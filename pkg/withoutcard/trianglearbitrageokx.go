@@ -7,6 +7,7 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"strconv"
 	"strings"
 	"time"
 )
@@ -15,22 +16,22 @@ type ratePairFullOKX struct {
 	Code string `json:"code"`
 	Msg  string `json:"msg"`
 	Data []struct {
-		InstType  string  `json:"instType"`
-		InstId    string  `json:"instId"`
-		Last      string  `json:"last"`
-		LastSz    string  `json:"lastSz"`
-		AskPx     float64 `json:"float64,askPx"`
-		AskSz     float64 `json:"float64,askSz"`
-		BidPx     float64 `json:"float64,bidPx"`
-		BidSz     float64 `json:"float64,bidSz,"`
-		Open24H   string  `json:"open24h"`
-		High24H   string  `json:"high24h"`
-		Low24H    string  `json:"low24h"`
-		VolCcy24H string  `json:"volCcy24h"`
-		Vol24H    string  `json:"vol24h"`
-		Ts        string  `json:"ts"`
-		SodUtc0   string  `json:"sodUtc0"`
-		SodUtc8   string  `json:"sodUtc8"`
+		InstType  string `json:"instType"`
+		InstId    string `json:"instId"`
+		Last      string `json:"last"`
+		LastSz    string `json:"lastSz"`
+		AskPx     string `json:"askPx"`
+		AskSz     string `json:"askSz"`
+		BidPx     string `json:"bidPx"`
+		BidSz     string `json:"bidSz"`
+		Open24H   string `json:"open24h"`
+		High24H   string `json:"high24h"`
+		Low24H    string `json:"low24h"`
+		VolCcy24H string `json:"volCcy24h"`
+		Vol24H    string `json:"vol24h"`
+		Ts        string `json:"ts"`
+		SodUtc0   string `json:"sodUtc0"`
+		SodUtc8   string `json:"sodUtc8"`
 	} `json:"data"`
 }
 
@@ -54,8 +55,6 @@ func CalculateTriangleArbitrageOKX(t time.Time, count int, asset, firstPairName,
 	pairRate := strings.Split(pp, "|")
 	pairRate = append(pairRate, firstPairName)
 	pairRateValue := GetRatePairTriangleOKX(pairRate) //rate for pairs from OKX
-
-	log.Println("pairRateValue", pairRateValue)
 
 	if pairRateValue[firstPairName][0] == 0.0 || pairRateValue[pairRate[0]][0] == 0 || pairRateValue[pairRate[1]][0] == 0 ||
 		pairRateValue[firstPairName][2] == 0.0 || pairRateValue[pairRate[0]][2] == 0 || pairRateValue[pairRate[1]][2] == 0 {
@@ -93,11 +92,11 @@ func CalculateTriangleArbitrageOKX(t time.Time, count int, asset, firstPairName,
 	}
 
 	timeSince := time.Since(t)
-	//if result > amount {
-	log.Printf("%d Asset: %s First Pair %s %.2f %.2f Secong Pair %s %.2f %.2f Third Pair %s %.2f %.2f - %v",
-		count, asset, firstPairName, rateFirst, transAmountFirst, pairRate[0], rateSecond,
-		transAmountSecond, pairRate[1], rateThird, result, timeSince)
-	//}
+	if result > amount {
+		log.Printf("%d Asset: %s First Pair %s %.2f %.2f Secong Pair %s %.2f %.2f Third Pair %s %.2f %.2f - Result: %v",
+			count, asset, firstPairName, rateFirst, transAmountFirst, pairRate[0], rateSecond,
+			transAmountSecond, pairRate[1], rateThird, result, timeSince)
+	}
 }
 
 func GetPairFromJSONOKX(asset string) map[string][]string {
@@ -155,7 +154,6 @@ func GetRatePairTriangleOKX(pair []string) map[string][4]float64 {
 func sendRequestRatePairTriangleOKX(pair []string) (map[string][4]float64, error) {
 	rate_pair := make(map[string][4]float64)
 	for _, p := range pair {
-
 		url := fmt.Sprintf("https://www.okx.com/priapi/v5/market/mult-tickers?instIds=%s", p)
 
 		resp, err := http.Get(url)
@@ -176,10 +174,10 @@ func sendRequestRatePairTriangleOKX(pair []string) (map[string][4]float64, error
 		}
 
 		if len(rj.Data) > 0 {
-			bid := rj.Data[0].BidPx
-			bidVolume := rj.Data[0].BidSz
-			ask := rj.Data[0].AskPx
-			askVolume := rj.Data[0].AskPx
+			bid, _ := strconv.ParseFloat(rj.Data[0].BidPx, 64)
+			bidVolume, _ := strconv.ParseFloat(rj.Data[0].BidSz, 64)
+			ask, _ := strconv.ParseFloat(rj.Data[0].AskPx, 64)
+			askVolume, _ := strconv.ParseFloat(rj.Data[0].AskPx, 64)
 
 			rate_pair[p] = [4]float64{bid, bidVolume, ask, askVolume}
 		}
