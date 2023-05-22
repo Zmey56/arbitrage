@@ -76,18 +76,15 @@ func GetDataP2PBinance(asset, fiat, tradeType string, paramUser workingbinance.P
 func requestOrdersP2P(j []byte, tt string, taf float64) (getinfobinance.AdvertiserAdv, error) {
 	httpposturl := "https://p2p.binance.com/bapi/c2c/v2/friendly/c2c/adv/search"
 	request, err := http.NewRequest("POST", httpposturl, bytes.NewBuffer(j))
-	//log.Println("ERR???", err)
 	if err != nil {
 		return getinfobinance.AdvertiserAdv{}, err
 	}
 	request.Header.Set("Content-Type", "application/json; charset=UTF-8")
-	//log.Println("AND???", request)
 	client := &http.Client{}
 	response, err := client.Do(request)
 	if err != nil {
 		return getinfobinance.AdvertiserAdv{}, err
 	}
-	//log.Println("ERR???", err)
 
 	defer response.Body.Close()
 

@@ -45,7 +45,6 @@ func GetDataP2PHuobi(fiat, currency int, tradeType string, paramUser getinfohuob
 	} else {
 		url = ("https://otc-cf.huobi.com/v1/data/trade-market" + "?" + params.Encode())
 	}
-	log.Println("URL", url)
 
 	var err error
 

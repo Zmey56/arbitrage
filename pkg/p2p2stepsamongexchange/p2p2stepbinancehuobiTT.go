@@ -38,7 +38,6 @@ func P2P2stepsBinanceHuobiTT(fiat string, paramUser workingbinance.ParametersBin
 func getResultP2P2stepsBinanceHuobiTT(fiat, a string, paramUser workingbinance.ParametersBinance) {
 	//log.Println("START SECOND FUNCTION", fiat, " - ", a)
 	order_buy := getdata.GetDataP2PBinance(a, fiat, "Buy", paramUser)
-	//log.Println("ORDER_BUY", order_buy)
 	var transAmountFloat float64
 	if paramUser.TransAmount != "" {
 		tmpTransAmountFloat, err := strconv.ParseFloat(paramUser.TransAmount, 64)
@@ -63,9 +62,6 @@ func getResultP2P2stepsBinanceHuobiTT(fiat, a string, paramUser workingbinance.P
 		//second step
 
 		printResultP2P2stepsBinanceHuobiTT(fiat, a, transAmountFirst, price_b, order_buy, paramUser)
-
-	} else {
-		log.Printf("Order buy is empty, fiat - %s, assets - %s, param %+v\n", fiat, a, paramUser)
 	}
 }
 
@@ -88,7 +84,6 @@ func printResultP2P2stepsBinanceHuobiTT(fiat, a string, transAmountFirst, price_
 	if coinidmap[strings.ToUpper(assetSell)] != 0 {
 		order_sell := getdatahuobi.GetDataP2PHuobi(coinidmap[strings.ToUpper(assetSell)], coinidmap[fiat],
 			"buy", paramUserH)
-		//log.Printf("len %v %+v\n\n", len(order_sell.Data), order_sell)
 		if len(order_sell.Data) < 2 {
 			log.Printf("Order sell is empty, fiat - %s, assets - %s, param %+v\n", fiat, a, paramUserH)
 		} else {
@@ -103,12 +98,12 @@ func printResultP2P2stepsBinanceHuobiTT(fiat, a string, transAmountFirst, price_
 				log.Printf("Problem with convert transAmount to float, err - %v", err)
 			}
 			profitResult.Amount = binance.TransAmount
-			profitResult.Market.First = "Huobi"
+			profitResult.Market.First = "Binance"
 			profitResult.Merchant.FirstMerch = (binance.PublisherType == "merchant")
 			profitResult.User.FirstUser = "Taker"
 			profitResult.Market.Second = ""
 			profitResult.Market.Third = "Huobi"
-			profitResult.Merchant.ThirdMerch = (binance.PublisherType == "merchant")
+			profitResult.Merchant.ThirdMerch = (paramUserH.IsMerchant == "true")
 			profitResult.User.ThirdUser = "Taker"
 			profitResult.Profit = transAmountThird > transAmountFloat
 			profitResult.DataTime = time.Now()
@@ -129,6 +124,7 @@ func printResultP2P2stepsBinanceHuobiTT(fiat, a string, transAmountFirst, price_
 			profitResult.AdvNoSell = strconv.Itoa(order_sell.Data[0].UID)
 
 			result.CheckResultSaveSend2Steps(profitResult, binance.Border)
+
 		}
 	}
 }

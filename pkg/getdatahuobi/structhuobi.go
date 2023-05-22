@@ -1,6 +1,7 @@
 package getdatahuobi
 
 type Huobi struct {
+	TimeData   int64  `json:"time_data"`
 	Code       int    `json:"code"`
 	Message    string `json:"message"`
 	TotalCount int    `json:"totalCount"`

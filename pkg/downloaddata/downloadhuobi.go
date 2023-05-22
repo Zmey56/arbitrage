@@ -5,6 +5,7 @@ import (
 	"github.com/Zmey56/arbitrage/pkg/result"
 	"github.com/Zmey56/arbitrage/pkg/workinghuobi"
 	"math"
+	"strconv"
 )
 
 func DownloadDataHuobi(fiat string) {
@@ -19,6 +20,8 @@ func DownloadDataHuobi(fiat string) {
 		// Get first result
 		resultBuy := getdatahuobi.GetDataP2PHuobiVer2(coinidmap[asset], coinidmap[fiat], "BUY", 1)
 		resultSell := getdatahuobi.GetDataP2PHuobiVer2(coinidmap[asset], coinidmap[fiat], "SELL", 1)
+		timePathBuy := strconv.FormatInt(resultBuy.TimeData, 10)
+		timePathSell := strconv.FormatInt(resultSell.TimeData, 10)
 
 		// Calculating the number of pages to get data
 		resultBuyTotal := float64(resultBuy.TotalCount)
@@ -70,8 +73,8 @@ func DownloadDataHuobi(fiat string) {
 			}
 		}
 
-		result.SaveAllData("BUY", fiat, asset, arrayBuy)
-		result.SaveAllData("SELL", fiat, asset, arraySell)
+		result.SaveAllData("BUY", fiat, asset, timePathBuy, arrayBuy)
+		result.SaveAllData("SELL", fiat, asset, timePathSell, arraySell)
 
 	}
 

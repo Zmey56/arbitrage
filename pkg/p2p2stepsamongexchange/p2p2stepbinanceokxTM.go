@@ -62,8 +62,6 @@ func getResultP2P2stepsBinanceOKXTM(fiat, a string, paramUser workingbinance.Par
 
 		printResultP2P2stepsBinanceOKXTM(fiat, a, transAmountFirst, price_b, order_buy, paramUser)
 
-	} else {
-		log.Printf("Order buy is empty, fiat - %s, assets - %s, param %+v\n", fiat, a, paramUser)
 	}
 }
 
@@ -76,13 +74,9 @@ func printResultP2P2stepsBinanceOKXTM(fiat, a string, transAmountFirst, price_b 
 
 	//third steps
 
-	log.Println(assetSell)
-
 	order_sell := getdataokx.GetDataP2POKXSell(fiat, assetSell, paramUserO)
 
-	if len(order_sell.Data.Buy) < 2 {
-		log.Printf("Order sell is empty, fiat - %s, assets - %s, param %+v\n", fiat, a, paramUserO)
-	} else {
+	if len(order_sell.Data.Buy) > 1 {
 		price_s, _ := strconv.ParseFloat(order_sell.Data.Buy[0].Price, 64)
 		transAmountFloat, err := strconv.ParseFloat(binance.TransAmount, 64)
 		if err != nil {
@@ -264,9 +258,7 @@ func deltaBuySellBOTM(ob getinfobinance.AdvertiserAdv, os getdataokx.OKXBuy, ass
 	res.DeltaSD = ((res.SDPriceS - res.SDPriceB) / res.SDPriceB) * 100
 
 	res.Amount, _ = strconv.ParseFloat(pu.TransAmount, 64)
-
-	log.Println("tmpData", tmpData)
-	log.Println("tmpDataW", tmpDataW)
+	
 	res.MeanWeightSD = commonfunction.WeightedStandardDeviation(tmpData, tmpDataW)
 	res.DeltaWSD = (res.MeanWeightSD / res.PriceB) * 100
 

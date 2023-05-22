@@ -106,6 +106,7 @@ type AdvertiserAdv struct {
 }
 
 type Binance struct {
+	TimeData      int64       `json:"time_data"`
 	Code          string      `json:"code"`
 	Message       interface{} `json:"message"`
 	MessageDetail interface{} `json:"messageDetail"`

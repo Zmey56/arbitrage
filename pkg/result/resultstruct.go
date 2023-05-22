@@ -86,4 +86,6 @@ type ResultP2P struct {
 	TotalAdvSell    int
 	AdvNoBuy        string
 	AdvNoSell       string
+	TimeBuy         time.Time
+	TimeSell        time.Time
 }

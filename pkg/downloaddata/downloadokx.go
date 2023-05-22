@@ -4,6 +4,7 @@ import (
 	"github.com/Zmey56/arbitrage/pkg/getdataokx"
 	"github.com/Zmey56/arbitrage/pkg/result"
 	"math"
+	"strconv"
 )
 
 func DownloadDataOKX(fiat string) {
@@ -18,6 +19,8 @@ func DownloadDataOKX(fiat string) {
 		// Get first result
 		resultBuy := getdataokx.GetDataP2POKXBuyVer2(asset, fiat, "BUY", 1)
 		resultSell := getdataokx.GetDataP2POKXSellVer2(asset, fiat, "SELL", 1)
+		timePathBuy := strconv.FormatInt(resultBuy.TimeData, 10)
+		timePathSell := strconv.FormatInt(resultSell.TimeData, 10)
 
 		// Calculating the number of pages to get data
 		resultBuyTotal := float64(resultBuy.Data.Total)
@@ -69,8 +72,8 @@ func DownloadDataOKX(fiat string) {
 			}
 		}
 
-		result.SaveAllData("BUY", fiat, asset, arrayBuy)
-		result.SaveAllData("SELL", fiat, asset, arraySell)
+		result.SaveAllData("BUY", fiat, asset, timePathBuy, arrayBuy)
+		result.SaveAllData("SELL", fiat, asset, timePathSell, arraySell)
 
 	}
 }

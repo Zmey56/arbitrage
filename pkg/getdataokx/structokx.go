@@ -1,8 +1,9 @@
 package getdataokx
 
 type OKXBuy struct {
-	Code int `json:"code"`
-	Data struct {
+	TimeData int64 `json:"time_data"`
+	Code     int   `json:"code"`
+	Data     struct {
 		Buy  []interface{} `json:"buy"`
 		Sell []struct {
 			AlreadyTraded             bool        `json:"alreadyTraded"`
@@ -50,8 +51,9 @@ type OKXBuy struct {
 }
 
 type OKXSell struct {
-	Code int `json:"code"`
-	Data struct {
+	TimeData int64 `json:"time_data"`
+	Code     int   `json:"code"`
+	Data     struct {
 		Buy []struct {
 			AlreadyTraded             bool        `json:"alreadyTraded"`
 			AvailableAmount           string      `json:"availableAmount"`

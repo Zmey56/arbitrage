@@ -2,6 +2,7 @@ package getdatahuobi
 
 import (
 	"encoding/json"
+	"fmt"
 	"io"
 	"log"
 	"net/http"
@@ -88,11 +89,25 @@ func requestOrdersP2PHuobiVer2(j string) (Huobi, error) {
 
 		defer response.Body.Close()
 
+		dateStr := response.Header.Get("Date")
+		if dateStr == "" {
+			log.Println("Data header not found")
+			return Huobi{}, err
+		}
+		layout := http.TimeFormat
+		date, err := time.Parse(layout, dateStr)
+		if err != nil {
+			log.Println("Invalid Date header")
+			return Huobi{}, err
+		}
+		unixTime := date.Unix()
+		fmt.Println("Unix timestamp:", unixTime)
+
 		if err != nil {
 			return Huobi{}, err
 		}
 		if response.StatusCode != http.StatusTooManyRequests {
-			return parsingJsonHuobiVer2(response.Body), nil
+			return parsingJsonHuobiVer2(response.Body, unixTime), nil
 		}
 		log.Println("Too many requests, backing off for", backoff)
 		time.Sleep(backoff)
@@ -100,7 +115,7 @@ func requestOrdersP2PHuobiVer2(j string) (Huobi, error) {
 
 }
 
-func parsingJsonHuobiVer2(r io.Reader) Huobi {
+func parsingJsonHuobiVer2(r io.Reader, ut int64) Huobi {
 	var result Huobi
 
 	body, _ := io.ReadAll(r)
@@ -109,6 +124,8 @@ func parsingJsonHuobiVer2(r io.Reader) Huobi {
 	if err != nil {
 		log.Println("Error unmarshal json URL Huobi:", err, string(body))
 	}
+
+	result.TimeData = ut
 
 	return result
 }

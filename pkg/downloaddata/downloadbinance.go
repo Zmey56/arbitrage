@@ -4,7 +4,9 @@ import (
 	"github.com/Zmey56/arbitrage/pkg/getdata"
 	"github.com/Zmey56/arbitrage/pkg/getinfobinance"
 	"github.com/Zmey56/arbitrage/pkg/result"
+	"log"
 	"math"
+	"strconv"
 )
 
 func DownloadDataBinance(fiat string) {
@@ -20,6 +22,8 @@ func DownloadDataBinance(fiat string) {
 		// Get first result
 		resultBuy := getdata.GetDataP2PBinanceVer2(asset, fiat, "BUY", 1)
 		resultSell := getdata.GetDataP2PBinanceVer2(asset, fiat, "SELL", 1)
+		timePathBuy := strconv.FormatInt(resultBuy.TimeData, 10)
+		timePathSell := strconv.FormatInt(resultSell.TimeData, 10)
 
 		// Calculating the number of pages to get data
 		resultBuyTotal := float64(resultBuy.Total)
@@ -71,8 +75,11 @@ func DownloadDataBinance(fiat string) {
 			}
 		}
 
-		result.SaveAllData("BUY", fiat, asset, arrayBuy)
-		result.SaveAllData("SELL", fiat, asset, arraySell)
+		log.Println(len(arrayBuy))
+		log.Println(len(arraySell))
+
+		result.SaveAllData("BUY", fiat, asset, timePathBuy, arrayBuy)
+		result.SaveAllData("SELL", fiat, asset, timePathSell, arraySell)
 
 	}
 

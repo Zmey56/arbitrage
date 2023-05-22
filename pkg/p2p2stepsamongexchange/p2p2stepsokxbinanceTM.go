@@ -1,6 +1,7 @@
 package p2p2stepsamongexchange
 
 import (
+	"fmt"
 	"github.com/Zmey56/arbitrage/pkg/commonfunction"
 	"github.com/Zmey56/arbitrage/pkg/getdata"
 	"github.com/Zmey56/arbitrage/pkg/getdataokx"
@@ -11,6 +12,7 @@ import (
 	"log"
 	"math"
 	"strconv"
+	"strings"
 	"sync"
 	"time"
 )
@@ -82,13 +84,46 @@ func printResultP2P2stepsOKXBinanceTM(a, fiat string, transAmountFirst, price_b 
 
 	order_sell := getdata.GetDataP2PBinance(a, fiat, "Buy", paramUserB)
 
-	if len(order_sell.Data) < 2 {
+	if len(order_sell.Data) < 1 {
 		log.Printf("Order sell is empty, fiat - %s, assets - %s, param %+v\n", fiat, a, paramUser)
 	} else {
-		//log.Println("fiat", fiat, "Asset", a, "LEN")
 
-		profitResult := deltaBuySellOBTM(order_buy, order_sell, a, fiat, paramUser)
-		result.CheckResultSaveSend2Steps(profitResult, paramUserB.Border)
+		profitResult := result.ResultP2P{}
+		price_s := order_sell.Data[0].Adv.Price
+
+		transAmountThird := price_s * transAmountFirst
+
+		transAmountFloat, err := strconv.ParseFloat(paramUser.Amount, 64)
+		if err != nil {
+			log.Printf("Problem with convert transAmount to float, err - %v", err)
+		}
+		profitResult.Amount = paramUser.Amount
+		profitResult.Market.First = "OKX"
+		profitResult.Merchant.FirstMerch = (paramUser.IsMerchant == "true")
+		profitResult.User.FirstUser = "Taker"
+		profitResult.Market.Second = "None"
+		profitResult.Market.Third = "Binance"
+		profitResult.User.ThirdUser = "Taker"
+		profitResult.Merchant.ThirdMerch = (paramUserB.PublisherType == "merchant")
+		profitResult.Profit = transAmountThird > transAmountFloat
+		profitResult.DataTime = time.Now()
+		profitResult.Fiat = fiat
+		profitResult.AssetsBuy = a
+		profitResult.PriceAssetsBuy = price_b
+		profitResult.PaymentBuy = order_buy.Data.Sell[0].PaymentMethods
+		profitResult.LinkAssetsBuy = fmt.Sprintf("https://www.okx.com/p2p-markets/%s/buy-%s/", strings.ToLower(fiat), strings.ToLower(a))
+		profitResult.AssetsSell = a
+		profitResult.PriceAssetsSell = price_s
+		profitResult.PaymentSell = result.PaymentMetods(order_sell)
+		profitResult.LinkAssetsSell = fmt.Sprintf("https://p2p.binance.com/en/trade/all-payments/%v?fiat=%v", a, fiat)
+		profitResult.ProfitValue = transAmountThird - transAmountFloat
+		profitResult.ProfitPercet = (((transAmountThird - transAmountFloat) / transAmountFloat) * 100)
+		profitResult.TotalAdvBuy = order_buy.Data.Total
+		profitResult.TotalAdvSell = order_sell.Total
+		profitResult.AdvNoBuy = order_buy.Data.Sell[0].ID
+		profitResult.AdvNoSell = order_sell.Data[0].Adv.AdvNo
+
+		result.CheckResultSaveSend2Steps(profitResult, paramUser.Border)
 	}
 }
 

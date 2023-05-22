@@ -76,10 +76,23 @@ func requestOrdersP2PVer2(j []byte, tt string) (getinfobinance.Binance, error) {
 
 	defer response.Body.Close()
 
-	return parsingJsonVer2(response.Body, tt), nil
+	dateStr := response.Header.Get("Date")
+	if dateStr == "" {
+		log.Println("Data header not found")
+		return getinfobinance.Binance{}, err
+	}
+	layout := http.TimeFormat
+	date, err := time.Parse(layout, dateStr)
+	if err != nil {
+		log.Println("Invalid Date header")
+		return getinfobinance.Binance{}, err
+	}
+	unixTime := date.Unix()
+
+	return parsingJsonVer2(response.Body, tt, unixTime), nil
 }
 
-func parsingJsonVer2(r io.Reader, tradeType string) getinfobinance.Binance {
+func parsingJsonVer2(r io.Reader, tradeType string, ut int64) getinfobinance.Binance {
 	var result getinfobinance.Binance
 
 	body, _ := io.ReadAll(r)
@@ -88,6 +101,8 @@ func parsingJsonVer2(r io.Reader, tradeType string) getinfobinance.Binance {
 	if err != nil {
 		log.Println("Error unmarshal json from URL:", err, "/n")
 	}
+
+	result.TimeData = ut
 
 	return result
 }

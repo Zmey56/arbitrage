@@ -7,6 +7,7 @@ import (
 	"log"
 	"net/http"
 	"net/url"
+	"strconv"
 	"strings"
 	"time"
 )
@@ -24,7 +25,7 @@ func GetDataP2POKXBuyVer2(asset, fiat, tradeType string, page int) OKXBuy {
 	params.Set("limit", "10000")
 	params.Set("cryptoCurrency", strings.ToLower(asset))
 	params.Set("fiatCurrency", strings.ToLower(fiat))
-	params.Set("currentPage", "1") //;
+	params.Set("currentPage", strconv.Itoa(page)) //;
 	params.Set("numberPerPage", "10")
 
 	resultokxbuy := OKXBuy{}
@@ -90,8 +91,22 @@ func requestOrdersP2POKXBuyVer2(j string) (OKXBuy, error) {
 		// Make sure the response body is closed when we're done with it
 		defer resp.Body.Close()
 
+		dateStr := resp.Header.Get("Date")
+		if dateStr == "" {
+			log.Println("Data header not found")
+			return OKXBuy{}, err
+		}
+		layout := http.TimeFormat
+		date, err := time.Parse(layout, dateStr)
+		if err != nil {
+			log.Println("Invalid Date header")
+			return OKXBuy{}, err
+		}
+		unixTime := date.Unix()
+		fmt.Println("Unix timestamp:", unixTime)
+
 		if resp.StatusCode != http.StatusTooManyRequests {
-			return parsingJsonOKXBuyVer2(resp.Body), nil
+			return parsingJsonOKXBuyVer2(resp.Body, unixTime), nil
 		}
 		log.Println("Too many requests, backing off for", backoff)
 		time.Sleep(backoff)
@@ -99,15 +114,16 @@ func requestOrdersP2POKXBuyVer2(j string) (OKXBuy, error) {
 
 }
 
-func parsingJsonOKXBuyVer2(r io.Reader) OKXBuy {
+func parsingJsonOKXBuyVer2(r io.Reader, ut int64) OKXBuy {
 	var result OKXBuy
 
 	body, _ := io.ReadAll(r)
 	err := json.Unmarshal([]byte(body), &result)
-
 	if err != nil {
 		log.Println("Error unmarshal json URL Huobi:", err, string(body))
 	}
+
+	result.TimeData = ut
 
 	return result
 }

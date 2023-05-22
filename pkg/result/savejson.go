@@ -8,16 +8,17 @@ import (
 	"github.com/Zmey56/arbitrage/pkg/getinfobinance"
 	"log"
 	"os"
+	"strings"
 	"time"
 )
 
 // SaveAllData save all data to file
-func SaveAllData(tradeType, fiat, asset string, data interface{}) {
-	const layout = "2006-01-02_15-04"
+func SaveAllData(tradeType, fiat, asset, timePath string, data interface{}) {
+	//const layout = "2006-01-02_15-04"
 	resultPath := ""
-	t := time.Now()
-	timePath := t.Format(layout)
-	nameFile := fmt.Sprintf("%s_%s_%s", fiat, asset, timePath)
+	//t := time.Now()
+	//timePath := t.Format(layout)
+	nameFile := fmt.Sprintf("%s_%s_%s", strings.ToLower(fiat), strings.ToLower(asset), timePath)
 
 	switch data.(type) {
 	case []getinfobinance.Binance:
