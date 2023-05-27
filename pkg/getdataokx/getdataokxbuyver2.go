@@ -31,7 +31,6 @@ func GetDataP2POKXBuyVer2(asset, fiat, tradeType string, page int) OKXBuy {
 	resultokxbuy := OKXBuy{}
 
 	url_buy := ("https://www.okx.com/v3/c2c/tradingOrders/getMarketplaceAdsPrelogin" + "?" + params.Encode())
-	//log.Println("URL", url_buy)
 	var err error
 
 	for {
@@ -61,7 +60,6 @@ func GetDataP2POKXBuyVer2(asset, fiat, tradeType string, page int) OKXBuy {
 	}
 
 	if len(resultokxbuy.Data.Sell) > 0 {
-		//log.Println("Size for buy before return", len(resultokxbuy.Data.Sell), " for fiat", fiat, "and coin", currency)
 		return resultokxbuy
 	} else {
 		return OKXBuy{}
@@ -103,7 +101,6 @@ func requestOrdersP2POKXBuyVer2(j string) (OKXBuy, error) {
 			return OKXBuy{}, err
 		}
 		unixTime := date.Unix()
-		fmt.Println("Unix timestamp:", unixTime)
 
 		if resp.StatusCode != http.StatusTooManyRequests {
 			return parsingJsonOKXBuyVer2(resp.Body, unixTime), nil

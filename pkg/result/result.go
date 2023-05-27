@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"github.com/Zmey56/arbitrage/pkg/getdatahuobi"
 	"github.com/Zmey56/arbitrage/pkg/getinfobinance"
-	"log"
 	"strings"
 )
 
@@ -46,24 +45,21 @@ func PaymentMetodsHuobi(a getdatahuobi.Huobi) []string {
 
 func CheckResultSaveSend(howone, howtwo string, boarder int, per float64, profitResult ResultP2P) {
 	if (profitResult.TotalAdvBuy > 0) && (profitResult.TotalAdvSell > 0) {
-		log.Printf("%+v\n\n", profitResult)
-		//how_market := fmt.Sprintf("3steps_%s%s", string(profitResult.User.FirstUser[0]), string(profitResult.User.ThirdUser[0]))
-		//SaveResultJsonFile(profitResult.Fiat, profitResult, how_market)
+		how_market := fmt.Sprintf("3steps_%s%s", string(profitResult.User.FirstUser[0]), string(profitResult.User.ThirdUser[0]))
+		SaveResultJsonFile(profitResult.Fiat, profitResult, how_market)
 		if profitResult.Profit && (profitResult.ProfitPercet >= per) &&
 			(profitResult.TotalAdvBuy >= boarder) && (profitResult.TotalAdvSell >= boarder) {
-			log.Printf("Profit - %s, ProfitPercet - %v, per - %v, TotalAdvBuy - %v, TotalAdvSell - %v, border - %v",
-				profitResult.Profit, profitResult.ProfitPercet, per, profitResult.TotalAdvBuy, profitResult.TotalAdvSell, boarder)
 			FormatMessageAndSend(profitResult)
 		}
 	}
 }
 
-func CheckResultSaveSend2Steps(profitResult ResultP2P, border int) {
-	log.Println("CheckResultSaveSend2Steps")
-	if profitResult.Profit == true {
-		if (profitResult.TotalAdvSell >= border) &&
-			(profitResult.TotalAdvBuy >= border) {
-
+func CheckResultSaveSend2Steps(boarder int, per float64, profitResult ResultP2P) {
+	if (profitResult.TotalAdvBuy > 0) && (profitResult.TotalAdvSell > 0) {
+		how_market := fmt.Sprintf("2steps_%s%s", string(profitResult.User.FirstUser[0]), string(profitResult.User.ThirdUser[0]))
+		SaveResultJsonFile(profitResult.Fiat, profitResult, how_market)
+		if profitResult.Profit && (profitResult.ProfitPercet >= per) &&
+			(profitResult.TotalAdvBuy >= boarder) && (profitResult.TotalAdvSell >= boarder) {
 			FormatMessageAndSend2steps(profitResult)
 		}
 	}

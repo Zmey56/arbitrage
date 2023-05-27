@@ -252,11 +252,11 @@ func GetPairFromJSONPairPairPair(asset string) map[string][]string {
 }
 
 // GetPairFromJSONBHH return map with pair of map[cryptoPair]cryptoPair|cryptoPair for Binance-Huobi_Huobi
-func GetPairFromJSONBHH(asset string) map[string][]string {
+func GetPairBinanceWithout(asset string) []string {
 	pair := ""
 	switch asset {
 	case "USDT":
-		pair = fmt.Sprintf("data/databinance/%s/%s_pairB_pairH_pairH.json", asset, asset)
+		pair = fmt.Sprintf("data/databinance/%s/%s_pair_without.json", asset, asset)
 	default:
 		log.Printf("For %v don't have para\n", asset)
 	}
@@ -265,7 +265,7 @@ func GetPairFromJSONBHH(asset string) map[string][]string {
 	if err != nil {
 		panic(err)
 	}
-	var result map[string][]string
+	var result []string
 	_ = json.Unmarshal(jsonfile, &result)
 
 	return result

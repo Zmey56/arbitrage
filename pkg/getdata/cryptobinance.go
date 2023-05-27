@@ -401,3 +401,42 @@ func uniqElement(a []string) []string {
 	}
 	return a
 }
+
+func GetPairWithoutB(fiat string) {
+	//get all pair
+	url := "https://api.binance.com/api/v3/exchangeInfo"
+
+	resp, err := http.Get(url)
+	if err != nil {
+		log.Println(err)
+	}
+	defer resp.Body.Close()
+
+	body, err := io.ReadAll(resp.Body)
+	if err != nil {
+		log.Println(err)
+	}
+
+	symbols := Symbols{}
+
+	if err := json.Unmarshal(body, &symbols); err != nil {
+		panic(err)
+	}
+
+	var fiatpair []string
+	fiatLow := strings.ToLower(fiat)
+	for _, i := range symbols.Symbols {
+		if strings.ToLower(i.BaseAsset) == fiatLow || strings.ToLower(i.QuoteAsset) == fiatLow {
+			fiatpair = append(fiatpair, strings.Join([]string{i.BaseAsset, i.QuoteAsset}, ""))
+		}
+	}
+
+	name_json := fmt.Sprintf("data/databinance/%s/%s_pair_without.json", fiat, fiat)
+	jsonStr, err := json.MarshalIndent(fiatpair, "", " ")
+	if err != nil {
+		log.Printf("Error: %s", err.Error())
+	}
+
+	_ = os.WriteFile(name_json, jsonStr, 0644)
+
+}

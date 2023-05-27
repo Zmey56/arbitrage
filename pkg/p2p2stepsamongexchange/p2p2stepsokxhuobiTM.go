@@ -20,14 +20,8 @@ func P2P2stepsOKXHuobiTM(fiat string, paramUser getinfookx.ParametersOKX) {
 
 	assetsO := getdataokx.GetCurrencyOKX(fiat)
 	assetsH := getdatahuobi.GetCurrencyHuobi(fiat)
-	//assetsB := make([]string, 0, len(assets))
-	//for k, _ := range assets {
-	//	assetsB = append(assetsB, k)
-	//}
+
 	assetsSymbol := commonfunction.CommonElement(assetsO, assetsH)
-	//log.Println("assetsB", assetsB)
-	//log.Println("assetsH", assetsH)
-	//log.Println("assetsSymbol", assetsSymbol)
 
 	var wg sync.WaitGroup
 	for _, a := range assetsSymbol {
@@ -70,8 +64,6 @@ func getResultP2P2stepsOKXHuobiTM(a, fiat string, paramUser getinfookx.Parameter
 
 		printResultP2P2stepsOKXHuobiTM(a, fiat, transAmountFirst, price_b, order_buy, paramUser)
 
-	} else {
-		log.Printf("Order buy is empty, fiat - %s, assets - %s, param %+v\n", fiat, a, paramUser)
 	}
 
 }
@@ -96,9 +88,7 @@ func printResultP2P2stepsOKXHuobiTM(a, fiat string, transAmountFirst, price_b fl
 		order_sell := getdatahuobi.GetDataP2PHuobi(coinidmap[strings.ToUpper(assetSell)], coinidmap[fiat],
 			"sell", paramUserH)
 		//log.Printf("len %v %+v\n\n", len(order_sell.Data), order_sell)
-		if len(order_sell.Data) < 2 {
-			log.Printf("Order sell is empty, fiat - %s, assets - %s, param %+v\n", fiat, a, paramUserH)
-		} else {
+		if len(order_sell.Data) > 1 {
 			profitResult := result.ResultP2P{}
 
 			price_s, _ := strconv.ParseFloat(order_sell.Data[0].Price, 64)
@@ -116,7 +106,7 @@ func printResultP2P2stepsOKXHuobiTM(a, fiat string, transAmountFirst, price_b fl
 			profitResult.Market.Second = ""
 			profitResult.Market.Third = "Huobi"
 			profitResult.Merchant.ThirdMerch = (paramUserH.IsMerchant == "true")
-			profitResult.User.ThirdUser = "Taker"
+			profitResult.User.ThirdUser = "Maker"
 			profitResult.Profit = transAmountThird > transAmountFloat
 			profitResult.DataTime = time.Now()
 			profitResult.Fiat = fiat
@@ -127,7 +117,7 @@ func printResultP2P2stepsOKXHuobiTM(a, fiat string, transAmountFirst, price_b fl
 			profitResult.AssetsSell = assetSell
 			profitResult.PriceAssetsSell = price_s
 			profitResult.PaymentSell = result.PaymentMetodsHuobi(order_sell)
-			profitResult.LinkAssetsSell = fmt.Sprintf("https://www.huobi.com/en-us/fiat-crypto/trade/sell-%s-%s/", assetSell, strings.ToLower(fiat))
+			profitResult.LinkAssetsSell = fmt.Sprintf("https://www.huobi.com/en-us/fiat-crypto/trade/buy-%s-%s/", strings.ToLower(a), strings.ToLower(fiat))
 			profitResult.ProfitValue = transAmountThird - transAmountFloat
 			profitResult.ProfitPercet = (((transAmountThird - transAmountFloat) / transAmountFloat) * 100)
 			profitResult.TotalAdvBuy = order_buy.Data.Total
@@ -135,7 +125,7 @@ func printResultP2P2stepsOKXHuobiTM(a, fiat string, transAmountFirst, price_b fl
 			profitResult.AdvNoBuy = order_buy.Data.Sell[0].ID
 			profitResult.AdvNoSell = strconv.Itoa(order_sell.Data[0].UID)
 
-			result.CheckResultSaveSend2Steps(profitResult, paramUser.Border)
+			result.CheckResultSaveSend2Steps(paramUser.Border, paramUser.PercentUser, profitResult)
 		}
 	}
 }

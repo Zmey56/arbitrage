@@ -36,7 +36,7 @@ func P2P2stepsBinanceHuobiTT(fiat string, paramUser workingbinance.ParametersBin
 }
 
 func getResultP2P2stepsBinanceHuobiTT(fiat, a string, paramUser workingbinance.ParametersBinance) {
-	//log.Println("START SECOND FUNCTION", fiat, " - ", a)
+
 	order_buy := getdata.GetDataP2PBinance(a, fiat, "Buy", paramUser)
 	var transAmountFloat float64
 	if paramUser.TransAmount != "" {
@@ -55,7 +55,6 @@ func getResultP2P2stepsBinanceHuobiTT(fiat, a string, paramUser workingbinance.P
 	}
 
 	if len(order_buy.Data) > 1 {
-		//log.Println("Second")
 		price_b := order_buy.Data[0].Adv.Price
 
 		transAmountFirst := transAmountFloat / price_b
@@ -84,9 +83,7 @@ func printResultP2P2stepsBinanceHuobiTT(fiat, a string, transAmountFirst, price_
 	if coinidmap[strings.ToUpper(assetSell)] != 0 {
 		order_sell := getdatahuobi.GetDataP2PHuobi(coinidmap[strings.ToUpper(assetSell)], coinidmap[fiat],
 			"buy", paramUserH)
-		if len(order_sell.Data) < 2 {
-			log.Printf("Order sell is empty, fiat - %s, assets - %s, param %+v\n", fiat, a, paramUserH)
-		} else {
+		if len(order_sell.Data) > 1 {
 			profitResult := result.ResultP2P{}
 
 			price_s, _ := strconv.ParseFloat(order_sell.Data[0].Price, 64)
@@ -123,8 +120,7 @@ func printResultP2P2stepsBinanceHuobiTT(fiat, a string, transAmountFirst, price_
 			profitResult.AdvNoBuy = order_buy.Data[0].Adv.AdvNo
 			profitResult.AdvNoSell = strconv.Itoa(order_sell.Data[0].UID)
 
-			result.CheckResultSaveSend2Steps(profitResult, binance.Border)
-
+			result.CheckResultSaveSend2Steps(binance.Border, binance.PercentUser, profitResult)
 		}
 	}
 }
@@ -269,8 +265,6 @@ func deltaBuySellBHTT(ob getinfobinance.AdvertiserAdv, os getdatahuobi.Huobi, as
 
 	res.Amount, _ = strconv.ParseFloat(pu.TransAmount, 64)
 
-	log.Println("tmpData", tmpData)
-	log.Println("tmpDataW", tmpDataW)
 	res.MeanWeightSD = commonfunction.WeightedStandardDeviation(tmpData, tmpDataW)
 	res.DeltaWSD = (res.MeanWeightSD / res.PriceB) * 100
 

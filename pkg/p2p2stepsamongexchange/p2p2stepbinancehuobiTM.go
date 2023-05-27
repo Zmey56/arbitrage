@@ -123,7 +123,7 @@ func printResultP2P2stepsBinanceHuobiTM(fiat, a string, transAmountFirst, price_
 			profitResult.AdvNoBuy = order_buy.Data[0].Adv.AdvNo
 			profitResult.AdvNoSell = strconv.Itoa(order_sell.Data[0].UID)
 
-			result.CheckResultSaveSend2Steps(profitResult, binance.Border)
+			result.CheckResultSaveSend2Steps(binance.Border, binance.PercentUser, profitResult)
 		}
 	}
 }

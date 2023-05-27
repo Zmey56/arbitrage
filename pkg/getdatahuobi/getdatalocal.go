@@ -64,3 +64,22 @@ func GetCurrencyHuobi(fiat string) []string {
 	}
 	return currency
 }
+
+func GetPairHuobiWithout(fiat string) []string {
+	pair := ""
+	switch fiat {
+	case "USDT":
+		pair = fmt.Sprintf("data/datahuobi/%s/%s_pair_without.json", fiat, fiat)
+	default:
+		log.Printf("For %v don't have para\n", fiat)
+	}
+
+	jsonfile, err := os.ReadFile(pair)
+	if err != nil {
+		panic(err)
+	}
+	var result []string
+	_ = json.Unmarshal(jsonfile, &result)
+
+	return result
+}

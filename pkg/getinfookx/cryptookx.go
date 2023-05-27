@@ -13,7 +13,7 @@ import (
 )
 
 // GetListSymbolsAssetOKX pair only for crypto
-func GetListSymbolsAssetOKX(asset string) ([]string, error) {
+func GetListSymbolsAssetOKX(fiat string) {
 
 	//get all pair
 	url := fmt.Sprintf("https://www.okx.com/priapi/v5/public/simpleProduct?instType=SPOT")
@@ -33,15 +33,22 @@ func GetListSymbolsAssetOKX(asset string) ([]string, error) {
 
 	json.Unmarshal(body, &pair)
 
-	pairArray := []string{}
+	fiatpair := []string{}
 
 	for _, j := range pair.Data {
 		tmpArr := strings.Split(j.InstID, "-")
-		if tmpArr[0] == asset || tmpArr[1] == asset {
-			pairArray = append(pairArray, fmt.Sprintf("%s%s", tmpArr[0], tmpArr[1]))
+		if tmpArr[0] == fiat || tmpArr[1] == fiat {
+			fiatpair = append(fiatpair, fmt.Sprintf("%s%s", tmpArr[0], tmpArr[1]))
 		}
 	}
-	return pairArray, nil
+
+	name_json := fmt.Sprintf("data/dataokx/%s/%s_pair_without.json", fiat, fiat)
+	jsonStr, err := json.MarshalIndent(fiatpair, "", " ")
+	if err != nil {
+		log.Printf("Error: %s", err.Error())
+	}
+
+	_ = os.WriteFile(name_json, jsonStr, 0644)
 
 }
 

@@ -78,8 +78,6 @@ func getResultP2P3TT(a, fiat string, pair map[string][]string,
 
 		}
 		wg.Wait()
-	} else {
-		log.Printf("Order buy is empty, fiat - %s, assets - %s, param %+v\n", fiat, a, paramUser)
 	}
 
 }
@@ -100,13 +98,10 @@ func printResultP2P3TT(p, a, fiat string, transAmountFirst, price_b float64, pai
 		assetSell = p[:(len(p) - len(a))]
 	}
 	//third steps
-	log.Println("ORDER SELL", paramUser)
 	order_sell := getdatahuobi.GetDataP2PHuobi(coinidmap[strings.ToUpper(assetSell)], coinidmap[fiat],
 		"buy", paramUser)
 
-	if len(order_sell.Data) == 0 {
-		log.Printf("Order sell is empty, fiat - %s, assets - %s, param %+v\n", fiat, a, paramUser)
-	} else {
+	if len(order_sell.Data) > 0 {
 		price_s, _ := strconv.ParseFloat(order_sell.Data[0].Price, 64)
 
 		transAmountThird := price_s * transAmountSecond

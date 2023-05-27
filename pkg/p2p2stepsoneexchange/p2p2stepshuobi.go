@@ -62,8 +62,6 @@ func getResultP2P2Huobi(a, fiat string, paramUser getinfohuobi.ParametersHuobi) 
 
 		printResultP2P2Huobi(a, fiat, transAmountFirst, price_b, order_buy, paramUser)
 
-	} else {
-		log.Printf("Order buy is empty, fiat - %s, assets - %s, param %+v\n", fiat, a, paramUser)
 	}
 
 }
@@ -81,9 +79,7 @@ func printResultP2P2Huobi(a, fiat string, transAmountFirst, price_b float64,
 	order_sell := getdatahuobi.GetDataP2PHuobi(coinidmap[strings.ToUpper(assetSell)], coinidmap[fiat],
 		"buy", paramUser)
 
-	if len(order_sell.Data) < 2 {
-		log.Printf("Order sell is empty, fiat - %s, assets - %s, param %+v\n", fiat, a, paramUser)
-	} else {
+	if len(order_sell.Data) > 1 {
 		profitResult := result.ResultP2P{}
 		price_s, _ := strconv.ParseFloat(order_sell.Data[0].Price, 64)
 
@@ -119,7 +115,7 @@ func printResultP2P2Huobi(a, fiat string, transAmountFirst, price_b float64,
 		profitResult.AdvNoBuy = strconv.Itoa(order_buy.Data[0].UID)
 		profitResult.AdvNoSell = strconv.Itoa(order_sell.Data[0].UID)
 
-		result.CheckResultSaveSend2Steps(profitResult, paramUser.Border)
+		result.CheckResultSaveSend2Steps(paramUser.Border, paramUser.PercentUser, profitResult)
 	}
 }
 

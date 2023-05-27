@@ -72,8 +72,6 @@ func GetResultP2P3TM(a, fiat string, pair map[string][]string, paramUser working
 
 		}
 		wg.Wait()
-	} else {
-		log.Printf("Order buy is empty, fiat - %s, assets - %s, param %+v\n", fiat, a, paramUser)
 	}
 
 }
@@ -95,9 +93,7 @@ func PrintResultP2P3TM(p, a, fiat string, transAmountFirst, price_b float64, pai
 	//third steps
 	order_sell := getdata.GetDataP2PBinance(assetSell, fiat,
 		"Buy", paramUser)
-	if len(order_sell.Data) == 0 {
-		log.Printf("Order sell is empty, fiat - %s, assets - %s, param %+v\n", fiat, a, paramUser)
-	} else {
+	if len(order_sell.Data) > 0 {
 		price_s := order_sell.Data[0].Adv.Price
 
 		transAmountThird := price_s * transAmountSecond

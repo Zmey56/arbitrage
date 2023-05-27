@@ -23,21 +23,21 @@ func SaveAllData(tradeType, fiat, asset, timePath string, data interface{}) {
 	switch data.(type) {
 	case []getinfobinance.Binance:
 		if tradeType == "BUY" {
-			resultPath = fmt.Sprintf("jsonresult/Binance/buy_%s.json", nameFile)
+			resultPath = fmt.Sprintf("jsonresultdownload/Binance/buy_%s.json", nameFile)
 		} else {
-			resultPath = fmt.Sprintf("jsonresult/Binance/sell_%s.json", nameFile)
+			resultPath = fmt.Sprintf("jsonresultdownload/Binance/sell_%s.json", nameFile)
 		}
 	case []getdatahuobi.Huobi:
 		log.Println("HUOBI")
 		if tradeType == "BUY" {
-			resultPath = fmt.Sprintf("jsonresult/Huobi/buy_%s.json", nameFile)
+			resultPath = fmt.Sprintf("jsonresultdownload/Huobi/buy_%s.json", nameFile)
 		} else {
-			resultPath = fmt.Sprintf("jsonresult/Huobi/sell_%s.json", nameFile)
+			resultPath = fmt.Sprintf("jsonresultdownload/Huobi/sell_%s.json", nameFile)
 		}
 	case []getdataokx.OKXBuy:
-		resultPath = fmt.Sprintf("jsonresult/OKX/buy_%s.json", nameFile)
+		resultPath = fmt.Sprintf("jsonresultdownload/OKX/buy_%s.json", nameFile)
 	case []getdataokx.OKXSell:
-		resultPath = fmt.Sprintf("jsonresult/OKX/sell_%s.json", nameFile)
+		resultPath = fmt.Sprintf("jsonresultdownload/OKX/sell_%s.json", nameFile)
 	default:
 		log.Println("I don't now this format")
 	}

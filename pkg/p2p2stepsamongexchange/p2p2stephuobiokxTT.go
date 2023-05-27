@@ -20,14 +20,8 @@ import (
 func P2P2stepsHuobiOKXTT(fiat string, paramUser getinfohuobi.ParametersHuobi) {
 	assetsO := getdataokx.GetCurrencyOKX(fiat)
 	assetsH := getdatahuobi.GetCurrencyHuobi(fiat)
-	//assetsB := make([]string, 0, len(assets))
-	//for k, _ := range assets {
-	//	assetsB = append(assetsB, k)
-	//}
+
 	assetsSymbol := commonfunction.CommonElement(assetsO, assetsH)
-	log.Println("assetsB", assetsO)
-	log.Println("assetsH", assetsH)
-	log.Println("assetsSymbol", assetsSymbol)
 
 	var wg sync.WaitGroup
 	for _, a := range assetsSymbol {
@@ -46,7 +40,6 @@ func getResultP2P2HOTT(a, fiat string, paramUser getinfohuobi.ParametersHuobi) {
 	coinidmap := workinghuobi.GetCoinIDHuobo(fiat)
 
 	order_buy := getdatahuobi.GetDataP2PHuobi(coinidmap[a], coinidmap[fiat], "sell", paramUser)
-	//log.Printf("%+v\n", order_buy)
 
 	if len(order_buy.Data) > 1 {
 		var transAmountFloat float64
@@ -72,8 +65,6 @@ func getResultP2P2HOTT(a, fiat string, paramUser getinfohuobi.ParametersHuobi) {
 
 		printResultP2P2HOTT(a, fiat, transAmountFirst, price_b, order_buy, paramUser)
 
-	} else {
-		log.Printf("Order buy is empty, fiat - %s, assets - %s, param %+v\n", fiat, a, paramUser)
 	}
 
 }
@@ -91,9 +82,7 @@ func printResultP2P2HOTT(a, fiat string, transAmountFirst, price_b float64,
 
 	order_sell := getdataokx.GetDataP2POKXSell(fiat, a, paramUserO)
 
-	if len(order_sell.Data.Sell) < 2 {
-		log.Printf("Order sell is empty, fiat - %s, assets - %s, param %+v\n", fiat, a, paramUserO)
-	} else {
+	if len(order_sell.Data.Buy) > 1 {
 
 		price_s, _ := strconv.ParseFloat(order_sell.Data.Buy[0].Price, 64)
 		transAmountFloat, err := strconv.ParseFloat(paramUser.Amount, 64)
@@ -118,7 +107,7 @@ func printResultP2P2HOTT(a, fiat string, transAmountFirst, price_b float64,
 		profitResult.AssetsBuy = a
 		profitResult.PriceAssetsBuy = price_b
 		profitResult.PaymentBuy = result.PaymentMetodsHuobi(order_buy)
-		profitResult.LinkAssetsBuy = fmt.Sprintf("https://www.huobi.com/en-us/fiat-crypto/trade/sell-%s-%s/", a, strings.ToLower(fiat))
+		profitResult.LinkAssetsBuy = fmt.Sprintf("https://www.huobi.com/en-us/fiat-crypto/trade/buy-%s-%s/", strings.ToLower(a), strings.ToLower(fiat))
 		profitResult.AssetsSell = a
 		profitResult.PriceAssetsSell = price_s
 		profitResult.PaymentSell = order_sell.Data.Buy[0].PaymentMethods
@@ -130,7 +119,7 @@ func printResultP2P2HOTT(a, fiat string, transAmountFirst, price_b float64,
 		profitResult.AdvNoBuy = strconv.Itoa(order_buy.Data[0].UID)
 		profitResult.AdvNoSell = order_sell.Data.Buy[0].ID
 
-		result.CheckResultSaveSend2Steps(profitResult, paramUser.Border)
+		result.CheckResultSaveSend2Steps(paramUser.Border, paramUser.PercentUser, profitResult)
 	}
 }
 
@@ -257,10 +246,8 @@ func deltaBuySellHOTT(ob getdatahuobi.Huobi, os getdataokx.OKXSell, asset, fiat 
 
 	res.AdvToalBuy = ob.TotalCount
 	res.AdvToalSell = os.Data.Total
-	//res.DeltaADV = 100 * ((float64(res.AdvToalBuy) - float64(res.AdvToalSell)) / float64(res.AdvToalBuy))
 	res.DeltaADV = 100 * ((float64(res.AdvToalSell) - float64(res.AdvToalBuy)) / float64(res.AdvToalSell))
 	res.DeltaGiant = 100.0 * (res.GiantPriceS - res.GiantPriceB) / res.GiantPriceB
-	//log.Println("TEST", float64(res.AdvToalBuy), "-", float64(res.AdvToalSell), (float64(res.AdvToalBuy)-float64(res.AdvToalSell))/float64(res.AdvToalSell))
 
 	res.FiatUnit = fiat
 	res.Asset = asset

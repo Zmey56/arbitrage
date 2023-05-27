@@ -28,7 +28,6 @@ func GetRatePairOKX(pair []string) map[string]float64 {
 		}()
 
 		res, err := sendRequesrRatePairOKX(pair)
-		//log.Println("Result into function", res)
 
 		if err != nil {
 			if err.Error() == "connection reset by peer" {
@@ -85,18 +84,12 @@ func makeRequest(url string) (*http.Response, error) {
 	}
 
 	if resp.StatusCode == http.StatusTooManyRequests {
-		// Задержка перед повтором запроса
 		retryAfter := 5 * time.Nanosecond
-		//log.Println("resp.Header", resp.Header)
-		//retryAfter := resp.Header.Get("Retry-After")
-		//log.Println("retryAfter", retryAfter)
-		//retryAfterDuration, err := time.ParseDuration(retryAfter + "ns")
 		if err != nil {
 			return nil, err
 		}
 		time.Sleep(retryAfter)
 
-		// Повтор запроса
 		return makeRequest(url)
 	}
 
@@ -106,7 +99,6 @@ func makeRequest(url string) (*http.Response, error) {
 // Get MAP crypto and pair
 func GetPairFromJSONOKX(fiat string) map[string][]string {
 	file_path := fmt.Sprintf("data/dataokx/%s/%s_pair.json", fiat, fiat)
-	log.Println(file_path)
 	file, _ := os.Open(file_path)
 	defer file.Close()
 	decoder := json.NewDecoder(file)

@@ -2,7 +2,6 @@ package getdatahuobi
 
 import (
 	"encoding/json"
-	"fmt"
 	"io"
 	"log"
 	"net/http"
@@ -40,7 +39,6 @@ func GetDataP2PHuobiVer2(asset, fiat int, tradeType string, page int) Huobi {
 	resulthuobi := Huobi{}
 
 	url := ("https://otc-api.trygofast.com/v1/data/trade-market" + "?" + params.Encode())
-	//log.Println("URL", url)
 
 	var err error
 
@@ -58,7 +56,6 @@ func GetDataP2PHuobiVer2(asset, fiat int, tradeType string, page int) Huobi {
 			}
 		}()
 		resulthuobi, err = requestOrdersP2PHuobiVer2(url)
-		//log.Println("resulthuobi", resulthuobi)
 		if err != nil {
 			if err.Error() == "connection reset by peer" {
 				// reconecting
@@ -101,7 +98,6 @@ func requestOrdersP2PHuobiVer2(j string) (Huobi, error) {
 			return Huobi{}, err
 		}
 		unixTime := date.Unix()
-		fmt.Println("Unix timestamp:", unixTime)
 
 		if err != nil {
 			return Huobi{}, err

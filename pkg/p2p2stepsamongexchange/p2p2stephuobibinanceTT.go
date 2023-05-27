@@ -22,9 +22,6 @@ func P2P2stepsHuobiBinanceTT(fiat string, paramUser getinfohuobi.ParametersHuobi
 	assetsH := getdatahuobi.GetCurrencyHuobi(fiat)
 	assetsB := getdata.GetAssetsLocalBinance(fiat)
 	assetsSymbol := commonfunction.CommonElement(assetsB, assetsH)
-	log.Println("assetsB", assetsB)
-	log.Println("assetsH", assetsH)
-	log.Println("assetsSymbol", assetsSymbol)
 
 	var wg sync.WaitGroup
 	for _, a := range assetsSymbol {
@@ -43,7 +40,6 @@ func getResultP2P2HBTT(a, fiat string, paramUser getinfohuobi.ParametersHuobi) {
 	coinidmap := workinghuobi.GetCoinIDHuobo(fiat)
 
 	order_buy := getdatahuobi.GetDataP2PHuobi(coinidmap[a], coinidmap[fiat], "sell", paramUser)
-	//log.Printf("%+v\n", order_buy)
 
 	if len(order_buy.Data) > 1 {
 		var transAmountFloat float64
@@ -69,8 +65,6 @@ func getResultP2P2HBTT(a, fiat string, paramUser getinfohuobi.ParametersHuobi) {
 
 		printResultP2P2HBTT(a, fiat, transAmountFirst, price_b, order_buy, paramUser)
 
-	} else {
-		log.Printf("Order buy is empty, fiat - %s, assets - %s, param %+v\n", fiat, a, paramUser)
 	}
 
 }
@@ -88,10 +82,7 @@ func printResultP2P2HBTT(a, fiat string, transAmountFirst, price_b float64,
 
 	order_sell := getdata.GetDataP2PBinance(a, fiat, "Sell", paramUserB)
 
-	if len(order_sell.Data) < 2 {
-		log.Printf("Order sell is empty, fiat - %s, assets - %s, param %+v\n", fiat, a, paramUser)
-	} else {
-		//log.Println("fiat", fiat, "Asset", a, "LEN")
+	if len(order_sell.Data) > 1 {
 
 		profitResult := result.ResultP2P{}
 		price_s := order_sell.Data[0].Adv.Price
@@ -116,7 +107,7 @@ func printResultP2P2HBTT(a, fiat string, transAmountFirst, price_b float64,
 		profitResult.AssetsBuy = a
 		profitResult.PriceAssetsBuy = price_b
 		profitResult.PaymentBuy = result.PaymentMetodsHuobi(order_buy)
-		profitResult.LinkAssetsBuy = fmt.Sprintf("https://www.huobi.com/en-us/fiat-crypto/trade/sell-%s-%s/", a, strings.ToLower(fiat))
+		profitResult.LinkAssetsBuy = fmt.Sprintf("https://www.huobi.com/en-us/fiat-crypto/trade/buy-%s-%s/", strings.ToLower(a), strings.ToLower(fiat))
 		profitResult.AssetsSell = a
 		profitResult.PriceAssetsSell = price_s
 		profitResult.PaymentSell = result.PaymentMetods(order_sell)
@@ -128,7 +119,7 @@ func printResultP2P2HBTT(a, fiat string, transAmountFirst, price_b float64,
 		profitResult.AdvNoBuy = strconv.Itoa(order_buy.Data[0].UID)
 		profitResult.AdvNoSell = order_sell.Data[0].Adv.AdvNo
 
-		result.CheckResultSaveSend2Steps(profitResult, paramUser.Border)
+		result.CheckResultSaveSend2Steps(paramUser.Border, paramUser.PercentUser, profitResult)
 	}
 }
 
@@ -264,7 +255,6 @@ func deltaBuySellHBTT(ob getdatahuobi.Huobi, os getinfobinance.AdvertiserAdv, as
 	res.MarketTwo = "Binance"
 	res.User.FirstUser = "Taker"
 	res.User.SecondUser = "Taker"
-	//log.Println("res.User.SecondUser", res.User.SecondUser)
 
 	res.PaymentBuy = result.PaymentMetodsHuobi(ob)
 	res.PaymentSell = result.PaymentMetods(os)
@@ -275,8 +265,6 @@ func deltaBuySellHBTT(ob getdatahuobi.Huobi, os getinfobinance.AdvertiserAdv, as
 
 	res.Amount, _ = strconv.ParseFloat(pu.Amount, 64)
 
-	log.Println("tmpData", tmpData)
-	log.Println("tmpDataW", tmpDataW)
 	res.MeanWeightSD = commonfunction.WeightedStandardDeviation(tmpData, tmpDataW)
 	res.DeltaWSD = (res.MeanWeightSD / res.PriceB) * 100
 

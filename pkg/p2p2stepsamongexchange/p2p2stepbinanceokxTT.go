@@ -64,8 +64,6 @@ func getResultP2P2stepsBinanceOKXTT(fiat, a string, paramUser workingbinance.Par
 
 		printResultP2P2stepsBinanceOKXTT(fiat, a, transAmountFirst, price_b, order_buy, paramUser)
 
-	} else {
-		log.Printf("Order buy is empty, fiat - %s, assets - %s, param %+v\n", fiat, a, paramUser)
 	}
 }
 
@@ -78,14 +76,10 @@ func printResultP2P2stepsBinanceOKXTT(fiat, a string, transAmountFirst, price_b 
 
 	//third steps
 
-	log.Println(assetSell)
+	order_sell := getdataokx.GetDataP2POKXSell(fiat, assetSell, paramUserO)
 
-	order_sell := getdataokx.GetDataP2POKXBuy(fiat, assetSell, paramUserO)
-
-	if len(order_sell.Data.Buy) < 2 {
-		log.Printf("Order sell is empty, fiat - %s, assets - %s, param %+v\n", fiat, a, paramUserO)
-	} else {
-		price_s, _ := strconv.ParseFloat(order_sell.Data.Sell[0].Price, 64)
+	if len(order_sell.Data.Buy) > 1 {
+		price_s, _ := strconv.ParseFloat(order_sell.Data.Buy[0].Price, 64)
 		transAmountFloat, err := strconv.ParseFloat(binance.TransAmount, 64)
 		if err != nil {
 			log.Printf("Problem with convert transAmount to float, err - %v", err)
@@ -111,16 +105,16 @@ func printResultP2P2stepsBinanceOKXTT(fiat, a string, transAmountFirst, price_b 
 		profitResult.LinkAssetsBuy = fmt.Sprintf("https://p2p.binance.com/en/trade/all-payments/%v?fiat=%v", a, fiat)
 		profitResult.AssetsSell = assetSell
 		profitResult.PriceAssetsSell = price_s
-		profitResult.PaymentSell = order_sell.Data.Sell[0].PaymentMethods
+		profitResult.PaymentSell = order_sell.Data.Buy[0].PaymentMethods
 		profitResult.LinkAssetsSell = fmt.Sprintf("https://www.okx.com/p2p-markets/%s/sell-%s", fiat, assetSell)
 		profitResult.ProfitValue = transAmountThird - transAmountFloat
 		profitResult.ProfitPercet = (((transAmountThird - transAmountFloat) / transAmountFloat) * 100)
 		profitResult.TotalAdvBuy = order_buy.Total
 		profitResult.TotalAdvSell = order_sell.Data.Total
 		profitResult.AdvNoBuy = order_buy.Data[0].Adv.AdvNo
-		profitResult.AdvNoSell = order_sell.Data.Sell[0].ID
+		profitResult.AdvNoSell = order_sell.Data.Buy[0].ID
 
-		result.CheckResultSaveSend2Steps(profitResult, binance.Border)
+		result.CheckResultSaveSend2Steps(binance.Border, binance.PercentUser, profitResult)
 	}
 }
 

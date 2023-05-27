@@ -77,8 +77,6 @@ func getResultP2P3TT(a, fiat string, pair map[string][]string,
 
 		}
 		wg.Wait()
-	} else {
-		log.Printf("Order buy is empty, fiat - %s, assets - %s, param %+v\n", fiat, a, paramUser)
 	}
 
 }
@@ -101,9 +99,7 @@ func printResultP2P3TT(p, a, fiat string, transAmountFirst, price_b float64, pai
 
 	order_sell := getdataokx.GetDataP2POKXSell(strings.ToLower(fiat), strings.ToLower(assetSell), paramUser)
 
-	if len(order_sell.Data.Buy) == 0 {
-		log.Printf("Order sell is empty, fiat - %s, assets - %s, param %+v\n", fiat, a, paramUser)
-	} else {
+	if len(order_sell.Data.Buy) > 0 {
 		price_s, _ := strconv.ParseFloat(order_sell.Data.Buy[0].Price, 64)
 
 		transAmountThird := price_s * transAmountSecond

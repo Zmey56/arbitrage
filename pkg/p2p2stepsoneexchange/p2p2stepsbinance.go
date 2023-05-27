@@ -57,8 +57,6 @@ func getResultP2P2stepsBinance(fiat, a string, paramUser workingbinance.Paramete
 
 		printResultP2P2stepsBinance(fiat, a, transAmountFirst, price_b, order_buy, paramUser)
 
-	} else {
-		log.Printf("Order buy is empty, fiat - %s, assets - %s, param %+v\n", fiat, a, paramUser)
 	}
 }
 
@@ -67,9 +65,7 @@ func printResultP2P2stepsBinance(fiat, a string, transAmountFirst, price_b float
 
 	//third steps
 	order_sell := getdata.GetDataP2PBinance(a, fiat, "Sell", paramUser)
-	if len(order_sell.Data) < 1 {
-		log.Printf("Order sell is empty, fiat - %s, assets - %s, param %+v\n", fiat, a, paramUser)
-	} else {
+	if len(order_sell.Data) > 0 {
 
 		profitResult := result.ResultP2P{}
 		price_s := order_sell.Data[0].Adv.Price
@@ -107,7 +103,7 @@ func printResultP2P2stepsBinance(fiat, a string, transAmountFirst, price_b float
 		profitResult.AdvNoBuy = order_buy.Data[0].Adv.AdvNo
 		profitResult.AdvNoSell = order_sell.Data[0].Adv.AdvNo
 
-		result.CheckResultSaveSend2Steps(profitResult, paramUser.Border)
+		result.CheckResultSaveSend2Steps(paramUser.Border, paramUser.PercentUser, profitResult)
 	}
 }
 

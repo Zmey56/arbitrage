@@ -7,7 +7,8 @@ import (
 	"log"
 	"net/http"
 	"strconv"
-	"time"
+	"strings"
+	"sync"
 )
 
 type RatePair struct {
@@ -16,70 +17,64 @@ type RatePair struct {
 	Asks         [][]string `json:"asks"`
 }
 
-func GetRatePairTriangle(pair []string) map[string][4]float64 {
-	for {
-		defer func() {
-			if r := recover(); r != nil {
-				if r == "connection reset by peer" {
-					log.Println("An error occured 'connection reset by peer', reconecting...")
-					time.Sleep(time.Second * 10)
-				} else {
-					// Handling other errors
-					log.Println("An error occured:", r)
-					time.Sleep(time.Second * 10)
-					//return
-				}
-			}
-		}()
+func GetRatePairTriangleB(pair []string) map[string][4]float64 {
+	result := make(map[string][4]float64)
+	wg := sync.WaitGroup{}
+	mu := sync.Mutex{}
 
-		res, err := SendRequestRatePairTriangle(pair)
+	for _, p := range pair {
+		wg.Add(1)
+		go func(p string) {
+			defer wg.Done()
 
-		if err != nil {
-			if err.Error() == "connection reset by peer" {
-				// reconecting
-				panic("connection reset by peer")
-			} else {
+			res, err := sendRequestRatePairTriangleB(p)
+			if err != nil {
 				log.Println(err)
-				panic("error")
+				return
 			}
-		} else {
-			return res
-		}
 
+			mu.Lock()
+			result[p] = res
+			mu.Unlock()
+		}(p)
 	}
+
+	wg.Wait()
+
+	return result
 }
 
-func SendRequestRatePairTriangle(pair []string) (map[string][4]float64, error) {
-	rate_pair := make(map[string][4]float64)
-	for _, p := range pair {
-		url := fmt.Sprintf("https://www.binance.com/api/v3/depth?symbol=%s&limit=1", p)
+func sendRequestRatePairTriangleB(p string) ([4]float64, error) {
+	ratePair := [4]float64{}
 
-		resp, err := http.Get(url)
-		if err != nil {
-			return nil, err
-		}
-		defer resp.Body.Close()
-		body, err := io.ReadAll(resp.Body)
-		if err != nil {
-			log.Println("Error  in Body", err)
-		}
+	url := fmt.Sprintf("https://www.binance.com/api/v3/depth?symbol=%s&limit=1", strings.ToUpper(p))
 
-		rj := RatePair{}
-
-		if err := json.Unmarshal(body, &rj); err != nil {
-			log.Println("failed to parse JSON: %v", err)
-			return nil, err
-		}
-
-		if len(rj.Bids) > 0 && len(rj.Asks) > 0 {
-			bid, _ := strconv.ParseFloat(rj.Bids[0][0], 64)
-			bidVolume, _ := strconv.ParseFloat(rj.Bids[0][1], 64)
-			ask, _ := strconv.ParseFloat(rj.Asks[0][0], 64)
-			askVolume, _ := strconv.ParseFloat(rj.Asks[0][1], 64)
-
-			rate_pair[p] = [4]float64{bid, bidVolume, ask, askVolume}
-			//log.Println(p, " - ", rate_pair[p], " - ", [4]float64{bid, bidVolume, ask, askVolume})
-		}
+	resp, err := http.Get(url)
+	if err != nil {
+		log.Println(err)
+		return ratePair, err
 	}
-	return rate_pair, nil
+	defer resp.Body.Close()
+	body, err := io.ReadAll(resp.Body)
+	if err != nil {
+		log.Println("Error  in Body", err)
+	}
+
+	rj := RatePair{}
+
+	if err := json.Unmarshal(body, &rj); err != nil {
+		log.Printf("failed to parse JSON: %v, pair: %s", err, p)
+		return ratePair, err
+	}
+
+	if len(rj.Bids) > 0 && len(rj.Asks) > 0 {
+		bid, _ := strconv.ParseFloat(rj.Bids[0][0], 64)
+		bidVolume, _ := strconv.ParseFloat(rj.Bids[0][1], 64)
+		ask, _ := strconv.ParseFloat(rj.Asks[0][0], 64)
+		askVolume, _ := strconv.ParseFloat(rj.Asks[0][1], 64)
+
+		ratePair = [4]float64{bid, bidVolume, ask, askVolume}
+	}
+
+	return ratePair, nil
 }

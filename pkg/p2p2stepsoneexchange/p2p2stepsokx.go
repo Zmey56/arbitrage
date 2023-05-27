@@ -60,8 +60,6 @@ func getResultP2P2OKX(a, fiat string, paramUser getinfookx.ParametersOKX) {
 
 		printResultP2P2OKX(a, fiat, transAmountFirst, price_b, order_buy, paramUser)
 
-	} else {
-		log.Printf("Order buy is empty, fiat - %s, assets - %s, param %+v\n", fiat, a, paramUser)
 	}
 
 }
@@ -76,9 +74,7 @@ func printResultP2P2OKX(a, fiat string, transAmountFirst, price_b float64,
 
 	order_sell := getdataokx.GetDataP2POKXSell(fiat, assetSell, paramUser)
 
-	if len(order_sell.Data.Buy) < 2 {
-		log.Printf("Order sell is empty, fiat - %s, assets - %s, param %+v\n", fiat, a, paramUser)
-	} else {
+	if len(order_sell.Data.Buy) > 1 {
 		price_s, _ := strconv.ParseFloat(order_sell.Data.Buy[0].Price, 64)
 		transAmountFloat, err := strconv.ParseFloat(paramUser.Amount, 64)
 		if err != nil {
@@ -114,7 +110,7 @@ func printResultP2P2OKX(a, fiat string, transAmountFirst, price_b float64,
 		profitResult.AdvNoBuy = order_buy.Data.Sell[0].ID
 		profitResult.AdvNoSell = order_sell.Data.Buy[0].ID
 
-		result.CheckResultSaveSend2Steps(profitResult, paramUser.Border)
+		result.CheckResultSaveSend2Steps(paramUser.Border, paramUser.PercentUser, profitResult)
 	}
 }
 

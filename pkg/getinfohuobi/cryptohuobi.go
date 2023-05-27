@@ -143,3 +143,39 @@ func getPair(fiat string, crypto map[string][]string) {
 
 	_ = os.WriteFile(name_json, jsonStr, 0644)
 }
+
+func GetPairWithoutH(fiat string) {
+
+	url := "https://api.huobi.pro/v1/common/symbols"
+	resp, err := http.Get(url)
+	if err != nil {
+		log.Println("trable with get response for pair", err)
+	}
+	defer resp.Body.Close()
+
+	body, err := io.ReadAll(resp.Body)
+	if err != nil {
+		log.Println("Can't read body for pair", err)
+	}
+
+	var ph PairHuobi
+
+	json.Unmarshal(body, &ph)
+
+	//list all pair on huobi
+	var fiatpair []string
+	fiatLow := strings.ToLower(fiat)
+	for _, i := range ph.Data {
+		if strings.ToLower(i.BaseCurrency) == fiatLow || strings.ToLower(i.QuoteCurrency) == fiatLow {
+			fiatpair = append(fiatpair, strings.Join([]string{i.BaseCurrency, i.QuoteCurrency}, ""))
+		}
+	}
+
+	name_json := fmt.Sprintf("data/datahuobi/%s/%s_pair_without.json", fiat, fiat)
+	jsonStr, err := json.MarshalIndent(fiatpair, "", " ")
+	if err != nil {
+		log.Printf("Error: %s", err.Error())
+	}
+
+	_ = os.WriteFile(name_json, jsonStr, 0644)
+}
